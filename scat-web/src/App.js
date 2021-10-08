@@ -1,81 +1,114 @@
 import './App.css';
-import TierListItem from './components/TierListItem.js';
-import {v4 as uuidv4} from 'uuid';
+import {useState} from 'react';
+import ListTable from './components/ListTable.js';
+//import {v4 as uuidv4} from 'uuid';
 
-const Title =()=><h1 id="title">[Insert Project Name Here]</h1>
 
-const FilterList = [
-  "All",
-  "Lending",
-  "DEXes"
-]
-
-const TierListItemList = [
-  {
-    ranking:"Rank",
-    defiName:"Name",
-    chainType:"Chain",
-    categoryType:"Category",
-    totalValueLocked:"TVL",
-    oneDayChange:"1 Day%"
-  },
-  {
-    ranking:"1",
-    defiName:"Aave",
-    chainType:"Multichain",
-    categoryType:"Lending",
-    totalValueLocked:"$15.51B",
-    oneDayChange:"2.58%"
-  },
-  {
-    ranking:"2",
-    defiName:"Curve Finance",
-    chainType:"Multichain",
-    categoryType:"DEXes",
-    totalValueLocked:"$13.44B",
-    oneDayChange:"10.41%"
-  },
-]
-
-const Filter =()=>{
+const Title =()=>{
   return(
-    <ul>
-      {FilterList.map((element)=>{
-        return <li> {element} </li>
-      })}
-    </ul>
-  );
-}
-
-const TierList =()=>{
-  return(
-    <div class="col-9">
-      {TierListItemList.map((element)=>{
-        return <TierListItem input={element} />
-      })}
+    <div id="title">
+      <h1>SCAT</h1>
+      <h2>SMART CONTRACT SECURITY AUDITING TEAM</h2>
+      <p>SCAT is our project to analyze DeFi projects risk and weakness in smart contract, while also provide
+        general risk analysis and risk factor data on the project
+      </p>
     </div>
   );
 }
 
-const DeFiList =()=>{
+const FilterList = [
+  {id:"All",tag:"All Projects"},
+  {id:"Lending",tag:"Lending Projects"},
+  {id:"Trading",tag:"Trading Projects"},
+  {id:"Asset",tag:"Asset Projects"}
+]
+
+const TableItemList = [
+  {
+    name:"Alpha Homura",
+    category:"Lending",
+    chain:"Ethereum",
+    lastExploit:"13/02/2021",
+    tvl:"$736.1M",
+    percentChange:"+0.78%"
+  },
+  {
+    name:"CREAM Finance",
+    category:"Lending",
+    chain:"Ethereum",
+    lastExploit:"13/02/2021",
+    tvl:"$640.8M",
+    percentChange:"-5.08%"
+  },
+  {
+    name:"bZx",
+    category:"Lending",
+    chain:"Ethereum",
+    lastExploit:"14/09/2020",
+    tvl:"$14.9M",
+    percentChange:"+3.36%"
+  },
+  {
+    name:"Warp Finance",
+    category:"Lending",
+    chain:"Ethereum",
+    lastExploit:"18/12/2020",
+    tvl:"$5.9M",
+    percentChange:"+3.57%"
+  },
+  {
+    name:"Balancer",
+    category:"Trading",
+    chain:"Ethereum",
+    lastExploit:"28/06/2020",
+    tvl:"$1.92B",
+    percentChange:"+2.99%"
+  },
+  {
+    name:"Yearn Finance",
+    category:"Asset",
+    chain:"Ethereum",
+    lastExploit:"06/02/2021",
+    tvl:"$4.47B",
+    percentChange:"+2.28%"
+  },
+]
+
+function DeFiTable(){
+  const [filter,setFilter] = useState("All");
+
+  const changeFilter=(event)=>{
+    setFilter(event.target.id);
+  }
+
   return(
-    <div class="row"> 
-        <div class="col-3 filter">
-          <span>Filter</span>
-          <Filter />
-        </div>
-        <TierList />
+    <div>
+      <div id="filter">
+        {FilterList.map((element)=>{
+          if(filter === element.id){
+            return <div className="active" id={element.id} onClick={changeFilter}>{element.tag}</div>
+          }
+          return <div className="not-active" id={element.id} onClick={changeFilter}>{element.tag}</div>
+        })}
       </div>
+      <div id="defitable">
+        <ListTable input={TableItemList} filter={filter}/>
+      </div>
+    </div>
   );
 }
+
 
 function App() {
   return (
     <div>
       <Title />
-      <DeFiList />
+      <DeFiTable />
     </div>
   );
 }
 
 export default App;
+
+//<Filter />
+//<Table />

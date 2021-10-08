@@ -1,8 +1,3 @@
-* {
-  box-sizing: border-box;
-  background-color: rgb(178, 201, 245);
-}
-
 .row::after {
   content: "";
   clear: both;
@@ -10,8 +5,71 @@
 }
 
 #title {
-  text-align: center;
+  background-color: #151a5c;
 }
+
+#title *{
+  text-align: left;
+  margin-left: 15%;
+  margin-bottom: 20px;
+  margin-right: 15%;
+  background-color: #151a5c;
+  color: white;
+}
+
+#title h1{
+  font-size: 4vw;
+}
+
+#title h2{
+  font-size: 2.75vw;
+}
+
+#title p{
+  font-size: 1.75vw;
+}
+
+#filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#filter *{
+  padding: 8px;
+  margin-right: 8px;
+  border-radius: 7px 7px 0px 0px;
+  text-align: center;
+  background-color: white;
+  cursor: pointer;
+}
+#filter *:hover{
+  background-color: #eeeeee;
+}
+#filter *.active{
+  background-color: #e7e5e5;
+}
+
+#defitable {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#defitable table{
+  border: 1px solid white;
+  width: 100%;
+}
+#defitable th{
+  text-align: left;
+  cursor:default;
+}
+#defitable tr{
+  margin-left: 5px;
+  height: 70px;
+  cursor: pointer;
+}
+tr:nth-child(even) {background-color: #d4d4d4;}
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -31,65 +89,3 @@
   padding: 15px;
 }
 
-.filter ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.filter span{
-  font-size: 2vw;
-  margin-bottom: 15px;
-}
-
-.filter li {
-  text-align: center;
-  padding: 8px;
-  margin-bottom: 7px;
-  font-size: 1.25vw;
-  background-color: #333fe5;
-  color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-.filter li:hover{
-  background-color: #1f2685;
-}
-
-.tierlistitem-list {
-  display: grid;
-  grid-template-columns: 2fr 4fr 4fr 3fr 2fr;
-  padding: 10px;
-  margin-bottom: 7px;
-  background-color: #571b9b;
-  color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-.tierlistitem-list:first-child {
-  background-color: #381164;
-}
-
-.tierlistitem{
-  font-size: 1.5vw;
-}
-.tierlistitem.a {
-  grid-column: 1 / 2;
-  background-color: transparent;
-}
-.tierlistitem.b {
-  grid-column: 2 / 3;
-  background-color: transparent;
-}
-.tierlistitem.c {
-  grid-column: 3 / 4;
-  background-color: transparent;
-}
-.tierlistitem.d {
-  grid-column: 4 / 5;
-  background-color: transparent;
-}
-.tierlistitem.e {
-  grid-column: 5 / 6;
-  background-color: transparent;
-}
