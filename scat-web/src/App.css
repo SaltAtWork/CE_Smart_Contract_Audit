@@ -1,38 +1,95 @@
-.App {
+* {
+  box-sizing: border-box;
+  background-color: rgb(178, 201, 245);
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#title {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.filter ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.filter span{
+  font-size: 2vw;
+  margin-bottom: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.filter li {
+  text-align: center;
+  padding: 8px;
+  margin-bottom: 7px;
+  font-size: 1.25vw;
+  background-color: #333fe5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.filter li:hover{
+  background-color: #1f2685;
+}
+
+.tierlistitem-list {
+  display: grid;
+  grid-template-columns: 2fr 4fr 4fr 3fr 2fr;
+  padding: 10px;
+  margin-bottom: 7px;
+  background-color: #571b9b;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.tierlistitem-list:first-child {
+  background-color: #381164;
+}
+
+.tierlistitem{
+  font-size: 1.5vw;
+}
+.tierlistitem.a {
+  grid-column: 1 / 2;
+  background-color: transparent;
+}
+.tierlistitem.b {
+  grid-column: 2 / 3;
+  background-color: transparent;
+}
+.tierlistitem.c {
+  grid-column: 3 / 4;
+  background-color: transparent;
+}
+.tierlistitem.d {
+  grid-column: 4 / 5;
+  background-color: transparent;
+}
+.tierlistitem.e {
+  grid-column: 5 / 6;
+  background-color: transparent;
 }
