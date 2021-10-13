@@ -1,7 +1,14 @@
+import {useHistory} from 'react-router-dom'
+
 function TableRow(props){
   const {input} = props;
+  const history = useHistory();
+  const handleClick=()=>{
+    history.push('/info/' + input.name);
+  }
+
   return(
-    <tr>
+    <tr onClick={handleClick}>
       <td>{input.name}</td>
       <td>{input.category}</td>
       <td>{input.chain}</td>
@@ -44,3 +51,7 @@ function ListTable(props){
 }
 
 export default ListTable
+
+/* 
+
+*/

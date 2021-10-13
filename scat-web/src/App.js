@@ -1,6 +1,8 @@
 import './App.css';
 import {useState} from 'react';
 import ListTable from './components/ListTable.js';
+import InfoPage from './components/InfoPage';
+import {BrowserRouter as Router,Switch,Route,Link} from 'react-router-dom'
 //import {v4 as uuidv4} from 'uuid';
 
 
@@ -82,28 +84,33 @@ function DeFiTable(){
   }
 
   return(
-    <div>
-      <div id="filter">
-        {FilterList.map((element)=>{
-          if(filter === element.id){
-            return <div className="active" id={element.id} onClick={changeFilter}>{element.tag}</div>
-          }
-          return <div className="not-active" id={element.id} onClick={changeFilter}>{element.tag}</div>
-        })}
+      <div>
+        <div id="filter">
+          {FilterList.map((element)=>{
+            if(filter === element.id){
+              return <div className="active" id={element.id} onClick={changeFilter}>{element.tag}</div>
+            }
+            return <div className="not-active" id={element.id} onClick={changeFilter}>{element.tag}</div>
+          })}
+        </div>
+        <div id="defitable">
+          <ListTable input={TableItemList} filter={filter}/>
+        </div>
       </div>
-      <div id="defitable">
-        <ListTable input={TableItemList} filter={filter}/>
-      </div>
-    </div>
   );
 }
 
 
 function App() {
   return (
-    <div>
-      <Title />
-      <DeFiTable />
+    <div id="bg">
+      <Switch>
+          <Route path="/" exact>
+            <Title />
+            <DeFiTable />
+          </Route>
+          <Route path="/info/:name" component={InfoPage} />
+      </Switch>
     </div>
   );
 }
