@@ -111,6 +111,7 @@ h3{
 }
 div[class="infoitem"]{
   width: 100%;
+  height: auto;
   border-radius: 10px 10px 10px 10px;
   margin-bottom: 10px;
   background-color: white;
@@ -146,6 +147,27 @@ a{
 }
 
 a:hover{
+  color:#151a5c;
+  text-decoration: underline;
+}
+
+[class="chart_left"] {
+  float: left;
+  margin-top: 0px;
+}
+
+[class="chart_right"] {
+  float: right;
+  margin-right: 7px;
+  margin-top: 0px;
+}
+
+span.active {
+  color : blue;
+  text-decoration: underline;
+}
+
+[class*="chart_"] span:hover {
   color:#151a5c;
   text-decoration: underline;
 }

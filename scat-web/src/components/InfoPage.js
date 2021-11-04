@@ -1,4 +1,6 @@
+import { useState } from 'react';
 import {Link} from 'react-router-dom'
+import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 
 function TVLTable(props){
     const {name} = props;
@@ -88,12 +90,68 @@ function AuditHistoryComponent(props){
 
 function ChartComponent(props){
     const {name} = props;
+    const data = [
+        {name: 'Page A', USD: 4000, ETH: 2400, BTC: 2200},
+        {name: 'Page B', USD: 8000, ETH: 1000, BTC: 2100},
+        {name: 'Page C', USD: 6000, ETH: 2400, BTC: 2400},
+        {name: 'Page D', USD: 3000, ETH: 4200, BTC: 1200},
+        {name: 'Page E', USD: 4000, ETH: 2400, BTC: 2200},
+        {name: 'Page F', USD: 8000, ETH: 1000, BTC: 2100},
+        {name: 'Page G', USD: 6000, ETH: 2400, BTC: 2400},
+        {name: 'Page H', USD: 3000, ETH: 4200, BTC: 1200},
+        {name: 'Page A', USD: 4000, ETH: 2400, BTC: 2200},
+        {name: 'Page B', USD: 8000, ETH: 1000, BTC: 2100},
+        {name: 'Page C', USD: 6000, ETH: 2400, BTC: 2400},
+        {name: 'Page D', USD: 3000, ETH: 4200, BTC: 1200},
+        {name: 'Page E', USD: 4000, ETH: 2400, BTC: 2200},
+        {name: 'Page F', USD: 8000, ETH: 1000, BTC: 2100},
+        {name: 'Page G', USD: 6000, ETH: 2400, BTC: 2400},
+        {name: 'Page H', USD: 3000, ETH: 4200, BTC: 1200},
+    ];
+
+    const [currency,setCurrency] = useState("ETH");
+
+    const changeCurrency=(event)=>{
+        setCurrency(event.target.id);
+    }
+
+    const checkCurrency=(id)=>{
+        if(currency == id){
+            return "active";
+        }
+        else{
+            return "not-active";
+        }
+    }
+
     return(
         <div class="infoitem">
             <h3>
                 Chart
             </h3>
-            <p>WIP</p>
+            <p class="chart_left">
+                <span class={checkCurrency("USD")} id="USD" onClick={changeCurrency}>USD</span>
+                <span> | </span>
+                <span class={checkCurrency("ETH")} id="ETH" onClick={changeCurrency}>ETH</span>
+                <span> | </span>
+                <span class={checkCurrency("BTC")} id="BTC" onClick={changeCurrency}>BTC</span>
+            </p>
+            <p class="chart_right">
+                <span>USD</span>
+                <span> | </span>
+                <span>ETH</span>
+                <span> | </span>
+                <span>BTC</span>
+            </p>
+            <p></p>
+            <p></p>
+            <LineChart width={600} height={300} data={data}>
+                <Line type="monotone" dataKey={currency} stroke="#8884d8" />
+                <CartesianGrid stroke="#ccc" vertical={false}/>
+                <Tooltip />
+                <XAxis dataKey="name" />
+                <YAxis />
+            </LineChart>
         </div>
     );
 }
