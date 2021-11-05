@@ -168,8 +168,9 @@ span.active {
 }
 
 [class*="chart_"] span:hover {
-  color:#151a5c;
-  text-decoration: underline;
+  color : #151a5c;
+  text-decoration : underline;
+  cursor : pointer;
 }
 
 .col-1 {width: 8.33%;}

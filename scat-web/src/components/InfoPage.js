@@ -90,33 +90,54 @@ function AuditHistoryComponent(props){
 
 function ChartComponent(props){
     const {name} = props;
+    const [currency,setCurrency] = useState("USD");
+    const [range,setRange] = useState(10);
     const data = [
-        {name: 'Page A', USD: 4000, ETH: 2400, BTC: 2200},
-        {name: 'Page B', USD: 8000, ETH: 1000, BTC: 2100},
-        {name: 'Page C', USD: 6000, ETH: 2400, BTC: 2400},
-        {name: 'Page D', USD: 3000, ETH: 4200, BTC: 1200},
-        {name: 'Page E', USD: 4000, ETH: 2400, BTC: 2200},
-        {name: 'Page F', USD: 8000, ETH: 1000, BTC: 2100},
-        {name: 'Page G', USD: 6000, ETH: 2400, BTC: 2400},
-        {name: 'Page H', USD: 3000, ETH: 4200, BTC: 1200},
-        {name: 'Page A', USD: 4000, ETH: 2400, BTC: 2200},
-        {name: 'Page B', USD: 8000, ETH: 1000, BTC: 2100},
-        {name: 'Page C', USD: 6000, ETH: 2400, BTC: 2400},
-        {name: 'Page D', USD: 3000, ETH: 4200, BTC: 1200},
-        {name: 'Page E', USD: 4000, ETH: 2400, BTC: 2200},
-        {name: 'Page F', USD: 8000, ETH: 1000, BTC: 2100},
-        {name: 'Page G', USD: 6000, ETH: 2400, BTC: 2400},
-        {name: 'Page H', USD: 3000, ETH: 4200, BTC: 1200},
+        {name: 'A', USD: 4000, ETH: 2400, BTC: 2200},
+        {name: 'B', USD: 8000, ETH: 1000, BTC: 2100},
+        {name: 'C', USD: 6000, ETH: 2400, BTC: 2400},
+        {name: 'D', USD: 3000, ETH: 4200, BTC: 1200},
+        {name: 'E', USD: 4000, ETH: 2400, BTC: 2200},
+        {name: 'F', USD: 8000, ETH: 1000, BTC: 2100},
+        {name: 'G', USD: 6000, ETH: 2400, BTC: 2400},
+        {name: 'H', USD: 3000, ETH: 4200, BTC: 1200},
+        {name: 'I', USD: 4000, ETH: 2400, BTC: 2200},
+        {name: 'J', USD: 8000, ETH: 1000, BTC: 2100},
+        {name: 'K', USD: 6000, ETH: 2400, BTC: 2400},
+        {name: 'L', USD: 3000, ETH: 4200, BTC: 1200},
+        {name: 'M', USD: 4000, ETH: 2400, BTC: 2200},
+        {name: 'N', USD: 8000, ETH: 1000, BTC: 2100},
+        {name: 'O', USD: 6000, ETH: 2400, BTC: 2400},
+        {name: 'P', USD: 3000, ETH: 4200, BTC: 1200},
     ];
 
-    const [currency,setCurrency] = useState("ETH");
+    var FilteredData = data.slice(data.length - range);
 
     const changeCurrency=(event)=>{
         setCurrency(event.target.id);
     }
 
+    const changeRange=(event)=>{
+        setRange(event.target.id);
+        if(range != "All"){
+            FilteredData = data.slice(data.length - range);
+        }
+        else{
+            FilteredData = data;
+        }
+    }
+
     const checkCurrency=(id)=>{
         if(currency == id){
+            return "active";
+        }
+        else{
+            return "not-active";
+        }
+    }
+
+    const checkRange=(id)=>{
+        if(range == id){
             return "active";
         }
         else{
@@ -137,15 +158,15 @@ function ChartComponent(props){
                 <span class={checkCurrency("BTC")} id="BTC" onClick={changeCurrency}>BTC</span>
             </p>
             <p class="chart_right">
-                <span>USD</span>
+                <span class={checkRange("All")} onClick={changeRange} id="All">All</span>
                 <span> | </span>
-                <span>ETH</span>
+                <span class={checkRange(10)} onClick={changeRange} id={10}>10 Lists</span>
                 <span> | </span>
-                <span>BTC</span>
+                <span class={checkRange(5)} onClick={changeRange} id={5}>5 Lists</span>
             </p>
             <p></p>
             <p></p>
-            <LineChart width={600} height={300} data={data}>
+            <LineChart width={600} height={300} data={FilteredData}>
                 <Line type="monotone" dataKey={currency} stroke="#8884d8" />
                 <CartesianGrid stroke="#ccc" vertical={false}/>
                 <Tooltip />
