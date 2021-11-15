@@ -1,8 +1,9 @@
 import './App.css';
-import {useState} from 'react';
+import {useState,useEffect} from 'react';
 import ListTable from './components/ListTable.js';
 import InfoPage from './components/InfoPage';
 import {BrowserRouter as Router,Switch,Route,Link} from 'react-router-dom'
+import { ResponsiveContainer } from 'recharts';
 //import {v4 as uuidv4} from 'uuid';
 
 
@@ -35,7 +36,7 @@ const TableItemList = [
     percentChange:"+0.78%"
   },
   {
-    name:"CREAM Finance",
+    name:"Curve Finance",
     category:"Lending",
     chain:"Ethereum",
     lastExploit:"13/02/2021",
@@ -101,13 +102,33 @@ function DeFiTable(){
 }
 
 
+
 function App() {
+  const [data,setData] = useState("Blank");
+
+  useEffect(() => {
+    fetch("http://127.0.0.1:4000/api/projects")
+    .then(res => {
+      if(res.ok){
+        return res.json()
+      }
+      throw res;
+    })
+    .then((res) => {
+      setData(res)
+    })
+    .catch((error) => {
+      console.log("Error fetching data : ", error);
+    })
+  })
+
   return (
     <div id="bg">
       <Switch>
           <Route path="/" exact>
             <Title />
             <DeFiTable />
+            
           </Route>
           <Route path="/info/:name" component={InfoPage} />
       </Switch>
@@ -119,3 +140,6 @@ export default App;
 
 //<Filter />
 //<Table />
+/*<h1>
+              {JSON.stringify(data,null,2)}
+            </h1> */

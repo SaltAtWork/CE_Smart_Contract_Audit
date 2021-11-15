@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import {Link} from 'react-router-dom'
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 
 function TVLTable(props){
-    const {name} = props;
+    const {name,data} = props;
     return(
         <div class="infoitem">
             <h3>
@@ -36,7 +36,7 @@ function TVLTable(props){
 }
 
 function CreditComponent(props){
-    const {name} = props;
+    const {name,data} = props;
     return(
         <div class="infoitem">
             <h3>
@@ -61,7 +61,7 @@ function CreditComponent(props){
 }
 
 function LinkComponent(props){
-    const {name} = props;
+    const {name,data} = props;
     return(
         <div class="infoitem">
             <h3>
@@ -75,7 +75,7 @@ function LinkComponent(props){
 }
 
 function AuditHistoryComponent(props){
-    const {name} = props;
+    const {name,data} = props;
     return(
         <div class="infoitem">
             <h3>
@@ -89,10 +89,10 @@ function AuditHistoryComponent(props){
 }
 
 function ChartComponent(props){
-    const {name} = props;
+    const {name,data} = props;
     const [currency,setCurrency] = useState("USD");
     const [range,setRange] = useState(10);
-    const data = [
+    const chartData = [
         {name: 'A', USD: 4000, ETH: 2400, BTC: 2200},
         {name: 'B', USD: 8000, ETH: 1000, BTC: 2100},
         {name: 'C', USD: 6000, ETH: 2400, BTC: 2400},
@@ -111,7 +111,7 @@ function ChartComponent(props){
         {name: 'P', USD: 3000, ETH: 4200, BTC: 1200},
     ];
 
-    var FilteredData = data.slice(data.length - range);
+    var FilteredData = chartData.slice(chartData.length - range);
 
     const changeCurrency=(event)=>{
         setCurrency(event.target.id);
@@ -120,10 +120,10 @@ function ChartComponent(props){
     const changeRange=(event)=>{
         setRange(event.target.id);
         if(range != "All"){
-            FilteredData = data.slice(data.length - range);
+            FilteredData = chartData.slice(chartData.length - range);
         }
         else{
-            FilteredData = data;
+            FilteredData = chartData;
         }
     }
 
@@ -178,27 +178,27 @@ function ChartComponent(props){
 }
 
 function DescriptionComponent(props){
-    const {name} = props;
+    const {name,data} = props;
     return(
         <div class="infoitem">
             <h3>{name}'s Description</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            {checkData(data) ? <p>{data[0].description}</p> : <p>No Description Available</p>}
         </div>
     );
 }
 
 function AnalysisComponent(props){
-    const {name} = props;
+    const {name,data} = props;
     return(
         <div class="infoitem">
             <h3>Analysis</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            {checkData(data) ? <p>{data[0].riskAnalysis}</p> : <p>No Risk Analysis Available</p>}
         </div>
     );
 }
 
 function ExploitCaseComponent(props){
-    const {name} = props;
+    const {name,data} = props;
     return(
         <div class="infoitem">
             <h3>Exploited Case</h3>
@@ -210,7 +210,7 @@ function ExploitCaseComponent(props){
 }
 
 function OurAnalysisComponent(props){
-    const {name} = props;
+    const {name,data} = props;
     return(
         <div class="infoitem">
             <h3>Smart Contract Auditing Result</h3>
@@ -219,8 +219,43 @@ function OurAnalysisComponent(props){
     );
 }
 
+function checkData(data){
+    if(data !== "Blank"){
+        if(data.length == 1){
+            return true;
+        }
+    }
+    return false;
+}
+
 function InfoPage(props){
     const name=props.match.params.name;
+
+    const fetchLink = "http://127.0.0.1:4000/api/projects/" + name;
+    const [data,setData] = useState("Blank");
+    const [received,setReceived] = useState(false);
+    useEffect(() => {
+        if(!received){
+            fetch(fetchLink)
+            .then(res => {
+              if(res.ok){
+                return res.json();
+              }
+              throw res;
+            })
+            .then((res) => {
+              setData(res);
+              setReceived(true);
+            })
+            .catch((error) => {
+              console.log("Error fetching data : ", error);
+              setData("Blank");
+              setReceived(false);
+            })
+        }
+    })
+
+
     return(
         <div>
             <div id="title">
@@ -232,17 +267,17 @@ function InfoPage(props){
             </div>
             <div class="infopage">
                 <div class="infolist-a">
-                    <TVLTable name={name} />
-                    <CreditComponent name={name} />
-                    <LinkComponent name={name} />
-                    <AuditHistoryComponent name={name} />
+                    <TVLTable name={name} data={data} />
+                    <CreditComponent name={name} data={data} />
+                    <LinkComponent name={name} data={data} />
+                    <AuditHistoryComponent name={name} data={data} />
                 </div>
                 <div class="infolist-b">
-                    <ChartComponent name={name} />
-                    <DescriptionComponent name={name} />
-                    <AnalysisComponent name={name} />
-                    <ExploitCaseComponent name={name} />
-                    <OurAnalysisComponent name={name} />
+                    <ChartComponent name={name} data={data} />
+                    <DescriptionComponent name={name} data={data} />
+                    <AnalysisComponent name={name} data={data} />
+                    <ExploitCaseComponent name={name} data={data} />
+                    <OurAnalysisComponent name={name} data={data} />
                 </div>
             </div>
         </div>
