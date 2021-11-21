@@ -34,7 +34,7 @@ const ProjectSchema = mongoose.Schema({
         type: Number,
         require: true
     },
-    btcLoacked: {
+    btcLocked: {
         type: Number,
         require: true
     }
