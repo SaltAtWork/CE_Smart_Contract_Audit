@@ -18,6 +18,18 @@ const ProjectSchema = mongoose.Schema({
         type: String,
         require: true
     },
+    lastExploited: {
+        type: String,
+        require: true
+    },
+    chain: {
+        type: String,
+        require: true
+    },
+    category: {
+        type: String,
+        require: true
+    },
     usdTVL: {
         type: Number,
         require: true
@@ -27,6 +39,18 @@ const ProjectSchema = mongoose.Schema({
         require: true
     },
     btcTVL: {
+        type: Number,
+        require: true
+    },
+    usdTVLChanged: {
+        type: Number,
+        require: true
+    },
+    ethTVLChanged: {
+        type: Number,
+        require: true
+    },
+    btcTVLChanged: {
         type: Number,
         require: true
     },

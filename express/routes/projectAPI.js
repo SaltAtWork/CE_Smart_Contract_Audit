@@ -5,8 +5,6 @@ const router = express.Router();
 //-------------------------------------------------------------//
 
 const Project = require('../models/Project');
-const Ecosystem = require('../models/Ecosystem');
-const Audit = require('../models/Audit');
 
 //-------------------------------------------------------------//
 
@@ -18,7 +16,7 @@ const pulse = require('../defiPulse');
 
 //-------------------------------------------------------------//
 
-router.get('/projects', async(req, res) => {
+router.get('/', async(req, res) => {
     try {
         const projectsDB = await Project.find();
         res.send(projectsDB);
@@ -27,7 +25,7 @@ router.get('/projects', async(req, res) => {
     }
 });
 
-router.get('/projects/:name', async(req, res) => {
+router.get('/:name', async(req, res) => {
     try {
         const projectsDB = await Project.find({ name: req.params.name });
         if (!projectsDB) return res.status(404).send('project id not found');
@@ -37,7 +35,7 @@ router.get('/projects/:name', async(req, res) => {
     }
 });
 
-router.get('/projectsUpdate', async(req, res) => {
+router.get('/projects/up', async(req, res) => {
     const data = await pulse.getProject();
     for (var i = 0; i < data.length; i++) {
         try {
@@ -48,6 +46,9 @@ router.get('/projectsUpdate', async(req, res) => {
                     usdTVL: data[i].value.tvl.USD.value,
                     ethTVL: data[i].value.tvl.ETH.value,
                     btcTVL: data[i].value.tvl.BTC.value,
+                    usdTVLChanged: data[i].value.tvl.USD.relative_1d,
+                    ethTVLChanged: data[i].value.tvl.ETH.relative_1d,
+                    btcTVLChanged: data[i].value.tvl.BTC.relative_1d,
                     ethLocked: data[i].value.total.ETH.value,
                     btcLocked: data[i].value.total.BTC.value
                 }
@@ -60,7 +61,7 @@ router.get('/projectsUpdate', async(req, res) => {
     res.send('Update Success');
 });
 
-router.post('/projects', async(req, res) => {
+router.post('/', async(req, res) => {
     const { error } = validate.project(req.body);
     if (error) {
         res.status(400).send(error.details[0].message);
@@ -71,9 +72,15 @@ router.post('/projects', async(req, res) => {
         description: req.body.description,
         attackHistory: req.body.attackHistory,
         riskAnalysis: req.body.riskAnalysis,
+        lastExploited: req.body.lastExploited,
+        chain: req.body.chain,
+        category: req.body.category,
         usdTVL: req.body.usdTVL,
         ethTVL: req.body.ethTVL,
         btcTVL: req.body.btcTVL,
+        usdTVLChanged: req.body.usdTVLChanged,
+        ethTVLChanged: req.body.ethTVLChanged,
+        btcTVLChanged: req.body.btcTVLChanged,
         ethLocked: req.body.ethLocked,
         btcLocked: req.body.btcLocked
     });
@@ -86,7 +93,7 @@ router.post('/projects', async(req, res) => {
     }
 });
 
-router.put('/projects/:name', async(req, res) => {
+router.put('/:name', async(req, res) => {
     const { error } = validate.project(req.body);
     if (error) {
         res.status(400).send(error.details[0].message);
@@ -100,9 +107,15 @@ router.put('/projects/:name', async(req, res) => {
                 description: req.body.description,
                 attackHistory: req.body.attackHistory,
                 riskAnalysis: req.body.riskAnalysis,
+                lastExploited: req.body.lastExploited,
+                chain: req.body.chain,
+                category: req.body.category,
                 usdTVL: req.body.usdTVL,
                 ethTVL: req.body.ethTVL,
                 btcTVL: req.body.btcTVL,
+                usdTVLChanged: req.body.usdTVLChanged,
+                ethTVLChanged: req.body.ethTVLChanged,
+                btcTVLChanged: req.body.btcTVLChanged,
                 ethLocked: req.body.ethLocked,
                 btcLocked: req.body.btcLocked
             }
@@ -113,7 +126,7 @@ router.put('/projects/:name', async(req, res) => {
     }
 });
 
-router.delete('/projects/:name', async(req, res) => {
+router.delete('/:name', async(req, res) => {
     try {
         const removedProject = await Project.deleteOne({ name: req.params.name });
         res.send('delete success');
