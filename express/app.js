@@ -7,12 +7,6 @@ require('dotenv/config');
 
 //-------------------------------------------------------------//
 
-const fetchP =
-    import ('node-fetch').then(mod => mod.default)
-const fetch = (...args) => fetchP.then(fn => fn(...args))
-
-//-------------------------------------------------------------//
-
 app.use(express.json());
 app.use(cors());
 
@@ -30,15 +24,32 @@ app.use('/home', homeRoute);
 
 //-------------------------------------------------------------//
 
-const APIRoute = require('./routes/api');
-app.use('/api', APIRoute);
+const projectAPIRoute = require('./routes/projectAPI');
+app.use('/projects', projectAPIRoute);
+
+//-------------------------------------------------------------//
+
+const ecosystemAPIRoute = require('./routes/ecosystemAPI');
+app.use('/ecosystems', ecosystemAPIRoute);
+
+//-------------------------------------------------------------//
+
+const auditAPIRoute = require('./routes/auditAPI');
+app.use('/audits', auditAPIRoute);
+
+//-------------------------------------------------------------//
+
+const TVLHistoryAPIRoute = require('./routes/TVLHistoryAPI');
+app.use('/TVLHistory', TVLHistoryAPIRoute);
 
 //-------------------------------------------------------------//
 //port
 const port = process.env.PORT || 4000;
 app.listen(port, () => console.log(`listening on port ${port}...`));
 
-
 //TODO
 // create route for audit and ecosystem
-// FIX API TVLhistory
+// add last exploited chain %change category
+// create tvl history schema
+// create tvl history api defi pulse
+// create tvl history route

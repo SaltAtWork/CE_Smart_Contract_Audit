@@ -1,7 +1,8 @@
-import {useHistory} from 'react-router-dom'
+import { useHistory } from 'react-router-dom';
+import { convertNumber } from './GlobalFunction';
 
 function TableRow(props){
-  const {input} = props;
+  const {input,placeholder} = props;
   const history = useHistory();
   const handleClick=()=>{
     history.push('/info/' + input.name);
@@ -12,9 +13,9 @@ function TableRow(props){
       <td>{input.name}</td>
       <td>{input.category}</td>
       <td>{input.chain}</td>
-      <td>{input.lastExploit}</td>
-      <td>{input.tvl}</td>
-      <td>{input.percentChange}</td>
+      <td>{input.lastExploited}</td>
+      <td>{!placeholder ? input.usdTVL : "$ " + convertNumber(input.usdTVL,false)}</td>
+      <td>{!placeholder ? input.usdTVLChanged : convertNumber(input.usdTVLChanged,true) + " %"}</td>
     </tr>
   );
 }
@@ -33,16 +34,16 @@ function TableHeadRow(){
 }
 
 function ListTable(props){
-    const {input,filter} = props;
+    const {input,filter,placeholder} = props;
     return(
         <table>
           <TableHeadRow />
           {input.map((element)=>{
             if(filter === "All"){
-              return <TableRow input={element} />
+              return <TableRow input={element} placeholder={placeholder} />
             }
             else if(filter === element.category){
-              return <TableRow input={element} />
+              return <TableRow input={element} placeholder={placeholder} />
             }
             return null;
           })}

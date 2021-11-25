@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  font-family:'Mulish';
 }
 h3{
   margin-bottom: 10px;
@@ -17,44 +18,46 @@ h3{
   width: 100%;
 }
 #title {
-  background-color: #151a5c;
+  background: url(./images/title_background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #title *{
   text-align: left;
-  margin-left: 15%;
+  margin-left: 20%;
   margin-bottom: 20px;
-  margin-right: 15%;
-  background-color: #151a5c;
+  margin-right: 20%;
   color: white;
 }
 
 #title h1{
   margin-top: 0px;
-  font-size: 4vw;
+  padding-top: 3vw;
+  font-size: 2vw;
 }
 
 #title h2{
-  font-size: 2.75vw;
+  font-size: 1.5vw;
 }
 
 #title p{
-  font-size: 1.75vw;
+  font-size: 1vw;
+  padding-bottom: 1vw;
 }
 
 #filter {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 #filter *{
   padding: 8px;
   margin-right: 8px;
-  border-style: solid;
-  border-color: #f7f7f7;
   border-radius: 7px 7px 0px 0px;
   text-align: center;
   background-color: white;
@@ -69,26 +72,49 @@ h3{
 
 #defitable {
   background-color: white;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 #defitable table{
-  border: 1px solid white;
+  border: none;
+  border-collapse: collapse;
   width: 100%;
 }
 #defitable th{
   cursor: default;
 }
 #defitable th,td{
-  padding-left: 5px;
+  padding-left: 10px;
   text-align: left;
+  font-size: 1vw;
 }
 #defitable tr{
-  height: 70px;
+  height: 40px;
   cursor: pointer;
 }
 
 #defitable tr:nth-child(even) {background-color: #d4d4d4;}
+
+#infotop *{
+  box-sizing: border-box;
+  text-align: left;
+  padding-left: 15%;
+  margin-bottom: 20px;
+  padding-right: 15%;
+  background: url(./images/title_background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+#infotop h1{
+  margin-top: 0px;
+  padding-top: 3vw;
+  font-size: 2vw;
+  padding-bottom: 1vw;
+  cursor: pointer;
+}
 
 #infotitle{
   margin-left: 15%;
