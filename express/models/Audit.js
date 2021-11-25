@@ -13,7 +13,7 @@ const AuditSchema = mongoose.Schema({
         require: true
     },
     // w/w.facebook.com
-    link: {
+    linkAddress: {
         type: String,
         require: true
     }

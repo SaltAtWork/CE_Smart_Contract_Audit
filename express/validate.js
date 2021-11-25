@@ -9,14 +9,14 @@ function project(project) {
         lastExploited: Joi.string().required(),
         chain: Joi.string().required(),
         category: Joi.string().required(),
-        usdTVL: Joi.number().min(0).precision(9).required(),
-        ethTVL: Joi.number().min(0).precision(9).required(),
-        btcTVL: Joi.number().min(0).precision(9).required(),
-        usdTVLChanged: Joi.number().min(0).precision(9).required(),
-        ethTVLChanged: Joi.number().min(0).precision(9).required(),
-        btcTVLChanged: Joi.number().min(0).precision(9).required(),
-        ethLocked: Joi.number().min(0).precision(9).required(),
-        btcLocked: Joi.number().min(0).precision(9).required()
+        usdTVL: Joi.number().min(0).precision(9),
+        ethTVL: Joi.number().min(0).precision(9),
+        btcTVL: Joi.number().min(0).precision(9),
+        usdTVLChanged: Joi.number().min(0).precision(9),
+        ethTVLChanged: Joi.number().min(0).precision(9),
+        btcTVLChanged: Joi.number().min(0).precision(9),
+        ethLocked: Joi.number().min(0).precision(9),
+        btcLocked: Joi.number().min(0).precision(9)
     });
     return schema.validate(project);
 };

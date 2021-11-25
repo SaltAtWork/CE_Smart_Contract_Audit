@@ -8,6 +8,12 @@ const Audit = require('../models/Audit');
 
 //-------------------------------------------------------------//
 
+function isEmpty(obj) {
+    return Object.keys(obj).length === 0;
+}
+
+//-------------------------------------------------------------//
+
 router.get('/', async(req, res) => {
     try {
         const AuditDB = await Audit.find();
@@ -20,7 +26,7 @@ router.get('/', async(req, res) => {
 router.get('/:name', async(req, res) => {
     try {
         const AuditDB = await Audit.find({ name: req.params.name });
-        if (!AuditDB) return res.status(404).send('Audit is not found');
+        if (isEmpty(AuditDB)) return res.status(404).send('Audit is not found');
         res.send(AuditDB);
     } catch (err) {
         res.send({ message: err });
@@ -31,7 +37,7 @@ router.post('/', async(req, res) => {
     const newAudit = new Audit({
         name: req.body.name,
         description: req.body.description,
-        link: req.body.link,
+        linkAddress: req.body.linkAddress,
     });
     try {
         const savedAudit = await newAudit.save();
@@ -44,11 +50,11 @@ router.post('/', async(req, res) => {
 router.put('/:name/:description', async(req, res) => {
     try {
         const AuditDB = await Audit.find({ name: req.params.name, description: req.params.description });
-        if (!AuditDB) return res.status(404).send('Audit is not found');
+        if (isEmpty(AuditDB)) return res.status(404).send('Audit is not found');
         const updatedAudit = await Audit.updateOne({ name: req.body.name }, {
             $set: {
                 description: req.body.description,
-                link: req.body.link,
+                linkAddress: req.body.linkAddress,
             }
         });
         res.send(updatedAudit);

@@ -47,9 +47,13 @@ app.use('/TVLHistory', TVLHistoryAPIRoute);
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`listening on port ${port}...`));
 
-//TODO
+//DONE
 // create route for audit and ecosystem
 // add last exploited chain %change category
 // create tvl history schema
 // create tvl history api defi pulse
 // create tvl history route
+
+//TODO
+//Fix link
+//add date created

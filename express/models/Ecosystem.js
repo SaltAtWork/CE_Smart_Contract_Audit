@@ -13,7 +13,7 @@ const EcosystemSchema = mongoose.Schema({
         require: true
     },
     //link to ecosystem
-    link: {
+    linkAddress: {
         type: String,
         require: true
     }

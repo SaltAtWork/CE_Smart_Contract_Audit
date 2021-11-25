@@ -12,13 +12,22 @@ const pulse = require('../defiPulse');
 
 //-------------------------------------------------------------//
 
+function isEmpty(obj) {
+    return Object.keys(obj).length === 0;
+}
+
+//-------------------------------------------------------------//
+
 router.get('/up/:name/:period', async(req, res) => {
+    console.log("check point1");
     const data = await pulse.getHistory(req.params.name, req.params.period);
+    console.log("check point2");
     for (var i = 0; i < data.length; i++) {
         try {
             var historyDB = await TVLHistory.find({ name: req.params.name, timestamp: data[i].timestamp });
-            if (!historyDB) {
-                console.log('test1');
+            console.log("check point3");
+            if (isEmpty(historyDB)) {
+                console.log("check point4");
                 var newTVLHistory = new TVLHistory({
                     name: req.body.name,
                     usd: data[i].tvlUSD,
@@ -28,6 +37,7 @@ router.get('/up/:name/:period', async(req, res) => {
                     timestamp: data[i].timestamp,
                 });
                 var savedTVLHistory = await newTVLHistory.save();
+                console.log("check point5");
             } else continue;
         } catch (err) {
             res.send({ message: err });
@@ -40,7 +50,7 @@ router.get('/up/:name/:period', async(req, res) => {
 router.get('/history/:name', async(req, res) => {
     try {
         const TVLHistoryDB = await TVLHistory.find({ name: req.params.name });
-        if (!TVLHistoryDB) return res.status(404).send('TVLHistory is not found');
+        if (isEmpty(TVLHistoryDB)) return res.status(404).send('TVLHistory is not found');
         res.send(TVLHistoryDB);
     } catch (err) {
         res.send({ message: err });
