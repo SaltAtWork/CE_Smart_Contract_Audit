@@ -19,17 +19,15 @@ function isEmpty(obj) {
 //-------------------------------------------------------------//
 
 router.get('/up/:name/:period', async(req, res) => {
-    console.log("check point1");
+    console.log("Requesting the data");
     const data = await pulse.getHistory(req.params.name, req.params.period);
-    console.log("check point2");
+    console.log("Got the data");
     for (var i = 0; i < data.length; i++) {
         try {
             var historyDB = await TVLHistory.find({ name: req.params.name, timestamp: data[i].timestamp });
-            console.log("check point3");
             if (isEmpty(historyDB)) {
-                console.log("check point4");
                 var newTVLHistory = new TVLHistory({
-                    name: req.body.name,
+                    name: req.params.name,
                     usd: data[i].tvlUSD,
                     btc: data[i].BTC,
                     eth: data[i].ETH,
@@ -37,7 +35,6 @@ router.get('/up/:name/:period', async(req, res) => {
                     timestamp: data[i].timestamp,
                 });
                 var savedTVLHistory = await newTVLHistory.save();
-                console.log("check point5");
             } else continue;
         } catch (err) {
             res.send({ message: err });
