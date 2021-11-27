@@ -18,6 +18,10 @@ const ProjectSchema = mongoose.Schema({
         type: String,
         require: true
     },
+    launchDate: {
+        type: String,
+        require: true
+    },
     lastExploited: {
         type: String,
         require: true

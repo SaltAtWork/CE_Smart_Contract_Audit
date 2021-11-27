@@ -16,6 +16,12 @@ const pulse = require('../defiPulse');
 
 //-------------------------------------------------------------//
 
+function isEmpty(obj) {
+    return Object.keys(obj).length === 0;
+}
+
+//-------------------------------------------------------------//
+
 router.get('/', async(req, res) => {
     try {
         const projectsDB = await Project.find();
@@ -28,7 +34,7 @@ router.get('/', async(req, res) => {
 router.get('/:name', async(req, res) => {
     try {
         const projectsDB = await Project.find({ name: req.params.name });
-        if (!projectsDB) return res.status(404).send('project id not found');
+        if (isEmpty(projectsDB)) return res.status(404).send('project id not found');
         res.send(projectsDB);
     } catch (err) {
         res.send({ message: err });
@@ -40,7 +46,7 @@ router.get('/projects/up', async(req, res) => {
     for (var i = 0; i < data.length; i++) {
         try {
             var projectsDB = await Project.find({ name: data[i].name });
-            if (!projectsDB) continue;
+            if (isEmpty(projectsDB)) continue;
             var updatedProject = await Project.updateOne({ name: data[i].name }, {
                 $set: {
                     usdTVL: data[i].value.tvl.USD.value,
@@ -72,6 +78,7 @@ router.post('/', async(req, res) => {
         description: req.body.description,
         attackHistory: req.body.attackHistory,
         riskAnalysis: req.body.riskAnalysis,
+        launchDate: req.body.launchDate,
         lastExploited: req.body.lastExploited,
         chain: req.body.chain,
         category: req.body.category,
@@ -101,12 +108,13 @@ router.put('/:name', async(req, res) => {
     }
     try {
         const projectsDB = await Project.find({ name: req.params.name });
-        if (!projectsDB) return res.status(404).send('project id not found');
+        if (isEmpty(projectsDB)) return res.status(404).send('project id not found');
         const updatedProject = await Project.updateOne({ name: req.body.name }, {
             $set: {
                 description: req.body.description,
                 attackHistory: req.body.attackHistory,
                 riskAnalysis: req.body.riskAnalysis,
+                launchDate: req.body.launchDate,
                 lastExploited: req.body.lastExploited,
                 chain: req.body.chain,
                 category: req.body.category,

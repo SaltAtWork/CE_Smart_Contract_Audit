@@ -8,6 +8,12 @@ const Ecosystem = require('../models/Ecosystem');
 
 //-------------------------------------------------------------//
 
+function isEmpty(obj) {
+    return Object.keys(obj).length === 0;
+}
+
+//-------------------------------------------------------------//
+
 router.get('/', async(req, res) => {
     try {
         const ecosystemDB = await Ecosystem.find();
@@ -20,7 +26,7 @@ router.get('/', async(req, res) => {
 router.get('/:name', async(req, res) => {
     try {
         const ecosystemDB = await Ecosystem.find({ name: req.params.name });
-        if (!ecosystemDB) return res.status(404).send('Ecosystem is not found');
+        if (isEmpty(ecosystemDB)) return res.status(404).send('Ecosystem is not found');
         res.send(ecosystemDB);
     } catch (err) {
         res.send({ message: err });
@@ -44,7 +50,7 @@ router.post('/', async(req, res) => {
 router.put('/:name/:description', async(req, res) => {
     try {
         const ecosystemDB = await Ecosystem.find({ name: req.params.name, description: req.params.description });
-        if (!ecosystemDB) return res.status(404).send('Ecosystem is not found');
+        if (isEmpty(ecosystemDB)) return res.status(404).send('Ecosystem is not found');
         const updatedEcosystem = await Ecosystem.updateOne({ name: req.body.name }, {
             $set: {
                 description: req.body.description,
