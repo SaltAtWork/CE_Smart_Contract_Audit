@@ -217,3 +217,9 @@ span.active {
   float: left;
   padding: 15px;
 }
+
+.tooltip {
+  background-color: aliceblue;
+  padding: 2px;
+  border-radius: 2px 2px 2px 2px;
+}

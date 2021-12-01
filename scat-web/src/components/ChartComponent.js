@@ -3,19 +3,19 @@ import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, ResponsiveContai
 import { checkData,convertNumber } from './GlobalFunction';
 
 function CustomTooltip(props){
-    const {active,payload,label} = props;
+    const {active,payload,label,currency} = props;
     if (active && payload && payload.length) {
         var date = new Date(label*1000);
         date = date.toLocaleString('th-TH',{dateStyle: 'medium', timeStyle: 'medium'});
         return (
-          <div>
-            <p>{`${date} : ${convertNumber(payload[0].value)}`}</p>
+          <div className="tooltip">
+            <p>{`${date} : `}</p>
+            <p>{`${currency.toUpperCase()} : ${convertNumber(payload[0].value)}`}</p>
           </div>
         );
     }
     return null;
 }
-
 
 function ChartComponent(props){
     const {name} = props;
@@ -106,9 +106,11 @@ function ChartComponent(props){
                 <LineChart margin={{left: 10, bottom: 10, right: 10}} data={checkData(FilteredData) ? FilteredData.reverse() : []}>
                     <Line type="linear" dataKey={currency} stroke="#8884d8" />
                     <CartesianGrid stroke="#ccc" vertical={false}/>
-                    <Tooltip content={<CustomTooltip />}/>
-                    <XAxis dataKey="timestamp" hide={true} />
-                    <YAxis domain={['auto','auto']}hide={true}/>
+                    <Tooltip content={<CustomTooltip currency={currency}/>}/>
+                    <XAxis dataKey="timestamp" hide={true}/>
+                    <YAxis domain={['auto','auto']} tickFormatter={tick => {
+                        return convertNumber(tick);
+                    }}/>
                 </LineChart>
             </ResponsiveContainer>
             </div>
