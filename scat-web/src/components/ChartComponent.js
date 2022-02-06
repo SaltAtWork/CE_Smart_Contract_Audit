@@ -23,7 +23,6 @@ function ChartComponent(props){
     const [range,setRange] = useState(7);
     var projectName = name.replace(/\s+/g, '-').toLowerCase();
     const [chartData,setChartData] = useState("Blank");
-    const [received,setReceived] = useState(false);
     useEffect(() => {
         if(true){
             fetch("http://127.0.0.1:4000/TVLHistory/history/" + projectName)
@@ -35,12 +34,10 @@ function ChartComponent(props){
             })
             .then((res) => {
               setChartData(res);
-              setReceived(true);
             })
             .catch((error) => {
               console.log("Error fetching data : ", error);
               setChartData("Blank");
-              setReceived(false);
             })
         }
     })

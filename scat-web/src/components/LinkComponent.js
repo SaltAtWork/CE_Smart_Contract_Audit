@@ -4,9 +4,8 @@ import { checkData } from './GlobalFunction';
 function LinkComponent(props){
     const {name} = props;
     const [data,setData] = useState("Blank");
-    const [received,setReceived] = useState(false);
     useEffect(() => {
-        if(!received){
+        if(true){
             fetch("http://127.0.0.1:4000/ecosystems/" + name)
             .then(res => {
               if(res.ok){
@@ -16,12 +15,10 @@ function LinkComponent(props){
             })
             .then((res) => {
               setData(res);
-              setReceived(true);
             })
             .catch((error) => {
               console.log("Error fetching data : ", error);
               setData("Blank");
-              setReceived(false);
             })
         }
     })
