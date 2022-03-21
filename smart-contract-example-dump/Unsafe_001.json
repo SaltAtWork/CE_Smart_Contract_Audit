@@ -1,0 +1,475 @@
+{
+    "type": "Program",
+    "body": [
+        {
+            "type": "PragmaStatement",
+            "start_version": {
+                "type": "VersionLiteral",
+                "operator": null,
+                "version": "0.4.24"
+            },
+            "end_version": null,
+            "start": 54,
+            "end": 77
+        },
+        {
+            "type": "ContractStatement",
+            "name": "SimpleDAO",
+            "is": [],
+            "body": [
+                {
+                    "type": "StateVariableDeclaration",
+                    "name": "credit",
+                    "literal": {
+                        "type": "Type",
+                        "literal": {
+                            "type": "MappingExpression",
+                            "from": {
+                                "type": "Type",
+                                "literal": "address",
+                                "members": [],
+                                "array_parts": [],
+                                "start": 114,
+                                "end": 121
+                            },
+                            "to": {
+                                "type": "Type",
+                                "literal": "uint",
+                                "members": [],
+                                "array_parts": [],
+                                "start": 125,
+                                "end": 129
+                            },
+                            "start": 105,
+                            "end": 130
+                        },
+                        "members": [],
+                        "array_parts": [],
+                        "start": 105,
+                        "end": 130
+                    },
+                    "visibility": "public",
+                    "is_constant": false,
+                    "value": null,
+                    "start": 105,
+                    "end": 145
+                },
+                {
+                    "type": "FunctionDeclaration",
+                    "name": "donate",
+                    "params": [
+                        {
+                            "type": "InformalParameter",
+                            "literal": {
+                                "type": "Type",
+                                "literal": "address",
+                                "members": [],
+                                "array_parts": [],
+                                "start": 171,
+                                "end": 178
+                            },
+                            "id": "to",
+                            "is_indexed": false,
+                            "is_storage": false,
+                            "is_memory": false,
+                            "start": 171,
+                            "end": 181
+                        }
+                    ],
+                    "modifiers": [
+                        {
+                            "type": "ModifierArgument",
+                            "name": "payable",
+                            "params": [],
+                            "start": 183,
+                            "end": 191
+                        },
+                        {
+                            "type": "ModifierArgument",
+                            "name": "public",
+                            "params": [],
+                            "start": 191,
+                            "end": 197
+                        }
+                    ],
+                    "returnParams": null,
+                    "body": {
+                        "type": "BlockStatement",
+                        "body": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "AssignmentExpression",
+                                    "operator": "+=",
+                                    "left": {
+                                        "type": "MemberExpression",
+                                        "object": {
+                                            "type": "Identifier",
+                                            "name": "credit",
+                                            "start": 204,
+                                            "end": 210
+                                        },
+                                        "property": {
+                                            "type": "Identifier",
+                                            "name": "to",
+                                            "start": 211,
+                                            "end": 213
+                                        },
+                                        "computed": true,
+                                        "start": 204,
+                                        "end": 214
+                                    },
+                                    "right": {
+                                        "type": "MemberExpression",
+                                        "object": {
+                                            "type": "Identifier",
+                                            "name": "msg",
+                                            "start": 218,
+                                            "end": 221
+                                        },
+                                        "property": {
+                                            "type": "Identifier",
+                                            "name": "value",
+                                            "start": 222,
+                                            "end": 227
+                                        },
+                                        "computed": false,
+                                        "start": 218,
+                                        "end": 227
+                                    },
+                                    "start": 204,
+                                    "end": 227
+                                },
+                                "start": 204,
+                                "end": 228
+                            }
+                        ],
+                        "start": 197,
+                        "end": 233
+                    },
+                    "is_abstract": false,
+                    "start": 155,
+                    "end": 233
+                },
+                {
+                    "type": "FunctionDeclaration",
+                    "name": "withdraw",
+                    "params": [
+                        {
+                            "type": "InformalParameter",
+                            "literal": {
+                                "type": "Type",
+                                "literal": "uint",
+                                "members": [],
+                                "array_parts": [],
+                                "start": 261,
+                                "end": 265
+                            },
+                            "id": "amount",
+                            "is_indexed": false,
+                            "is_storage": false,
+                            "is_memory": false,
+                            "start": 261,
+                            "end": 272
+                        }
+                    ],
+                    "modifiers": [
+                        {
+                            "type": "ModifierArgument",
+                            "name": "public",
+                            "params": [],
+                            "start": 274,
+                            "end": 280
+                        }
+                    ],
+                    "returnParams": null,
+                    "body": {
+                        "type": "BlockStatement",
+                        "body": [
+                            {
+                                "type": "IfStatement",
+                                "test": {
+                                    "type": "BinaryExpression",
+                                    "operator": ">=",
+                                    "left": {
+                                        "type": "MemberExpression",
+                                        "object": {
+                                            "type": "Identifier",
+                                            "name": "credit",
+                                            "start": 291,
+                                            "end": 297
+                                        },
+                                        "property": {
+                                            "type": "MemberExpression",
+                                            "object": {
+                                                "type": "Identifier",
+                                                "name": "msg",
+                                                "start": 298,
+                                                "end": 301
+                                            },
+                                            "property": {
+                                                "type": "Identifier",
+                                                "name": "sender",
+                                                "start": 302,
+                                                "end": 308
+                                            },
+                                            "computed": false,
+                                            "start": 298,
+                                            "end": 308
+                                        },
+                                        "computed": true,
+                                        "start": 291,
+                                        "end": 309
+                                    },
+                                    "right": {
+                                        "type": "Identifier",
+                                        "name": "amount",
+                                        "start": 312,
+                                        "end": 318
+                                    },
+                                    "start": 291,
+                                    "end": 318
+                                },
+                                "consequent": {
+                                    "type": "BlockStatement",
+                                    "body": [
+                                        {
+                                            "type": "ExpressionStatement",
+                                            "expression": {
+                                                "type": "CallExpression",
+                                                "callee": {
+                                                    "type": "Identifier",
+                                                    "name": "require",
+                                                    "start": 329,
+                                                    "end": 336
+                                                },
+                                                "arguments": [
+                                                    {
+                                                        "type": "CallExpression",
+                                                        "arguments": [],
+                                                        "start": 366,
+                                                        "end": 368,
+                                                        "callee": {
+                                                            "type": "CallExpression",
+                                                            "callee": {
+                                                                "type": "MemberExpression",
+                                                                "object": {
+                                                                    "type": "MemberExpression",
+                                                                    "object": {
+                                                                        "type": "MemberExpression",
+                                                                        "object": {
+                                                                            "type": "Identifier",
+                                                                            "name": "msg",
+                                                                            "start": 337,
+                                                                            "end": 340
+                                                                        },
+                                                                        "property": {
+                                                                            "type": "Identifier",
+                                                                            "name": "sender",
+                                                                            "start": 341,
+                                                                            "end": 347
+                                                                        },
+                                                                        "computed": false,
+                                                                        "start": 337,
+                                                                        "end": 358
+                                                                    },
+                                                                    "property": {
+                                                                        "type": "Identifier",
+                                                                        "name": "call",
+                                                                        "start": 348,
+                                                                        "end": 352
+                                                                    },
+                                                                    "computed": false,
+                                                                    "start": 337,
+                                                                    "end": 358
+                                                                },
+                                                                "property": {
+                                                                    "type": "Identifier",
+                                                                    "name": "value",
+                                                                    "start": 353,
+                                                                    "end": 358
+                                                                },
+                                                                "computed": false,
+                                                                "start": 337,
+                                                                "end": 358
+                                                            },
+                                                            "arguments": [
+                                                                {
+                                                                    "type": "Identifier",
+                                                                    "name": "amount",
+                                                                    "start": 359,
+                                                                    "end": 365
+                                                                }
+                                                            ],
+                                                            "start": 337,
+                                                            "end": 366
+                                                        }
+                                                    }
+                                                ],
+                                                "start": 329,
+                                                "end": 369
+                                            },
+                                            "start": 329,
+                                            "end": 370
+                                        },
+                                        {
+                                            "type": "ExpressionStatement",
+                                            "expression": {
+                                                "type": "AssignmentExpression",
+                                                "operator": "-=",
+                                                "left": {
+                                                    "type": "MemberExpression",
+                                                    "object": {
+                                                        "type": "Identifier",
+                                                        "name": "credit",
+                                                        "start": 378,
+                                                        "end": 384
+                                                    },
+                                                    "property": {
+                                                        "type": "MemberExpression",
+                                                        "object": {
+                                                            "type": "Identifier",
+                                                            "name": "msg",
+                                                            "start": 385,
+                                                            "end": 388
+                                                        },
+                                                        "property": {
+                                                            "type": "Identifier",
+                                                            "name": "sender",
+                                                            "start": 389,
+                                                            "end": 395
+                                                        },
+                                                        "computed": false,
+                                                        "start": 385,
+                                                        "end": 395
+                                                    },
+                                                    "computed": true,
+                                                    "start": 378,
+                                                    "end": 396
+                                                },
+                                                "right": {
+                                                    "type": "Identifier",
+                                                    "name": "amount",
+                                                    "start": 398,
+                                                    "end": 404
+                                                },
+                                                "start": 378,
+                                                "end": 404
+                                            },
+                                            "start": 378,
+                                            "end": 405
+                                        }
+                                    ],
+                                    "start": 320,
+                                    "end": 412
+                                },
+                                "alternate": null,
+                                "start": 287,
+                                "end": 412
+                            }
+                        ],
+                        "start": 280,
+                        "end": 417
+                    },
+                    "is_abstract": false,
+                    "start": 243,
+                    "end": 417
+                },
+                {
+                    "type": "FunctionDeclaration",
+                    "name": "queryCredit",
+                    "params": [
+                        {
+                            "type": "InformalParameter",
+                            "literal": {
+                                "type": "Type",
+                                "literal": "address",
+                                "members": [],
+                                "array_parts": [],
+                                "start": 446,
+                                "end": 453
+                            },
+                            "id": "to",
+                            "is_indexed": false,
+                            "is_storage": false,
+                            "is_memory": false,
+                            "start": 446,
+                            "end": 456
+                        }
+                    ],
+                    "modifiers": [
+                        {
+                            "type": "ModifierArgument",
+                            "name": "view",
+                            "params": [],
+                            "start": 458,
+                            "end": 463
+                        },
+                        {
+                            "type": "ModifierArgument",
+                            "name": "public",
+                            "params": [],
+                            "start": 463,
+                            "end": 470
+                        }
+                    ],
+                    "returnParams": [
+                        {
+                            "type": "InformalParameter",
+                            "literal": {
+                                "type": "Type",
+                                "literal": "uint",
+                                "members": [],
+                                "array_parts": [],
+                                "start": 478,
+                                "end": 482
+                            },
+                            "is_indexed": false,
+                            "is_storage": false,
+                            "is_memory": false,
+                            "start": 478,
+                            "end": 482
+                        }
+                    ],
+                    "body": {
+                        "type": "BlockStatement",
+                        "body": [
+                            {
+                                "type": "ReturnStatement",
+                                "argument": {
+                                    "type": "MemberExpression",
+                                    "object": {
+                                        "type": "Identifier",
+                                        "name": "credit",
+                                        "start": 497,
+                                        "end": 503
+                                    },
+                                    "property": {
+                                        "type": "Identifier",
+                                        "name": "to",
+                                        "start": 504,
+                                        "end": 506
+                                    },
+                                    "computed": true,
+                                    "start": 497,
+                                    "end": 507
+                                },
+                                "start": 490,
+                                "end": 508
+                            }
+                        ],
+                        "start": 483,
+                        "end": 513
+                    },
+                    "is_abstract": false,
+                    "start": 425,
+                    "end": 513
+                }
+            ],
+            "start": 81,
+            "end": 516
+        }
+    ],
+    "start": 54,
+    "end": 516
+}
