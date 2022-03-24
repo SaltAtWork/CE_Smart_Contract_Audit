@@ -1,0 +1,283 @@
+{
+    "type": "SourceUnit",
+    "children": [
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "^0.4.8"
+        },
+        {
+            "type": "ContractDefinition",
+            "name": "HoneyPot",
+            "baseContracts": [],
+            "subNodes": [
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "Mapping",
+                                "keyType": {
+                                    "type": "ElementaryTypeName",
+                                    "name": "address",
+                                    "stateMutability": null
+                                },
+                                "valueType": {
+                                    "type": "ElementaryTypeName",
+                                    "name": "uint",
+                                    "stateMutability": null
+                                }
+                            },
+                            "name": "balances",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "balances"
+                            },
+                            "expression": null,
+                            "visibility": "public",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null
+                        }
+                    ],
+                    "initialValue": null
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "HoneyPot",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "put"
+                                    },
+                                    "arguments": [],
+                                    "names": [],
+                                    "identifiers": []
+                                }
+                            }
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": true,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": "payable"
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "put",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "BinaryOperation",
+                                    "operator": "=",
+                                    "left": {
+                                        "type": "IndexAccess",
+                                        "base": {
+                                            "type": "Identifier",
+                                            "name": "balances"
+                                        },
+                                        "index": {
+                                            "type": "MemberAccess",
+                                            "expression": {
+                                                "type": "Identifier",
+                                                "name": "msg"
+                                            },
+                                            "memberName": "sender"
+                                        }
+                                    },
+                                    "right": {
+                                        "type": "MemberAccess",
+                                        "expression": {
+                                            "type": "Identifier",
+                                            "name": "msg"
+                                        },
+                                        "memberName": "value"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": "payable"
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "get",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "IfStatement",
+                                "condition": {
+                                    "type": "UnaryOperation",
+                                    "operator": "!",
+                                    "subExpression": {
+                                        "type": "FunctionCall",
+                                        "expression": {
+                                            "type": "FunctionCall",
+                                            "expression": {
+                                                "type": "MemberAccess",
+                                                "expression": {
+                                                    "type": "MemberAccess",
+                                                    "expression": {
+                                                        "type": "MemberAccess",
+                                                        "expression": {
+                                                            "type": "Identifier",
+                                                            "name": "msg"
+                                                        },
+                                                        "memberName": "sender"
+                                                    },
+                                                    "memberName": "call"
+                                                },
+                                                "memberName": "value"
+                                            },
+                                            "arguments": [
+                                                {
+                                                    "type": "IndexAccess",
+                                                    "base": {
+                                                        "type": "Identifier",
+                                                        "name": "balances"
+                                                    },
+                                                    "index": {
+                                                        "type": "MemberAccess",
+                                                        "expression": {
+                                                            "type": "Identifier",
+                                                            "name": "msg"
+                                                        },
+                                                        "memberName": "sender"
+                                                    }
+                                                }
+                                            ],
+                                            "names": [],
+                                            "identifiers": []
+                                        },
+                                        "arguments": [],
+                                        "names": [],
+                                        "identifiers": []
+                                    },
+                                    "isPrefix": true
+                                },
+                                "trueBody": {
+                                    "type": "Block",
+                                    "statements": [
+                                        {
+                                            "type": "ExpressionStatement",
+                                            "expression": {
+                                                "type": "FunctionCall",
+                                                "expression": {
+                                                    "type": "Identifier",
+                                                    "name": "revert"
+                                                },
+                                                "arguments": [],
+                                                "names": [],
+                                                "identifiers": []
+                                            }
+                                        }
+                                    ]
+                                },
+                                "falseBody": null
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "BinaryOperation",
+                                    "operator": "=",
+                                    "left": {
+                                        "type": "IndexAccess",
+                                        "base": {
+                                            "type": "Identifier",
+                                            "name": "balances"
+                                        },
+                                        "index": {
+                                            "type": "MemberAccess",
+                                            "expression": {
+                                                "type": "Identifier",
+                                                "name": "msg"
+                                            },
+                                            "memberName": "sender"
+                                        }
+                                    },
+                                    "right": {
+                                        "type": "NumberLiteral",
+                                        "number": "0",
+                                        "subdenomination": null
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "revert"
+                                    },
+                                    "arguments": [],
+                                    "names": [],
+                                    "identifiers": []
+                                }
+                            }
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": true,
+                    "isVirtual": false,
+                    "stateMutability": null
+                }
+            ],
+            "kind": "contract"
+        }
+    ]
+}

@@ -1,0 +1,188 @@
+{
+    "type": "SourceUnit",
+    "children": [
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "^0.4.22"
+        },
+        {
+            "type": "ContractDefinition",
+            "name": "reentrancySingleFunction",
+            "baseContracts": [],
+            "subNodes": [
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "Mapping",
+                                "keyType": {
+                                    "type": "ElementaryTypeName",
+                                    "name": "address",
+                                    "stateMutability": null
+                                },
+                                "valueType": {
+                                    "type": "ElementaryTypeName",
+                                    "name": "uint256",
+                                    "stateMutability": null
+                                }
+                            },
+                            "name": "balances",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "balances"
+                            },
+                            "expression": null,
+                            "visibility": "public",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null
+                        }
+                    ],
+                    "initialValue": null
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "transferBalance",
+                    "parameters": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "address",
+                                "stateMutability": null
+                            },
+                            "name": "receiver",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "receiver"
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null
+                        },
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint",
+                                "stateMutability": null
+                            },
+                            "name": "amount",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "amount"
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null
+                        }
+                    ],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "require"
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "BinaryOperation",
+                                            "operator": ">=",
+                                            "left": {
+                                                "type": "IndexAccess",
+                                                "base": {
+                                                    "type": "Identifier",
+                                                    "name": "balances"
+                                                },
+                                                "index": {
+                                                    "type": "MemberAccess",
+                                                    "expression": {
+                                                        "type": "Identifier",
+                                                        "name": "msg"
+                                                    },
+                                                    "memberName": "sender"
+                                                }
+                                            },
+                                            "right": {
+                                                "type": "Identifier",
+                                                "name": "amount"
+                                            }
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": []
+                                }
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "BinaryOperation",
+                                    "operator": "-=",
+                                    "left": {
+                                        "type": "IndexAccess",
+                                        "base": {
+                                            "type": "Identifier",
+                                            "name": "balances"
+                                        },
+                                        "index": {
+                                            "type": "Identifier",
+                                            "name": "receiver"
+                                        }
+                                    },
+                                    "right": {
+                                        "type": "Identifier",
+                                        "name": "amount"
+                                    }
+                                }
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "MemberAccess",
+                                        "expression": {
+                                            "type": "Identifier",
+                                            "name": "receiver"
+                                        },
+                                        "memberName": "transfer"
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "Identifier",
+                                            "name": "amount"
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": []
+                                }
+                            }
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null
+                }
+            ],
+            "kind": "contract"
+        }
+    ]
+}

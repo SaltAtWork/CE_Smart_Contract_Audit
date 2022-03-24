@@ -1,0 +1,317 @@
+{
+    "type": "SourceUnit",
+    "children": [
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "^0.4"
+        },
+        {
+            "type": "ContractDefinition",
+            "name": "knownSolidityMultiFunction",
+            "baseContracts": [],
+            "subNodes": [
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "Mapping",
+                                "keyType": {
+                                    "type": "ElementaryTypeName",
+                                    "name": "address",
+                                    "stateMutability": null
+                                },
+                                "valueType": {
+                                    "type": "ElementaryTypeName",
+                                    "name": "uint256",
+                                    "stateMutability": null
+                                }
+                            },
+                            "name": "userBalances",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "userBalances"
+                            },
+                            "expression": null,
+                            "visibility": "private",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null
+                        }
+                    ],
+                    "initialValue": null
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "transfer",
+                    "parameters": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "address",
+                                "stateMutability": null
+                            },
+                            "name": "to",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "to"
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null
+                        },
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint256",
+                                "stateMutability": null
+                            },
+                            "name": "amount",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "amount"
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null
+                        }
+                    ],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "IfStatement",
+                                "condition": {
+                                    "type": "BinaryOperation",
+                                    "operator": ">=",
+                                    "left": {
+                                        "type": "IndexAccess",
+                                        "base": {
+                                            "type": "Identifier",
+                                            "name": "userBalances"
+                                        },
+                                        "index": {
+                                            "type": "MemberAccess",
+                                            "expression": {
+                                                "type": "Identifier",
+                                                "name": "msg"
+                                            },
+                                            "memberName": "sender"
+                                        }
+                                    },
+                                    "right": {
+                                        "type": "Identifier",
+                                        "name": "amount"
+                                    }
+                                },
+                                "trueBody": {
+                                    "type": "Block",
+                                    "statements": [
+                                        {
+                                            "type": "ExpressionStatement",
+                                            "expression": {
+                                                "type": "BinaryOperation",
+                                                "operator": "+=",
+                                                "left": {
+                                                    "type": "IndexAccess",
+                                                    "base": {
+                                                        "type": "Identifier",
+                                                        "name": "userBalances"
+                                                    },
+                                                    "index": {
+                                                        "type": "Identifier",
+                                                        "name": "to"
+                                                    }
+                                                },
+                                                "right": {
+                                                    "type": "Identifier",
+                                                    "name": "amount"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "ExpressionStatement",
+                                            "expression": {
+                                                "type": "BinaryOperation",
+                                                "operator": "-=",
+                                                "left": {
+                                                    "type": "IndexAccess",
+                                                    "base": {
+                                                        "type": "Identifier",
+                                                        "name": "userBalances"
+                                                    },
+                                                    "index": {
+                                                        "type": "MemberAccess",
+                                                        "expression": {
+                                                            "type": "Identifier",
+                                                            "name": "msg"
+                                                        },
+                                                        "memberName": "sender"
+                                                    }
+                                                },
+                                                "right": {
+                                                    "type": "Identifier",
+                                                    "name": "amount"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                "falseBody": null
+                            }
+                        ]
+                    },
+                    "visibility": "default",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "withdrawBalance",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "VariableDeclarationStatement",
+                                "variables": [
+                                    {
+                                        "type": "VariableDeclaration",
+                                        "typeName": {
+                                            "type": "ElementaryTypeName",
+                                            "name": "uint256",
+                                            "stateMutability": null
+                                        },
+                                        "name": "amountToWithdraw",
+                                        "identifier": {
+                                            "type": "Identifier",
+                                            "name": "amountToWithdraw"
+                                        },
+                                        "storageLocation": null,
+                                        "isStateVar": false,
+                                        "isIndexed": false,
+                                        "expression": null
+                                    }
+                                ],
+                                "initialValue": {
+                                    "type": "IndexAccess",
+                                    "base": {
+                                        "type": "Identifier",
+                                        "name": "userBalances"
+                                    },
+                                    "index": {
+                                        "type": "MemberAccess",
+                                        "expression": {
+                                            "type": "Identifier",
+                                            "name": "msg"
+                                        },
+                                        "memberName": "sender"
+                                    }
+                                }
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "require"
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "FunctionCall",
+                                            "expression": {
+                                                "type": "FunctionCall",
+                                                "expression": {
+                                                    "type": "MemberAccess",
+                                                    "expression": {
+                                                        "type": "MemberAccess",
+                                                        "expression": {
+                                                            "type": "MemberAccess",
+                                                            "expression": {
+                                                                "type": "Identifier",
+                                                                "name": "msg"
+                                                            },
+                                                            "memberName": "sender"
+                                                        },
+                                                        "memberName": "call"
+                                                    },
+                                                    "memberName": "value"
+                                                },
+                                                "arguments": [
+                                                    {
+                                                        "type": "Identifier",
+                                                        "name": "amountToWithdraw"
+                                                    }
+                                                ],
+                                                "names": [],
+                                                "identifiers": []
+                                            },
+                                            "arguments": [],
+                                            "names": [],
+                                            "identifiers": []
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": []
+                                }
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "BinaryOperation",
+                                    "operator": "=",
+                                    "left": {
+                                        "type": "IndexAccess",
+                                        "base": {
+                                            "type": "Identifier",
+                                            "name": "userBalances"
+                                        },
+                                        "index": {
+                                            "type": "MemberAccess",
+                                            "expression": {
+                                                "type": "Identifier",
+                                                "name": "msg"
+                                            },
+                                            "memberName": "sender"
+                                        }
+                                    },
+                                    "right": {
+                                        "type": "NumberLiteral",
+                                        "number": "0",
+                                        "subdenomination": null
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null
+                }
+            ],
+            "kind": "contract"
+        }
+    ]
+}

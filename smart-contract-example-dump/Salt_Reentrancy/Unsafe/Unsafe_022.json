@@ -1,0 +1,218 @@
+{
+    "type": "SourceUnit",
+    "children": [
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "^0.4.15"
+        },
+        {
+            "type": "ContractDefinition",
+            "name": "Victim",
+            "baseContracts": [],
+            "subNodes": [
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint",
+                                "stateMutability": null
+                            },
+                            "name": "withdrawableBalance",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "withdrawableBalance"
+                            },
+                            "expression": {
+                                "type": "NumberLiteral",
+                                "number": "2",
+                                "subdenomination": "ether"
+                            },
+                            "visibility": "default",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null
+                        }
+                    ],
+                    "initialValue": {
+                        "type": "NumberLiteral",
+                        "number": "2",
+                        "subdenomination": "ether"
+                    }
+                },
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint",
+                                "stateMutability": null
+                            },
+                            "name": "a",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "a"
+                            },
+                            "expression": {
+                                "type": "NumberLiteral",
+                                "number": "3",
+                                "subdenomination": "ether"
+                            },
+                            "visibility": "default",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null
+                        }
+                    ],
+                    "initialValue": {
+                        "type": "NumberLiteral",
+                        "number": "3",
+                        "subdenomination": "ether"
+                    }
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "withdraw",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "IfStatement",
+                                "condition": {
+                                    "type": "UnaryOperation",
+                                    "operator": "!",
+                                    "subExpression": {
+                                        "type": "FunctionCall",
+                                        "expression": {
+                                            "type": "FunctionCall",
+                                            "expression": {
+                                                "type": "MemberAccess",
+                                                "expression": {
+                                                    "type": "MemberAccess",
+                                                    "expression": {
+                                                        "type": "MemberAccess",
+                                                        "expression": {
+                                                            "type": "Identifier",
+                                                            "name": "msg"
+                                                        },
+                                                        "memberName": "sender"
+                                                    },
+                                                    "memberName": "call"
+                                                },
+                                                "memberName": "value"
+                                            },
+                                            "arguments": [
+                                                {
+                                                    "type": "Identifier",
+                                                    "name": "a"
+                                                }
+                                            ],
+                                            "names": [],
+                                            "identifiers": []
+                                        },
+                                        "arguments": [],
+                                        "names": [],
+                                        "identifiers": []
+                                    },
+                                    "isPrefix": true
+                                },
+                                "trueBody": {
+                                    "type": "Block",
+                                    "statements": [
+                                        {
+                                            "type": "ThrowStatement"
+                                        }
+                                    ]
+                                },
+                                "falseBody": null
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "BinaryOperation",
+                                    "operator": "=",
+                                    "left": {
+                                        "type": "Identifier",
+                                        "name": "withdrawableBalance"
+                                    },
+                                    "right": {
+                                        "type": "BinaryOperation",
+                                        "operator": "-",
+                                        "left": {
+                                            "type": "Identifier",
+                                            "name": "withdrawableBalance"
+                                        },
+                                        "right": {
+                                            "type": "Identifier",
+                                            "name": "a"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "visibility": "default",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "deposit",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "BinaryOperation",
+                                    "operator": "=",
+                                    "left": {
+                                        "type": "Identifier",
+                                        "name": "withdrawableBalance"
+                                    },
+                                    "right": {
+                                        "type": "MemberAccess",
+                                        "expression": {
+                                            "type": "Identifier",
+                                            "name": "msg"
+                                        },
+                                        "memberName": "value"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "visibility": "default",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": "payable"
+                }
+            ],
+            "kind": "contract"
+        }
+    ]
+}

@@ -1,0 +1,455 @@
+{
+    "type": "SourceUnit",
+    "children": [
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "^0.5.0"
+        },
+        {
+            "type": "ContractDefinition",
+            "name": "ModifierEntrancy",
+            "baseContracts": [],
+            "subNodes": [
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "Mapping",
+                                "keyType": {
+                                    "type": "ElementaryTypeName",
+                                    "name": "address",
+                                    "stateMutability": null
+                                },
+                                "valueType": {
+                                    "type": "ElementaryTypeName",
+                                    "name": "uint",
+                                    "stateMutability": null
+                                }
+                            },
+                            "name": "tokenBalance",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "tokenBalance"
+                            },
+                            "expression": null,
+                            "visibility": "public",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null
+                        }
+                    ],
+                    "initialValue": null
+                },
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "string",
+                                "stateMutability": null
+                            },
+                            "name": "name",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "name"
+                            },
+                            "expression": {
+                                "type": "StringLiteral",
+                                "value": "Nu Token",
+                                "parts": [
+                                    "Nu Token"
+                                ],
+                                "isUnicode": [
+                                    false
+                                ]
+                            },
+                            "visibility": "default",
+                            "isStateVar": true,
+                            "isDeclaredConst": true,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null
+                        }
+                    ],
+                    "initialValue": {
+                        "type": "StringLiteral",
+                        "value": "Nu Token",
+                        "parts": [
+                            "Nu Token"
+                        ],
+                        "isUnicode": [
+                            false
+                        ]
+                    }
+                },
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "UserDefinedTypeName",
+                                "namePath": "Bank"
+                            },
+                            "name": "bank",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "bank"
+                            },
+                            "expression": null,
+                            "visibility": "default",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null
+                        }
+                    ],
+                    "initialValue": null
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": null,
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "BinaryOperation",
+                                    "operator": "=",
+                                    "left": {
+                                        "type": "Identifier",
+                                        "name": "bank"
+                                    },
+                                    "right": {
+                                        "type": "FunctionCall",
+                                        "expression": {
+                                            "type": "NewExpression",
+                                            "typeName": {
+                                                "type": "UserDefinedTypeName",
+                                                "namePath": "Bank"
+                                            }
+                                        },
+                                        "arguments": [],
+                                        "names": [],
+                                        "identifiers": []
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": true,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "airDrop",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "BinaryOperation",
+                                    "operator": "+=",
+                                    "left": {
+                                        "type": "IndexAccess",
+                                        "base": {
+                                            "type": "Identifier",
+                                            "name": "tokenBalance"
+                                        },
+                                        "index": {
+                                            "type": "MemberAccess",
+                                            "expression": {
+                                                "type": "Identifier",
+                                                "name": "msg"
+                                            },
+                                            "memberName": "sender"
+                                        }
+                                    },
+                                    "right": {
+                                        "type": "NumberLiteral",
+                                        "number": "20",
+                                        "subdenomination": null
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [
+                        {
+                            "type": "ModifierInvocation",
+                            "name": "supportsToken",
+                            "arguments": null
+                        },
+                        {
+                            "type": "ModifierInvocation",
+                            "name": "hasNoBalance",
+                            "arguments": null
+                        }
+                    ],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null
+                },
+                {
+                    "type": "ModifierDefinition",
+                    "name": "supportsToken",
+                    "parameters": [],
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "require"
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "BinaryOperation",
+                                            "operator": "==",
+                                            "left": {
+                                                "type": "FunctionCall",
+                                                "expression": {
+                                                    "type": "Identifier",
+                                                    "name": "keccak256"
+                                                },
+                                                "arguments": [
+                                                    {
+                                                        "type": "FunctionCall",
+                                                        "expression": {
+                                                            "type": "MemberAccess",
+                                                            "expression": {
+                                                                "type": "Identifier",
+                                                                "name": "abi"
+                                                            },
+                                                            "memberName": "encodePacked"
+                                                        },
+                                                        "arguments": [
+                                                            {
+                                                                "type": "StringLiteral",
+                                                                "value": "Nu Token",
+                                                                "parts": [
+                                                                    "Nu Token"
+                                                                ],
+                                                                "isUnicode": [
+                                                                    false
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "names": [],
+                                                        "identifiers": []
+                                                    }
+                                                ],
+                                                "names": [],
+                                                "identifiers": []
+                                            },
+                                            "right": {
+                                                "type": "FunctionCall",
+                                                "expression": {
+                                                    "type": "MemberAccess",
+                                                    "expression": {
+                                                        "type": "Identifier",
+                                                        "name": "bank"
+                                                    },
+                                                    "memberName": "supportsToken"
+                                                },
+                                                "arguments": [],
+                                                "names": [],
+                                                "identifiers": []
+                                            }
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": []
+                                }
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "Identifier",
+                                    "name": "_"
+                                }
+                            }
+                        ]
+                    },
+                    "isVirtual": false,
+                    "override": null
+                },
+                {
+                    "type": "ModifierDefinition",
+                    "name": "hasNoBalance",
+                    "parameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "require"
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "BinaryOperation",
+                                            "operator": "==",
+                                            "left": {
+                                                "type": "IndexAccess",
+                                                "base": {
+                                                    "type": "Identifier",
+                                                    "name": "tokenBalance"
+                                                },
+                                                "index": {
+                                                    "type": "MemberAccess",
+                                                    "expression": {
+                                                        "type": "Identifier",
+                                                        "name": "msg"
+                                                    },
+                                                    "memberName": "sender"
+                                                }
+                                            },
+                                            "right": {
+                                                "type": "NumberLiteral",
+                                                "number": "0",
+                                                "subdenomination": null
+                                            }
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": []
+                                }
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "Identifier",
+                                    "name": "_"
+                                }
+                            }
+                        ]
+                    },
+                    "isVirtual": false,
+                    "override": null
+                }
+            ],
+            "kind": "contract"
+        },
+        {
+            "type": "ContractDefinition",
+            "name": "Bank",
+            "baseContracts": [],
+            "subNodes": [
+                {
+                    "type": "FunctionDefinition",
+                    "name": "supportsToken",
+                    "parameters": [],
+                    "returnParameters": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "bytes32",
+                                "stateMutability": null
+                            },
+                            "name": null,
+                            "identifier": null,
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null
+                        }
+                    ],
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ReturnStatement",
+                                "expression": {
+                                    "type": "TupleExpression",
+                                    "components": [
+                                        {
+                                            "type": "FunctionCall",
+                                            "expression": {
+                                                "type": "Identifier",
+                                                "name": "keccak256"
+                                            },
+                                            "arguments": [
+                                                {
+                                                    "type": "FunctionCall",
+                                                    "expression": {
+                                                        "type": "MemberAccess",
+                                                        "expression": {
+                                                            "type": "Identifier",
+                                                            "name": "abi"
+                                                        },
+                                                        "memberName": "encodePacked"
+                                                    },
+                                                    "arguments": [
+                                                        {
+                                                            "type": "StringLiteral",
+                                                            "value": "Nu Token",
+                                                            "parts": [
+                                                                "Nu Token"
+                                                            ],
+                                                            "isUnicode": [
+                                                                false
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "names": [],
+                                                    "identifiers": []
+                                                }
+                                            ],
+                                            "names": [],
+                                            "identifiers": []
+                                        }
+                                    ],
+                                    "isArray": false
+                                }
+                            }
+                        ]
+                    },
+                    "visibility": "external",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null
+                }
+            ],
+            "kind": "contract"
+        }
+    ]
+}

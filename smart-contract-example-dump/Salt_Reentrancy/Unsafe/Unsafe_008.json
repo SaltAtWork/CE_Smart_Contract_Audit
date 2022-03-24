@@ -1,0 +1,343 @@
+{
+    "type": "SourceUnit",
+    "children": [
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "^0.4.22"
+        },
+        {
+            "type": "ContractDefinition",
+            "name": "FairDareWithdraw",
+            "baseContracts": [],
+            "subNodes": [
+                {
+                    "type": "FunctionDefinition",
+                    "name": "withdraw",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "require"
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "BinaryOperation",
+                                            "operator": "==",
+                                            "left": {
+                                                "type": "MemberAccess",
+                                                "expression": {
+                                                    "type": "Identifier",
+                                                    "name": "tx"
+                                                },
+                                                "memberName": "origin"
+                                            },
+                                            "right": {
+                                                "type": "MemberAccess",
+                                                "expression": {
+                                                    "type": "Identifier",
+                                                    "name": "msg"
+                                                },
+                                                "memberName": "sender"
+                                            }
+                                        },
+                                        {
+                                            "type": "StringLiteral",
+                                            "value": "",
+                                            "parts": [
+                                                ""
+                                            ],
+                                            "isUnicode": [
+                                                false
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": []
+                                }
+                            },
+                            {
+                                "type": "VariableDeclarationStatement",
+                                "variables": [
+                                    {
+                                        "type": "VariableDeclaration",
+                                        "typeName": {
+                                            "type": "ElementaryTypeName",
+                                            "name": "uint",
+                                            "stateMutability": null
+                                        },
+                                        "name": "blocksPast",
+                                        "identifier": {
+                                            "type": "Identifier",
+                                            "name": "blocksPast"
+                                        },
+                                        "storageLocation": null,
+                                        "isStateVar": false,
+                                        "isIndexed": false,
+                                        "expression": null
+                                    }
+                                ],
+                                "initialValue": {
+                                    "type": "BinaryOperation",
+                                    "operator": "-",
+                                    "left": {
+                                        "type": "MemberAccess",
+                                        "expression": {
+                                            "type": "Identifier",
+                                            "name": "block"
+                                        },
+                                        "memberName": "number"
+                                    },
+                                    "right": {
+                                        "type": "IndexAccess",
+                                        "base": {
+                                            "type": "Identifier",
+                                            "name": "depositBlock"
+                                        },
+                                        "index": {
+                                            "type": "MemberAccess",
+                                            "expression": {
+                                                "type": "Identifier",
+                                                "name": "msg"
+                                            },
+                                            "memberName": "sender"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "IfStatement",
+                                "condition": {
+                                    "type": "BinaryOperation",
+                                    "operator": "<=",
+                                    "left": {
+                                        "type": "Identifier",
+                                        "name": "blocksPast"
+                                    },
+                                    "right": {
+                                        "type": "NumberLiteral",
+                                        "number": "100",
+                                        "subdenomination": null
+                                    }
+                                },
+                                "trueBody": {
+                                    "type": "Block",
+                                    "statements": [
+                                        {
+                                            "type": "VariableDeclarationStatement",
+                                            "variables": [
+                                                {
+                                                    "type": "VariableDeclaration",
+                                                    "typeName": {
+                                                        "type": "ElementaryTypeName",
+                                                        "name": "uint",
+                                                        "stateMutability": null
+                                                    },
+                                                    "name": "amountToWithdraw",
+                                                    "identifier": {
+                                                        "type": "Identifier",
+                                                        "name": "amountToWithdraw"
+                                                    },
+                                                    "storageLocation": null,
+                                                    "isStateVar": false,
+                                                    "isIndexed": false,
+                                                    "expression": null
+                                                }
+                                            ],
+                                            "initialValue": {
+                                                "type": "BinaryOperation",
+                                                "operator": "/",
+                                                "left": {
+                                                    "type": "BinaryOperation",
+                                                    "operator": "*",
+                                                    "left": {
+                                                        "type": "IndexAccess",
+                                                        "base": {
+                                                            "type": "Identifier",
+                                                            "name": "depositAmount"
+                                                        },
+                                                        "index": {
+                                                            "type": "MemberAccess",
+                                                            "expression": {
+                                                                "type": "Identifier",
+                                                                "name": "msg"
+                                                            },
+                                                            "memberName": "sender"
+                                                        }
+                                                    },
+                                                    "right": {
+                                                        "type": "TupleExpression",
+                                                        "components": [
+                                                            {
+                                                                "type": "BinaryOperation",
+                                                                "operator": "+",
+                                                                "left": {
+                                                                    "type": "NumberLiteral",
+                                                                    "number": "100",
+                                                                    "subdenomination": null
+                                                                },
+                                                                "right": {
+                                                                    "type": "Identifier",
+                                                                    "name": "blocksPast"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "isArray": false
+                                                    }
+                                                },
+                                                "right": {
+                                                    "type": "NumberLiteral",
+                                                    "number": "100",
+                                                    "subdenomination": null
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "IfStatement",
+                                            "condition": {
+                                                "type": "BinaryOperation",
+                                                "operator": "&&",
+                                                "left": {
+                                                    "type": "TupleExpression",
+                                                    "components": [
+                                                        {
+                                                            "type": "BinaryOperation",
+                                                            "operator": ">",
+                                                            "left": {
+                                                                "type": "Identifier",
+                                                                "name": "amountToWithdraw"
+                                                            },
+                                                            "right": {
+                                                                "type": "NumberLiteral",
+                                                                "number": "0",
+                                                                "subdenomination": null
+                                                            }
+                                                        }
+                                                    ],
+                                                    "isArray": false
+                                                },
+                                                "right": {
+                                                    "type": "TupleExpression",
+                                                    "components": [
+                                                        {
+                                                            "type": "BinaryOperation",
+                                                            "operator": "<=",
+                                                            "left": {
+                                                                "type": "Identifier",
+                                                                "name": "amountToWithdraw"
+                                                            },
+                                                            "right": {
+                                                                "type": "MemberAccess",
+                                                                "expression": {
+                                                                    "type": "FunctionCall",
+                                                                    "expression": {
+                                                                        "type": "TypeNameExpression",
+                                                                        "typeName": {
+                                                                            "type": "ElementaryTypeName",
+                                                                            "name": "address",
+                                                                            "stateMutability": null
+                                                                        }
+                                                                    },
+                                                                    "arguments": [
+                                                                        {
+                                                                            "type": "Identifier",
+                                                                            "name": "this"
+                                                                        }
+                                                                    ],
+                                                                    "names": [],
+                                                                    "identifiers": []
+                                                                },
+                                                                "memberName": "balance"
+                                                            }
+                                                        }
+                                                    ],
+                                                    "isArray": false
+                                                }
+                                            },
+                                            "trueBody": {
+                                                "type": "Block",
+                                                "statements": [
+                                                    {
+                                                        "type": "ExpressionStatement",
+                                                        "expression": {
+                                                            "type": "FunctionCall",
+                                                            "expression": {
+                                                                "type": "MemberAccess",
+                                                                "expression": {
+                                                                    "type": "MemberAccess",
+                                                                    "expression": {
+                                                                        "type": "Identifier",
+                                                                        "name": "msg"
+                                                                    },
+                                                                    "memberName": "sender"
+                                                                },
+                                                                "memberName": "transfer"
+                                                            },
+                                                            "arguments": [
+                                                                {
+                                                                    "type": "Identifier",
+                                                                    "name": "amountToWithdraw"
+                                                                }
+                                                            ],
+                                                            "names": [],
+                                                            "identifiers": []
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "ExpressionStatement",
+                                                        "expression": {
+                                                            "type": "BinaryOperation",
+                                                            "operator": "=",
+                                                            "left": {
+                                                                "type": "IndexAccess",
+                                                                "base": {
+                                                                    "type": "Identifier",
+                                                                    "name": "depositAmount"
+                                                                },
+                                                                "index": {
+                                                                    "type": "MemberAccess",
+                                                                    "expression": {
+                                                                        "type": "Identifier",
+                                                                        "name": "msg"
+                                                                    },
+                                                                    "memberName": "sender"
+                                                                }
+                                                            },
+                                                            "right": {
+                                                                "type": "NumberLiteral",
+                                                                "number": "0",
+                                                                "subdenomination": null
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "falseBody": null
+                                        }
+                                    ]
+                                },
+                                "falseBody": null
+                            }
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null
+                }
+            ],
+            "kind": "contract"
+        }
+    ]
+}

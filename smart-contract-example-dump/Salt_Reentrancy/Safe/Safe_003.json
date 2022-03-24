@@ -1,0 +1,501 @@
+{
+    "type": "SourceUnit",
+    "children": [
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "^0.4.24"
+        },
+        {
+            "type": "ContractDefinition",
+            "name": "reentrancy",
+            "baseContracts": [],
+            "subNodes": [
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "Mapping",
+                                "keyType": {
+                                    "type": "ElementaryTypeName",
+                                    "name": "address",
+                                    "stateMutability": null
+                                },
+                                "valueType": {
+                                    "type": "ElementaryTypeName",
+                                    "name": "uint",
+                                    "stateMutability": null
+                                }
+                            },
+                            "name": "balanceOf",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "balanceOf"
+                            },
+                            "expression": null,
+                            "visibility": "public",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null
+                        }
+                    ],
+                    "initialValue": null
+                },
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint",
+                                "stateMutability": null
+                            },
+                            "name": "evenOdd",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "evenOdd"
+                            },
+                            "expression": {
+                                "type": "BinaryOperation",
+                                "operator": "%",
+                                "left": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "TypeNameExpression",
+                                        "typeName": {
+                                            "type": "ElementaryTypeName",
+                                            "name": "uint256",
+                                            "stateMutability": null
+                                        }
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "FunctionCall",
+                                            "expression": {
+                                                "type": "Identifier",
+                                                "name": "keccak256"
+                                            },
+                                            "arguments": [
+                                                {
+                                                    "type": "Identifier",
+                                                    "name": "now"
+                                                }
+                                            ],
+                                            "names": [],
+                                            "identifiers": []
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": []
+                                },
+                                "right": {
+                                    "type": "NumberLiteral",
+                                    "number": "2",
+                                    "subdenomination": null
+                                }
+                            },
+                            "visibility": "public",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null
+                        }
+                    ],
+                    "initialValue": {
+                        "type": "BinaryOperation",
+                        "operator": "%",
+                        "left": {
+                            "type": "FunctionCall",
+                            "expression": {
+                                "type": "TypeNameExpression",
+                                "typeName": {
+                                    "type": "ElementaryTypeName",
+                                    "name": "uint256",
+                                    "stateMutability": null
+                                }
+                            },
+                            "arguments": [
+                                {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "keccak256"
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "Identifier",
+                                            "name": "now"
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": []
+                                }
+                            ],
+                            "names": [],
+                            "identifiers": []
+                        },
+                        "right": {
+                            "type": "NumberLiteral",
+                            "number": "2",
+                            "subdenomination": null
+                        }
+                    }
+                },
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint",
+                                "stateMutability": null
+                            },
+                            "name": "lastPlayed",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "lastPlayed"
+                            },
+                            "expression": null,
+                            "visibility": "public",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null
+                        }
+                    ],
+                    "initialValue": null
+                },
+                {
+                    "type": "StructDefinition",
+                    "name": "GuessHistory",
+                    "members": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "address",
+                                "stateMutability": null
+                            },
+                            "name": "player",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "player"
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null
+                        },
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint256",
+                                "stateMutability": null
+                            },
+                            "name": "number",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "number"
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null
+                        }
+                    ]
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "withdrawBalance",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "VariableDeclarationStatement",
+                                "variables": [
+                                    {
+                                        "type": "VariableDeclaration",
+                                        "typeName": {
+                                            "type": "UserDefinedTypeName",
+                                            "namePath": "GuessHistory"
+                                        },
+                                        "name": "guessHistory",
+                                        "identifier": {
+                                            "type": "Identifier",
+                                            "name": "guessHistory"
+                                        },
+                                        "storageLocation": null,
+                                        "isStateVar": false,
+                                        "isIndexed": false,
+                                        "expression": null
+                                    }
+                                ],
+                                "initialValue": null
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "BinaryOperation",
+                                    "operator": "=",
+                                    "left": {
+                                        "type": "MemberAccess",
+                                        "expression": {
+                                            "type": "Identifier",
+                                            "name": "guessHistory"
+                                        },
+                                        "memberName": "player"
+                                    },
+                                    "right": {
+                                        "type": "MemberAccess",
+                                        "expression": {
+                                            "type": "Identifier",
+                                            "name": "msg"
+                                        },
+                                        "memberName": "sender"
+                                    }
+                                }
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "BinaryOperation",
+                                    "operator": "=",
+                                    "left": {
+                                        "type": "MemberAccess",
+                                        "expression": {
+                                            "type": "Identifier",
+                                            "name": "guessHistory"
+                                        },
+                                        "memberName": "number"
+                                    },
+                                    "right": {
+                                        "type": "NumberLiteral",
+                                        "number": "6",
+                                        "subdenomination": null
+                                    }
+                                }
+                            },
+                            {
+                                "type": "IfStatement",
+                                "condition": {
+                                    "type": "BinaryOperation",
+                                    "operator": "==",
+                                    "left": {
+                                        "type": "Identifier",
+                                        "name": "evenOdd"
+                                    },
+                                    "right": {
+                                        "type": "NumberLiteral",
+                                        "number": "0",
+                                        "subdenomination": null
+                                    }
+                                },
+                                "trueBody": {
+                                    "type": "Block",
+                                    "statements": [
+                                        {
+                                            "type": "VariableDeclarationStatement",
+                                            "variables": [
+                                                {
+                                                    "type": "VariableDeclaration",
+                                                    "typeName": {
+                                                        "type": "ElementaryTypeName",
+                                                        "name": "uint",
+                                                        "stateMutability": null
+                                                    },
+                                                    "name": "amountToWithdraw",
+                                                    "identifier": {
+                                                        "type": "Identifier",
+                                                        "name": "amountToWithdraw"
+                                                    },
+                                                    "storageLocation": null,
+                                                    "isStateVar": false,
+                                                    "isIndexed": false,
+                                                    "expression": null
+                                                }
+                                            ],
+                                            "initialValue": {
+                                                "type": "FunctionCall",
+                                                "expression": {
+                                                    "type": "Identifier",
+                                                    "name": "userBalances"
+                                                },
+                                                "arguments": [
+                                                    {
+                                                        "type": "MemberAccess",
+                                                        "expression": {
+                                                            "type": "Identifier",
+                                                            "name": "msg"
+                                                        },
+                                                        "memberName": "sender"
+                                                    }
+                                                ],
+                                                "names": [],
+                                                "identifiers": []
+                                            }
+                                        },
+                                        {
+                                            "type": "VariableDeclarationStatement",
+                                            "variables": [
+                                                {
+                                                    "type": "VariableDeclaration",
+                                                    "name": "success",
+                                                    "identifier": {
+                                                        "type": "Identifier",
+                                                        "name": "success"
+                                                    },
+                                                    "typeName": {
+                                                        "type": "ElementaryTypeName",
+                                                        "name": "bool",
+                                                        "stateMutability": null
+                                                    },
+                                                    "storageLocation": null,
+                                                    "isStateVar": false,
+                                                    "isIndexed": false,
+                                                    "expression": null
+                                                },
+                                                null
+                                            ],
+                                            "initialValue": {
+                                                "type": "FunctionCall",
+                                                "expression": {
+                                                    "type": "FunctionCall",
+                                                    "expression": {
+                                                        "type": "MemberAccess",
+                                                        "expression": {
+                                                            "type": "MemberAccess",
+                                                            "expression": {
+                                                                "type": "MemberAccess",
+                                                                "expression": {
+                                                                    "type": "Identifier",
+                                                                    "name": "msg"
+                                                                },
+                                                                "memberName": "sender"
+                                                            },
+                                                            "memberName": "call"
+                                                        },
+                                                        "memberName": "value"
+                                                    },
+                                                    "arguments": [
+                                                        {
+                                                            "type": "Identifier",
+                                                            "name": "amountToWithdraw"
+                                                        }
+                                                    ],
+                                                    "names": [],
+                                                    "identifiers": []
+                                                },
+                                                "arguments": [
+                                                    {
+                                                        "type": "StringLiteral",
+                                                        "value": "",
+                                                        "parts": [
+                                                            ""
+                                                        ],
+                                                        "isUnicode": [
+                                                            false
+                                                        ]
+                                                    }
+                                                ],
+                                                "names": [],
+                                                "identifiers": []
+                                            }
+                                        },
+                                        {
+                                            "type": "ExpressionStatement",
+                                            "expression": {
+                                                "type": "FunctionCall",
+                                                "expression": {
+                                                    "type": "Identifier",
+                                                    "name": "require"
+                                                },
+                                                "arguments": [
+                                                    {
+                                                        "type": "Identifier",
+                                                        "name": "success"
+                                                    }
+                                                ],
+                                                "names": [],
+                                                "identifiers": []
+                                            }
+                                        },
+                                        {
+                                            "type": "ExpressionStatement",
+                                            "expression": {
+                                                "type": "BinaryOperation",
+                                                "operator": "=",
+                                                "left": {
+                                                    "type": "FunctionCall",
+                                                    "expression": {
+                                                        "type": "Identifier",
+                                                        "name": "userBalances"
+                                                    },
+                                                    "arguments": [
+                                                        {
+                                                            "type": "MemberAccess",
+                                                            "expression": {
+                                                                "type": "Identifier",
+                                                                "name": "msg"
+                                                            },
+                                                            "memberName": "sender"
+                                                        }
+                                                    ],
+                                                    "names": [],
+                                                    "identifiers": []
+                                                },
+                                                "right": {
+                                                    "type": "NumberLiteral",
+                                                    "number": "0",
+                                                    "subdenomination": null
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "ExpressionStatement",
+                                            "expression": {
+                                                "type": "BinaryOperation",
+                                                "operator": "=",
+                                                "left": {
+                                                    "type": "Identifier",
+                                                    "name": "lastPlayed"
+                                                },
+                                                "right": {
+                                                    "type": "Identifier",
+                                                    "name": "now"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                "falseBody": null
+                            }
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null
+                }
+            ],
+            "kind": "contract"
+        }
+    ]
+}

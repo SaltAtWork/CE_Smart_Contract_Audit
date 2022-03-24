@@ -1,0 +1,383 @@
+{
+    "type": "SourceUnit",
+    "children": [
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "^0.8.0"
+        },
+        {
+            "type": "ContractDefinition",
+            "name": "Deposit",
+            "baseContracts": [],
+            "subNodes": [
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "Mapping",
+                                "keyType": {
+                                    "type": "ElementaryTypeName",
+                                    "name": "address",
+                                    "stateMutability": null
+                                },
+                                "valueType": {
+                                    "type": "ElementaryTypeName",
+                                    "name": "uint",
+                                    "stateMutability": null
+                                }
+                            },
+                            "name": "userBalances",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "userBalances"
+                            },
+                            "expression": null,
+                            "visibility": "public",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null
+                        }
+                    ],
+                    "initialValue": null
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "depositEth",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "BinaryOperation",
+                                    "operator": "+=",
+                                    "left": {
+                                        "type": "IndexAccess",
+                                        "base": {
+                                            "type": "Identifier",
+                                            "name": "userBalances"
+                                        },
+                                        "index": {
+                                            "type": "MemberAccess",
+                                            "expression": {
+                                                "type": "Identifier",
+                                                "name": "msg"
+                                            },
+                                            "memberName": "sender"
+                                        }
+                                    },
+                                    "right": {
+                                        "type": "MemberAccess",
+                                        "expression": {
+                                            "type": "Identifier",
+                                            "name": "msg"
+                                        },
+                                        "memberName": "value"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": "payable"
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "withdrawEth",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "VariableDeclarationStatement",
+                                "variables": [
+                                    {
+                                        "type": "VariableDeclaration",
+                                        "typeName": {
+                                            "type": "ElementaryTypeName",
+                                            "name": "uint",
+                                            "stateMutability": null
+                                        },
+                                        "name": "balance",
+                                        "identifier": {
+                                            "type": "Identifier",
+                                            "name": "balance"
+                                        },
+                                        "storageLocation": null,
+                                        "isStateVar": false,
+                                        "isIndexed": false,
+                                        "expression": null
+                                    }
+                                ],
+                                "initialValue": {
+                                    "type": "IndexAccess",
+                                    "base": {
+                                        "type": "Identifier",
+                                        "name": "userBalances"
+                                    },
+                                    "index": {
+                                        "type": "MemberAccess",
+                                        "expression": {
+                                            "type": "Identifier",
+                                            "name": "msg"
+                                        },
+                                        "memberName": "sender"
+                                    }
+                                }
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "require"
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "BinaryOperation",
+                                            "operator": ">",
+                                            "left": {
+                                                "type": "Identifier",
+                                                "name": "balance"
+                                            },
+                                            "right": {
+                                                "type": "NumberLiteral",
+                                                "number": "0",
+                                                "subdenomination": null
+                                            }
+                                        },
+                                        {
+                                            "type": "StringLiteral",
+                                            "value": "Balance can't be 0",
+                                            "parts": [
+                                                "Balance can't be 0"
+                                            ],
+                                            "isUnicode": [
+                                                false
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": []
+                                }
+                            },
+                            {
+                                "type": "VariableDeclarationStatement",
+                                "variables": [
+                                    {
+                                        "type": "VariableDeclaration",
+                                        "name": "sent",
+                                        "identifier": {
+                                            "type": "Identifier",
+                                            "name": "sent"
+                                        },
+                                        "typeName": {
+                                            "type": "ElementaryTypeName",
+                                            "name": "bool",
+                                            "stateMutability": null
+                                        },
+                                        "storageLocation": null,
+                                        "isStateVar": false,
+                                        "isIndexed": false,
+                                        "expression": null
+                                    },
+                                    null
+                                ],
+                                "initialValue": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "NameValueExpression",
+                                        "expression": {
+                                            "type": "MemberAccess",
+                                            "expression": {
+                                                "type": "MemberAccess",
+                                                "expression": {
+                                                    "type": "Identifier",
+                                                    "name": "msg"
+                                                },
+                                                "memberName": "sender"
+                                            },
+                                            "memberName": "call"
+                                        },
+                                        "arguments": {
+                                            "type": "NameValueList",
+                                            "names": [
+                                                "value"
+                                            ],
+                                            "identifiers": [
+                                                {
+                                                    "type": "Identifier",
+                                                    "name": "value"
+                                                }
+                                            ],
+                                            "arguments": [
+                                                {
+                                                    "type": "Identifier",
+                                                    "name": "balance"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "StringLiteral",
+                                            "value": "",
+                                            "parts": [
+                                                ""
+                                            ],
+                                            "isUnicode": [
+                                                false
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": []
+                                }
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "require"
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "Identifier",
+                                            "name": "sent"
+                                        },
+                                        {
+                                            "type": "StringLiteral",
+                                            "value": "Failed to send ETH",
+                                            "parts": [
+                                                "Failed to send ETH"
+                                            ],
+                                            "isUnicode": [
+                                                false
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": []
+                                }
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "BinaryOperation",
+                                    "operator": "=",
+                                    "left": {
+                                        "type": "IndexAccess",
+                                        "base": {
+                                            "type": "Identifier",
+                                            "name": "userBalances"
+                                        },
+                                        "index": {
+                                            "type": "MemberAccess",
+                                            "expression": {
+                                                "type": "Identifier",
+                                                "name": "msg"
+                                            },
+                                            "memberName": "sender"
+                                        }
+                                    },
+                                    "right": {
+                                        "type": "NumberLiteral",
+                                        "number": "0",
+                                        "subdenomination": null
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "getContractBalance",
+                    "parameters": [],
+                    "returnParameters": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint",
+                                "stateMutability": null
+                            },
+                            "name": null,
+                            "identifier": null,
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null
+                        }
+                    ],
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ReturnStatement",
+                                "expression": {
+                                    "type": "MemberAccess",
+                                    "expression": {
+                                        "type": "FunctionCall",
+                                        "expression": {
+                                            "type": "TypeNameExpression",
+                                            "typeName": {
+                                                "type": "ElementaryTypeName",
+                                                "name": "address",
+                                                "stateMutability": null
+                                            }
+                                        },
+                                        "arguments": [
+                                            {
+                                                "type": "Identifier",
+                                                "name": "this"
+                                            }
+                                        ],
+                                        "names": [],
+                                        "identifiers": []
+                                    },
+                                    "memberName": "balance"
+                                }
+                            }
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": "view"
+                }
+            ],
+            "kind": "contract"
+        }
+    ]
+}
