@@ -1,0 +1,89 @@
+{
+    "type": "SourceUnit",
+    "children": [
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "^0.4.0",
+            "range": [
+                0,
+                22
+            ]
+        },
+        {
+            "type": "ContractDefinition",
+            "name": "PragmaNotLocked",
+            "baseContracts": [],
+            "subNodes": [
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint",
+                                "stateMutability": null,
+                                "range": [
+                                    59,
+                                    62
+                                ]
+                            },
+                            "name": "x",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "x",
+                                "range": [
+                                    71,
+                                    71
+                                ]
+                            },
+                            "expression": {
+                                "type": "NumberLiteral",
+                                "number": "1",
+                                "subdenomination": null,
+                                "range": [
+                                    75,
+                                    75
+                                ]
+                            },
+                            "visibility": "public",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null,
+                            "range": [
+                                59,
+                                76
+                            ]
+                        }
+                    ],
+                    "initialValue": {
+                        "type": "NumberLiteral",
+                        "number": "1",
+                        "subdenomination": null,
+                        "range": [
+                            75,
+                            75
+                        ]
+                    },
+                    "range": [
+                        59,
+                        76
+                    ]
+                }
+            ],
+            "kind": "contract",
+            "range": [
+                27,
+                79
+            ]
+        }
+    ],
+    "range": [
+        0,
+        79
+    ]
+}

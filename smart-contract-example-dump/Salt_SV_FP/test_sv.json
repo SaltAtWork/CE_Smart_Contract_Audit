@@ -1,0 +1,1268 @@
+{
+    "type": "SourceUnit",
+    "children": [
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "0.4.24",
+            "range": [
+                0,
+                22
+            ]
+        },
+        {
+            "type": "ContractDefinition",
+            "name": "TestStorage",
+            "baseContracts": [],
+            "subNodes": [
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint",
+                                "stateMutability": null,
+                                "range": [
+                                    57,
+                                    60
+                                ]
+                            },
+                            "name": "storeduint1",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "storeduint1",
+                                "range": [
+                                    62,
+                                    72
+                                ]
+                            },
+                            "expression": {
+                                "type": "NumberLiteral",
+                                "number": "15",
+                                "subdenomination": null,
+                                "range": [
+                                    76,
+                                    77
+                                ]
+                            },
+                            "visibility": "default",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null,
+                            "range": [
+                                57,
+                                78
+                            ]
+                        }
+                    ],
+                    "initialValue": {
+                        "type": "NumberLiteral",
+                        "number": "15",
+                        "subdenomination": null,
+                        "range": [
+                            76,
+                            77
+                        ]
+                    },
+                    "range": [
+                        57,
+                        78
+                    ]
+                },
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint",
+                                "stateMutability": null,
+                                "range": [
+                                    85,
+                                    88
+                                ]
+                            },
+                            "name": "constuint",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "constuint",
+                                "range": [
+                                    99,
+                                    107
+                                ]
+                            },
+                            "expression": {
+                                "type": "NumberLiteral",
+                                "number": "16",
+                                "subdenomination": null,
+                                "range": [
+                                    111,
+                                    112
+                                ]
+                            },
+                            "visibility": "default",
+                            "isStateVar": true,
+                            "isDeclaredConst": true,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null,
+                            "range": [
+                                85,
+                                113
+                            ]
+                        }
+                    ],
+                    "initialValue": {
+                        "type": "NumberLiteral",
+                        "number": "16",
+                        "subdenomination": null,
+                        "range": [
+                            111,
+                            112
+                        ]
+                    },
+                    "range": [
+                        85,
+                        113
+                    ]
+                },
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint32",
+                                "stateMutability": null,
+                                "range": [
+                                    120,
+                                    125
+                                ]
+                            },
+                            "name": "investmentsDeadlineTimeStamp",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "investmentsDeadlineTimeStamp",
+                                "range": [
+                                    127,
+                                    154
+                                ]
+                            },
+                            "expression": {
+                                "type": "FunctionCall",
+                                "expression": {
+                                    "type": "TypeNameExpression",
+                                    "typeName": {
+                                        "type": "ElementaryTypeName",
+                                        "name": "uint32",
+                                        "stateMutability": null,
+                                        "range": [
+                                            158,
+                                            163
+                                        ]
+                                    },
+                                    "range": [
+                                        158,
+                                        163
+                                    ]
+                                },
+                                "arguments": [
+                                    {
+                                        "type": "Identifier",
+                                        "name": "now",
+                                        "range": [
+                                            165,
+                                            167
+                                        ]
+                                    }
+                                ],
+                                "names": [],
+                                "identifiers": [],
+                                "range": [
+                                    158,
+                                    168
+                                ]
+                            },
+                            "visibility": "default",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null,
+                            "range": [
+                                120,
+                                169
+                            ]
+                        }
+                    ],
+                    "initialValue": {
+                        "type": "FunctionCall",
+                        "expression": {
+                            "type": "TypeNameExpression",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint32",
+                                "stateMutability": null,
+                                "range": [
+                                    158,
+                                    163
+                                ]
+                            },
+                            "range": [
+                                158,
+                                163
+                            ]
+                        },
+                        "arguments": [
+                            {
+                                "type": "Identifier",
+                                "name": "now",
+                                "range": [
+                                    165,
+                                    167
+                                ]
+                            }
+                        ],
+                        "names": [],
+                        "identifiers": [],
+                        "range": [
+                            158,
+                            168
+                        ]
+                    },
+                    "range": [
+                        120,
+                        169
+                    ]
+                },
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "bytes16",
+                                "stateMutability": null,
+                                "range": [
+                                    179,
+                                    185
+                                ]
+                            },
+                            "name": "string1",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "string1",
+                                "range": [
+                                    187,
+                                    193
+                                ]
+                            },
+                            "expression": {
+                                "type": "StringLiteral",
+                                "value": "test1",
+                                "parts": [
+                                    "test1"
+                                ],
+                                "isUnicode": [
+                                    false
+                                ],
+                                "range": [
+                                    197,
+                                    203
+                                ]
+                            },
+                            "visibility": "default",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null,
+                            "range": [
+                                179,
+                                204
+                            ]
+                        }
+                    ],
+                    "initialValue": {
+                        "type": "StringLiteral",
+                        "value": "test1",
+                        "parts": [
+                            "test1"
+                        ],
+                        "isUnicode": [
+                            false
+                        ],
+                        "range": [
+                            197,
+                            203
+                        ]
+                    },
+                    "range": [
+                        179,
+                        204
+                    ]
+                },
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "bytes32",
+                                "stateMutability": null,
+                                "range": [
+                                    212,
+                                    218
+                                ]
+                            },
+                            "name": "string2",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "string2",
+                                "range": [
+                                    228,
+                                    234
+                                ]
+                            },
+                            "expression": {
+                                "type": "StringLiteral",
+                                "value": "test1236",
+                                "parts": [
+                                    "test1236"
+                                ],
+                                "isUnicode": [
+                                    false
+                                ],
+                                "range": [
+                                    238,
+                                    247
+                                ]
+                            },
+                            "visibility": "private",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null,
+                            "range": [
+                                212,
+                                248
+                            ]
+                        }
+                    ],
+                    "initialValue": {
+                        "type": "StringLiteral",
+                        "value": "test1236",
+                        "parts": [
+                            "test1236"
+                        ],
+                        "isUnicode": [
+                            false
+                        ],
+                        "range": [
+                            238,
+                            247
+                        ]
+                    },
+                    "range": [
+                        212,
+                        248
+                    ]
+                },
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "string",
+                                "stateMutability": null,
+                                "range": [
+                                    256,
+                                    261
+                                ]
+                            },
+                            "name": "string3",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "string3",
+                                "range": [
+                                    270,
+                                    276
+                                ]
+                            },
+                            "expression": {
+                                "type": "StringLiteral",
+                                "value": "lets string something",
+                                "parts": [
+                                    "lets string something"
+                                ],
+                                "isUnicode": [
+                                    false
+                                ],
+                                "range": [
+                                    280,
+                                    302
+                                ]
+                            },
+                            "visibility": "public",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null,
+                            "range": [
+                                256,
+                                303
+                            ]
+                        }
+                    ],
+                    "initialValue": {
+                        "type": "StringLiteral",
+                        "value": "lets string something",
+                        "parts": [
+                            "lets string something"
+                        ],
+                        "isUnicode": [
+                            false
+                        ],
+                        "range": [
+                            280,
+                            302
+                        ]
+                    },
+                    "range": [
+                        256,
+                        303
+                    ]
+                },
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "Mapping",
+                                "keyType": {
+                                    "type": "ElementaryTypeName",
+                                    "name": "address",
+                                    "stateMutability": null,
+                                    "range": [
+                                        322,
+                                        328
+                                    ]
+                                },
+                                "valueType": {
+                                    "type": "ElementaryTypeName",
+                                    "name": "uint",
+                                    "stateMutability": null,
+                                    "range": [
+                                        333,
+                                        336
+                                    ]
+                                },
+                                "range": [
+                                    313,
+                                    337
+                                ]
+                            },
+                            "name": "uints1",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "uints1",
+                                "range": [
+                                    346,
+                                    351
+                                ]
+                            },
+                            "expression": null,
+                            "visibility": "public",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null,
+                            "range": [
+                                313,
+                                352
+                            ]
+                        }
+                    ],
+                    "initialValue": null,
+                    "range": [
+                        313,
+                        352
+                    ]
+                },
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "Mapping",
+                                "keyType": {
+                                    "type": "ElementaryTypeName",
+                                    "name": "address",
+                                    "stateMutability": null,
+                                    "range": [
+                                        369,
+                                        375
+                                    ]
+                                },
+                                "valueType": {
+                                    "type": "UserDefinedTypeName",
+                                    "namePath": "DeviceData",
+                                    "range": [
+                                        380,
+                                        389
+                                    ]
+                                },
+                                "range": [
+                                    360,
+                                    390
+                                ]
+                            },
+                            "name": "structs1",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "structs1",
+                                "range": [
+                                    392,
+                                    399
+                                ]
+                            },
+                            "expression": null,
+                            "visibility": "default",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null,
+                            "range": [
+                                360,
+                                400
+                            ]
+                        }
+                    ],
+                    "initialValue": null,
+                    "range": [
+                        360,
+                        400
+                    ]
+                },
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ArrayTypeName",
+                                "baseTypeName": {
+                                    "type": "ElementaryTypeName",
+                                    "name": "uint",
+                                    "stateMutability": null,
+                                    "range": [
+                                        410,
+                                        413
+                                    ]
+                                },
+                                "length": null,
+                                "range": [
+                                    410,
+                                    415
+                                ]
+                            },
+                            "name": "uintarray",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "uintarray",
+                                "range": [
+                                    417,
+                                    425
+                                ]
+                            },
+                            "expression": null,
+                            "visibility": "default",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null,
+                            "range": [
+                                410,
+                                426
+                            ]
+                        }
+                    ],
+                    "initialValue": null,
+                    "range": [
+                        410,
+                        426
+                    ]
+                },
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ArrayTypeName",
+                                "baseTypeName": {
+                                    "type": "UserDefinedTypeName",
+                                    "namePath": "DeviceData",
+                                    "range": [
+                                        434,
+                                        443
+                                    ]
+                                },
+                                "length": null,
+                                "range": [
+                                    434,
+                                    445
+                                ]
+                            },
+                            "name": "deviceDataArray",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "deviceDataArray",
+                                "range": [
+                                    447,
+                                    461
+                                ]
+                            },
+                            "expression": null,
+                            "visibility": "default",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null,
+                            "range": [
+                                434,
+                                462
+                            ]
+                        }
+                    ],
+                    "initialValue": null,
+                    "range": [
+                        434,
+                        462
+                    ]
+                },
+                {
+                    "type": "StructDefinition",
+                    "name": "DeviceData",
+                    "members": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "string",
+                                "stateMutability": null,
+                                "range": [
+                                    501,
+                                    506
+                                ]
+                            },
+                            "name": "deviceBrand",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "deviceBrand",
+                                "range": [
+                                    508,
+                                    518
+                                ]
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null,
+                            "range": [
+                                501,
+                                518
+                            ]
+                        },
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "string",
+                                "stateMutability": null,
+                                "range": [
+                                    530,
+                                    535
+                                ]
+                            },
+                            "name": "deviceYear",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "deviceYear",
+                                "range": [
+                                    537,
+                                    546
+                                ]
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null,
+                            "range": [
+                                530,
+                                546
+                            ]
+                        },
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "string",
+                                "stateMutability": null,
+                                "range": [
+                                    558,
+                                    563
+                                ]
+                            },
+                            "name": "batteryWearLevel",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "batteryWearLevel",
+                                "range": [
+                                    565,
+                                    580
+                                ]
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null,
+                            "range": [
+                                558,
+                                580
+                            ]
+                        }
+                    ],
+                    "range": [
+                        472,
+                        588
+                    ]
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "testStorage",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "VariableDeclarationStatement",
+                                "variables": [
+                                    {
+                                        "type": "VariableDeclaration",
+                                        "typeName": {
+                                            "type": "ElementaryTypeName",
+                                            "name": "address",
+                                            "stateMutability": null,
+                                            "range": [
+                                                639,
+                                                645
+                                            ]
+                                        },
+                                        "name": "address1",
+                                        "identifier": {
+                                            "type": "Identifier",
+                                            "name": "address1",
+                                            "range": [
+                                                647,
+                                                654
+                                            ]
+                                        },
+                                        "storageLocation": null,
+                                        "isStateVar": false,
+                                        "isIndexed": false,
+                                        "expression": null,
+                                        "range": [
+                                            639,
+                                            654
+                                        ]
+                                    }
+                                ],
+                                "initialValue": {
+                                    "type": "NumberLiteral",
+                                    "number": "0xbccc714d56bc0da0fd33d96d2a87b680dd6d0df6",
+                                    "subdenomination": null,
+                                    "range": [
+                                        658,
+                                        699
+                                    ]
+                                },
+                                "range": [
+                                    639,
+                                    700
+                                ]
+                            },
+                            {
+                                "type": "VariableDeclarationStatement",
+                                "variables": [
+                                    {
+                                        "type": "VariableDeclaration",
+                                        "typeName": {
+                                            "type": "ElementaryTypeName",
+                                            "name": "address",
+                                            "stateMutability": null,
+                                            "range": [
+                                                711,
+                                                717
+                                            ]
+                                        },
+                                        "name": "address2",
+                                        "identifier": {
+                                            "type": "Identifier",
+                                            "name": "address2",
+                                            "range": [
+                                                719,
+                                                726
+                                            ]
+                                        },
+                                        "storageLocation": null,
+                                        "isStateVar": false,
+                                        "isIndexed": false,
+                                        "expression": null,
+                                        "range": [
+                                            711,
+                                            726
+                                        ]
+                                    }
+                                ],
+                                "initialValue": {
+                                    "type": "NumberLiteral",
+                                    "number": "0xaee905fdd3ed851e48d22059575b9f4245a82b04",
+                                    "subdenomination": null,
+                                    "range": [
+                                        730,
+                                        771
+                                    ]
+                                },
+                                "range": [
+                                    711,
+                                    772
+                                ]
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "BinaryOperation",
+                                    "operator": "=",
+                                    "left": {
+                                        "type": "IndexAccess",
+                                        "base": {
+                                            "type": "Identifier",
+                                            "name": "uints1",
+                                            "range": [
+                                                785,
+                                                790
+                                            ]
+                                        },
+                                        "index": {
+                                            "type": "Identifier",
+                                            "name": "address1",
+                                            "range": [
+                                                792,
+                                                799
+                                            ]
+                                        },
+                                        "range": [
+                                            785,
+                                            800
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "NumberLiteral",
+                                        "number": "88",
+                                        "subdenomination": null,
+                                        "range": [
+                                            804,
+                                            805
+                                        ]
+                                    },
+                                    "range": [
+                                        785,
+                                        805
+                                    ]
+                                },
+                                "range": [
+                                    785,
+                                    806
+                                ]
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "BinaryOperation",
+                                    "operator": "=",
+                                    "left": {
+                                        "type": "IndexAccess",
+                                        "base": {
+                                            "type": "Identifier",
+                                            "name": "uints1",
+                                            "range": [
+                                                817,
+                                                822
+                                            ]
+                                        },
+                                        "index": {
+                                            "type": "Identifier",
+                                            "name": "address2",
+                                            "range": [
+                                                824,
+                                                831
+                                            ]
+                                        },
+                                        "range": [
+                                            817,
+                                            832
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "NumberLiteral",
+                                        "number": "99",
+                                        "subdenomination": null,
+                                        "range": [
+                                            836,
+                                            837
+                                        ]
+                                    },
+                                    "range": [
+                                        817,
+                                        837
+                                    ]
+                                },
+                                "range": [
+                                    817,
+                                    838
+                                ]
+                            },
+                            {
+                                "type": "VariableDeclarationStatement",
+                                "variables": [
+                                    {
+                                        "type": "VariableDeclaration",
+                                        "typeName": {
+                                            "type": "UserDefinedTypeName",
+                                            "namePath": "DeviceData",
+                                            "range": [
+                                                851,
+                                                860
+                                            ]
+                                        },
+                                        "name": "dev1",
+                                        "identifier": {
+                                            "type": "Identifier",
+                                            "name": "dev1",
+                                            "range": [
+                                                869,
+                                                872
+                                            ]
+                                        },
+                                        "storageLocation": "memory",
+                                        "isStateVar": false,
+                                        "isIndexed": false,
+                                        "expression": null,
+                                        "range": [
+                                            851,
+                                            872
+                                        ]
+                                    }
+                                ],
+                                "initialValue": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "DeviceData",
+                                        "range": [
+                                            876,
+                                            885
+                                        ]
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "StringLiteral",
+                                            "value": "deviceBrand",
+                                            "parts": [
+                                                "deviceBrand"
+                                            ],
+                                            "isUnicode": [
+                                                false
+                                            ],
+                                            "range": [
+                                                887,
+                                                899
+                                            ]
+                                        },
+                                        {
+                                            "type": "StringLiteral",
+                                            "value": "deviceYear",
+                                            "parts": [
+                                                "deviceYear"
+                                            ],
+                                            "isUnicode": [
+                                                false
+                                            ],
+                                            "range": [
+                                                902,
+                                                913
+                                            ]
+                                        },
+                                        {
+                                            "type": "StringLiteral",
+                                            "value": "wearLevel",
+                                            "parts": [
+                                                "wearLevel"
+                                            ],
+                                            "isUnicode": [
+                                                false
+                                            ],
+                                            "range": [
+                                                916,
+                                                926
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        876,
+                                        927
+                                    ]
+                                },
+                                "range": [
+                                    851,
+                                    928
+                                ]
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "BinaryOperation",
+                                    "operator": "=",
+                                    "left": {
+                                        "type": "IndexAccess",
+                                        "base": {
+                                            "type": "Identifier",
+                                            "name": "structs1",
+                                            "range": [
+                                                941,
+                                                948
+                                            ]
+                                        },
+                                        "index": {
+                                            "type": "Identifier",
+                                            "name": "address1",
+                                            "range": [
+                                                950,
+                                                957
+                                            ]
+                                        },
+                                        "range": [
+                                            941,
+                                            958
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "Identifier",
+                                        "name": "dev1",
+                                        "range": [
+                                            962,
+                                            965
+                                        ]
+                                    },
+                                    "range": [
+                                        941,
+                                        965
+                                    ]
+                                },
+                                "range": [
+                                    941,
+                                    966
+                                ]
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "MemberAccess",
+                                        "expression": {
+                                            "type": "Identifier",
+                                            "name": "uintarray",
+                                            "range": [
+                                                979,
+                                                987
+                                            ]
+                                        },
+                                        "memberName": "push",
+                                        "range": [
+                                            979,
+                                            992
+                                        ]
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "NumberLiteral",
+                                            "number": "8000",
+                                            "subdenomination": null,
+                                            "range": [
+                                                994,
+                                                997
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        979,
+                                        998
+                                    ]
+                                },
+                                "range": [
+                                    979,
+                                    999
+                                ]
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "MemberAccess",
+                                        "expression": {
+                                            "type": "Identifier",
+                                            "name": "uintarray",
+                                            "range": [
+                                                1010,
+                                                1018
+                                            ]
+                                        },
+                                        "memberName": "push",
+                                        "range": [
+                                            1010,
+                                            1023
+                                        ]
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "NumberLiteral",
+                                            "number": "9000",
+                                            "subdenomination": null,
+                                            "range": [
+                                                1025,
+                                                1028
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        1010,
+                                        1029
+                                    ]
+                                },
+                                "range": [
+                                    1010,
+                                    1030
+                                ]
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "MemberAccess",
+                                        "expression": {
+                                            "type": "Identifier",
+                                            "name": "deviceDataArray",
+                                            "range": [
+                                                1043,
+                                                1057
+                                            ]
+                                        },
+                                        "memberName": "push",
+                                        "range": [
+                                            1043,
+                                            1062
+                                        ]
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "Identifier",
+                                            "name": "dev1",
+                                            "range": [
+                                                1064,
+                                                1067
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        1043,
+                                        1068
+                                    ]
+                                },
+                                "range": [
+                                    1043,
+                                    1069
+                                ]
+                            }
+                        ],
+                        "range": [
+                            628,
+                            1076
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null,
+                    "range": [
+                        597,
+                        1076
+                    ]
+                }
+            ],
+            "kind": "contract",
+            "range": [
+                27,
+                1079
+            ]
+        }
+    ],
+    "range": [
+        0,
+        1079
+    ]
+}

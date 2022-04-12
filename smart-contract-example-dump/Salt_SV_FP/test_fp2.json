@@ -1,0 +1,110 @@
+{
+    "type": "SourceUnit",
+    "children": [
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": ">=0.4.0 <0.6.0",
+            "range": [
+                0,
+                31
+            ]
+        },
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": ">=0.4.0 <0.6.0",
+            "range": [
+                34,
+                63
+            ]
+        },
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": ">=0.4.14 <0.6.0",
+            "range": [
+                66,
+                97
+            ]
+        },
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": ">0.4.13 <0.6.0",
+            "range": [
+                100,
+                130
+            ]
+        },
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": ">=0.4.24 <=0.5.3 ~0.4.20",
+            "range": [
+                133,
+                173
+            ]
+        },
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "<0.4.26",
+            "range": [
+                176,
+                199
+            ]
+        },
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "~0.4.20",
+            "range": [
+                202,
+                225
+            ]
+        },
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "^0.4.14",
+            "range": [
+                228,
+                251
+            ]
+        },
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "0.4",
+            "range": [
+                254,
+                273
+            ]
+        },
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "0",
+            "range": [
+                276,
+                293
+            ]
+        },
+        {
+            "type": "ContractDefinition",
+            "name": "SemVerFloatingPragma",
+            "baseContracts": [],
+            "subNodes": [],
+            "kind": "contract",
+            "range": [
+                298,
+                331
+            ]
+        }
+    ],
+    "range": [
+        0,
+        333
+    ]
+}
