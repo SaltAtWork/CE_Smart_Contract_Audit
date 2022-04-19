@@ -1,0 +1,1143 @@
+{
+    "type": "SourceUnit",
+    "children": [
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "^0.5.0",
+            "range": [
+                0,
+                22
+            ]
+        },
+        {
+            "type": "ContractDefinition",
+            "name": "GuessTheNumber",
+            "baseContracts": [],
+            "subNodes": [
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint",
+                                "stateMutability": null,
+                                "range": [
+                                    59,
+                                    62
+                                ]
+                            },
+                            "name": "_secretNumber",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "_secretNumber",
+                                "range": [
+                                    64,
+                                    76
+                                ]
+                            },
+                            "expression": null,
+                            "visibility": "default",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null,
+                            "range": [
+                                59,
+                                77
+                            ]
+                        }
+                    ],
+                    "initialValue": null,
+                    "range": [
+                        59,
+                        77
+                    ]
+                },
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "address",
+                                "stateMutability": "payable",
+                                "range": [
+                                    84,
+                                    98
+                                ]
+                            },
+                            "name": "_owner",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "_owner",
+                                "range": [
+                                    100,
+                                    105
+                                ]
+                            },
+                            "expression": null,
+                            "visibility": "default",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null,
+                            "range": [
+                                84,
+                                106
+                            ]
+                        }
+                    ],
+                    "initialValue": null,
+                    "range": [
+                        84,
+                        106
+                    ]
+                },
+                {
+                    "type": "EventDefinition",
+                    "name": "success",
+                    "parameters": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "string",
+                                "stateMutability": null,
+                                "range": [
+                                    127,
+                                    132
+                                ]
+                            },
+                            "name": null,
+                            "identifier": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "storageLocation": null,
+                            "expression": null,
+                            "range": [
+                                127,
+                                132
+                            ]
+                        }
+                    ],
+                    "isAnonymous": false,
+                    "range": [
+                        113,
+                        134
+                    ]
+                },
+                {
+                    "type": "EventDefinition",
+                    "name": "wrongNumber",
+                    "parameters": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "string",
+                                "stateMutability": null,
+                                "range": [
+                                    159,
+                                    164
+                                ]
+                            },
+                            "name": null,
+                            "identifier": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "storageLocation": null,
+                            "expression": null,
+                            "range": [
+                                159,
+                                164
+                            ]
+                        }
+                    ],
+                    "isAnonymous": false,
+                    "range": [
+                        141,
+                        166
+                    ]
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": null,
+                    "parameters": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint",
+                                "stateMutability": null,
+                                "range": [
+                                    191,
+                                    194
+                                ]
+                            },
+                            "name": "secretNumber",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "secretNumber",
+                                "range": [
+                                    196,
+                                    207
+                                ]
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null,
+                            "range": [
+                                191,
+                                207
+                            ]
+                        }
+                    ],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "require",
+                                        "range": [
+                                            241,
+                                            247
+                                        ]
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "BinaryOperation",
+                                            "operator": "<=",
+                                            "left": {
+                                                "type": "Identifier",
+                                                "name": "secretNumber",
+                                                "range": [
+                                                    249,
+                                                    260
+                                                ]
+                                            },
+                                            "right": {
+                                                "type": "NumberLiteral",
+                                                "number": "10",
+                                                "subdenomination": null,
+                                                "range": [
+                                                    265,
+                                                    266
+                                                ]
+                                            },
+                                            "range": [
+                                                249,
+                                                266
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        241,
+                                        267
+                                    ]
+                                },
+                                "range": [
+                                    241,
+                                    268
+                                ]
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "BinaryOperation",
+                                    "operator": "=",
+                                    "left": {
+                                        "type": "Identifier",
+                                        "name": "_secretNumber",
+                                        "range": [
+                                            279,
+                                            291
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "Identifier",
+                                        "name": "secretNumber",
+                                        "range": [
+                                            295,
+                                            306
+                                        ]
+                                    },
+                                    "range": [
+                                        279,
+                                        306
+                                    ]
+                                },
+                                "range": [
+                                    279,
+                                    307
+                                ]
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "BinaryOperation",
+                                    "operator": "=",
+                                    "left": {
+                                        "type": "Identifier",
+                                        "name": "_owner",
+                                        "range": [
+                                            318,
+                                            323
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "MemberAccess",
+                                        "expression": {
+                                            "type": "Identifier",
+                                            "name": "msg",
+                                            "range": [
+                                                327,
+                                                329
+                                            ]
+                                        },
+                                        "memberName": "sender",
+                                        "range": [
+                                            327,
+                                            336
+                                        ]
+                                    },
+                                    "range": [
+                                        318,
+                                        336
+                                    ]
+                                },
+                                "range": [
+                                    318,
+                                    337
+                                ]
+                            }
+                        ],
+                        "range": [
+                            230,
+                            348
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": true,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": "payable",
+                    "range": [
+                        179,
+                        348
+                    ]
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "getValue",
+                    "parameters": [],
+                    "returnParameters": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint",
+                                "stateMutability": null,
+                                "range": [
+                                    402,
+                                    405
+                                ]
+                            },
+                            "name": null,
+                            "identifier": null,
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null,
+                            "range": [
+                                402,
+                                405
+                            ]
+                        }
+                    ],
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ReturnStatement",
+                                "expression": {
+                                    "type": "MemberAccess",
+                                    "expression": {
+                                        "type": "FunctionCall",
+                                        "expression": {
+                                            "type": "TypeNameExpression",
+                                            "typeName": {
+                                                "type": "ElementaryTypeName",
+                                                "name": "address",
+                                                "stateMutability": null,
+                                                "range": [
+                                                    431,
+                                                    437
+                                                ]
+                                            },
+                                            "range": [
+                                                431,
+                                                437
+                                            ]
+                                        },
+                                        "arguments": [
+                                            {
+                                                "type": "Identifier",
+                                                "name": "this",
+                                                "range": [
+                                                    439,
+                                                    442
+                                                ]
+                                            }
+                                        ],
+                                        "names": [],
+                                        "identifiers": [],
+                                        "range": [
+                                            431,
+                                            443
+                                        ]
+                                    },
+                                    "memberName": "balance",
+                                    "range": [
+                                        431,
+                                        451
+                                    ]
+                                },
+                                "range": [
+                                    424,
+                                    452
+                                ]
+                            }
+                        ],
+                        "range": [
+                            413,
+                            459
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": "view",
+                    "range": [
+                        361,
+                        459
+                    ]
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "guess",
+                    "parameters": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint",
+                                "stateMutability": null,
+                                "range": [
+                                    483,
+                                    486
+                                ]
+                            },
+                            "name": "n",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "n",
+                                "range": [
+                                    488,
+                                    488
+                                ]
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null,
+                            "range": [
+                                483,
+                                488
+                            ]
+                        }
+                    ],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "require",
+                                        "range": [
+                                            522,
+                                            528
+                                        ]
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "BinaryOperation",
+                                            "operator": "==",
+                                            "left": {
+                                                "type": "MemberAccess",
+                                                "expression": {
+                                                    "type": "Identifier",
+                                                    "name": "msg",
+                                                    "range": [
+                                                        530,
+                                                        532
+                                                    ]
+                                                },
+                                                "memberName": "value",
+                                                "range": [
+                                                    530,
+                                                    538
+                                                ]
+                                            },
+                                            "right": {
+                                                "type": "NumberLiteral",
+                                                "number": "1",
+                                                "subdenomination": "ether",
+                                                "range": [
+                                                    543,
+                                                    549
+                                                ]
+                                            },
+                                            "range": [
+                                                530,
+                                                549
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        522,
+                                        550
+                                    ]
+                                },
+                                "range": [
+                                    522,
+                                    551
+                                ]
+                            },
+                            {
+                                "type": "VariableDeclarationStatement",
+                                "variables": [
+                                    {
+                                        "type": "VariableDeclaration",
+                                        "typeName": {
+                                            "type": "ElementaryTypeName",
+                                            "name": "uint",
+                                            "stateMutability": null,
+                                            "range": [
+                                                572,
+                                                575
+                                            ]
+                                        },
+                                        "name": "p",
+                                        "identifier": {
+                                            "type": "Identifier",
+                                            "name": "p",
+                                            "range": [
+                                                577,
+                                                577
+                                            ]
+                                        },
+                                        "storageLocation": null,
+                                        "isStateVar": false,
+                                        "isIndexed": false,
+                                        "expression": null,
+                                        "range": [
+                                            572,
+                                            577
+                                        ]
+                                    }
+                                ],
+                                "initialValue": {
+                                    "type": "MemberAccess",
+                                    "expression": {
+                                        "type": "FunctionCall",
+                                        "expression": {
+                                            "type": "TypeNameExpression",
+                                            "typeName": {
+                                                "type": "ElementaryTypeName",
+                                                "name": "address",
+                                                "stateMutability": null,
+                                                "range": [
+                                                    581,
+                                                    587
+                                                ]
+                                            },
+                                            "range": [
+                                                581,
+                                                587
+                                            ]
+                                        },
+                                        "arguments": [
+                                            {
+                                                "type": "Identifier",
+                                                "name": "this",
+                                                "range": [
+                                                    589,
+                                                    592
+                                                ]
+                                            }
+                                        ],
+                                        "names": [],
+                                        "identifiers": [],
+                                        "range": [
+                                            581,
+                                            593
+                                        ]
+                                    },
+                                    "memberName": "balance",
+                                    "range": [
+                                        581,
+                                        601
+                                    ]
+                                },
+                                "range": [
+                                    572,
+                                    602
+                                ]
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "checkAndTransferPrize",
+                                        "range": [
+                                            613,
+                                            633
+                                        ]
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "Identifier",
+                                            "name": "n",
+                                            "range": [
+                                                665,
+                                                665
+                                            ]
+                                        },
+                                        {
+                                            "type": "Identifier",
+                                            "name": "p",
+                                            "range": [
+                                                669,
+                                                669
+                                            ]
+                                        },
+                                        {
+                                            "type": "MemberAccess",
+                                            "expression": {
+                                                "type": "Identifier",
+                                                "name": "msg",
+                                                "range": [
+                                                    724,
+                                                    726
+                                                ]
+                                            },
+                                            "memberName": "sender",
+                                            "range": [
+                                                724,
+                                                733
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        613,
+                                        734
+                                    ]
+                                },
+                                "range": [
+                                    613,
+                                    735
+                                ]
+                            }
+                        ],
+                        "range": [
+                            511,
+                            742
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": "payable",
+                    "range": [
+                        468,
+                        742
+                    ]
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "checkAndTransferPrize",
+                    "parameters": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint",
+                                "stateMutability": null,
+                                "range": [
+                                    786,
+                                    789
+                                ]
+                            },
+                            "name": "p",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "p",
+                                "range": [
+                                    791,
+                                    791
+                                ]
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null,
+                            "range": [
+                                786,
+                                791
+                            ]
+                        },
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint",
+                                "stateMutability": null,
+                                "range": [
+                                    794,
+                                    797
+                                ]
+                            },
+                            "name": "n",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "n",
+                                "range": [
+                                    799,
+                                    799
+                                ]
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null,
+                            "range": [
+                                794,
+                                799
+                            ]
+                        },
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "address",
+                                "stateMutability": "payable",
+                                "range": [
+                                    802,
+                                    816
+                                ]
+                            },
+                            "name": "guesser",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "guesser",
+                                "range": [
+                                    818,
+                                    824
+                                ]
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null,
+                            "range": [
+                                802,
+                                824
+                            ]
+                        }
+                    ],
+                    "returnParameters": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "bool",
+                                "stateMutability": null,
+                                "range": [
+                                    844,
+                                    847
+                                ]
+                            },
+                            "name": null,
+                            "identifier": null,
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null,
+                            "range": [
+                                844,
+                                847
+                            ]
+                        }
+                    ],
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "IfStatement",
+                                "condition": {
+                                    "type": "BinaryOperation",
+                                    "operator": "==",
+                                    "left": {
+                                        "type": "Identifier",
+                                        "name": "n",
+                                        "range": [
+                                            869,
+                                            869
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "Identifier",
+                                        "name": "_secretNumber",
+                                        "range": [
+                                            874,
+                                            886
+                                        ]
+                                    },
+                                    "range": [
+                                        869,
+                                        886
+                                    ]
+                                },
+                                "trueBody": {
+                                    "type": "Block",
+                                    "statements": [
+                                        {
+                                            "type": "ExpressionStatement",
+                                            "expression": {
+                                                "type": "FunctionCall",
+                                                "expression": {
+                                                    "type": "MemberAccess",
+                                                    "expression": {
+                                                        "type": "Identifier",
+                                                        "name": "guesser",
+                                                        "range": [
+                                                            913,
+                                                            919
+                                                        ]
+                                                    },
+                                                    "memberName": "transfer",
+                                                    "range": [
+                                                        913,
+                                                        928
+                                                    ]
+                                                },
+                                                "arguments": [
+                                                    {
+                                                        "type": "Identifier",
+                                                        "name": "p",
+                                                        "range": [
+                                                            930,
+                                                            930
+                                                        ]
+                                                    }
+                                                ],
+                                                "names": [],
+                                                "identifiers": [],
+                                                "range": [
+                                                    913,
+                                                    931
+                                                ]
+                                            },
+                                            "range": [
+                                                913,
+                                                932
+                                            ]
+                                        },
+                                        {
+                                            "type": "EmitStatement",
+                                            "eventCall": {
+                                                "type": "FunctionCall",
+                                                "expression": {
+                                                    "type": "Identifier",
+                                                    "name": "success",
+                                                    "range": [
+                                                        952,
+                                                        958
+                                                    ]
+                                                },
+                                                "arguments": [
+                                                    {
+                                                        "type": "StringLiteral",
+                                                        "value": "You guessed the correct number!",
+                                                        "parts": [
+                                                            "You guessed the correct number!"
+                                                        ],
+                                                        "isUnicode": [
+                                                            false
+                                                        ],
+                                                        "range": [
+                                                            960,
+                                                            992
+                                                        ]
+                                                    }
+                                                ],
+                                                "names": [],
+                                                "identifiers": [],
+                                                "range": [
+                                                    952,
+                                                    993
+                                                ]
+                                            },
+                                            "range": [
+                                                947,
+                                                994
+                                            ]
+                                        }
+                                    ],
+                                    "range": [
+                                        898,
+                                        1005
+                                    ]
+                                },
+                                "falseBody": {
+                                    "type": "Block",
+                                    "statements": [
+                                        {
+                                            "type": "EmitStatement",
+                                            "eventCall": {
+                                                "type": "FunctionCall",
+                                                "expression": {
+                                                    "type": "Identifier",
+                                                    "name": "wrongNumber",
+                                                    "range": [
+                                                        1050,
+                                                        1060
+                                                    ]
+                                                },
+                                                "arguments": [
+                                                    {
+                                                        "type": "StringLiteral",
+                                                        "value": "You've made an incorrect guess!",
+                                                        "parts": [
+                                                            "You've made an incorrect guess!"
+                                                        ],
+                                                        "isUnicode": [
+                                                            false
+                                                        ],
+                                                        "range": [
+                                                            1062,
+                                                            1094
+                                                        ]
+                                                    }
+                                                ],
+                                                "names": [],
+                                                "identifiers": [],
+                                                "range": [
+                                                    1050,
+                                                    1095
+                                                ]
+                                            },
+                                            "range": [
+                                                1045,
+                                                1096
+                                            ]
+                                        }
+                                    ],
+                                    "range": [
+                                        1030,
+                                        1107
+                                    ]
+                                },
+                                "range": [
+                                    866,
+                                    1107
+                                ]
+                            }
+                        ],
+                        "range": [
+                            855,
+                            1114
+                        ]
+                    },
+                    "visibility": "internal",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null,
+                    "range": [
+                        755,
+                        1114
+                    ]
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "kill",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "require",
+                                        "range": [
+                                            1166,
+                                            1172
+                                        ]
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "BinaryOperation",
+                                            "operator": "==",
+                                            "left": {
+                                                "type": "MemberAccess",
+                                                "expression": {
+                                                    "type": "Identifier",
+                                                    "name": "msg",
+                                                    "range": [
+                                                        1174,
+                                                        1176
+                                                    ]
+                                                },
+                                                "memberName": "sender",
+                                                "range": [
+                                                    1174,
+                                                    1183
+                                                ]
+                                            },
+                                            "right": {
+                                                "type": "Identifier",
+                                                "name": "_owner",
+                                                "range": [
+                                                    1188,
+                                                    1193
+                                                ]
+                                            },
+                                            "range": [
+                                                1174,
+                                                1193
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        1166,
+                                        1194
+                                    ]
+                                },
+                                "range": [
+                                    1166,
+                                    1195
+                                ]
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "selfdestruct",
+                                        "range": [
+                                            1206,
+                                            1217
+                                        ]
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "Identifier",
+                                            "name": "_owner",
+                                            "range": [
+                                                1219,
+                                                1224
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        1206,
+                                        1225
+                                    ]
+                                },
+                                "range": [
+                                    1206,
+                                    1226
+                                ]
+                            }
+                        ],
+                        "range": [
+                            1155,
+                            1233
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null,
+                    "range": [
+                        1127,
+                        1233
+                    ]
+                }
+            ],
+            "kind": "contract",
+            "range": [
+                27,
+                1236
+            ]
+        }
+    ],
+    "range": [
+        0,
+        1236
+    ]
+}

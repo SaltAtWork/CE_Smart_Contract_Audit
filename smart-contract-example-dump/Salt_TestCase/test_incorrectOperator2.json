@@ -1,0 +1,352 @@
+{
+    "type": "SourceUnit",
+    "children": [
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "^0.4.25",
+            "range": [
+                0,
+                23
+            ]
+        },
+        {
+            "type": "ContractDefinition",
+            "name": "TypoSimple",
+            "baseContracts": [],
+            "subNodes": [
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint",
+                                "stateMutability": null,
+                                "range": [
+                                    57,
+                                    60
+                                ]
+                            },
+                            "name": "onlyOne",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "onlyOne",
+                                "range": [
+                                    62,
+                                    68
+                                ]
+                            },
+                            "expression": {
+                                "type": "NumberLiteral",
+                                "number": "1",
+                                "subdenomination": null,
+                                "range": [
+                                    72,
+                                    72
+                                ]
+                            },
+                            "visibility": "default",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null,
+                            "range": [
+                                57,
+                                73
+                            ]
+                        }
+                    ],
+                    "initialValue": {
+                        "type": "NumberLiteral",
+                        "number": "1",
+                        "subdenomination": null,
+                        "range": [
+                            72,
+                            72
+                        ]
+                    },
+                    "range": [
+                        57,
+                        73
+                    ]
+                },
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "bool",
+                                "stateMutability": null,
+                                "range": [
+                                    80,
+                                    83
+                                ]
+                            },
+                            "name": "win",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "win",
+                                "range": [
+                                    85,
+                                    87
+                                ]
+                            },
+                            "expression": {
+                                "type": "BooleanLiteral",
+                                "value": false,
+                                "range": [
+                                    91,
+                                    95
+                                ]
+                            },
+                            "visibility": "default",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null,
+                            "range": [
+                                80,
+                                96
+                            ]
+                        }
+                    ],
+                    "initialValue": {
+                        "type": "BooleanLiteral",
+                        "value": false,
+                        "range": [
+                            91,
+                            95
+                        ]
+                    },
+                    "range": [
+                        80,
+                        96
+                    ]
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "addOne",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "BinaryOperation",
+                                    "operator": "=",
+                                    "left": {
+                                        "type": "Identifier",
+                                        "name": "onlyOne",
+                                        "range": [
+                                            141,
+                                            147
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "UnaryOperation",
+                                        "operator": "+",
+                                        "subExpression": {
+                                            "type": "NumberLiteral",
+                                            "number": "1",
+                                            "subdenomination": null,
+                                            "range": [
+                                                152,
+                                                152
+                                            ]
+                                        },
+                                        "isPrefix": true,
+                                        "range": [
+                                            150,
+                                            152
+                                        ]
+                                    },
+                                    "range": [
+                                        141,
+                                        152
+                                    ]
+                                },
+                                "range": [
+                                    141,
+                                    153
+                                ]
+                            },
+                            {
+                                "type": "IfStatement",
+                                "condition": {
+                                    "type": "BinaryOperation",
+                                    "operator": ">",
+                                    "left": {
+                                        "type": "Identifier",
+                                        "name": "onlyOne",
+                                        "range": [
+                                            167,
+                                            173
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "NumberLiteral",
+                                        "number": "1",
+                                        "subdenomination": null,
+                                        "range": [
+                                            175,
+                                            175
+                                        ]
+                                    },
+                                    "range": [
+                                        167,
+                                        175
+                                    ]
+                                },
+                                "trueBody": {
+                                    "type": "Block",
+                                    "statements": [
+                                        {
+                                            "type": "ExpressionStatement",
+                                            "expression": {
+                                                "type": "BinaryOperation",
+                                                "operator": "=",
+                                                "left": {
+                                                    "type": "Identifier",
+                                                    "name": "win",
+                                                    "range": [
+                                                        193,
+                                                        195
+                                                    ]
+                                                },
+                                                "right": {
+                                                    "type": "BooleanLiteral",
+                                                    "value": true,
+                                                    "range": [
+                                                        199,
+                                                        202
+                                                    ]
+                                                },
+                                                "range": [
+                                                    193,
+                                                    202
+                                                ]
+                                            },
+                                            "range": [
+                                                193,
+                                                203
+                                            ]
+                                        }
+                                    ],
+                                    "range": [
+                                        178,
+                                        214
+                                    ]
+                                },
+                                "falseBody": null,
+                                "range": [
+                                    164,
+                                    214
+                                ]
+                            }
+                        ],
+                        "range": [
+                            130,
+                            221
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null,
+                    "range": [
+                        105,
+                        221
+                    ]
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "iWin",
+                    "parameters": [],
+                    "returnParameters": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "bool",
+                                "stateMutability": null,
+                                "range": [
+                                    271,
+                                    274
+                                ]
+                            },
+                            "name": null,
+                            "identifier": null,
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null,
+                            "range": [
+                                271,
+                                274
+                            ]
+                        }
+                    ],
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ReturnStatement",
+                                "expression": {
+                                    "type": "Identifier",
+                                    "name": "win",
+                                    "range": [
+                                        295,
+                                        297
+                                    ]
+                                },
+                                "range": [
+                                    288,
+                                    298
+                                ]
+                            }
+                        ],
+                        "range": [
+                            277,
+                            305
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": "view",
+                    "range": [
+                        234,
+                        305
+                    ]
+                }
+            ],
+            "kind": "contract",
+            "range": [
+                28,
+                308
+            ]
+        }
+    ],
+    "range": [
+        0,
+        308
+    ]
+}

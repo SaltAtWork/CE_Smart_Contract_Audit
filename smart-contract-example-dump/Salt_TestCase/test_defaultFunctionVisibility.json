@@ -1,0 +1,253 @@
+{
+    "type": "SourceUnit",
+    "children": [
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "^0.4.24",
+            "range": [
+                0,
+                23
+            ]
+        },
+        {
+            "type": "ContractDefinition",
+            "name": "HashForEther",
+            "baseContracts": [],
+            "subNodes": [
+                {
+                    "type": "FunctionDefinition",
+                    "name": "withdrawWinnings",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "require",
+                                        "range": [
+                                            169,
+                                            175
+                                        ]
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "BinaryOperation",
+                                            "operator": "==",
+                                            "left": {
+                                                "type": "FunctionCall",
+                                                "expression": {
+                                                    "type": "TypeNameExpression",
+                                                    "typeName": {
+                                                        "type": "ElementaryTypeName",
+                                                        "name": "uint32",
+                                                        "stateMutability": null,
+                                                        "range": [
+                                                            177,
+                                                            182
+                                                        ]
+                                                    },
+                                                    "range": [
+                                                        177,
+                                                        182
+                                                    ]
+                                                },
+                                                "arguments": [
+                                                    {
+                                                        "type": "MemberAccess",
+                                                        "expression": {
+                                                            "type": "Identifier",
+                                                            "name": "msg",
+                                                            "range": [
+                                                                184,
+                                                                186
+                                                            ]
+                                                        },
+                                                        "memberName": "sender",
+                                                        "range": [
+                                                            184,
+                                                            193
+                                                        ]
+                                                    }
+                                                ],
+                                                "names": [],
+                                                "identifiers": [],
+                                                "range": [
+                                                    177,
+                                                    194
+                                                ]
+                                            },
+                                            "right": {
+                                                "type": "NumberLiteral",
+                                                "number": "0",
+                                                "subdenomination": null,
+                                                "range": [
+                                                    199,
+                                                    199
+                                                ]
+                                            },
+                                            "range": [
+                                                177,
+                                                199
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        169,
+                                        200
+                                    ]
+                                },
+                                "range": [
+                                    169,
+                                    201
+                                ]
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "_sendWinnings",
+                                        "range": [
+                                            212,
+                                            224
+                                        ]
+                                    },
+                                    "arguments": [],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        212,
+                                        226
+                                    ]
+                                },
+                                "range": [
+                                    212,
+                                    227
+                                ]
+                            }
+                        ],
+                        "range": [
+                            87,
+                            235
+                        ]
+                    },
+                    "visibility": "default",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null,
+                    "range": [
+                        59,
+                        235
+                    ]
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "_sendWinnings",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "MemberAccess",
+                                        "expression": {
+                                            "type": "MemberAccess",
+                                            "expression": {
+                                                "type": "Identifier",
+                                                "name": "msg",
+                                                "range": [
+                                                    282,
+                                                    284
+                                                ]
+                                            },
+                                            "memberName": "sender",
+                                            "range": [
+                                                282,
+                                                291
+                                            ]
+                                        },
+                                        "memberName": "transfer",
+                                        "range": [
+                                            282,
+                                            300
+                                        ]
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "MemberAccess",
+                                            "expression": {
+                                                "type": "Identifier",
+                                                "name": "this",
+                                                "range": [
+                                                    302,
+                                                    305
+                                                ]
+                                            },
+                                            "memberName": "balance",
+                                            "range": [
+                                                302,
+                                                313
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        282,
+                                        314
+                                    ]
+                                },
+                                "range": [
+                                    282,
+                                    315
+                                ]
+                            }
+                        ],
+                        "range": [
+                            270,
+                            323
+                        ]
+                    },
+                    "visibility": "default",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null,
+                    "range": [
+                        245,
+                        323
+                    ]
+                }
+            ],
+            "kind": "contract",
+            "range": [
+                28,
+                326
+            ]
+        }
+    ],
+    "range": [
+        0,
+        328
+    ]
+}

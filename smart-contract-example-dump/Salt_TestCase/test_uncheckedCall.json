@@ -1,0 +1,229 @@
+{
+    "type": "SourceUnit",
+    "children": [
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "0.4.25",
+            "range": [
+                0,
+                22
+            ]
+        },
+        {
+            "type": "ContractDefinition",
+            "name": "ReturnValue",
+            "baseContracts": [],
+            "subNodes": [
+                {
+                    "type": "FunctionDefinition",
+                    "name": "callchecked",
+                    "parameters": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "address",
+                                "stateMutability": null,
+                                "range": [
+                                    76,
+                                    82
+                                ]
+                            },
+                            "name": "callee",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "callee",
+                                "range": [
+                                    84,
+                                    89
+                                ]
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null,
+                            "range": [
+                                76,
+                                89
+                            ]
+                        }
+                    ],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "require",
+                                        "range": [
+                                            106,
+                                            112
+                                        ]
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "FunctionCall",
+                                            "expression": {
+                                                "type": "MemberAccess",
+                                                "expression": {
+                                                    "type": "Identifier",
+                                                    "name": "callee",
+                                                    "range": [
+                                                        114,
+                                                        119
+                                                    ]
+                                                },
+                                                "memberName": "call",
+                                                "range": [
+                                                    114,
+                                                    124
+                                                ]
+                                            },
+                                            "arguments": [],
+                                            "names": [],
+                                            "identifiers": [],
+                                            "range": [
+                                                114,
+                                                126
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        106,
+                                        127
+                                    ]
+                                },
+                                "range": [
+                                    106,
+                                    128
+                                ]
+                            }
+                        ],
+                        "range": [
+                            99,
+                            133
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null,
+                    "range": [
+                        55,
+                        133
+                    ]
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "callnotchecked",
+                    "parameters": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "address",
+                                "stateMutability": null,
+                                "range": [
+                                    164,
+                                    170
+                                ]
+                            },
+                            "name": "callee",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "callee",
+                                "range": [
+                                    172,
+                                    177
+                                ]
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null,
+                            "range": [
+                                164,
+                                177
+                            ]
+                        }
+                    ],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "MemberAccess",
+                                        "expression": {
+                                            "type": "Identifier",
+                                            "name": "callee",
+                                            "range": [
+                                                194,
+                                                199
+                                            ]
+                                        },
+                                        "memberName": "call",
+                                        "range": [
+                                            194,
+                                            204
+                                        ]
+                                    },
+                                    "arguments": [],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        194,
+                                        206
+                                    ]
+                                },
+                                "range": [
+                                    194,
+                                    207
+                                ]
+                            }
+                        ],
+                        "range": [
+                            187,
+                            212
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null,
+                    "range": [
+                        140,
+                        212
+                    ]
+                }
+            ],
+            "kind": "contract",
+            "range": [
+                27,
+                215
+            ]
+        }
+    ],
+    "range": [
+        0,
+        217
+    ]
+}

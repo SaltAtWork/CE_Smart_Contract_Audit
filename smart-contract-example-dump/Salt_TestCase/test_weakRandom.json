@@ -1,0 +1,762 @@
+{
+    "type": "SourceUnit",
+    "children": [
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "^0.4.25",
+            "range": [
+                0,
+                23
+            ]
+        },
+        {
+            "type": "ContractDefinition",
+            "name": "RandomNumberGenerator",
+            "baseContracts": [],
+            "subNodes": [
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint256",
+                                "stateMutability": null,
+                                "range": [
+                                    149,
+                                    155
+                                ]
+                            },
+                            "name": "salt",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "salt",
+                                "range": [
+                                    165,
+                                    168
+                                ]
+                            },
+                            "expression": {
+                                "type": "MemberAccess",
+                                "expression": {
+                                    "type": "Identifier",
+                                    "name": "block",
+                                    "range": [
+                                        173,
+                                        177
+                                    ]
+                                },
+                                "memberName": "timestamp",
+                                "range": [
+                                    173,
+                                    187
+                                ]
+                            },
+                            "visibility": "private",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null,
+                            "range": [
+                                149,
+                                188
+                            ]
+                        }
+                    ],
+                    "initialValue": {
+                        "type": "MemberAccess",
+                        "expression": {
+                            "type": "Identifier",
+                            "name": "block",
+                            "range": [
+                                173,
+                                177
+                            ]
+                        },
+                        "memberName": "timestamp",
+                        "range": [
+                            173,
+                            187
+                        ]
+                    },
+                    "range": [
+                        149,
+                        188
+                    ]
+                },
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint256",
+                                "stateMutability": null,
+                                "range": [
+                                    193,
+                                    199
+                                ]
+                            },
+                            "name": "salt2",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "salt2",
+                                "range": [
+                                    209,
+                                    213
+                                ]
+                            },
+                            "expression": {
+                                "type": "Identifier",
+                                "name": "now",
+                                "range": [
+                                    217,
+                                    219
+                                ]
+                            },
+                            "visibility": "private",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null,
+                            "range": [
+                                193,
+                                220
+                            ]
+                        }
+                    ],
+                    "initialValue": {
+                        "type": "Identifier",
+                        "name": "now",
+                        "range": [
+                            217,
+                            219
+                        ]
+                    },
+                    "range": [
+                        193,
+                        220
+                    ]
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "random",
+                    "parameters": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint",
+                                "stateMutability": null,
+                                "range": [
+                                    243,
+                                    246
+                                ]
+                            },
+                            "name": "max",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "max",
+                                "range": [
+                                    248,
+                                    250
+                                ]
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null,
+                            "range": [
+                                243,
+                                250
+                            ]
+                        }
+                    ],
+                    "returnParameters": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint256",
+                                "stateMutability": null,
+                                "range": [
+                                    275,
+                                    281
+                                ]
+                            },
+                            "name": "result",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "result",
+                                "range": [
+                                    283,
+                                    288
+                                ]
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null,
+                            "range": [
+                                275,
+                                288
+                            ]
+                        }
+                    ],
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "VariableDeclarationStatement",
+                                "variables": [
+                                    {
+                                        "type": "VariableDeclaration",
+                                        "typeName": {
+                                            "type": "ElementaryTypeName",
+                                            "name": "uint256",
+                                            "stateMutability": null,
+                                            "range": [
+                                                339,
+                                                345
+                                            ]
+                                        },
+                                        "name": "x",
+                                        "identifier": {
+                                            "type": "Identifier",
+                                            "name": "x",
+                                            "range": [
+                                                347,
+                                                347
+                                            ]
+                                        },
+                                        "storageLocation": null,
+                                        "isStateVar": false,
+                                        "isIndexed": false,
+                                        "expression": null,
+                                        "range": [
+                                            339,
+                                            347
+                                        ]
+                                    }
+                                ],
+                                "initialValue": {
+                                    "type": "BinaryOperation",
+                                    "operator": "/",
+                                    "left": {
+                                        "type": "BinaryOperation",
+                                        "operator": "*",
+                                        "left": {
+                                            "type": "Identifier",
+                                            "name": "salt",
+                                            "range": [
+                                                351,
+                                                354
+                                            ]
+                                        },
+                                        "right": {
+                                            "type": "NumberLiteral",
+                                            "number": "100",
+                                            "subdenomination": null,
+                                            "range": [
+                                                358,
+                                                360
+                                            ]
+                                        },
+                                        "range": [
+                                            351,
+                                            360
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "Identifier",
+                                        "name": "max",
+                                        "range": [
+                                            364,
+                                            366
+                                        ]
+                                    },
+                                    "range": [
+                                        351,
+                                        366
+                                    ]
+                                },
+                                "range": [
+                                    339,
+                                    367
+                                ]
+                            },
+                            {
+                                "type": "VariableDeclarationStatement",
+                                "variables": [
+                                    {
+                                        "type": "VariableDeclaration",
+                                        "typeName": {
+                                            "type": "ElementaryTypeName",
+                                            "name": "uint256",
+                                            "stateMutability": null,
+                                            "range": [
+                                                374,
+                                                380
+                                            ]
+                                        },
+                                        "name": "y",
+                                        "identifier": {
+                                            "type": "Identifier",
+                                            "name": "y",
+                                            "range": [
+                                                382,
+                                                382
+                                            ]
+                                        },
+                                        "storageLocation": null,
+                                        "isStateVar": false,
+                                        "isIndexed": false,
+                                        "expression": null,
+                                        "range": [
+                                            374,
+                                            382
+                                        ]
+                                    }
+                                ],
+                                "initialValue": {
+                                    "type": "BinaryOperation",
+                                    "operator": "/",
+                                    "left": {
+                                        "type": "BinaryOperation",
+                                        "operator": "*",
+                                        "left": {
+                                            "type": "Identifier",
+                                            "name": "salt",
+                                            "range": [
+                                                386,
+                                                389
+                                            ]
+                                        },
+                                        "right": {
+                                            "type": "MemberAccess",
+                                            "expression": {
+                                                "type": "Identifier",
+                                                "name": "block",
+                                                "range": [
+                                                    393,
+                                                    397
+                                                ]
+                                            },
+                                            "memberName": "number",
+                                            "range": [
+                                                393,
+                                                404
+                                            ]
+                                        },
+                                        "range": [
+                                            386,
+                                            404
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "TupleExpression",
+                                        "components": [
+                                            {
+                                                "type": "BinaryOperation",
+                                                "operator": "%",
+                                                "left": {
+                                                    "type": "Identifier",
+                                                    "name": "salt",
+                                                    "range": [
+                                                        409,
+                                                        412
+                                                    ]
+                                                },
+                                                "right": {
+                                                    "type": "NumberLiteral",
+                                                    "number": "5",
+                                                    "subdenomination": null,
+                                                    "range": [
+                                                        416,
+                                                        416
+                                                    ]
+                                                },
+                                                "range": [
+                                                    409,
+                                                    416
+                                                ]
+                                            }
+                                        ],
+                                        "isArray": false,
+                                        "range": [
+                                            408,
+                                            417
+                                        ]
+                                    },
+                                    "range": [
+                                        386,
+                                        417
+                                    ]
+                                },
+                                "range": [
+                                    374,
+                                    418
+                                ]
+                            },
+                            {
+                                "type": "VariableDeclarationStatement",
+                                "variables": [
+                                    {
+                                        "type": "VariableDeclaration",
+                                        "typeName": {
+                                            "type": "ElementaryTypeName",
+                                            "name": "uint256",
+                                            "stateMutability": null,
+                                            "range": [
+                                                425,
+                                                431
+                                            ]
+                                        },
+                                        "name": "seed",
+                                        "identifier": {
+                                            "type": "Identifier",
+                                            "name": "seed",
+                                            "range": [
+                                                433,
+                                                436
+                                            ]
+                                        },
+                                        "storageLocation": null,
+                                        "isStateVar": false,
+                                        "isIndexed": false,
+                                        "expression": null,
+                                        "range": [
+                                            425,
+                                            436
+                                        ]
+                                    }
+                                ],
+                                "initialValue": {
+                                    "type": "BinaryOperation",
+                                    "operator": "+",
+                                    "left": {
+                                        "type": "BinaryOperation",
+                                        "operator": "+",
+                                        "left": {
+                                            "type": "BinaryOperation",
+                                            "operator": "/",
+                                            "left": {
+                                                "type": "MemberAccess",
+                                                "expression": {
+                                                    "type": "Identifier",
+                                                    "name": "block",
+                                                    "range": [
+                                                        440,
+                                                        444
+                                                    ]
+                                                },
+                                                "memberName": "number",
+                                                "range": [
+                                                    440,
+                                                    451
+                                                ]
+                                            },
+                                            "right": {
+                                                "type": "NumberLiteral",
+                                                "number": "3",
+                                                "subdenomination": null,
+                                                "range": [
+                                                    455,
+                                                    455
+                                                ]
+                                            },
+                                            "range": [
+                                                440,
+                                                455
+                                            ]
+                                        },
+                                        "right": {
+                                            "type": "TupleExpression",
+                                            "components": [
+                                                {
+                                                    "type": "BinaryOperation",
+                                                    "operator": "%",
+                                                    "left": {
+                                                        "type": "Identifier",
+                                                        "name": "salt",
+                                                        "range": [
+                                                            460,
+                                                            463
+                                                        ]
+                                                    },
+                                                    "right": {
+                                                        "type": "NumberLiteral",
+                                                        "number": "300",
+                                                        "subdenomination": null,
+                                                        "range": [
+                                                            467,
+                                                            469
+                                                        ]
+                                                    },
+                                                    "range": [
+                                                        460,
+                                                        469
+                                                    ]
+                                                }
+                                            ],
+                                            "isArray": false,
+                                            "range": [
+                                                459,
+                                                470
+                                            ]
+                                        },
+                                        "range": [
+                                            440,
+                                            470
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "Identifier",
+                                        "name": "y",
+                                        "range": [
+                                            474,
+                                            474
+                                        ]
+                                    },
+                                    "range": [
+                                        440,
+                                        474
+                                    ]
+                                },
+                                "range": [
+                                    425,
+                                    475
+                                ]
+                            },
+                            {
+                                "type": "VariableDeclarationStatement",
+                                "variables": [
+                                    {
+                                        "type": "VariableDeclaration",
+                                        "typeName": {
+                                            "type": "ElementaryTypeName",
+                                            "name": "uint256",
+                                            "stateMutability": null,
+                                            "range": [
+                                                482,
+                                                488
+                                            ]
+                                        },
+                                        "name": "h",
+                                        "identifier": {
+                                            "type": "Identifier",
+                                            "name": "h",
+                                            "range": [
+                                                490,
+                                                490
+                                            ]
+                                        },
+                                        "storageLocation": null,
+                                        "isStateVar": false,
+                                        "isIndexed": false,
+                                        "expression": null,
+                                        "range": [
+                                            482,
+                                            490
+                                        ]
+                                    }
+                                ],
+                                "initialValue": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "TypeNameExpression",
+                                        "typeName": {
+                                            "type": "ElementaryTypeName",
+                                            "name": "uint256",
+                                            "stateMutability": null,
+                                            "range": [
+                                                494,
+                                                500
+                                            ]
+                                        },
+                                        "range": [
+                                            494,
+                                            500
+                                        ]
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "FunctionCall",
+                                            "expression": {
+                                                "type": "Identifier",
+                                                "name": "blockhash",
+                                                "range": [
+                                                    502,
+                                                    510
+                                                ]
+                                            },
+                                            "arguments": [
+                                                {
+                                                    "type": "Identifier",
+                                                    "name": "seed",
+                                                    "range": [
+                                                        512,
+                                                        515
+                                                    ]
+                                                }
+                                            ],
+                                            "names": [],
+                                            "identifiers": [],
+                                            "range": [
+                                                502,
+                                                516
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        494,
+                                        517
+                                    ]
+                                },
+                                "range": [
+                                    482,
+                                    518
+                                ]
+                            },
+                            {
+                                "type": "ReturnStatement",
+                                "expression": {
+                                    "type": "BinaryOperation",
+                                    "operator": "+",
+                                    "left": {
+                                        "type": "BinaryOperation",
+                                        "operator": "%",
+                                        "left": {
+                                            "type": "FunctionCall",
+                                            "expression": {
+                                                "type": "TypeNameExpression",
+                                                "typeName": {
+                                                    "type": "ElementaryTypeName",
+                                                    "name": "uint256",
+                                                    "stateMutability": null,
+                                                    "range": [
+                                                        572,
+                                                        578
+                                                    ]
+                                                },
+                                                "range": [
+                                                    572,
+                                                    578
+                                                ]
+                                            },
+                                            "arguments": [
+                                                {
+                                                    "type": "TupleExpression",
+                                                    "components": [
+                                                        {
+                                                            "type": "BinaryOperation",
+                                                            "operator": "/",
+                                                            "left": {
+                                                                "type": "Identifier",
+                                                                "name": "h",
+                                                                "range": [
+                                                                    581,
+                                                                    581
+                                                                ]
+                                                            },
+                                                            "right": {
+                                                                "type": "Identifier",
+                                                                "name": "x",
+                                                                "range": [
+                                                                    585,
+                                                                    585
+                                                                ]
+                                                            },
+                                                            "range": [
+                                                                581,
+                                                                585
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "isArray": false,
+                                                    "range": [
+                                                        580,
+                                                        586
+                                                    ]
+                                                }
+                                            ],
+                                            "names": [],
+                                            "identifiers": [],
+                                            "range": [
+                                                572,
+                                                587
+                                            ]
+                                        },
+                                        "right": {
+                                            "type": "Identifier",
+                                            "name": "max",
+                                            "range": [
+                                                591,
+                                                593
+                                            ]
+                                        },
+                                        "range": [
+                                            572,
+                                            593
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "NumberLiteral",
+                                        "number": "1",
+                                        "subdenomination": null,
+                                        "range": [
+                                            597,
+                                            597
+                                        ]
+                                    },
+                                    "range": [
+                                        572,
+                                        597
+                                    ]
+                                },
+                                "range": [
+                                    565,
+                                    598
+                                ]
+                            }
+                        ],
+                        "range": [
+                            291,
+                            603
+                        ]
+                    },
+                    "visibility": "private",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": "view",
+                    "range": [
+                        227,
+                        603
+                    ]
+                }
+            ],
+            "kind": "contract",
+            "range": [
+                113,
+                606
+            ]
+        }
+    ],
+    "range": [
+        0,
+        608
+    ]
+}

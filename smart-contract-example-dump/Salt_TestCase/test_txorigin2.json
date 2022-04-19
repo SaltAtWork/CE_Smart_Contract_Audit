@@ -1,0 +1,343 @@
+{
+    "type": "SourceUnit",
+    "children": [
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "^0.4.18",
+            "range": [
+                0,
+                23
+            ]
+        },
+        {
+            "type": "ContractDefinition",
+            "name": "TxOriginVictim",
+            "baseContracts": [],
+            "subNodes": [
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "address",
+                                "stateMutability": null,
+                                "range": [
+                                    59,
+                                    65
+                                ]
+                            },
+                            "name": "owner",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "owner",
+                                "range": [
+                                    67,
+                                    71
+                                ]
+                            },
+                            "expression": null,
+                            "visibility": "default",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null,
+                            "range": [
+                                59,
+                                72
+                            ]
+                        }
+                    ],
+                    "initialValue": null,
+                    "range": [
+                        59,
+                        72
+                    ]
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "TxOriginVictim",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "BinaryOperation",
+                                    "operator": "=",
+                                    "left": {
+                                        "type": "Identifier",
+                                        "name": "owner",
+                                        "range": [
+                                            118,
+                                            122
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "MemberAccess",
+                                        "expression": {
+                                            "type": "Identifier",
+                                            "name": "msg",
+                                            "range": [
+                                                126,
+                                                128
+                                            ]
+                                        },
+                                        "memberName": "sender",
+                                        "range": [
+                                            126,
+                                            135
+                                        ]
+                                    },
+                                    "range": [
+                                        118,
+                                        135
+                                    ]
+                                },
+                                "range": [
+                                    118,
+                                    136
+                                ]
+                            }
+                        ],
+                        "range": [
+                            107,
+                            143
+                        ]
+                    },
+                    "visibility": "default",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": true,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null,
+                    "range": [
+                        81,
+                        143
+                    ]
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "transferTo",
+                    "parameters": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "address",
+                                "stateMutability": null,
+                                "range": [
+                                    172,
+                                    178
+                                ]
+                            },
+                            "name": "to",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "to",
+                                "range": [
+                                    180,
+                                    181
+                                ]
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null,
+                            "range": [
+                                172,
+                                181
+                            ]
+                        },
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint256",
+                                "stateMutability": null,
+                                "range": [
+                                    184,
+                                    190
+                                ]
+                            },
+                            "name": "amount",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "amount",
+                                "range": [
+                                    192,
+                                    197
+                                ]
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null,
+                            "range": [
+                                184,
+                                197
+                            ]
+                        }
+                    ],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "require",
+                                        "range": [
+                                            218,
+                                            224
+                                        ]
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "BinaryOperation",
+                                            "operator": "==",
+                                            "left": {
+                                                "type": "MemberAccess",
+                                                "expression": {
+                                                    "type": "Identifier",
+                                                    "name": "tx",
+                                                    "range": [
+                                                        226,
+                                                        227
+                                                    ]
+                                                },
+                                                "memberName": "origin",
+                                                "range": [
+                                                    226,
+                                                    234
+                                                ]
+                                            },
+                                            "right": {
+                                                "type": "Identifier",
+                                                "name": "owner",
+                                                "range": [
+                                                    239,
+                                                    243
+                                                ]
+                                            },
+                                            "range": [
+                                                226,
+                                                243
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        218,
+                                        244
+                                    ]
+                                },
+                                "range": [
+                                    218,
+                                    245
+                                ]
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "FunctionCall",
+                                        "expression": {
+                                            "type": "MemberAccess",
+                                            "expression": {
+                                                "type": "MemberAccess",
+                                                "expression": {
+                                                    "type": "Identifier",
+                                                    "name": "to",
+                                                    "range": [
+                                                        256,
+                                                        257
+                                                    ]
+                                                },
+                                                "memberName": "call",
+                                                "range": [
+                                                    256,
+                                                    262
+                                                ]
+                                            },
+                                            "memberName": "value",
+                                            "range": [
+                                                256,
+                                                268
+                                            ]
+                                        },
+                                        "arguments": [
+                                            {
+                                                "type": "Identifier",
+                                                "name": "amount",
+                                                "range": [
+                                                    270,
+                                                    275
+                                                ]
+                                            }
+                                        ],
+                                        "names": [],
+                                        "identifiers": [],
+                                        "range": [
+                                            256,
+                                            276
+                                        ]
+                                    },
+                                    "arguments": [],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        256,
+                                        278
+                                    ]
+                                },
+                                "range": [
+                                    256,
+                                    279
+                                ]
+                            }
+                        ],
+                        "range": [
+                            207,
+                            286
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null,
+                    "range": [
+                        152,
+                        286
+                    ]
+                }
+            ],
+            "kind": "contract",
+            "range": [
+                28,
+                289
+            ]
+        }
+    ],
+    "range": [
+        0,
+        291
+    ]
+}
