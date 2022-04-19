@@ -26,7 +26,7 @@ for (let i = 0; i < safe_list.length; i++) {
     content = fs.readFileSync('./Salt_Reentrancy/Safe/' + name + '.sol');
     input = content.toString();
     try {
-        result = parser.parse(input);
+        result = parser.parse(input, { range: true });
         console.log('ast success' + name);
         result_json = JSON.stringify(result, null, 4);
         fs.writeFile('./Salt_Reentrancy/Safe/' + name + '.json', result_json, function(err) {
