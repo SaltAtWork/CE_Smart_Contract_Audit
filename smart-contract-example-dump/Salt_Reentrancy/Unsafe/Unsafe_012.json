@@ -4,7 +4,11 @@
         {
             "type": "PragmaDirective",
             "name": "solidity",
-            "value": "^0.5.8"
+            "value": "^0.5.8",
+            "range": [
+                120,
+                142
+            ]
         },
         {
             "type": "ContractDefinition",
@@ -21,18 +25,34 @@
                                 "keyType": {
                                     "type": "ElementaryTypeName",
                                     "name": "address",
-                                    "stateMutability": null
+                                    "stateMutability": null,
+                                    "range": [
+                                        181,
+                                        187
+                                    ]
                                 },
                                 "valueType": {
                                     "type": "ElementaryTypeName",
                                     "name": "uint",
-                                    "stateMutability": null
-                                }
+                                    "stateMutability": null,
+                                    "range": [
+                                        192,
+                                        195
+                                    ]
+                                },
+                                "range": [
+                                    172,
+                                    196
+                                ]
                             },
                             "name": "balances",
                             "identifier": {
                                 "type": "Identifier",
-                                "name": "balances"
+                                "name": "balances",
+                                "range": [
+                                    205,
+                                    212
+                                ]
                             },
                             "expression": null,
                             "visibility": "public",
@@ -41,10 +61,18 @@
                             "isIndexed": false,
                             "isImmutable": false,
                             "override": null,
-                            "storageLocation": null
+                            "storageLocation": null,
+                            "range": [
+                                172,
+                                213
+                            ]
                         }
                     ],
-                    "initialValue": null
+                    "initialValue": null,
+                    "range": [
+                        172,
+                        213
+                    ]
                 },
                 {
                     "type": "FunctionDefinition",
@@ -60,13 +88,29 @@
                                     "type": "FunctionCall",
                                     "expression": {
                                         "type": "Identifier",
-                                        "name": "put"
+                                        "name": "put",
+                                        "range": [
+                                            263,
+                                            265
+                                        ]
                                     },
                                     "arguments": [],
                                     "names": [],
-                                    "identifiers": []
-                                }
+                                    "identifiers": [],
+                                    "range": [
+                                        263,
+                                        267
+                                    ]
+                                },
+                                "range": [
+                                    263,
+                                    268
+                                ]
                             }
+                        ],
+                        "range": [
+                            252,
+                            275
                         ]
                     },
                     "visibility": "public",
@@ -76,7 +120,11 @@
                     "isReceiveEther": false,
                     "isFallback": false,
                     "isVirtual": false,
-                    "stateMutability": "payable"
+                    "stateMutability": "payable",
+                    "range": [
+                        222,
+                        275
+                    ]
                 },
                 {
                     "type": "FunctionDefinition",
@@ -95,27 +143,63 @@
                                         "type": "IndexAccess",
                                         "base": {
                                             "type": "Identifier",
-                                            "name": "balances"
+                                            "name": "balances",
+                                            "range": [
+                                                325,
+                                                332
+                                            ]
                                         },
                                         "index": {
                                             "type": "MemberAccess",
                                             "expression": {
                                                 "type": "Identifier",
-                                                "name": "msg"
+                                                "name": "msg",
+                                                "range": [
+                                                    334,
+                                                    336
+                                                ]
                                             },
-                                            "memberName": "sender"
-                                        }
+                                            "memberName": "sender",
+                                            "range": [
+                                                334,
+                                                343
+                                            ]
+                                        },
+                                        "range": [
+                                            325,
+                                            344
+                                        ]
                                     },
                                     "right": {
                                         "type": "MemberAccess",
                                         "expression": {
                                             "type": "Identifier",
-                                            "name": "msg"
+                                            "name": "msg",
+                                            "range": [
+                                                348,
+                                                350
+                                            ]
                                         },
-                                        "memberName": "value"
-                                    }
-                                }
+                                        "memberName": "value",
+                                        "range": [
+                                            348,
+                                            356
+                                        ]
+                                    },
+                                    "range": [
+                                        325,
+                                        356
+                                    ]
+                                },
+                                "range": [
+                                    325,
+                                    357
+                                ]
                             }
+                        ],
+                        "range": [
+                            314,
+                            364
                         ]
                     },
                     "visibility": "public",
@@ -125,7 +209,11 @@
                     "isReceiveEther": false,
                     "isFallback": false,
                     "isVirtual": false,
-                    "stateMutability": "payable"
+                    "stateMutability": "payable",
+                    "range": [
+                        284,
+                        364
+                    ]
                 },
                 {
                     "type": "FunctionDefinition",
@@ -143,34 +231,58 @@
                                         "name": "res",
                                         "identifier": {
                                             "type": "Identifier",
-                                            "name": "res"
+                                            "name": "res",
+                                            "range": [
+                                                412,
+                                                414
+                                            ]
                                         },
                                         "typeName": {
                                             "type": "ElementaryTypeName",
                                             "name": "bool",
-                                            "stateMutability": null
+                                            "stateMutability": null,
+                                            "range": [
+                                                407,
+                                                410
+                                            ]
                                         },
                                         "storageLocation": null,
                                         "isStateVar": false,
                                         "isIndexed": false,
-                                        "expression": null
+                                        "expression": null,
+                                        "range": [
+                                            407,
+                                            414
+                                        ]
                                     },
                                     {
                                         "type": "VariableDeclaration",
                                         "name": "x",
                                         "identifier": {
                                             "type": "Identifier",
-                                            "name": "x"
+                                            "name": "x",
+                                            "range": [
+                                                430,
+                                                430
+                                            ]
                                         },
                                         "typeName": {
                                             "type": "ElementaryTypeName",
                                             "name": "bytes",
-                                            "stateMutability": null
+                                            "stateMutability": null,
+                                            "range": [
+                                                417,
+                                                421
+                                            ]
                                         },
                                         "storageLocation": "memory",
                                         "isStateVar": false,
                                         "isIndexed": false,
-                                        "expression": null
+                                        "expression": null,
+                                        "range": [
+                                            417,
+                                            430
+                                        ]
                                     }
                                 ],
                                 "initialValue": {
@@ -185,33 +297,69 @@
                                                     "type": "MemberAccess",
                                                     "expression": {
                                                         "type": "Identifier",
-                                                        "name": "msg"
+                                                        "name": "msg",
+                                                        "range": [
+                                                            435,
+                                                            437
+                                                        ]
                                                     },
-                                                    "memberName": "sender"
+                                                    "memberName": "sender",
+                                                    "range": [
+                                                        435,
+                                                        444
+                                                    ]
                                                 },
-                                                "memberName": "call"
+                                                "memberName": "call",
+                                                "range": [
+                                                    435,
+                                                    449
+                                                ]
                                             },
-                                            "memberName": "value"
+                                            "memberName": "value",
+                                            "range": [
+                                                435,
+                                                455
+                                            ]
                                         },
                                         "arguments": [
                                             {
                                                 "type": "IndexAccess",
                                                 "base": {
                                                     "type": "Identifier",
-                                                    "name": "balances"
+                                                    "name": "balances",
+                                                    "range": [
+                                                        457,
+                                                        464
+                                                    ]
                                                 },
                                                 "index": {
                                                     "type": "MemberAccess",
                                                     "expression": {
                                                         "type": "Identifier",
-                                                        "name": "msg"
+                                                        "name": "msg",
+                                                        "range": [
+                                                            466,
+                                                            468
+                                                        ]
                                                     },
-                                                    "memberName": "sender"
-                                                }
+                                                    "memberName": "sender",
+                                                    "range": [
+                                                        466,
+                                                        475
+                                                    ]
+                                                },
+                                                "range": [
+                                                    457,
+                                                    476
+                                                ]
                                             }
                                         ],
                                         "names": [],
-                                        "identifiers": []
+                                        "identifiers": [],
+                                        "range": [
+                                            435,
+                                            477
+                                        ]
                                     },
                                     "arguments": [
                                         {
@@ -222,12 +370,24 @@
                                             ],
                                             "isUnicode": [
                                                 false
+                                            ],
+                                            "range": [
+                                                479,
+                                                480
                                             ]
                                         }
                                     ],
                                     "names": [],
-                                    "identifiers": []
-                                }
+                                    "identifiers": [],
+                                    "range": [
+                                        435,
+                                        481
+                                    ]
+                                },
+                                "range": [
+                                    406,
+                                    482
+                                ]
                             },
                             {
                                 "type": "IfStatement",
@@ -236,9 +396,17 @@
                                     "operator": "!",
                                     "subExpression": {
                                         "type": "Identifier",
-                                        "name": "res"
+                                        "name": "res",
+                                        "range": [
+                                            497,
+                                            499
+                                        ]
                                     },
-                                    "isPrefix": true
+                                    "isPrefix": true,
+                                    "range": [
+                                        496,
+                                        499
+                                    ]
                                 },
                                 "trueBody": {
                                     "type": "Block",
@@ -249,16 +417,36 @@
                                                 "type": "FunctionCall",
                                                 "expression": {
                                                     "type": "Identifier",
-                                                    "name": "revert"
+                                                    "name": "revert",
+                                                    "range": [
+                                                        517,
+                                                        522
+                                                    ]
                                                 },
                                                 "arguments": [],
                                                 "names": [],
-                                                "identifiers": []
-                                            }
+                                                "identifiers": [],
+                                                "range": [
+                                                    517,
+                                                    524
+                                                ]
+                                            },
+                                            "range": [
+                                                517,
+                                                525
+                                            ]
                                         }
+                                    ],
+                                    "range": [
+                                        502,
+                                        536
                                     ]
                                 },
-                                "falseBody": null
+                                "falseBody": null,
+                                "range": [
+                                    493,
+                                    536
+                                ]
                             },
                             {
                                 "type": "ExpressionStatement",
@@ -269,24 +457,56 @@
                                         "type": "IndexAccess",
                                         "base": {
                                             "type": "Identifier",
-                                            "name": "balances"
+                                            "name": "balances",
+                                            "range": [
+                                                547,
+                                                554
+                                            ]
                                         },
                                         "index": {
                                             "type": "MemberAccess",
                                             "expression": {
                                                 "type": "Identifier",
-                                                "name": "msg"
+                                                "name": "msg",
+                                                "range": [
+                                                    556,
+                                                    558
+                                                ]
                                             },
-                                            "memberName": "sender"
-                                        }
+                                            "memberName": "sender",
+                                            "range": [
+                                                556,
+                                                565
+                                            ]
+                                        },
+                                        "range": [
+                                            547,
+                                            566
+                                        ]
                                     },
                                     "right": {
                                         "type": "NumberLiteral",
                                         "number": "0",
-                                        "subdenomination": null
-                                    }
-                                }
+                                        "subdenomination": null,
+                                        "range": [
+                                            570,
+                                            570
+                                        ]
+                                    },
+                                    "range": [
+                                        547,
+                                        570
+                                    ]
+                                },
+                                "range": [
+                                    547,
+                                    571
+                                ]
                             }
+                        ],
+                        "range": [
+                            395,
+                            578
                         ]
                     },
                     "visibility": "public",
@@ -296,7 +516,11 @@
                     "isReceiveEther": false,
                     "isFallback": false,
                     "isVirtual": false,
-                    "stateMutability": null
+                    "stateMutability": null,
+                    "range": [
+                        373,
+                        578
+                    ]
                 },
                 {
                     "type": "FunctionDefinition",
@@ -312,13 +536,29 @@
                                     "type": "FunctionCall",
                                     "expression": {
                                         "type": "Identifier",
-                                        "name": "revert"
+                                        "name": "revert",
+                                        "range": [
+                                            618,
+                                            623
+                                        ]
                                     },
                                     "arguments": [],
                                     "names": [],
-                                    "identifiers": []
-                                }
+                                    "identifiers": [],
+                                    "range": [
+                                        618,
+                                        625
+                                    ]
+                                },
+                                "range": [
+                                    618,
+                                    626
+                                ]
                             }
+                        ],
+                        "range": [
+                            607,
+                            633
                         ]
                     },
                     "visibility": "external",
@@ -328,10 +568,22 @@
                     "isReceiveEther": false,
                     "isFallback": true,
                     "isVirtual": false,
-                    "stateMutability": null
+                    "stateMutability": null,
+                    "range": [
+                        587,
+                        633
+                    ]
                 }
             ],
-            "kind": "contract"
+            "kind": "contract",
+            "range": [
+                147,
+                636
+            ]
         }
+    ],
+    "range": [
+        120,
+        636
     ]
 }
