@@ -4,6 +4,7 @@ import { convertNumber, checkData } from './GlobalFunction';
 import ChartComponent from './ChartComponent';
 import LinkComponent from './LinkComponent';
 import AuditHistoryComponent from './AuditHistoryComponent';
+import { Rating } from 'react-simple-star-rating';
 
 function TVLTable(props){
     const {data} = props;
@@ -31,7 +32,7 @@ function TVLTable(props){
                 <tr>
                     <td id="head">ETH Locked</td>
                     <td id="data">{checkData(data) ? convertNumber(data[0].ethLocked,false) : "xxx.x K"} ETH</td>
-                    <td id="data">+ x.x K ETH</td>
+                    <td id="data">N/A</td>
                 </tr>
             </table>
         </div>
@@ -48,11 +49,11 @@ function CreditComponent(props){
             <table>
                 <tr>
                     <td id="head">Project Launch Date</td>
-                    <td id="data">xx/xx/xxxx</td>
+                    <td id="data">{checkData(data) ? data[0].launchDate : "N/A"}</td>
                 </tr>
                 <tr>
                     <td id="head">Last Exploited</td>
-                    <td id="data">{checkData(data) ? data[0].lastExploited : "xx/xx/xxxx"}</td>
+                    <td id="data">{checkData(data) ? data[0].lastExploited : "N/A"}</td>
                 </tr>
             </table>
         </div>
@@ -136,9 +137,15 @@ function InfoPage(props){
             <div id="infotop">
                 <h1 onClick={() => history.goBack()}>SCAT</h1>
             </div>
-            <div id="infotitle">
-                <h2>{name}</h2>
-                <h3>Key Statistic</h3>
+            <div class="infopage">
+                <div class="infolist-c">
+                    <h1>{name}</h1>
+                    <h3>Key Statistic</h3>
+                </div>
+                <div class="infolist-d">
+                    <Rating ratingValue={80} size={30} readonly={true} rtl={true}/>
+                    <h3 class="righth3">Rating: 4/5</h3>
+                </div>
             </div>
             <div class="infopage">
                 <div class="infolist-a">
