@@ -16,22 +16,22 @@ function TVLTable(props){
             <table>
                 <tr>
                     <td id="head">in USD</td>
-                    <td id="data">$ {checkData(data) ? convertNumber(data[0].usdTVL,false) : "xxx.x M"}</td>
-                    <td id="data">{checkData(data) ? convertNumber(data[0].usdTVLChanged,true) : "+ x.x"}%</td>
+                    <td id="data">{checkData(data[0].usdTVL) ? "$" + convertNumber(data[0].usdTVL,false) : "N/A"}</td>
+                    <td id="data">{checkData(data[0].usdTVLChanged) ? convertNumber(data[0].usdTVLChanged,true) + "%" : "N/A"}</td>
                 </tr>
                 <tr>
                     <td id="head">in ETH</td>
-                    <td id="data">{checkData(data) ? convertNumber(data[0].ethTVL,false) : "xxx.x K"} ETH</td>
-                    <td id="data">{checkData(data) ? convertNumber(data[0].ethTVLChanged,true) : "+ x.x"}%</td>
+                    <td id="data">{checkData(data[0].ethTVL) ? convertNumber(data[0].ethTVL,false) + " ETH" : "N/A"}</td>
+                    <td id="data">{checkData(data[0].ethTVLChanged) ? convertNumber(data[0].ethTVLChanged,true) + "%" : "+ x.x"}</td>
                 </tr>
                 <tr>
                     <td id="head">in BTC</td>
-                    <td id="data">{checkData(data) ? convertNumber(data[0].btcTVL,false) : "xxx.x K"} BTC</td>
-                    <td id="data">{checkData(data) ? convertNumber(data[0].btcTVLChanged,true) : "+ x.x"}%</td>
+                    <td id="data">{checkData(data[0].btcTVL) ? convertNumber(data[0].btcTVL,false) + " BTC" : "N/A"}</td>
+                    <td id="data">{checkData(data[0].btcTVLChanged) ? convertNumber(data[0].btcTVLChanged,true) + "%" : "+ x.x"}</td>
                 </tr>
                 <tr>
                     <td id="head">ETH Locked</td>
-                    <td id="data">{checkData(data) ? convertNumber(data[0].ethLocked,false) : "xxx.x K"} ETH</td>
+                    <td id="data">{checkData(data) ? convertNumber(data[0].ethLocked,false) + " ETH" : "N/A"}</td>
                     <td id="data">N/A</td>
                 </tr>
             </table>
@@ -49,11 +49,11 @@ function CreditComponent(props){
             <table>
                 <tr>
                     <td id="head">Project Launch Date</td>
-                    <td id="data">{checkData(data) ? data[0].launchDate : "N/A"}</td>
+                    <td id="data">{checkData(data[0].launchDate) ? data[0].launchDate : "N/A"}</td>
                 </tr>
                 <tr>
                     <td id="head">Last Exploited</td>
-                    <td id="data">{checkData(data) ? data[0].lastExploited : "N/A"}</td>
+                    <td id="data">{checkData(data[0].lastExploited) ? data[0].lastExploited : "N/A"}</td>
                 </tr>
             </table>
         </div>
@@ -66,7 +66,7 @@ function DescriptionComponent(props){
     return(
         <div class="infoitem">
             <h3>{name}'s Description</h3>
-            {checkData(data) ? <p>{data[0].description}</p> : <p>No Description Available</p>}
+            {checkData(data[0].description) ? <p>{data[0].description}</p> : <p>No description available</p>}
         </div>
     );
 }
@@ -76,7 +76,7 @@ function AnalysisComponent(props){
     return(
         <div class="infoitem">
             <h3>Analysis</h3>
-            {checkData(data) ? <p>{data[0].riskAnalysis}</p> : <p>No Risk Analysis Available</p>}
+            {checkData(data[0].riskAnalysis) ? <p>{data[0].riskAnalysis}</p> : <p>No risk analysis available</p>}
         </div>
     );
 }
@@ -85,10 +85,8 @@ function ExploitCaseComponent(props){
     const {name,data} = props;
     return(
         <div class="infoitem">
-            <h3>Exploited Case</h3>
-            <p>19 October 2021</p>
-            <t></t>
-            <p>&emsp;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <h3>Attack History</h3>
+            {checkData(data[0].attackHistory) ? <p>{data[0].attackHistory}</p> : <p>No attack history available</p>}
         </div>
     );
 }
@@ -98,8 +96,8 @@ function OurAnalysisComponent(props){
     const {name,data} = props;
     return(
         <div class="infoitem">
-            <h3>Smart Contract Auditing Result</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <h3>Result From Our Scanner</h3>
+            {checkData(data[0].result) ? <p>{data[0].result}</p> : <p>No result available</p>}
         </div>
     );
 }
@@ -121,6 +119,7 @@ function InfoPage(props){
               throw res;
             })
             .then((res) => {
+                console.log(res);
               setData(res);
               setReceived(true);
             })
@@ -143,8 +142,8 @@ function InfoPage(props){
                     <h3>Key Statistic</h3>
                 </div>
                 <div class="infolist-d">
-                    <Rating ratingValue={80} size={30} readonly={true} rtl={true}/>
-                    <h3 class="righth3">Rating: 4/5</h3>
+                    <Rating ratingValue={checkData(data[0].rating) ? data[0].rating : 0} size={30} readonly={true} />
+                    {checkData(data[0].rating) ? <h3 class="righth3">Rating : {data[0].rating/20}/5</h3> : <h3 class="righth3">No Rating</h3>}
                 </div>
             </div>
             <div class="infopage">

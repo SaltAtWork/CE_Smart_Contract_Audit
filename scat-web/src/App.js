@@ -143,9 +143,3 @@ function App() {
 }
 
 export default App;
-
-//<Filter />
-//<Table />
-/*<h1>
-              {JSON.stringify(data,null,2)}
-            </h1> */

@@ -1,8 +1,9 @@
 export function checkData(data){
-    if(data !== "Blank"){
-        if(data.length >= 1){
-            return true;
-        }
+    if(data !== "Blank" && data !== undefined){
+        // if(data.length >= 1){
+        //     return true;
+        // }
+        return true;
     }
     return false;
 }

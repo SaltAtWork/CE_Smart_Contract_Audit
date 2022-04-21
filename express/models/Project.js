@@ -34,6 +34,14 @@ const ProjectSchema = mongoose.Schema({
         type: String,
         require: true
     },
+    rating: {
+        type: Number,
+        require: true
+    },
+    result: {
+        type: String,
+        require: true
+    },
     usdTVL: {
         type: Number,
         require: true
