@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/CE_Smart_Contract_Audit/static/css/main.6ebd18e3.chunk.css",
+    "main.js": "/CE_Smart_Contract_Audit/static/js/main.d856143b.chunk.js",
+    "main.js.map": "/CE_Smart_Contract_Audit/static/js/main.d856143b.chunk.js.map",
+    "runtime-main.js": "/CE_Smart_Contract_Audit/static/js/runtime-main.5b911e42.js",
+    "runtime-main.js.map": "/CE_Smart_Contract_Audit/static/js/runtime-main.5b911e42.js.map",
+    "static/css/2.517957bd.chunk.css": "/CE_Smart_Contract_Audit/static/css/2.517957bd.chunk.css",
+    "static/js/2.61bf1f1c.chunk.js": "/CE_Smart_Contract_Audit/static/js/2.61bf1f1c.chunk.js",
+    "static/js/2.61bf1f1c.chunk.js.map": "/CE_Smart_Contract_Audit/static/js/2.61bf1f1c.chunk.js.map",
+    "index.html": "/CE_Smart_Contract_Audit/index.html",
+    "static/css/2.517957bd.chunk.css.map": "/CE_Smart_Contract_Audit/static/css/2.517957bd.chunk.css.map",
+    "static/css/main.6ebd18e3.chunk.css.map": "/CE_Smart_Contract_Audit/static/css/main.6ebd18e3.chunk.css.map",
+    "static/js/2.61bf1f1c.chunk.js.LICENSE.txt": "/CE_Smart_Contract_Audit/static/js/2.61bf1f1c.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/CE_Smart_Contract_Audit/static/media/mulish-vietnamese-400-normal.0c5054fb.woff2",
+    "static/media/App.css": "/CE_Smart_Contract_Audit/static/media/title_background.ce9352b4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b911e42.js",
+    "static/css/2.517957bd.chunk.css",
+    "static/js/2.61bf1f1c.chunk.js",
+    "static/css/main.6ebd18e3.chunk.css",
+    "static/js/main.d856143b.chunk.js"
+  ]
+}
