@@ -7,10 +7,8 @@ import {BrowserRouter, Router} from 'react-router-dom'
 import "@fontsource/mulish";
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Router baseName={process.env.PUBLIC_URL}>
-      <App />
-    </Router>
+  <BrowserRouter baseName={process.env.PUBLIC_URL}>
+    <App />
   </BrowserRouter>,
   document.getElementById('root')
 );
