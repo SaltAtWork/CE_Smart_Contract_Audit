@@ -2,7 +2,7 @@ import './App.css';
 import {useState,useEffect} from 'react';
 import ListTable from './components/ListTable.js';
 import InfoPage from './components/InfoPage';
-import {BrowserRouter as Router,Switch,Route,Link} from 'react-router-dom'
+import {HashRouter as Router,Switch,Route,Link} from 'react-router-dom'
 import { ResponsiveContainer } from 'recharts';
 import { checkData } from './components/GlobalFunction';
 import "@fontsource/mulish";
