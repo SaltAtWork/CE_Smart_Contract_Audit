@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css'
 //import reportWebVitals from './reportWebVitals';
-import {BrowserRouter} from 'react-router-dom'
+import {BrowserRouter, Router} from 'react-router-dom'
 import "@fontsource/mulish";
 
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    <Router baseName={process.env.PUBLIC_URL}>
+      <App />
+    </Router>
   </BrowserRouter>,
   document.getElementById('root')
 );
