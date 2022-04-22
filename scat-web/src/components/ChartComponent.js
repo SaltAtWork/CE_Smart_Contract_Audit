@@ -98,8 +98,8 @@ function ChartComponent(props){
             </p>
             <p></p>
             <p></p>
-            <div>
-            <ResponsiveContainer width="100%" height={300}>
+            <div class="padbottom">
+            {!checkData(chartData) ? <h4 class="centerh3">No Chart Available</h4> : <ResponsiveContainer width="100%" height={300}>
                 <LineChart margin={{left: 10, bottom: 10, right: 10}} data={checkData(FilteredData) ? FilteredData.reverse() : []}>
                     <Line type="linear" dataKey={currency} stroke="#8884d8" />
                     <CartesianGrid stroke="#ccc" vertical={false}/>
@@ -109,7 +109,7 @@ function ChartComponent(props){
                         return convertNumber(tick);
                     }}/>
                 </LineChart>
-            </ResponsiveContainer>
+            </ResponsiveContainer>}
             </div>
         </div>
     );

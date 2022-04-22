@@ -170,7 +170,7 @@ div[class="infoitem"]{
 }
 [class="infoitem"] p{
   padding-left: 7px;
-  padding-bottom: 7px;
+  padding-bottom: 10px;
 }
 
 td[id="head"]{
@@ -214,6 +214,14 @@ span.active {
 
 [class="righth3"]{
   text-align: right;
+}
+
+[class="centerh3"]{
+  text-align: center;
+}
+
+[class="padbottom"]{
+  padding-bottom: 10px;
 }
 
 .col-1 {width: 8.33%;}
