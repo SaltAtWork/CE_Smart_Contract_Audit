@@ -3,13 +3,16 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css'
 //import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, Router} from 'react-router-dom'
+import {BrowserRouter, HashRouter} from 'react-router-dom'
 import "@fontsource/mulish";
 
 ReactDOM.render(
-  <BrowserRouter baseName={process.env.PUBLIC_URL}>
-    <App />
-  </BrowserRouter>,
+  <React.StrictMode>
+    <HashRouter baseName={process.env.PUBLIC_URL}>
+      <App />
+    </HashRouter>
+  </React.StrictMode>
+  ,
   document.getElementById('root')
 );
 
