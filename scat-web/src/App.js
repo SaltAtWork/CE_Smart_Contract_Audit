@@ -120,11 +120,13 @@ function App() {
           .then((res) => {
             setData(res);
             setReceived(true);
+            document.title = "SCAT";
           })
           .catch((error) => {
             console.log("Error fetching data : ", error);
             setData("Blank");
             setReceived(false);
+            document.title = "SCAT - Database Offline";
           })
       }
   })

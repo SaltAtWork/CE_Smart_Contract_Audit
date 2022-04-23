@@ -122,11 +122,13 @@ function InfoPage(props){
                 console.log(res);
               setData(res);
               setReceived(true);
+              document.title = name + " - SCAT";
             })
             .catch((error) => {
               console.log("Error fetching data : ", error);
               setData("Blank");
               setReceived(false);
+              document.title = name + " - SCAT";
             })
         }
     })
