@@ -1,0 +1,3 @@
+test_assembly possible inline assembly 
+position 187,1184
+

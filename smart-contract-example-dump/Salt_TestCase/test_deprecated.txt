@@ -1,0 +1,18 @@
+test_deprecated possible suicide used 
+position 480,486
+
+test_deprecated possible sha3 used 
+position 251,254
+
+test_deprecated possible callcode used 
+position 368,389
+
+test_deprecated possible throw used 
+position 339,344
+
+test_deprecated possible msg.gas used 
+position 290,296
+
+test_deprecated possible constant used 
+position 127,506
+

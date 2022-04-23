@@ -1,0 +1,1207 @@
+./Salt_Reentrancy/Safe/Safe_001.solDetected floating pragma 
+position 54,77
+Char = [
+
+Detected floating pragma 
+position 54,77
+Char = >
+
+Detected floating pragma 
+position 54,77
+Char = ^
+
+Detected floating pragma 
+position 54,77
+Char = ]
+
+./Salt_Reentrancy/Safe/Safe_002.solDetected default variable visibility 
+position 162,195
+
+Detected default variable visibility 
+position 200,209
+
+Detected floating pragma 
+position 54,76
+Char = [
+
+Detected floating pragma 
+position 54,76
+Char = >
+
+Detected floating pragma 
+position 54,76
+Char = ^
+
+Detected floating pragma 
+position 54,76
+Char = ]
+
+./Salt_Reentrancy/Safe/Safe_003.solDetected floating pragma 
+position 307,330
+Char = >
+
+Detected floating pragma 
+position 307,330
+Char = ^
+
+Detected now used 
+position 449,451
+
+Detected now used 
+position 449,451
+
+Detected now used 
+position 1064,1066
+
+./Salt_Reentrancy/Safe/Safe_004.solDetected floating pragma 
+position 307,329
+Char = <
+
+Detected floating pragma 
+position 307,329
+Char = >
+
+Detected floating pragma 
+position 307,329
+Char = ^
+
+Detected possible reentrancy 
+position 579,862
+
+Detected possible reentrancy 
+position 631,855
+
+Detected now used 
+position 517,519
+
+./Salt_Reentrancy/Safe/Safe_005.solDetected floating pragma 
+position 208,231
+Char = [
+
+Detected floating pragma 
+position 208,231
+Char = >
+
+Detected floating pragma 
+position 208,231
+Char = ^
+
+Detected floating pragma 
+position 208,231
+Char = ]
+
+./Salt_Reentrancy/Safe/Safe_006.solDetected floating pragma 
+position 128,148
+Char = [
+
+Detected floating pragma 
+position 128,148
+Char = <
+
+Detected floating pragma 
+position 128,148
+Char = >
+
+Detected floating pragma 
+position 128,148
+Char = ^
+
+Detected floating pragma 
+position 128,148
+Char = ]
+
+Detected block.timestamp used 
+position 494,508
+
+Detected block.timestamp used 
+position 638,652
+
+./Salt_Reentrancy/Safe/Safe_007.solDetected floating pragma 
+position 128,148
+Char = [
+
+Detected floating pragma 
+position 128,148
+Char = <
+
+Detected floating pragma 
+position 128,148
+Char = >
+
+Detected floating pragma 
+position 128,148
+Char = ^
+
+Detected floating pragma 
+position 128,148
+Char = ]
+
+Detected floating pragma 
+position 128,148
+Char = !
+
+Detected block.timestamp used 
+position 677,691
+
+Detected block.timestamp used 
+position 821,835
+
+./Salt_Reentrancy/Safe/Safe_008.solDetected floating pragma 
+position 144,166
+Char = [
+
+Detected floating pragma 
+position 144,166
+Char = >
+
+Detected floating pragma 
+position 144,166
+Char = ^
+
+Detected floating pragma 
+position 144,166
+Char = ]
+
+./Salt_Reentrancy/Safe/Safe_009.solDetected floating pragma 
+position 224,246
+Char = [
+
+Detected floating pragma 
+position 224,246
+Char = >
+
+Detected floating pragma 
+position 224,246
+Char = ^
+
+Detected floating pragma 
+position 224,246
+Char = ]
+
+Detected possible reentrancy 
+position 461,722
+
+./Salt_Reentrancy/Safe/Safe_010.solDetected default variable visibility 
+position 301,329
+
+Detected floating pragma 
+position 218,238
+Char = [
+
+Detected floating pragma 
+position 218,238
+Char = <
+
+Detected floating pragma 
+position 218,238
+Char = >
+
+Detected floating pragma 
+position 218,238
+Char = ^
+
+Detected floating pragma 
+position 218,238
+Char = ]
+
+Detected floating pragma 
+position 218,238
+Char = !
+
+Detected possible reentrancy 
+position 647,1269
+
+Detected now used 
+position 893,895
+
+Detected now used 
+position 1030,1032
+
+./Salt_Reentrancy/Safe/Safe_011.solDetected floating pragma 
+position 133,153
+Char = [
+
+Detected floating pragma 
+position 133,153
+Char = >
+
+Detected floating pragma 
+position 133,153
+Char = ^
+
+Detected floating pragma 
+position 133,153
+Char = ]
+
+./Salt_Reentrancy/Safe/Safe_012.solDetected default function visibility 
+position 2290,2378
+
+Detected floating pragma 
+position 257,279
+Char = [
+
+Detected floating pragma 
+position 257,279
+Char = <
+
+Detected floating pragma 
+position 257,279
+Char = >
+
+Detected floating pragma 
+position 257,279
+Char = ]
+
+Detected floating pragma 
+position 257,279
+Char = !
+
+Detected floating pragma 
+position 257,279
+Char = ~
+
+Detected possible reentrancy 
+position 4467,5218
+
+Detected block.timestamp used 
+position 2578,2592
+
+./Salt_Reentrancy/Unsafe/Unsafe_001.solDetected floating pragma 
+position 54,76
+Char = [
+
+Detected floating pragma 
+position 54,76
+Char = >
+
+Detected floating pragma 
+position 54,76
+Char = ]
+
+Detected possible reentrancy 
+position 280,416
+
+Detected possible reentrancy 
+position 320,411
+
+./Salt_Reentrancy/Unsafe/Unsafe_002.solDetected default variable visibility 
+position 164,197
+
+Detected default variable visibility 
+position 202,211
+
+Detected floating pragma 
+position 54,76
+Char = [
+
+Detected floating pragma 
+position 54,76
+Char = >
+
+Detected floating pragma 
+position 54,76
+Char = ^
+
+Detected floating pragma 
+position 54,76
+Char = ]
+
+./Salt_Reentrancy/Unsafe/Unsafe_003.solDetected floating pragma 
+position 116,138
+Char = [
+
+Detected floating pragma 
+position 116,138
+Char = >
+
+Detected floating pragma 
+position 116,138
+Char = ^
+
+Detected floating pragma 
+position 116,138
+Char = ]
+
+Detected floating pragma 
+position 116,138
+Char = !
+
+Detected possible reentrancy 
+position 664,873
+
+./Salt_Reentrancy/Unsafe/Unsafe_004.solDetected floating pragma 
+position 115,138
+Char = [
+
+Detected floating pragma 
+position 115,138
+Char = >
+
+Detected floating pragma 
+position 115,138
+Char = ]
+
+Detected possible reentrancy 
+position 504,729
+
+Detected possible reentrancy 
+position 548,724
+
+./Salt_Reentrancy/Unsafe/Unsafe_005.solDetected floating pragma 
+position 282,305
+Char = >
+
+Detected possible reentrancy 
+position 422,626
+
+./Salt_Reentrancy/Unsafe/Unsafe_006.solDetected floating pragma 
+position 212,235
+Char = [
+
+Detected floating pragma 
+position 212,235
+Char = >
+
+Detected floating pragma 
+position 212,235
+Char = ^
+
+Detected floating pragma 
+position 212,235
+Char = ]
+
+Detected possible reentrancy 
+position 396,585
+
+./Salt_Reentrancy/Unsafe/Unsafe_007.solDetected default function visibility 
+position 327,513
+
+Detected floating pragma 
+position 212,235
+Char = [
+
+Detected floating pragma 
+position 212,235
+Char = >
+
+Detected floating pragma 
+position 212,235
+Char = ^
+
+Detected floating pragma 
+position 212,235
+Char = ]
+
+Detected possible reentrancy 
+position 547,683
+
+./Salt_Reentrancy/Unsafe/Unsafe_008.solDetected floating pragma 
+position 212,235
+Char = [
+
+Detected floating pragma 
+position 212,235
+Char = <
+
+Detected floating pragma 
+position 212,235
+Char = >
+
+Detected floating pragma 
+position 212,235
+Char = ^
+
+Detected floating pragma 
+position 212,235
+Char = ]
+
+Detected possible reentrancy 
+position 299,713
+
+Detected possible reentrancy 
+position 436,706
+
+Detected possible reentrancy 
+position 606,699
+
+Detected tx.origin authorization 
+position 306,341
+
+./Salt_Reentrancy/Unsafe/Unsafe_009.solDetected floating pragma 
+position 130,150
+Char = [
+
+Detected floating pragma 
+position 130,150
+Char = <
+
+Detected floating pragma 
+position 130,150
+Char = >
+
+Detected floating pragma 
+position 130,150
+Char = ^
+
+Detected floating pragma 
+position 130,150
+Char = ]
+
+Detected possible reentrancy 
+position 379,772
+
+Detected block.timestamp used 
+position 496,510
+
+Detected block.timestamp used 
+position 750,764
+
+./Salt_Reentrancy/Unsafe/Unsafe_010.solDetected floating pragma 
+position 293,317
+Char = [
+
+Detected floating pragma 
+position 293,317
+Char = <
+
+Detected floating pragma 
+position 293,317
+Char = >
+
+Detected floating pragma 
+position 293,317
+Char = ]
+
+Detected possible reentrancy 
+position 825,1005
+
+Detected unchecked low-level call return value 
+position 919,950
+
+Detected unchecked low-level call return value 
+position 919,950
+
+./Salt_Reentrancy/Unsafe/Unsafe_011.solDetected floating pragma 
+position 120,143
+Char = [
+
+Detected floating pragma 
+position 120,143
+Char = <
+
+Detected floating pragma 
+position 120,143
+Char = >
+
+Detected floating pragma 
+position 120,143
+Char = ^
+
+Detected floating pragma 
+position 120,143
+Char = ]
+
+Detected possible reentrancy 
+position 469,641
+
+Detected possible reentrancy 
+position 513,634
+
+./Salt_Reentrancy/Unsafe/Unsafe_012.solDetected floating pragma 
+position 120,142
+Char = [
+
+Detected floating pragma 
+position 120,142
+Char = >
+
+Detected floating pragma 
+position 120,142
+Char = ^
+
+Detected floating pragma 
+position 120,142
+Char = ]
+
+Detected floating pragma 
+position 120,142
+Char = !
+
+Detected possible reentrancy 
+position 395,578
+
+./Salt_Reentrancy/Unsafe/Unsafe_013.solDetected floating pragma 
+position 147,169
+Char = [
+
+Detected floating pragma 
+position 147,169
+Char = >
+
+Detected floating pragma 
+position 147,169
+Char = ^
+
+Detected floating pragma 
+position 147,169
+Char = ]
+
+Detected possible reentrancy 
+position 298,587
+
+./Salt_Reentrancy/Unsafe/Unsafe_014.solDetected default function visibility 
+position 267,472
+
+Detected floating pragma 
+position 147,169
+Char = [
+
+Detected floating pragma 
+position 147,169
+Char = >
+
+Detected floating pragma 
+position 147,169
+Char = ^
+
+Detected floating pragma 
+position 147,169
+Char = ]
+
+Detected possible reentrancy 
+position 515,796
+
+./Salt_Reentrancy/Unsafe/Unsafe_015.solDetected floating pragma 
+position 227,249
+Char = [
+
+Detected floating pragma 
+position 227,249
+Char = >
+
+Detected floating pragma 
+position 227,249
+Char = ^
+
+Detected floating pragma 
+position 227,249
+Char = ]
+
+Detected possible reentrancy 
+position 464,725
+
+./Salt_Reentrancy/Unsafe/Unsafe_016.solDetected default function visibility 
+position 242,334
+
+Detected default function visibility 
+position 343,428
+
+Detected default function visibility 
+position 440,750
+
+Detected default variable visibility 
+position 193,230
+
+Detected throw 
+position 689,694
+
+Detected constant used 
+position 242,334
+
+Detected floating pragma 
+position 138,161
+Char = [
+
+Detected floating pragma 
+position 138,161
+Char = >
+
+Detected floating pragma 
+position 138,161
+Char = ^
+
+Detected floating pragma 
+position 138,161
+Char = ]
+
+Detected floating pragma 
+position 138,161
+Char = !
+
+Detected possible reentrancy 
+position 466,750
+
+./Salt_Reentrancy/Unsafe/Unsafe_017.solDetected floating pragma 
+position 220,240
+Char = [
+
+Detected floating pragma 
+position 220,240
+Char = <
+
+Detected floating pragma 
+position 220,240
+Char = >
+
+Detected floating pragma 
+position 220,240
+Char = ^
+
+Detected floating pragma 
+position 220,240
+Char = ]
+
+Detected possible reentrancy 
+position 585,1001
+
+Detected now used 
+position 795,797
+
+Detected now used 
+position 991,993
+
+./Salt_Reentrancy/Unsafe/Unsafe_018.solDetected constant used 
+position 474,589
+
+Detected floating pragma 
+position 81,103
+Char = >
+
+Detected floating pragma 
+position 81,103
+Char = ^
+
+Detected floating pragma 
+position 81,103
+Char = !
+
+Detected possible reentrancy 
+position 258,421
+
+Detected possible reentrancy 
+position 317,414
+
+./Salt_Reentrancy/Unsafe/Unsafe_019.solDetected floating pragma 
+position 135,155
+Char = [
+
+Detected floating pragma 
+position 135,155
+Char = >
+
+Detected floating pragma 
+position 135,155
+Char = ^
+
+Detected floating pragma 
+position 135,155
+Char = ]
+
+Detected possible reentrancy 
+position 281,534
+
+./Salt_Reentrancy/Unsafe/Unsafe_020.solDetected default function visibility 
+position 260,465
+
+Detected floating pragma 
+position 135,155
+Char = [
+
+Detected floating pragma 
+position 135,155
+Char = >
+
+Detected floating pragma 
+position 135,155
+Char = ^
+
+Detected floating pragma 
+position 135,155
+Char = ]
+
+Detected possible reentrancy 
+position 508,750
+
+./Salt_Reentrancy/Unsafe/Unsafe_021.solDetected default function visibility 
+position 269,485
+
+Detected default function visibility 
+position 492,511
+
+Detected default variable visibility 
+position 244,262
+
+Detected floating pragma 
+position 132,155
+Char = >
+
+Detected floating pragma 
+position 132,155
+Char = ^
+
+Detected possible reentrancy 
+position 289,485
+
+Detected unchecked low-level call return value 
+position 382,418
+
+Detected unchecked low-level call return value 
+position 382,418
+
+./Salt_Reentrancy/Unsafe/Unsafe_022.solDetected default function visibility 
+position 223,365
+
+Detected default function visibility 
+position 372,442
+
+Detected default variable visibility 
+position 163,197
+
+Detected default variable visibility 
+position 202,218
+
+Detected throw 
+position 292,297
+
+Detected floating pragma 
+position 114,137
+Char = ^
+
+Detected floating pragma 
+position 114,137
+Char = !
+
+Detected possible reentrancy 
+position 243,365
+
+./Salt_Reentrancy/Unsafe/Unsafe_023.solDetected default variable visibility 
+position 943,985
+
+Detected default variable visibility 
+position 2564,2590
+
+Detected default variable visibility 
+position 2597,2632
+
+Detected default variable visibility 
+position 2639,2671
+
+Detected default variable visibility 
+position 2678,2714
+
+Detected default variable visibility 
+position 2721,2763
+
+Detected default variable visibility 
+position 2846,2893
+
+Detected floating pragma 
+position 194,217
+Char = [
+
+Detected floating pragma 
+position 194,217
+Char = <
+
+Detected floating pragma 
+position 194,217
+Char = >
+
+Detected floating pragma 
+position 194,217
+Char = ^
+
+Detected floating pragma 
+position 194,217
+Char = ]
+
+Detected floating pragma 
+position 194,217
+Char = !
+
+./Salt_SV_FP/test_fp.solDetected floating pragma 
+position 0,22
+Char = ^
+
+./Salt_SV_FP/test_fp2.solDetected floating pragma 
+position 0,31
+Char = <
+
+Detected floating pragma 
+position 0,31
+Char = >
+
+Detected floating pragma 
+position 0,31
+Char = ^
+
+Detected floating pragma 
+position 0,31
+Char = ~
+
+Detected floating pragma 
+position 34,63
+Char = <
+
+Detected floating pragma 
+position 34,63
+Char = >
+
+Detected floating pragma 
+position 34,63
+Char = ^
+
+Detected floating pragma 
+position 34,63
+Char = ~
+
+Detected floating pragma 
+position 66,97
+Char = <
+
+Detected floating pragma 
+position 66,97
+Char = >
+
+Detected floating pragma 
+position 66,97
+Char = ^
+
+Detected floating pragma 
+position 66,97
+Char = ~
+
+Detected floating pragma 
+position 100,130
+Char = <
+
+Detected floating pragma 
+position 100,130
+Char = >
+
+Detected floating pragma 
+position 100,130
+Char = ^
+
+Detected floating pragma 
+position 100,130
+Char = ~
+
+Detected floating pragma 
+position 133,173
+Char = <
+
+Detected floating pragma 
+position 133,173
+Char = >
+
+Detected floating pragma 
+position 133,173
+Char = ^
+
+Detected floating pragma 
+position 133,173
+Char = ~
+
+Detected floating pragma 
+position 176,199
+Char = <
+
+Detected floating pragma 
+position 176,199
+Char = >
+
+Detected floating pragma 
+position 176,199
+Char = ^
+
+Detected floating pragma 
+position 176,199
+Char = ~
+
+Detected floating pragma 
+position 202,225
+Char = <
+
+Detected floating pragma 
+position 202,225
+Char = >
+
+Detected floating pragma 
+position 202,225
+Char = ^
+
+Detected floating pragma 
+position 202,225
+Char = ~
+
+Detected floating pragma 
+position 228,251
+Char = <
+
+Detected floating pragma 
+position 228,251
+Char = >
+
+Detected floating pragma 
+position 228,251
+Char = ^
+
+Detected floating pragma 
+position 228,251
+Char = ~
+
+Detected floating pragma 
+position 254,273
+Char = <
+
+Detected floating pragma 
+position 254,273
+Char = >
+
+Detected floating pragma 
+position 254,273
+Char = ^
+
+Detected floating pragma 
+position 254,273
+Char = ~
+
+Detected floating pragma 
+position 276,293
+Char = <
+
+Detected floating pragma 
+position 276,293
+Char = >
+
+Detected floating pragma 
+position 276,293
+Char = ^
+
+Detected floating pragma 
+position 276,293
+Char = ~
+
+./Salt_SV_FP/test_sv.solDetected default variable visibility 
+position 57,78
+
+Detected default variable visibility 
+position 85,113
+
+Detected default variable visibility 
+position 120,169
+
+Detected default variable visibility 
+position 179,204
+
+Detected default variable visibility 
+position 360,400
+
+Detected default variable visibility 
+position 410,426
+
+Detected default variable visibility 
+position 434,462
+
+Detected floating pragma 
+position 0,22
+Char = [
+
+Detected floating pragma 
+position 0,22
+Char = >
+
+Detected floating pragma 
+position 0,22
+Char = ]
+
+Detected now used 
+position 165,167
+
+Detected now used 
+position 165,167
+
+./Salt_TestCase/test_assembly.solDetected inline assembly 
+position 187,1184
+
+./Salt_TestCase/test_defaultFunctionVisibility.solDetected default function visibility 
+position 59,235
+
+Detected default function visibility 
+position 245,323
+
+Detected floating pragma 
+position 0,23
+Char = ^
+
+./Salt_TestCase/test_deprecated.solDetected possible suicide used 
+position 480,486
+
+Detected sha3 used 
+position 251,254
+
+Detected callcode used 
+position 368,389
+
+Detected throw 
+position 339,344
+
+Detected msg.gas used 
+position 290,296
+
+Detected constant used 
+position 127,506
+
+Detected floating pragma 
+position 0,23
+Char = [
+
+Detected floating pragma 
+position 0,23
+Char = ^
+
+Detected floating pragma 
+position 0,23
+Char = ]
+
+Detected unchecked low-level call return value 
+position 368,392
+
+Detected blockhash 
+position 189,197
+
+Detected blockhash 
+position 256,264
+
+./Salt_TestCase/test_fixedGas.solDetected default variable visibility 
+position 122,192
+
+Detected default variable visibility 
+position 199,240
+
+Detected fixed gas vulnability 
+position 337,381
+
+Detected fixed gas vulnability 
+position 429,469
+
+Detected fixed gas vulnability 
+position 510,568
+
+Detected unchecked low-level call return value 
+position 440,462
+
+Detected unchecked low-level call return value 
+position 522,560
+
+Detected unchecked low-level call return value 
+position 522,560
+
+Detected unchecked low-level call return value 
+position 522,560
+
+./Salt_TestCase/test_incorrectOperator.solDetected default variable visibility 
+position 59,77
+
+Detected floating pragma 
+position 0,23
+Char = ^
+
+Detected Operator typo 
+position 125,138
+
+./Salt_TestCase/test_incorrectOperator2.solDetected default variable visibility 
+position 57,73
+
+Detected default variable visibility 
+position 80,96
+
+Detected floating pragma 
+position 0,23
+Char = >
+
+Detected floating pragma 
+position 0,23
+Char = ^
+
+Detected Operator typo 
+position 141,152
+
+./Salt_TestCase/test_rtl.solDetected default variable visibility 
+position 59,77
+
+Detected default variable visibility 
+position 84,106
+
+Detected floating pragma 
+position 0,22
+Char = <
+
+Detected floating pragma 
+position 0,22
+Char = ^
+
+Detected floating pragma 
+position 0,22
+Char = !
+
+Detected right to left characters used 
+
+./Salt_TestCase/test_txorigin.solDetected default variable visibility 
+position 56,69
+
+Detected tx.origin authorization 
+position 217,243
+
+./Salt_TestCase/test_txorigin2.solDetected default function visibility 
+position 81,143
+
+Detected default variable visibility 
+position 59,72
+
+Detected floating pragma 
+position 0,23
+Char = ^
+
+Detected tx.origin authorization 
+position 218,244
+
+Detected unchecked low-level call return value 
+position 256,279
+
+Detected unchecked low-level call return value 
+position 256,279
+
+./Salt_TestCase/test_uncheckedCall.solDetected unchecked low-level call return value 
+position 194,207
+
+./Salt_TestCase/test_uncheckedCall2.solDetected floating pragma 
+position 0,22
+Char = !
+
+Detected unchecked low-level call return value 
+position 254,276
+
+Detected unchecked low-level call return value 
+position 392,421
+
+./Salt_TestCase/test_weakRandom.solDetected floating pragma 
+position 0,23
+Char = ^
+
+Detected block.timestamp used 
+position 173,187
+
+Detected block.timestamp used 
+position 173,187
+
+Detected now used 
+position 217,219
+
+Detected now used 
+position 217,219
+
+Detected blockhash 
+position 502,510
+

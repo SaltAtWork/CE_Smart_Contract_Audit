@@ -1,0 +1,635 @@
+{
+    "type": "SourceUnit",
+    "children": [
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "^0.4.24",
+            "range": [
+                0,
+                23
+            ]
+        },
+        {
+            "type": "ContractDefinition",
+            "name": "DeprecatedSimple",
+            "baseContracts": [],
+            "subNodes": [
+                {
+                    "type": "FunctionDefinition",
+                    "name": "useDeprecated",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "VariableDeclarationStatement",
+                                "variables": [
+                                    {
+                                        "type": "VariableDeclaration",
+                                        "typeName": {
+                                            "type": "ElementaryTypeName",
+                                            "name": "bytes32",
+                                            "stateMutability": null,
+                                            "range": [
+                                                181,
+                                                187
+                                            ]
+                                        },
+                                        "name": "blockhash",
+                                        "identifier": {
+                                            "type": "Identifier",
+                                            "name": "blockhash",
+                                            "range": [
+                                                189,
+                                                197
+                                            ]
+                                        },
+                                        "storageLocation": null,
+                                        "isStateVar": false,
+                                        "isIndexed": false,
+                                        "expression": null,
+                                        "range": [
+                                            181,
+                                            197
+                                        ]
+                                    }
+                                ],
+                                "initialValue": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "MemberAccess",
+                                        "expression": {
+                                            "type": "Identifier",
+                                            "name": "block",
+                                            "range": [
+                                                201,
+                                                205
+                                            ]
+                                        },
+                                        "memberName": "blockhash",
+                                        "range": [
+                                            201,
+                                            215
+                                        ]
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "NumberLiteral",
+                                            "number": "0",
+                                            "subdenomination": null,
+                                            "range": [
+                                                217,
+                                                217
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        201,
+                                        218
+                                    ]
+                                },
+                                "range": [
+                                    181,
+                                    219
+                                ]
+                            },
+                            {
+                                "type": "VariableDeclarationStatement",
+                                "variables": [
+                                    {
+                                        "type": "VariableDeclaration",
+                                        "typeName": {
+                                            "type": "ElementaryTypeName",
+                                            "name": "bytes32",
+                                            "stateMutability": null,
+                                            "range": [
+                                                230,
+                                                236
+                                            ]
+                                        },
+                                        "name": "hashofhash",
+                                        "identifier": {
+                                            "type": "Identifier",
+                                            "name": "hashofhash",
+                                            "range": [
+                                                238,
+                                                247
+                                            ]
+                                        },
+                                        "storageLocation": null,
+                                        "isStateVar": false,
+                                        "isIndexed": false,
+                                        "expression": null,
+                                        "range": [
+                                            230,
+                                            247
+                                        ]
+                                    }
+                                ],
+                                "initialValue": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "sha3",
+                                        "range": [
+                                            251,
+                                            254
+                                        ]
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "Identifier",
+                                            "name": "blockhash",
+                                            "range": [
+                                                256,
+                                                264
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        251,
+                                        265
+                                    ]
+                                },
+                                "range": [
+                                    230,
+                                    266
+                                ]
+                            },
+                            {
+                                "type": "VariableDeclarationStatement",
+                                "variables": [
+                                    {
+                                        "type": "VariableDeclaration",
+                                        "typeName": {
+                                            "type": "ElementaryTypeName",
+                                            "name": "uint",
+                                            "stateMutability": null,
+                                            "range": [
+                                                279,
+                                                282
+                                            ]
+                                        },
+                                        "name": "gas",
+                                        "identifier": {
+                                            "type": "Identifier",
+                                            "name": "gas",
+                                            "range": [
+                                                284,
+                                                286
+                                            ]
+                                        },
+                                        "storageLocation": null,
+                                        "isStateVar": false,
+                                        "isIndexed": false,
+                                        "expression": null,
+                                        "range": [
+                                            279,
+                                            286
+                                        ]
+                                    }
+                                ],
+                                "initialValue": {
+                                    "type": "MemberAccess",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "msg",
+                                        "range": [
+                                            290,
+                                            292
+                                        ]
+                                    },
+                                    "memberName": "gas",
+                                    "range": [
+                                        290,
+                                        296
+                                    ]
+                                },
+                                "range": [
+                                    279,
+                                    297
+                                ]
+                            },
+                            {
+                                "type": "IfStatement",
+                                "condition": {
+                                    "type": "BinaryOperation",
+                                    "operator": "==",
+                                    "left": {
+                                        "type": "Identifier",
+                                        "name": "gas",
+                                        "range": [
+                                            314,
+                                            316
+                                        ]
+                                    },
+                                    "right": {
+                                        "type": "NumberLiteral",
+                                        "number": "0",
+                                        "subdenomination": null,
+                                        "range": [
+                                            321,
+                                            321
+                                        ]
+                                    },
+                                    "range": [
+                                        314,
+                                        321
+                                    ]
+                                },
+                                "trueBody": {
+                                    "type": "Block",
+                                    "statements": [
+                                        {
+                                            "type": "ThrowStatement",
+                                            "range": [
+                                                339,
+                                                344
+                                            ]
+                                        }
+                                    ],
+                                    "range": [
+                                        324,
+                                        355
+                                    ]
+                                },
+                                "falseBody": null,
+                                "range": [
+                                    310,
+                                    355
+                                ]
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "MemberAccess",
+                                        "expression": {
+                                            "type": "FunctionCall",
+                                            "expression": {
+                                                "type": "TypeNameExpression",
+                                                "typeName": {
+                                                    "type": "ElementaryTypeName",
+                                                    "name": "address",
+                                                    "stateMutability": null,
+                                                    "range": [
+                                                        368,
+                                                        374
+                                                    ]
+                                                },
+                                                "range": [
+                                                    368,
+                                                    374
+                                                ]
+                                            },
+                                            "arguments": [
+                                                {
+                                                    "type": "Identifier",
+                                                    "name": "this",
+                                                    "range": [
+                                                        376,
+                                                        379
+                                                    ]
+                                                }
+                                            ],
+                                            "names": [],
+                                            "identifiers": [],
+                                            "range": [
+                                                368,
+                                                380
+                                            ]
+                                        },
+                                        "memberName": "callcode",
+                                        "range": [
+                                            368,
+                                            389
+                                        ]
+                                    },
+                                    "arguments": [],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        368,
+                                        391
+                                    ]
+                                },
+                                "range": [
+                                    368,
+                                    392
+                                ]
+                            },
+                            {
+                                "type": "VariableDeclarationStatement",
+                                "variables": [
+                                    {
+                                        "type": "VariableDeclaration",
+                                        "typeName": {
+                                            "type": "ElementaryTypeName",
+                                            "name": "var",
+                                            "stateMutability": null,
+                                            "range": [
+                                                405,
+                                                407
+                                            ]
+                                        },
+                                        "name": "a",
+                                        "identifier": {
+                                            "type": "Identifier",
+                                            "name": "a",
+                                            "range": [
+                                                409,
+                                                409
+                                            ]
+                                        },
+                                        "storageLocation": null,
+                                        "isStateVar": false,
+                                        "isIndexed": false,
+                                        "expression": null,
+                                        "range": [
+                                            405,
+                                            409
+                                        ]
+                                    }
+                                ],
+                                "initialValue": {
+                                    "type": "TupleExpression",
+                                    "components": [
+                                        {
+                                            "type": "NumberLiteral",
+                                            "number": "1",
+                                            "subdenomination": null,
+                                            "range": [
+                                                414,
+                                                414
+                                            ]
+                                        },
+                                        {
+                                            "type": "NumberLiteral",
+                                            "number": "2",
+                                            "subdenomination": null,
+                                            "range": [
+                                                416,
+                                                416
+                                            ]
+                                        },
+                                        {
+                                            "type": "NumberLiteral",
+                                            "number": "3",
+                                            "subdenomination": null,
+                                            "range": [
+                                                418,
+                                                418
+                                            ]
+                                        }
+                                    ],
+                                    "isArray": true,
+                                    "range": [
+                                        413,
+                                        419
+                                    ]
+                                },
+                                "range": [
+                                    405,
+                                    420
+                                ]
+                            },
+                            {
+                                "type": "VariableDeclarationStatement",
+                                "variables": [
+                                    {
+                                        "type": "VariableDeclaration",
+                                        "name": "x",
+                                        "identifier": {
+                                            "type": "Identifier",
+                                            "name": "x",
+                                            "range": [
+                                                438,
+                                                438
+                                            ]
+                                        },
+                                        "isStateVar": false,
+                                        "isIndexed": false,
+                                        "typeName": null,
+                                        "storageLocation": null,
+                                        "expression": null,
+                                        "range": [
+                                            438,
+                                            438
+                                        ]
+                                    },
+                                    {
+                                        "type": "VariableDeclaration",
+                                        "name": "y",
+                                        "identifier": {
+                                            "type": "Identifier",
+                                            "name": "y",
+                                            "range": [
+                                                441,
+                                                441
+                                            ]
+                                        },
+                                        "isStateVar": false,
+                                        "isIndexed": false,
+                                        "typeName": null,
+                                        "storageLocation": null,
+                                        "expression": null,
+                                        "range": [
+                                            441,
+                                            441
+                                        ]
+                                    },
+                                    {
+                                        "type": "VariableDeclaration",
+                                        "name": "z",
+                                        "identifier": {
+                                            "type": "Identifier",
+                                            "name": "z",
+                                            "range": [
+                                                444,
+                                                444
+                                            ]
+                                        },
+                                        "isStateVar": false,
+                                        "isIndexed": false,
+                                        "typeName": null,
+                                        "storageLocation": null,
+                                        "expression": null,
+                                        "range": [
+                                            444,
+                                            444
+                                        ]
+                                    }
+                                ],
+                                "initialValue": {
+                                    "type": "TupleExpression",
+                                    "components": [
+                                        {
+                                            "type": "BooleanLiteral",
+                                            "value": false,
+                                            "range": [
+                                                450,
+                                                454
+                                            ]
+                                        },
+                                        {
+                                            "type": "StringLiteral",
+                                            "value": "test",
+                                            "parts": [
+                                                "test"
+                                            ],
+                                            "isUnicode": [
+                                                false
+                                            ],
+                                            "range": [
+                                                457,
+                                                462
+                                            ]
+                                        },
+                                        {
+                                            "type": "NumberLiteral",
+                                            "number": "0",
+                                            "subdenomination": null,
+                                            "range": [
+                                                465,
+                                                465
+                                            ]
+                                        }
+                                    ],
+                                    "isArray": false,
+                                    "range": [
+                                        449,
+                                        466
+                                    ]
+                                },
+                                "range": [
+                                    433,
+                                    467
+                                ]
+                            },
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "Identifier",
+                                        "name": "suicide",
+                                        "range": [
+                                            480,
+                                            486
+                                        ]
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "FunctionCall",
+                                            "expression": {
+                                                "type": "TypeNameExpression",
+                                                "typeName": {
+                                                    "type": "ElementaryTypeName",
+                                                    "name": "address",
+                                                    "stateMutability": null,
+                                                    "range": [
+                                                        488,
+                                                        494
+                                                    ]
+                                                },
+                                                "range": [
+                                                    488,
+                                                    494
+                                                ]
+                                            },
+                                            "arguments": [
+                                                {
+                                                    "type": "NumberLiteral",
+                                                    "number": "0",
+                                                    "subdenomination": null,
+                                                    "range": [
+                                                        496,
+                                                        496
+                                                    ]
+                                                }
+                                            ],
+                                            "names": [],
+                                            "identifiers": [],
+                                            "range": [
+                                                488,
+                                                497
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        480,
+                                        498
+                                    ]
+                                },
+                                "range": [
+                                    480,
+                                    499
+                                ]
+                            }
+                        ],
+                        "range": [
+                            168,
+                            506
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": "constant",
+                    "range": [
+                        127,
+                        506
+                    ]
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [],
+                        "range": [
+                            534,
+                            535
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": true,
+                    "isVirtual": false,
+                    "stateMutability": null,
+                    "range": [
+                        515,
+                        535
+                    ]
+                }
+            ],
+            "kind": "contract",
+            "range": [
+                28,
+                540
+            ]
+        }
+    ],
+    "range": [
+        0,
+        540
+    ]
+}
