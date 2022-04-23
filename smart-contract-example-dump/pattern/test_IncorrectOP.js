@@ -7,9 +7,9 @@ function testIncorrectOP(ast) {
             BinaryOperation: (node) => {
                 if (node.right.type == "UnaryOperation") {
                     callIndex = node.range
-                    console.log('Detected Operator typo\n')
+                    console.log('\nDetected Operator typo\n')
                     console.log('position ' + callIndex + '\n')
-                    detect = detect + 'Detected Operator typo \n' + 'position ' + callIndex + '\n\n'
+                    detect = detect + '\nDetected Operator typo \n' + 'position ' + callIndex + '\n'
                 }
             }
         })

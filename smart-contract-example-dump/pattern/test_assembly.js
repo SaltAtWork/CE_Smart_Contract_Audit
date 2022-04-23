@@ -6,9 +6,9 @@ function testAssembly(ast) {
         parser.visit(ast, {
             InlineAssemblyStatement: (node) => {
                 callIndex = node.range
-                console.log('Detected inline assembly\n')
+                console.log('\nDetected inline assembly\n')
                 console.log('position ' + callIndex + '\n')
-                detect = detect + 'Detected inline assembly \n' + 'position ' + callIndex + '\n\n'
+                detect = detect + '\nDetected inline assembly \n' + 'position ' + callIndex + '\n'
             }
         })
     } catch (err) {

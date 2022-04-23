@@ -13,9 +13,9 @@ function testTXOrigin(ast) {
                                 MemberAccess: (node3) => {
                                     if (node3.expression.name == "tx" && node3.memberName == "origin") {
                                         callIndex = node.range
-                                        console.log('Detected tx.origin authorization\n')
+                                        console.log('\nDetected tx.origin authorization\n')
                                         console.log('position ' + callIndex + '\n')
-                                        detect = detect + 'Detected tx.origin authorization \n' + 'position ' + callIndex + '\n\n'
+                                        detect = detect + '\nDetected tx.origin authorization \n' + 'position ' + callIndex + '\n'
                                     }
                                 }
                             })

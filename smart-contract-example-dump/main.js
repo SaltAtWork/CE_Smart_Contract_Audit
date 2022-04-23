@@ -43,13 +43,13 @@ for (let i = 0; i < files.length; i++) {
     ast = parser.parse(sourceCode, { range: true });
     console.log('ast success ' + files[i] + '\n');
 
-    report = report + files[i] +
+    report = report + '\n' + files[i] +
         testAssembly.testAssembly(ast) +
         testDefaultFV.testDefaultFV(ast) +
         testDefaultSV.testDefaultSV(ast) +
         testDeprecated.testDeprecated(ast) +
         testFixedGas.testFixedGas(ast) +
-        testFloatingPragma.testFloatingPragma(ast, sourceCode) +
+        testFloatingPragma.testFloatingPragma(ast) +
         testIncorrectOP.testIncorrectOP(ast) +
         testReentrancy.testReentrancy(ast) +
         testRTL.testRTL(sourceCode) +

@@ -25,9 +25,9 @@ function testFixedGas(ast) {
                             )) {
 
                             callIndex = node.range
-                            console.log('Detected fixed gas vulnability\n')
+                            console.log('\nDetected fixed gas vulnability\n')
                             console.log('position ' + callIndex + '\n')
-                            detect = detect + 'Detected fixed gas vulnability \n' + 'position ' + callIndex + '\n\n'
+                            detect = detect + '\nDetected fixed gas vulnability \n' + 'position ' + callIndex + '\n'
                         }
                     }
                 })

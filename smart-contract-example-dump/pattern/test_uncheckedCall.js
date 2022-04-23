@@ -19,9 +19,9 @@ function testUncheckedCall(ast) {
                                             node3.memberName == "send"
                                         ) {
                                             callIndex = node.range
-                                            console.log('Detected unchecked low-level call return value\n')
+                                            console.log('\nDetected unchecked low-level call return value\n')
                                             console.log('position ' + callIndex + '\n')
-                                            detect = detect + 'Detected unchecked low-level call return value \n' + 'position ' + callIndex + '\n\n'
+                                            detect = detect + '\nDetected unchecked low-level call return value \n' + 'position ' + callIndex + '\n'
                                         }
                                     },
                                 })

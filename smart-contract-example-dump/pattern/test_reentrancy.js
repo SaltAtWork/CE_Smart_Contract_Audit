@@ -55,9 +55,9 @@ function testReentrancy(ast) {
                     newOperation == true
                 ) {
                     callIndex = node.range
-                    console.log('Detected possible reentrancy\n')
+                    console.log('\nDetected possible reentrancy\n')
                     console.log('position ' + callIndex + '\n')
-                    detect = detect + 'Detected possible reentrancy \n' + 'position ' + callIndex + '\n\n'
+                    detect = detect + '\nDetected possible reentrancy \n' + 'position ' + callIndex + '\n'
                 }
                 newCall = false
                 newOperation = false
