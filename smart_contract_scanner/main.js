@@ -7,5 +7,5 @@ var report = scan.allPattern(projectPath)
 
 fs.writeFile(projectPath + 'test_result.txt', report, function(err) {
     if (err) throw err;
-    console.log('test reseult created ');
+    console.log('test result created ');
 });
