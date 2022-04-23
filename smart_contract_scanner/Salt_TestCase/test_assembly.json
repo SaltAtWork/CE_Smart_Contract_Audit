@@ -1,0 +1,339 @@
+{
+    "type": "SourceUnit",
+    "children": [
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "0.8.11",
+            "range": [
+                0,
+                22
+            ]
+        },
+        {
+            "type": "ContractDefinition",
+            "name": "InlineAssembly",
+            "baseContracts": [],
+            "subNodes": [
+                {
+                    "type": "FunctionDefinition",
+                    "name": "add",
+                    "parameters": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint",
+                                "stateMutability": null,
+                                "range": [
+                                    102,
+                                    105
+                                ]
+                            },
+                            "name": "a",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "a",
+                                "range": [
+                                    107,
+                                    107
+                                ]
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null,
+                            "range": [
+                                102,
+                                107
+                            ]
+                        }
+                    ],
+                    "returnParameters": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint",
+                                "stateMutability": null,
+                                "range": [
+                                    131,
+                                    134
+                                ]
+                            },
+                            "name": "b",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "b",
+                                "range": [
+                                    136,
+                                    136
+                                ]
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null,
+                            "range": [
+                                131,
+                                136
+                            ]
+                        }
+                    ],
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "InlineAssemblyStatement",
+                                "language": null,
+                                "body": {
+                                    "type": "AssemblyBlock",
+                                    "operations": [
+                                        {
+                                            "type": "AssemblyLocalDefinition",
+                                            "names": [
+                                                {
+                                                    "type": "Identifier",
+                                                    "name": "c",
+                                                    "range": [
+                                                        390,
+                                                        390
+                                                    ]
+                                                }
+                                            ],
+                                            "expression": {
+                                                "type": "AssemblyCall",
+                                                "functionName": "add",
+                                                "arguments": [
+                                                    {
+                                                        "type": "AssemblyCall",
+                                                        "functionName": "a",
+                                                        "arguments": [],
+                                                        "range": [
+                                                            399,
+                                                            399
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "DecimalNumber",
+                                                        "value": "16",
+                                                        "range": [
+                                                            402,
+                                                            403
+                                                        ]
+                                                    }
+                                                ],
+                                                "range": [
+                                                    395,
+                                                    404
+                                                ]
+                                            },
+                                            "range": [
+                                                386,
+                                                404
+                                            ]
+                                        },
+                                        {
+                                            "type": "AssemblyCall",
+                                            "functionName": "mstore",
+                                            "arguments": [
+                                                {
+                                                    "type": "HexNumber",
+                                                    "value": "0x80",
+                                                    "range": [
+                                                        546,
+                                                        549
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "AssemblyCall",
+                                                    "functionName": "c",
+                                                    "arguments": [],
+                                                    "range": [
+                                                        552,
+                                                        552
+                                                    ]
+                                                }
+                                            ],
+                                            "range": [
+                                                539,
+                                                553
+                                            ]
+                                        },
+                                        {
+                                            "type": "AssemblyBlock",
+                                            "operations": [
+                                                {
+                                                    "type": "AssemblyLocalDefinition",
+                                                    "names": [
+                                                        {
+                                                            "type": "Identifier",
+                                                            "name": "d",
+                                                            "range": [
+                                                                830,
+                                                                830
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "expression": {
+                                                        "type": "AssemblyCall",
+                                                        "functionName": "add",
+                                                        "arguments": [
+                                                            {
+                                                                "type": "AssemblyCall",
+                                                                "functionName": "sload",
+                                                                "arguments": [
+                                                                    {
+                                                                        "type": "AssemblyCall",
+                                                                        "functionName": "c",
+                                                                        "arguments": [],
+                                                                        "range": [
+                                                                            845,
+                                                                            845
+                                                                        ]
+                                                                    }
+                                                                ],
+                                                                "range": [
+                                                                    839,
+                                                                    846
+                                                                ]
+                                                            },
+                                                            {
+                                                                "type": "DecimalNumber",
+                                                                "value": "12",
+                                                                "range": [
+                                                                    849,
+                                                                    850
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "range": [
+                                                            835,
+                                                            851
+                                                        ]
+                                                    },
+                                                    "range": [
+                                                        826,
+                                                        851
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "AssemblyAssignment",
+                                                    "names": [
+                                                        {
+                                                            "type": "Identifier",
+                                                            "name": "b",
+                                                            "range": [
+                                                                927,
+                                                                927
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "expression": {
+                                                        "type": "AssemblyCall",
+                                                        "functionName": "d",
+                                                        "arguments": [],
+                                                        "range": [
+                                                            932,
+                                                            932
+                                                        ]
+                                                    },
+                                                    "range": [
+                                                        927,
+                                                        932
+                                                    ]
+                                                }
+                                            ],
+                                            "range": [
+                                                568,
+                                                991
+                                            ]
+                                        },
+                                        {
+                                            "type": "AssemblyAssignment",
+                                            "names": [
+                                                {
+                                                    "type": "Identifier",
+                                                    "name": "b",
+                                                    "range": [
+                                                        1120,
+                                                        1120
+                                                    ]
+                                                }
+                                            ],
+                                            "expression": {
+                                                "type": "AssemblyCall",
+                                                "functionName": "add",
+                                                "arguments": [
+                                                    {
+                                                        "type": "AssemblyCall",
+                                                        "functionName": "b",
+                                                        "arguments": [],
+                                                        "range": [
+                                                            1129,
+                                                            1129
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "AssemblyCall",
+                                                        "functionName": "c",
+                                                        "arguments": [],
+                                                        "range": [
+                                                            1132,
+                                                            1132
+                                                        ]
+                                                    }
+                                                ],
+                                                "range": [
+                                                    1125,
+                                                    1133
+                                                ]
+                                            },
+                                            "range": [
+                                                1120,
+                                                1133
+                                            ]
+                                        }
+                                    ],
+                                    "range": [
+                                        196,
+                                        1184
+                                    ]
+                                },
+                                "range": [
+                                    187,
+                                    1184
+                                ]
+                            }
+                        ],
+                        "range": [
+                            139,
+                            1192
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": "view",
+                    "range": [
+                        89,
+                        1192
+                    ]
+                }
+            ],
+            "kind": "contract",
+            "range": [
+                27,
+                1195
+            ]
+        }
+    ],
+    "range": [
+        0,
+        1195
+    ]
+}

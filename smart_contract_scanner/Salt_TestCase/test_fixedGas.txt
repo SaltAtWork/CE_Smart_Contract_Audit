@@ -1,0 +1,12 @@
+test_fixedGas possible vulnabilities 
+call position 348,373
+
+test_fixedGas possible vulnabilities 
+call position 440,461
+
+test_fixedGas possible vulnabilities 
+call position 522,559
+
+test_fixedGas possible vulnabilities 
+call position 621,649
+

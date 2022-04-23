@@ -1,0 +1,667 @@
+{
+    "type": "SourceUnit",
+    "children": [
+        {
+            "type": "PragmaDirective",
+            "name": "solidity",
+            "value": "0.6.4",
+            "range": [
+                0,
+                21
+            ]
+        },
+        {
+            "type": "ContractDefinition",
+            "name": "ICallable",
+            "baseContracts": [],
+            "subNodes": [
+                {
+                    "type": "FunctionDefinition",
+                    "name": "callMe",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": null,
+                    "visibility": "external",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null,
+                    "range": [
+                        53,
+                        79
+                    ]
+                }
+            ],
+            "kind": "interface",
+            "range": [
+                26,
+                82
+            ]
+        },
+        {
+            "type": "ContractDefinition",
+            "name": "HardcodedNotGood",
+            "baseContracts": [],
+            "subNodes": [
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "address",
+                                "stateMutability": "payable",
+                                "range": [
+                                    122,
+                                    136
+                                ]
+                            },
+                            "name": "_callable",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "_callable",
+                                "range": [
+                                    138,
+                                    146
+                                ]
+                            },
+                            "expression": {
+                                "type": "NumberLiteral",
+                                "number": "0xaAaAaAaaAaAaAaaAaAAAAAAAAaaaAaAaAaaAaaAa",
+                                "subdenomination": null,
+                                "range": [
+                                    150,
+                                    191
+                                ]
+                            },
+                            "visibility": "default",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null,
+                            "range": [
+                                122,
+                                192
+                            ]
+                        }
+                    ],
+                    "initialValue": {
+                        "type": "NumberLiteral",
+                        "number": "0xaAaAaAaaAaAaAaaAaAAAAAAAAaaaAaAaAaaAaaAa",
+                        "subdenomination": null,
+                        "range": [
+                            150,
+                            191
+                        ]
+                    },
+                    "range": [
+                        122,
+                        192
+                    ]
+                },
+                {
+                    "type": "StateVariableDeclaration",
+                    "variables": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "UserDefinedTypeName",
+                                "namePath": "ICallable",
+                                "range": [
+                                    199,
+                                    207
+                                ]
+                            },
+                            "name": "callable",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "callable",
+                                "range": [
+                                    209,
+                                    216
+                                ]
+                            },
+                            "expression": {
+                                "type": "FunctionCall",
+                                "expression": {
+                                    "type": "Identifier",
+                                    "name": "ICallable",
+                                    "range": [
+                                        220,
+                                        228
+                                    ]
+                                },
+                                "arguments": [
+                                    {
+                                        "type": "Identifier",
+                                        "name": "_callable",
+                                        "range": [
+                                            230,
+                                            238
+                                        ]
+                                    }
+                                ],
+                                "names": [],
+                                "identifiers": [],
+                                "range": [
+                                    220,
+                                    239
+                                ]
+                            },
+                            "visibility": "default",
+                            "isStateVar": true,
+                            "isDeclaredConst": false,
+                            "isIndexed": false,
+                            "isImmutable": false,
+                            "override": null,
+                            "storageLocation": null,
+                            "range": [
+                                199,
+                                240
+                            ]
+                        }
+                    ],
+                    "initialValue": {
+                        "type": "FunctionCall",
+                        "expression": {
+                            "type": "Identifier",
+                            "name": "ICallable",
+                            "range": [
+                                220,
+                                228
+                            ]
+                        },
+                        "arguments": [
+                            {
+                                "type": "Identifier",
+                                "name": "_callable",
+                                "range": [
+                                    230,
+                                    238
+                                ]
+                            }
+                        ],
+                        "names": [],
+                        "identifiers": [],
+                        "range": [
+                            220,
+                            239
+                        ]
+                    },
+                    "range": [
+                        199,
+                        240
+                    ]
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": null,
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [],
+                        "range": [
+                            278,
+                            285
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": true,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": "payable",
+                    "range": [
+                        249,
+                        285
+                    ]
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "doTransfer",
+                    "parameters": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint256",
+                                "stateMutability": null,
+                                "range": [
+                                    314,
+                                    320
+                                ]
+                            },
+                            "name": "amount",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "amount",
+                                "range": [
+                                    322,
+                                    327
+                                ]
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null,
+                            "range": [
+                                314,
+                                327
+                            ]
+                        }
+                    ],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "MemberAccess",
+                                        "expression": {
+                                            "type": "Identifier",
+                                            "name": "_callable",
+                                            "range": [
+                                                348,
+                                                356
+                                            ]
+                                        },
+                                        "memberName": "transfer",
+                                        "range": [
+                                            348,
+                                            365
+                                        ]
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "Identifier",
+                                            "name": "amount",
+                                            "range": [
+                                                367,
+                                                372
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        348,
+                                        373
+                                    ]
+                                },
+                                "range": [
+                                    348,
+                                    374
+                                ]
+                            }
+                        ],
+                        "range": [
+                            337,
+                            381
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null,
+                    "range": [
+                        294,
+                        381
+                    ]
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "doSend",
+                    "parameters": [
+                        {
+                            "type": "VariableDeclaration",
+                            "typeName": {
+                                "type": "ElementaryTypeName",
+                                "name": "uint256",
+                                "stateMutability": null,
+                                "range": [
+                                    406,
+                                    412
+                                ]
+                            },
+                            "name": "amount",
+                            "identifier": {
+                                "type": "Identifier",
+                                "name": "amount",
+                                "range": [
+                                    414,
+                                    419
+                                ]
+                            },
+                            "storageLocation": null,
+                            "isStateVar": false,
+                            "isIndexed": false,
+                            "expression": null,
+                            "range": [
+                                406,
+                                419
+                            ]
+                        }
+                    ],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "MemberAccess",
+                                        "expression": {
+                                            "type": "Identifier",
+                                            "name": "_callable",
+                                            "range": [
+                                                440,
+                                                448
+                                            ]
+                                        },
+                                        "memberName": "send",
+                                        "range": [
+                                            440,
+                                            453
+                                        ]
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "Identifier",
+                                            "name": "amount",
+                                            "range": [
+                                                455,
+                                                460
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        440,
+                                        461
+                                    ]
+                                },
+                                "range": [
+                                    440,
+                                    462
+                                ]
+                            }
+                        ],
+                        "range": [
+                            429,
+                            469
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null,
+                    "range": [
+                        390,
+                        469
+                    ]
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "callLowLevel",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "FunctionCall",
+                                        "expression": {
+                                            "type": "MemberAccess",
+                                            "expression": {
+                                                "type": "FunctionCall",
+                                                "expression": {
+                                                    "type": "MemberAccess",
+                                                    "expression": {
+                                                        "type": "MemberAccess",
+                                                        "expression": {
+                                                            "type": "Identifier",
+                                                            "name": "_callable",
+                                                            "range": [
+                                                                522,
+                                                                530
+                                                            ]
+                                                        },
+                                                        "memberName": "call",
+                                                        "range": [
+                                                            522,
+                                                            535
+                                                        ]
+                                                    },
+                                                    "memberName": "value",
+                                                    "range": [
+                                                        522,
+                                                        541
+                                                    ]
+                                                },
+                                                "arguments": [
+                                                    {
+                                                        "type": "NumberLiteral",
+                                                        "number": "0",
+                                                        "subdenomination": null,
+                                                        "range": [
+                                                            543,
+                                                            543
+                                                        ]
+                                                    }
+                                                ],
+                                                "names": [],
+                                                "identifiers": [],
+                                                "range": [
+                                                    522,
+                                                    544
+                                                ]
+                                            },
+                                            "memberName": "gas",
+                                            "range": [
+                                                522,
+                                                548
+                                            ]
+                                        },
+                                        "arguments": [
+                                            {
+                                                "type": "NumberLiteral",
+                                                "number": "10000",
+                                                "subdenomination": null,
+                                                "range": [
+                                                    550,
+                                                    554
+                                                ]
+                                            }
+                                        ],
+                                        "names": [],
+                                        "identifiers": [],
+                                        "range": [
+                                            522,
+                                            555
+                                        ]
+                                    },
+                                    "arguments": [
+                                        {
+                                            "type": "StringLiteral",
+                                            "value": "",
+                                            "parts": [
+                                                ""
+                                            ],
+                                            "isUnicode": [
+                                                false
+                                            ],
+                                            "range": [
+                                                557,
+                                                558
+                                            ]
+                                        }
+                                    ],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        522,
+                                        559
+                                    ]
+                                },
+                                "range": [
+                                    522,
+                                    560
+                                ]
+                            }
+                        ],
+                        "range": [
+                            510,
+                            568
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null,
+                    "range": [
+                        479,
+                        568
+                    ]
+                },
+                {
+                    "type": "FunctionDefinition",
+                    "name": "callWithArgs",
+                    "parameters": [],
+                    "returnParameters": null,
+                    "body": {
+                        "type": "Block",
+                        "statements": [
+                            {
+                                "type": "ExpressionStatement",
+                                "expression": {
+                                    "type": "FunctionCall",
+                                    "expression": {
+                                        "type": "NameValueExpression",
+                                        "expression": {
+                                            "type": "MemberAccess",
+                                            "expression": {
+                                                "type": "Identifier",
+                                                "name": "callable",
+                                                "range": [
+                                                    621,
+                                                    628
+                                                ]
+                                            },
+                                            "memberName": "callMe",
+                                            "range": [
+                                                621,
+                                                635
+                                            ]
+                                        },
+                                        "arguments": {
+                                            "type": "NameValueList",
+                                            "names": [
+                                                "gas"
+                                            ],
+                                            "identifiers": [
+                                                {
+                                                    "type": "Identifier",
+                                                    "name": "gas",
+                                                    "range": [
+                                                        637,
+                                                        639
+                                                    ]
+                                                }
+                                            ],
+                                            "arguments": [
+                                                {
+                                                    "type": "NumberLiteral",
+                                                    "number": "10000",
+                                                    "subdenomination": null,
+                                                    "range": [
+                                                        642,
+                                                        646
+                                                    ]
+                                                }
+                                            ],
+                                            "range": [
+                                                637,
+                                                646
+                                            ]
+                                        },
+                                        "range": [
+                                            621,
+                                            647
+                                        ]
+                                    },
+                                    "arguments": [],
+                                    "names": [],
+                                    "identifiers": [],
+                                    "range": [
+                                        621,
+                                        649
+                                    ]
+                                },
+                                "range": [
+                                    621,
+                                    650
+                                ]
+                            }
+                        ],
+                        "range": [
+                            609,
+                            658
+                        ]
+                    },
+                    "visibility": "public",
+                    "modifiers": [],
+                    "override": null,
+                    "isConstructor": false,
+                    "isReceiveEther": false,
+                    "isFallback": false,
+                    "isVirtual": false,
+                    "stateMutability": null,
+                    "range": [
+                        578,
+                        658
+                    ]
+                }
+            ],
+            "kind": "contract",
+            "range": [
+                87,
+                661
+            ]
+        }
+    ],
+    "range": [
+        0,
+        661
+    ]
+}
