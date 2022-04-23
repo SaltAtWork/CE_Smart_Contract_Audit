@@ -1,8 +1,12 @@
 
+ ============================================ 
+
 ./Salt_Reentrancy/Safe/Safe_001.sol
 Detected floating pragma 
 position 54,77
 Char =  ^ 
+
+ ============================================ 
 
 ./Salt_Reentrancy/Safe/Safe_002.sol
 Detected default variable visibility 
@@ -14,6 +18,8 @@ position 200,209
 Detected floating pragma 
 position 54,76
 Char =  ^ 
+
+ ============================================ 
 
 ./Salt_Reentrancy/Safe/Safe_003.sol
 Detected floating pragma 
@@ -29,6 +35,8 @@ position 449,451
 Detected now used 
 position 1064,1066
 
+ ============================================ 
+
 ./Salt_Reentrancy/Safe/Safe_004.sol
 Detected floating pragma 
 position 307,329
@@ -43,10 +51,14 @@ position 631,855
 Detected now used 
 position 517,519
 
+ ============================================ 
+
 ./Salt_Reentrancy/Safe/Safe_005.sol
 Detected floating pragma 
 position 208,231
 Char =  ^ 
+
+ ============================================ 
 
 ./Salt_Reentrancy/Safe/Safe_006.sol
 Detected floating pragma 
@@ -59,6 +71,8 @@ position 494,508
 Detected block.timestamp used 
 position 638,652
 
+ ============================================ 
+
 ./Salt_Reentrancy/Safe/Safe_007.sol
 Detected floating pragma 
 position 128,148
@@ -70,10 +84,14 @@ position 677,691
 Detected block.timestamp used 
 position 821,835
 
+ ============================================ 
+
 ./Salt_Reentrancy/Safe/Safe_008.sol
 Detected floating pragma 
 position 144,166
 Char =  ^ 
+
+ ============================================ 
 
 ./Salt_Reentrancy/Safe/Safe_009.sol
 Detected floating pragma 
@@ -82,6 +100,8 @@ Char =  ^
 
 Detected possible reentrancy 
 position 461,722
+
+ ============================================ 
 
 ./Salt_Reentrancy/Safe/Safe_010.sol
 Detected default variable visibility 
@@ -100,10 +120,14 @@ position 893,895
 Detected now used 
 position 1030,1032
 
+ ============================================ 
+
 ./Salt_Reentrancy/Safe/Safe_011.sol
 Detected floating pragma 
 position 133,153
 Char =  ^ 
+
+ ============================================ 
 
 ./Salt_Reentrancy/Safe/Safe_012.sol
 Detected default function visibility 
@@ -116,6 +140,8 @@ position 4467,5218
 Detected block.timestamp used 
 position 2578,2592
 
+ ============================================ 
+
 ./Salt_Reentrancy/Unsafe/Unsafe_001.sol
 
 Detected possible reentrancy 
@@ -123,6 +149,8 @@ position 280,416
 
 Detected possible reentrancy 
 position 320,411
+
+ ============================================ 
 
 ./Salt_Reentrancy/Unsafe/Unsafe_002.sol
 Detected default variable visibility 
@@ -135,6 +163,8 @@ Detected floating pragma
 position 54,76
 Char =  ^ 
 
+ ============================================ 
+
 ./Salt_Reentrancy/Unsafe/Unsafe_003.sol
 Detected floating pragma 
 position 116,138
@@ -142,6 +172,8 @@ Char =  ^
 
 Detected possible reentrancy 
 position 664,873
+
+ ============================================ 
 
 ./Salt_Reentrancy/Unsafe/Unsafe_004.sol
 Detected floating pragma 
@@ -154,6 +186,8 @@ position 504,729
 Detected possible reentrancy 
 position 548,724
 
+ ============================================ 
+
 ./Salt_Reentrancy/Unsafe/Unsafe_005.sol
 Detected floating pragma 
 position 282,305
@@ -162,6 +196,8 @@ Char =  >
 Detected possible reentrancy 
 position 422,626
 
+ ============================================ 
+
 ./Salt_Reentrancy/Unsafe/Unsafe_006.sol
 Detected floating pragma 
 position 212,235
@@ -169,6 +205,8 @@ Char =  ^
 
 Detected possible reentrancy 
 position 396,585
+
+ ============================================ 
 
 ./Salt_Reentrancy/Unsafe/Unsafe_007.sol
 Detected default function visibility 
@@ -180,6 +218,8 @@ Char =  ^
 
 Detected possible reentrancy 
 position 547,683
+
+ ============================================ 
 
 ./Salt_Reentrancy/Unsafe/Unsafe_008.sol
 Detected floating pragma 
@@ -198,6 +238,8 @@ position 606,699
 Detected tx.origin authorization 
 position 306,341
 
+ ============================================ 
+
 ./Salt_Reentrancy/Unsafe/Unsafe_009.sol
 Detected floating pragma 
 position 130,150
@@ -211,6 +253,8 @@ position 496,510
 
 Detected block.timestamp used 
 position 750,764
+
+ ============================================ 
 
 ./Salt_Reentrancy/Unsafe/Unsafe_010.sol
 Detected floating pragma 
@@ -226,6 +270,8 @@ position 919,950
 Detected unchecked low-level call return value 
 position 919,950
 
+ ============================================ 
+
 ./Salt_Reentrancy/Unsafe/Unsafe_011.sol
 Detected floating pragma 
 position 120,143
@@ -237,6 +283,8 @@ position 469,641
 Detected possible reentrancy 
 position 513,634
 
+ ============================================ 
+
 ./Salt_Reentrancy/Unsafe/Unsafe_012.sol
 Detected floating pragma 
 position 120,142
@@ -245,6 +293,8 @@ Char =  ^
 Detected possible reentrancy 
 position 395,578
 
+ ============================================ 
+
 ./Salt_Reentrancy/Unsafe/Unsafe_013.sol
 Detected floating pragma 
 position 147,169
@@ -252,6 +302,8 @@ Char =  ^
 
 Detected possible reentrancy 
 position 298,587
+
+ ============================================ 
 
 ./Salt_Reentrancy/Unsafe/Unsafe_014.sol
 Detected default function visibility 
@@ -264,6 +316,8 @@ Char =  ^
 Detected possible reentrancy 
 position 515,796
 
+ ============================================ 
+
 ./Salt_Reentrancy/Unsafe/Unsafe_015.sol
 Detected floating pragma 
 position 227,249
@@ -271,6 +325,8 @@ Char =  ^
 
 Detected possible reentrancy 
 position 464,725
+
+ ============================================ 
 
 ./Salt_Reentrancy/Unsafe/Unsafe_016.sol
 Detected default function visibility 
@@ -298,6 +354,8 @@ Char =  ^
 Detected possible reentrancy 
 position 466,750
 
+ ============================================ 
+
 ./Salt_Reentrancy/Unsafe/Unsafe_017.sol
 Detected floating pragma 
 position 220,240
@@ -311,6 +369,8 @@ position 795,797
 
 Detected now used 
 position 991,993
+
+ ============================================ 
 
 ./Salt_Reentrancy/Unsafe/Unsafe_018.sol
 Detected constant used 
@@ -326,6 +386,8 @@ position 258,421
 Detected possible reentrancy 
 position 317,414
 
+ ============================================ 
+
 ./Salt_Reentrancy/Unsafe/Unsafe_019.sol
 Detected floating pragma 
 position 135,155
@@ -333,6 +395,8 @@ Char =  ^
 
 Detected possible reentrancy 
 position 281,534
+
+ ============================================ 
 
 ./Salt_Reentrancy/Unsafe/Unsafe_020.sol
 Detected default function visibility 
@@ -344,6 +408,8 @@ Char =  ^
 
 Detected possible reentrancy 
 position 508,750
+
+ ============================================ 
 
 ./Salt_Reentrancy/Unsafe/Unsafe_021.sol
 Detected default function visibility 
@@ -368,6 +434,8 @@ position 382,418
 Detected unchecked low-level call return value 
 position 382,418
 
+ ============================================ 
+
 ./Salt_Reentrancy/Unsafe/Unsafe_022.sol
 Detected default function visibility 
 position 223,365
@@ -390,6 +458,8 @@ Char =  ^
 
 Detected possible reentrancy 
 position 243,365
+
+ ============================================ 
 
 ./Salt_Reentrancy/Unsafe/Unsafe_023.sol
 Detected default variable visibility 
@@ -417,10 +487,14 @@ Detected floating pragma
 position 194,217
 Char =  ^ 
 
+ ============================================ 
+
 ./Salt_SV_FP/test_fp.sol
 Detected floating pragma 
 position 0,22
 Char =  ^ 
+
+ ============================================ 
 
 ./Salt_SV_FP/test_fp2.sol
 Detected floating pragma 
@@ -435,6 +509,8 @@ Char =  <  >
  ^ 
 
 
+
+ ============================================ 
 
 ./Salt_SV_FP/test_sv.sol
 Detected default variable visibility 
@@ -465,10 +541,14 @@ position 165,167
 Detected now used 
 position 165,167
 
+ ============================================ 
+
 ./Salt_TestCase/test_assembly.sol
 Detected inline assembly 
 position 187,1184
 
+
+ ============================================ 
 
 ./Salt_TestCase/test_defaultFunctionVisibility.sol
 Detected default function visibility 
@@ -480,6 +560,8 @@ position 245,323
 Detected floating pragma 
 position 0,23
 Char =  ^ 
+
+ ============================================ 
 
 ./Salt_TestCase/test_deprecated.sol
 Detected possible suicide used 
@@ -513,6 +595,8 @@ position 189,197
 Detected blockhash used
 position 256,264
 
+ ============================================ 
+
 ./Salt_TestCase/test_fixedGas.sol
 Detected default variable visibility 
 position 122,192
@@ -542,6 +626,8 @@ position 522,560
 Detected unchecked low-level call return value 
 position 522,560
 
+ ============================================ 
+
 ./Salt_TestCase/test_incorrectOperator.sol
 Detected default variable visibility 
 position 59,77
@@ -552,6 +638,8 @@ Char =  ^
 
 Detected Operator typo 
 position 125,138
+
+ ============================================ 
 
 ./Salt_TestCase/test_incorrectOperator2.sol
 Detected default variable visibility 
@@ -567,6 +655,8 @@ Char =  ^
 Detected Operator typo 
 position 141,152
 
+ ============================================ 
+
 ./Salt_TestCase/test_rtl.sol
 Detected default variable visibility 
 position 59,77
@@ -580,6 +670,8 @@ Char =  ^
 
 Detected right to left characters used 
 
+ ============================================ 
+
 ./Salt_TestCase/test_txorigin.sol
 Detected default variable visibility 
 position 56,69
@@ -587,6 +679,8 @@ position 56,69
 
 Detected tx.origin authorization 
 position 217,243
+
+ ============================================ 
 
 ./Salt_TestCase/test_txorigin2.sol
 Detected default function visibility 
@@ -608,10 +702,14 @@ position 256,279
 Detected unchecked low-level call return value 
 position 256,279
 
+ ============================================ 
+
 ./Salt_TestCase/test_uncheckedCall.sol
 
 Detected unchecked low-level call return value 
 position 194,207
+
+ ============================================ 
 
 ./Salt_TestCase/test_uncheckedCall2.sol
 
@@ -620,6 +718,8 @@ position 254,276
 
 Detected unchecked low-level call return value 
 position 392,421
+
+ ============================================ 
 
 ./Salt_TestCase/test_weakRandom.sol
 Detected floating pragma 

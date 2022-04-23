@@ -1,5 +1,17 @@
 var fs = require('fs');
 const parser = require('@solidity-parser/parser');
+const testAssembly = require('./pattern/test_assembly')
+const testDefaultFV = require('./pattern/test_defaultFV')
+const testDefaultSV = require('./pattern/test_defaultSV')
+const testDeprecated = require('./pattern/test_deprecated')
+const testFixedGas = require('./pattern/test_fixedGas')
+const testFloatingPragma = require('./pattern/test_FP')
+const testIncorrectOP = require('./pattern/test_incorrectOP')
+const testReentrancy = require('./pattern/test_reentrancy')
+const testRTL = require('./pattern/test_rtl')
+const testTXOrigin = require('./pattern/test_txorigin')
+const testUncheckedCall = require('./pattern/test_uncheckedCall')
+const testWeakRandom = require('./pattern/test_weakRandom')
 
 
 function getAllFiles(dir) {
@@ -15,20 +27,6 @@ function getAllFiles(dir) {
     return results;
 };
 
-
-const testAssembly = require('./pattern/test_assembly')
-const testDefaultFV = require('./pattern/test_defaultFV')
-const testDefaultSV = require('./pattern/test_defaultSV')
-const testDeprecated = require('./pattern/test_deprecated')
-const testFixedGas = require('./pattern/test_fixedGas')
-const testFloatingPragma = require('./pattern/test_FP')
-const testIncorrectOP = require('./pattern/test_incorrectOP')
-const testReentrancy = require('./pattern/test_reentrancy')
-const testRTL = require('./pattern/test_rtl')
-const testTXOrigin = require('./pattern/test_txorigin')
-const testUncheckedCall = require('./pattern/test_uncheckedCall')
-const testWeakRandom = require('./pattern/test_weakRandom')
-
 var files = getAllFiles('./').filter(name => name.includes('.sol'))
 
 var content
@@ -43,7 +41,7 @@ for (let i = 0; i < files.length; i++) {
     ast = parser.parse(sourceCode, { range: true });
     console.log('ast success ' + files[i] + '\n');
 
-    report = report + '\n' + files[i] +
+    report = report + '\n ============================================ \n\n' + files[i] +
         testAssembly.testAssembly(ast) +
         testDefaultFV.testDefaultFV(ast) +
         testDefaultSV.testDefaultSV(ast) +
