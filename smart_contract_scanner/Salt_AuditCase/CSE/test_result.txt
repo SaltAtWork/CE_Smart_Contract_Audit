@@ -1,0 +1,31 @@
+
+ ============================================ 
+
+./Salt_AuditCase/CSE//CSE.sol
+
+Detected possible reentrancy 
+position 39906,42592
+
+Detected possible reentrancy 
+position 60387,60844
+
+Detected block.timestamp used 
+position 27085,27099
+
+Detected block.timestamp used 
+position 27958,27972
+
+Detected block.timestamp used 
+position 28052,28066
+
+Detected block.timestamp used 
+position 36433,36447
+
+Detected block.timestamp used 
+position 56226,56240
+
+Detected block.timestamp used 
+position 57174,57188
+
+Detected block.timestamp used 
+position 62951,62965

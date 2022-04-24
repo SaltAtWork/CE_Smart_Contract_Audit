@@ -1,0 +1,82 @@
+
+ ============================================ 
+
+./Salt_AuditCase/SMARTSECRET//SMARTSECRET.sol
+Detected default variable visibility 
+position 55,67
+
+Detected default variable visibility 
+position 74,94
+
+Detected default variable visibility 
+position 101,120
+
+Detected default variable visibility 
+position 781,811
+
+Detected default variable visibility 
+position 818,839
+
+Detected default variable visibility 
+position 846,865
+
+Detected default variable visibility 
+position 872,889
+
+Detected default variable visibility 
+position 896,917
+
+Detected default variable visibility 
+position 924,945
+
+Detected default variable visibility 
+position 952,975
+
+Detected default variable visibility 
+position 982,1005
+
+Detected default variable visibility 
+position 1012,1035
+
+Detected default variable visibility 
+position 1042,1065
+
+Detected default variable visibility 
+position 1072,1097
+
+Detected default variable visibility 
+position 1104,1129
+
+Detected default variable visibility 
+position 1136,1155
+
+Detected default variable visibility 
+position 1162,1185
+
+Detected default variable visibility 
+position 1192,1214
+
+Detected default variable visibility 
+position 1221,1242
+
+Detected default variable visibility 
+position 1249,1270
+
+
+Detected possible reentrancy 
+position 3230,5526
+
+Detected possible reentrancy 
+position 5564,8303
+
+Detected block.timestamp used 
+position 4375,4389
+
+Detected block.timestamp used 
+position 8713,8727
+
+Detected block.timestamp used 
+position 11856,11870
+
+Detected blockhash used
+position 11873,11881

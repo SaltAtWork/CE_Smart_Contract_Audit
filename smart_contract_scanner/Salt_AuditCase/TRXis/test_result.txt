@@ -1,0 +1,25 @@
+
+ ============================================ 
+
+./Salt_AuditCase/TRXis//TRXis.sol
+Detected inline assembly 
+position 1275,1334
+
+Detected default variable visibility 
+position 672,691
+
+Detected default variable visibility 
+position 698,729
+
+Detected default variable visibility 
+position 736,762
+
+
+Detected possible reentrancy 
+position 20585,21502
+
+Detected possible reentrancy 
+position 22782,22961
+
+Detected now used 
+position 1719,1721

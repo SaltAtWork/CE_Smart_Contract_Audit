@@ -1,0 +1,49 @@
+
+ ============================================ 
+
+./Salt_AuditCase/EarnTron300//EarnTron300.sol
+Detected inline assembly 
+position 9322,9359
+
+Detected floating pragma 
+position 0,22
+Char =  ^ 
+
+Detected possible reentrancy 
+position 4706,5772
+
+Detected tx.origin authorization 
+position 4714,4772
+
+Detected tx.origin authorization 
+position 4714,4772
+
+Detected block.timestamp used 
+position 2949,2963
+
+Detected block.timestamp used 
+position 4269,4283
+
+Detected block.timestamp used 
+position 5521,5535
+
+Detected block.timestamp used 
+position 5635,5649
+
+Detected block.timestamp used 
+position 5866,5880
+
+Detected block.timestamp used 
+position 6293,6307
+
+Detected block.timestamp used 
+position 7351,7365
+
+Detected block.timestamp used 
+position 7630,7644
+
+Detected block.timestamp used 
+position 7872,7886
+
+Detected block.timestamp used 
+position 7978,7992

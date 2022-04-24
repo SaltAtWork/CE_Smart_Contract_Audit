@@ -1,0 +1,70 @@
+
+ ============================================ 
+
+./Salt_AuditCase/TronFly//TronFly.sol
+Detected default variable visibility 
+position 1105,1118
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected now used 
+position 3476,3478
+
+Detected now used 
+position 3785,3787
+
+Detected now used 
+position 3949,3951
+
+Detected now used 
+position 4203,4205
+
+Detected now used 
+position 4338,4340
+
+Detected now used 
+position 4710,4712
+
+Detected now used 
+position 5711,5713
+
+Detected now used 
+position 6213,6215
+
+Detected now used 
+position 7686,7688
+
+Detected now used 
+position 8496,8498
+
+Detected now used 
+position 8903,8905
+
+Detected now used 
+position 9097,9099
+
+Detected now used 
+position 9502,9504
+
+Detected now used 
+position 9678,9680
+
+Detected now used 
+position 10083,10085
+
+Detected now used 
+position 10259,10261
+
+Detected now used 
+position 10664,10666
+
+Detected now used 
+position 12066,12068
+
+Detected now used 
+position 12628,12630
+
+Detected now used 
+position 12749,12751

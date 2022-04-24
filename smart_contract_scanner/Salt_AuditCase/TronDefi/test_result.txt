@@ -1,0 +1,37 @@
+
+ ============================================ 
+
+./Salt_AuditCase/TronDefi//TronDefi.sol
+Detected default variable visibility 
+position 896,920
+
+
+Detected possible reentrancy 
+position 1945,3395
+
+Detected possible reentrancy 
+position 3428,5015
+
+Detected block.timestamp used 
+position 3040,3054
+
+Detected block.timestamp used 
+position 3173,3187
+
+Detected block.timestamp used 
+position 3870,3884
+
+Detected block.timestamp used 
+position 4056,4070
+
+Detected block.timestamp used 
+position 4854,4868
+
+Detected now used 
+position 5786,5788
+
+Detected block.timestamp used 
+position 6768,6782
+
+Detected block.timestamp used 
+position 6954,6968

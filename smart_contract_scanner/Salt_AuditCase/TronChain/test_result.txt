@@ -1,0 +1,28 @@
+
+ ============================================ 
+
+./Salt_AuditCase/TronChain//TronChain.sol
+
+Detected possible reentrancy 
+position 3365,4730
+
+Detected possible reentrancy 
+position 7315,9803
+
+Detected block.timestamp used 
+position 834,848
+
+Detected block.timestamp used 
+position 834,848
+
+Detected block.timestamp used 
+position 4112,4126
+
+Detected block.timestamp used 
+position 4560,4574
+
+Detected block.timestamp used 
+position 6586,6600
+
+Detected block.timestamp used 
+position 10212,10226

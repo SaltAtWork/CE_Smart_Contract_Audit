@@ -1,0 +1,25 @@
+
+ ============================================ 
+
+./Salt_AuditCase/DAPPIncubator//DAPPIncubator.sol
+Detected default variable visibility 
+position 3489,3535
+
+Detected default variable visibility 
+position 3542,3586
+
+Detected default variable visibility 
+position 3599,3630
+
+Detected default variable visibility 
+position 3637,3667
+
+Detected default variable visibility 
+position 3780,3848
+
+Detected default variable visibility 
+position 3855,3898
+
+Detected floating pragma 
+position 387,417
+Char =  <  > 

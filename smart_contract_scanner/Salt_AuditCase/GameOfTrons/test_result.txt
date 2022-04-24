@@ -1,0 +1,49 @@
+
+ ============================================ 
+
+./Salt_AuditCase/GameOfTrons//GameOfTrons.sol
+Detected default variable visibility 
+position 834,866
+
+Detected default variable visibility 
+position 902,936
+
+Detected default variable visibility 
+position 978,1008
+
+Detected default variable visibility 
+position 1039,1112
+
+Detected default variable visibility 
+position 1119,1174
+
+Detected default variable visibility 
+position 1332,1345
+
+Detected default variable visibility 
+position 1352,1368
+
+Detected default variable visibility 
+position 1375,1391
+
+Detected default variable visibility 
+position 1398,1417
+
+Detected floating pragma 
+position 4,27
+Char =  ^ 
+
+Detected now used 
+position 1414,1416
+
+Detected now used 
+position 1414,1416
+
+Detected now used 
+position 2122,2124
+
+Detected now used 
+position 3806,3808
+
+Detected now used 
+position 4615,4617

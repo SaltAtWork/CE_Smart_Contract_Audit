@@ -1,0 +1,34 @@
+
+ ============================================ 
+
+./Salt_AuditCase/Trongold//Trongold.sol
+
+Detected possible reentrancy 
+position 3518,5157
+
+Detected possible reentrancy 
+position 7562,8361
+
+Detected possible reentrancy 
+position 8399,10873
+
+Detected unchecked low-level call return value 
+position 10967,11064
+
+Detected block.timestamp used 
+position 795,809
+
+Detected block.timestamp used 
+position 795,809
+
+Detected block.timestamp used 
+position 4541,4555
+
+Detected block.timestamp used 
+position 4995,5009
+
+Detected block.timestamp used 
+position 6840,6854
+
+Detected block.timestamp used 
+position 11548,11562

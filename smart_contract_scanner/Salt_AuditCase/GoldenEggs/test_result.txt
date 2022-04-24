@@ -1,0 +1,10 @@
+
+ ============================================ 
+
+./Salt_AuditCase/GoldenEggs//GoldenEggs.sol
+Detected inline assembly 
+position 6066,6110
+
+Detected floating pragma 
+position 0,22
+Char =  ^ 

@@ -1,0 +1,52 @@
+
+ ============================================ 
+
+./Salt_AuditCase/TronSwitch//TronSwitch.sol
+Detected default variable visibility 
+position 478,502
+
+Detected default variable visibility 
+position 509,534
+
+Detected default variable visibility 
+position 545,577
+
+Detected default variable visibility 
+position 610,645
+
+Detected default variable visibility 
+position 658,683
+
+Detected default variable visibility 
+position 1041,1071
+
+Detected default variable visibility 
+position 1078,1117
+
+Detected default variable visibility 
+position 1124,1141
+
+Detected floating pragma 
+position 83,105
+Char =  ^ 
+
+Detected possible reentrancy 
+position 1462,2802
+
+Detected now used 
+position 1481,1483
+
+Detected now used 
+position 2374,2376
+
+Detected now used 
+position 3333,3335
+
+Detected now used 
+position 3376,3378
+
+Detected now used 
+position 4459,4461
+
+Detected now used 
+position 4502,4504

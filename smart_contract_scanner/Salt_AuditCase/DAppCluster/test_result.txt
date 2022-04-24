@@ -1,0 +1,31 @@
+
+ ============================================ 
+
+./Salt_AuditCase/DAppCluster//DAppCluster.sol
+Detected default function visibility 
+position 570,678
+
+Detected default function visibility 
+position 3144,3227
+
+Detected floating pragma 
+position 379,409
+Char =  <  > 
+
+Detected block.timestamp used 
+position 9707,9721
+
+Detected block.timestamp used 
+position 10724,10738
+
+Detected block.timestamp used 
+position 11288,11302
+
+Detected block.timestamp used 
+position 11726,11740
+
+Detected block.timestamp used 
+position 12763,12777
+
+Detected block.timestamp used 
+position 15350,15364

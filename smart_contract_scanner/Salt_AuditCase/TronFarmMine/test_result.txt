@@ -1,0 +1,49 @@
+
+ ============================================ 
+
+./Salt_AuditCase/TronFarmMine//TronFarmMine.sol
+Detected default variable visibility 
+position 1032,1064
+
+Detected default variable visibility 
+position 1071,1105
+
+Detected default variable visibility 
+position 1112,1142
+
+Detected default variable visibility 
+position 1151,1224
+
+Detected default variable visibility 
+position 1231,1286
+
+Detected default variable visibility 
+position 1408,1421
+
+Detected default variable visibility 
+position 1428,1444
+
+Detected default variable visibility 
+position 1451,1467
+
+Detected default variable visibility 
+position 1474,1493
+
+Detected floating pragma 
+position 220,243
+Char =  ^ 
+
+Detected now used 
+position 1490,1492
+
+Detected now used 
+position 1490,1492
+
+Detected now used 
+position 2143,2145
+
+Detected now used 
+position 3809,3811
+
+Detected now used 
+position 4618,4620

@@ -1,0 +1,31 @@
+
+ ============================================ 
+
+./Salt_AuditCase/TRONFACTORY//TRONFACTORY.sol
+Detected default variable visibility 
+position 1657,1670
+
+Detected floating pragma 
+position 1027,1050
+Char =  ^ 
+
+Detected now used 
+position 1209,1211
+
+Detected now used 
+position 1209,1211
+
+Detected now used 
+position 3203,3205
+
+Detected now used 
+position 3451,3453
+
+Detected now used 
+position 3518,3520
+
+Detected now used 
+position 5650,5652
+
+Detected now used 
+position 9621,9623

@@ -1,0 +1,37 @@
+
+ ============================================ 
+
+./Salt_AuditCase/Tron2Live//Tron2Live.sol
+Detected floating pragma 
+position 4,29
+Char =  > 
+
+Detected possible reentrancy 
+position 5025,5627
+
+Detected possible reentrancy 
+position 5673,6953
+
+Detected block.timestamp used 
+position 2981,2995
+
+Detected block.timestamp used 
+position 3402,3416
+
+Detected block.timestamp used 
+position 4825,4839
+
+Detected block.timestamp used 
+position 5287,5301
+
+Detected block.timestamp used 
+position 6033,6047
+
+Detected block.timestamp used 
+position 6805,6819
+
+Detected block.timestamp used 
+position 7765,7779
+
+Detected block.timestamp used 
+position 7957,7971

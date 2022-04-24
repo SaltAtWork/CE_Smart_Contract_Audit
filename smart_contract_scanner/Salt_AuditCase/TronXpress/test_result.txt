@@ -1,0 +1,37 @@
+
+ ============================================ 
+
+./Salt_AuditCase/TronXpress//TronXpress.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected possible reentrancy 
+position 3363,4691
+
+Detected possible reentrancy 
+position 7377,9731
+
+Detected block.timestamp used 
+position 815,829
+
+Detected block.timestamp used 
+position 815,829
+
+Detected block.timestamp used 
+position 4099,4113
+
+Detected block.timestamp used 
+position 4539,4553
+
+Detected block.timestamp used 
+position 6511,6525
+
+Detected now used 
+position 7210,7212
+
+Detected block.timestamp used 
+position 10132,10146
+
+Detected block.timestamp used 
+position 10242,10256

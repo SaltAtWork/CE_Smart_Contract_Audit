@@ -1,0 +1,58 @@
+
+ ============================================ 
+
+./Salt_AuditCase/200Tronbox//200Tronbox.sol
+Detected inline assembly 
+position 9199,9236
+
+Detected floating pragma 
+position 0,22
+Char =  ^ 
+
+Detected possible reentrancy 
+position 4646,5703
+
+Detected possible reentrancy 
+position 9462,9573
+
+Detected possible reentrancy 
+position 9612,9724
+
+Detected possible reentrancy 
+position 9765,9936
+
+Detected tx.origin authorization 
+position 4654,4712
+
+Detected tx.origin authorization 
+position 4654,4712
+
+Detected block.timestamp used 
+position 2927,2941
+
+Detected block.timestamp used 
+position 4217,4231
+
+Detected block.timestamp used 
+position 5452,5466
+
+Detected block.timestamp used 
+position 5566,5580
+
+Detected block.timestamp used 
+position 5797,5811
+
+Detected block.timestamp used 
+position 6203,6217
+
+Detected block.timestamp used 
+position 7250,7264
+
+Detected block.timestamp used 
+position 7527,7541
+
+Detected block.timestamp used 
+position 7763,7777
+
+Detected block.timestamp used 
+position 7864,7878

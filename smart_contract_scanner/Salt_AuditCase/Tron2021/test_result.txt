@@ -1,0 +1,52 @@
+
+ ============================================ 
+
+./Salt_AuditCase/Tron2021//Tron2021.sol
+Detected floating pragma 
+position 0,22
+Char =  ^ 
+
+Detected now used 
+position 9150,9152
+
+Detected now used 
+position 9743,9745
+
+Detected now used 
+position 10112,10114
+
+Detected now used 
+position 10254,10256
+
+Detected now used 
+position 10339,10341
+
+Detected now used 
+position 10672,10674
+
+Detected now used 
+position 11167,11169
+
+Detected now used 
+position 11460,11462
+
+Detected now used 
+position 11702,11704
+
+Detected now used 
+position 13471,13473
+
+Detected block.timestamp used 
+position 14396,14410
+
+Detected now used 
+position 16531,16533
+
+Detected now used 
+position 17536,17538
+
+Detected now used 
+position 18824,18826
+
+Detected now used 
+position 19648,19650

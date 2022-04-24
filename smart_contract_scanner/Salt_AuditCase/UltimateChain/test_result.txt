@@ -1,0 +1,16 @@
+
+ ============================================ 
+
+./Salt_AuditCase/UltimateChain//UltimateChain.sol
+
+Detected possible reentrancy 
+position 3935,4331
+
+Detected possible reentrancy 
+position 4028,4320
+
+Detected block.timestamp used 
+position 2638,2652
+
+Detected block.timestamp used 
+position 5099,5113
