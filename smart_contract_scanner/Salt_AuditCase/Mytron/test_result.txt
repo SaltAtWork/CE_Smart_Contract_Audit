@@ -1,0 +1,16 @@
+
+ ============================================ 
+
+./Salt_AuditCase/Mytron//Mytron.sol
+Detected default variable visibility 
+position 841,863
+
+Detected default variable visibility 
+position 873,897
+
+Detected floating pragma 
+position 342,365
+Char =  ^ 
+
+Detected possible reentrancy 
+position 2999,3492

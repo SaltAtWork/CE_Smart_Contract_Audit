@@ -1,0 +1,26 @@
+
+ ============================================ 
+
+./Salt_AuditCase/SugarSwap//SugerSwap.sol
+Detected inline assembly 
+position 9779,9819
+
+Detected inline assembly 
+position 16434,16590
+
+Detected inline assembly 
+position 59893,59925
+
+
+Detected Operator typo 
+position 55189,55216
+==
+
+Detected block.timestamp used 
+position 46097,46111
+
+Detected block.timestamp used 
+position 46655,46669
+
+Detected now used 
+position 55279,55281

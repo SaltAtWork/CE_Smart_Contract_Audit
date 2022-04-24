@@ -1,0 +1,58 @@
+
+ ============================================ 
+
+./Salt_AuditCase/TRONexVIP//TRONexVIP.sol
+Detected inline assembly 
+position 16292,16329
+
+
+Detected possible reentrancy 
+position 5165,7783
+
+Detected possible reentrancy 
+position 6012,7105
+
+Detected possible reentrancy 
+position 6103,7092
+
+Detected possible reentrancy 
+position 6148,7065
+
+Detected possible reentrancy 
+position 6313,6645
+
+Detected possible reentrancy 
+position 6686,6944
+
+Detected possible reentrancy 
+position 7819,9620
+
+Detected tx.origin authorization 
+position 5176,5234
+
+Detected tx.origin authorization 
+position 5176,5234
+
+Detected block.timestamp used 
+position 7189,7203
+
+Detected block.timestamp used 
+position 7346,7360
+
+Detected block.timestamp used 
+position 8351,8365
+
+Detected block.timestamp used 
+position 8612,8626
+
+Detected block.timestamp used 
+position 9439,9453
+
+Detected block.timestamp used 
+position 11185,11199
+
+Detected block.timestamp used 
+position 12152,12166
+
+Detected block.timestamp used 
+position 12413,12427

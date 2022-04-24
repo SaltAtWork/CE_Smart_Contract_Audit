@@ -1,0 +1,31 @@
+
+ ============================================ 
+
+./Salt_AuditCase/NUI//NUI.sol
+
+Detected possible reentrancy 
+position 39866,42552
+
+Detected possible reentrancy 
+position 60346,60803
+
+Detected block.timestamp used 
+position 27045,27059
+
+Detected block.timestamp used 
+position 27918,27932
+
+Detected block.timestamp used 
+position 28012,28026
+
+Detected block.timestamp used 
+position 36393,36407
+
+Detected block.timestamp used 
+position 56186,56200
+
+Detected block.timestamp used 
+position 57134,57148
+
+Detected block.timestamp used 
+position 62910,62924

@@ -1,0 +1,55 @@
+
+ ============================================ 
+
+./Salt_AuditCase/TRONHIOX//TRONHIOX.sol
+
+Detected unchecked low-level call return value 
+position 12500,12526
+
+Detected unchecked low-level call return value 
+position 12500,12526
+
+Detected block.timestamp used 
+position 6047,6061
+
+Detected block.timestamp used 
+position 6439,6453
+
+Detected block.timestamp used 
+position 7652,7666
+
+Detected block.timestamp used 
+position 8044,8058
+
+Detected block.timestamp used 
+position 9499,9513
+
+Detected block.timestamp used 
+position 10340,10354
+
+Detected block.timestamp used 
+position 11261,11275
+
+Detected block.timestamp used 
+position 11334,11348
+
+Detected block.timestamp used 
+position 12737,12751
+
+Detected block.timestamp used 
+position 12865,12879
+
+Detected block.timestamp used 
+position 13168,13182
+
+Detected block.timestamp used 
+position 13367,13381
+
+Detected block.timestamp used 
+position 18810,18824
+
+Detected block.timestamp used 
+position 18910,18924
+
+Detected block.timestamp used 
+position 19054,19068

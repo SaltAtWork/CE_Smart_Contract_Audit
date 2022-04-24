@@ -1,0 +1,37 @@
+
+ ============================================ 
+
+./Salt_AuditCase/Tron2T//Tron2T.sol
+Detected inline assembly 
+position 10889,10926
+
+
+Detected possible reentrancy 
+position 4185,5444
+
+Detected possible reentrancy 
+position 5477,7064
+
+Detected block.timestamp used 
+position 5151,5165
+
+Detected block.timestamp used 
+position 5284,5298
+
+Detected block.timestamp used 
+position 5919,5933
+
+Detected block.timestamp used 
+position 6105,6119
+
+Detected block.timestamp used 
+position 6903,6917
+
+Detected now used 
+position 7678,7680
+
+Detected block.timestamp used 
+position 8353,8367
+
+Detected block.timestamp used 
+position 8539,8553

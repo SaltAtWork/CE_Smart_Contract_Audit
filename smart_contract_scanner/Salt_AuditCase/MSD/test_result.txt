@@ -1,0 +1,70 @@
+
+ ============================================ 
+
+./Salt_AuditCase/MSD//MSD.sol
+Detected inline assembly 
+position 8407,8444
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected possible reentrancy 
+position 1374,3824
+
+Detected possible reentrancy 
+position 3073,3684
+
+Detected possible reentrancy 
+position 3202,3677
+
+Detected possible reentrancy 
+position 3235,3659
+
+Detected possible reentrancy 
+position 3866,5431
+
+Detected possible reentrancy 
+position 5493,6147
+
+Detected block.timestamp used 
+position 2117,2131
+
+Detected block.timestamp used 
+position 2261,2275
+
+Detected block.timestamp used 
+position 4137,4151
+
+Detected block.timestamp used 
+position 4254,4268
+
+Detected block.timestamp used 
+position 4371,4385
+
+Detected block.timestamp used 
+position 4490,4504
+
+Detected block.timestamp used 
+position 4594,4608
+
+Detected block.timestamp used 
+position 5853,5867
+
+Detected block.timestamp used 
+position 6472,6486
+
+Detected block.timestamp used 
+position 6589,6603
+
+Detected block.timestamp used 
+position 6706,6720
+
+Detected block.timestamp used 
+position 6825,6839
+
+Detected block.timestamp used 
+position 6929,6943
+
+Detected block.timestamp used 
+position 8692,8706

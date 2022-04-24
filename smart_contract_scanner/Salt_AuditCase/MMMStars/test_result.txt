@@ -1,0 +1,40 @@
+
+ ============================================ 
+
+./Salt_AuditCase/MMMStars//MMMStars.sol
+
+Detected possible reentrancy 
+position 4009,4697
+
+Detected possible reentrancy 
+position 4125,4686
+
+Detected block.timestamp used 
+position 3047,3061
+
+Detected block.timestamp used 
+position 3657,3671
+
+Detected block.timestamp used 
+position 3705,3719
+
+Detected now used 
+position 5657,5659
+
+Detected block.timestamp used 
+position 6543,6557
+
+Detected block.timestamp used 
+position 7244,7258
+
+Detected block.timestamp used 
+position 8438,8452
+
+Detected block.timestamp used 
+position 8486,8500
+
+Detected block.timestamp used 
+position 12025,12039
+
+Detected block.timestamp used 
+position 12073,12087

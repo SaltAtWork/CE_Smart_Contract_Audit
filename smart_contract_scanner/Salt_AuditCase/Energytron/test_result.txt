@@ -1,0 +1,61 @@
+
+ ============================================ 
+
+./Salt_AuditCase/EnergyTron//Energytron.sol
+Detected default variable visibility 
+position 1422,1443
+
+Detected default variable visibility 
+position 1452,1487
+
+Detected default variable visibility 
+position 1496,1517
+
+Detected default variable visibility 
+position 1524,1547
+
+Detected default variable visibility 
+position 1556,1579
+
+Detected default variable visibility 
+position 1586,1608
+
+Detected default variable visibility 
+position 1615,1638
+
+Detected default variable visibility 
+position 1645,1673
+
+Detected default variable visibility 
+position 1682,1706
+
+
+Detected block.timestamp used 
+position 2860,2874
+
+Detected block.timestamp used 
+position 6061,6075
+
+Detected block.timestamp used 
+position 6523,6537
+
+Detected block.timestamp used 
+position 7316,7330
+
+Detected block.timestamp used 
+position 7450,7464
+
+Detected block.timestamp used 
+position 7703,7717
+
+Detected block.timestamp used 
+position 8211,8225
+
+Detected block.timestamp used 
+position 8259,8273
+
+Detected block.timestamp used 
+position 8907,8921
+
+Detected block.timestamp used 
+position 8955,8969

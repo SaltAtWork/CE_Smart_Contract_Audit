@@ -1,0 +1,61 @@
+
+ ============================================ 
+
+./Salt_AuditCase/TronPlanB//TronPlanB.sol
+
+Detected possible reentrancy 
+position 20586,21914
+
+Detected possible reentrancy 
+position 20623,21905
+
+Detected possible reentrancy 
+position 20855,21244
+
+Detected possible reentrancy 
+position 21277,21569
+
+Detected possible reentrancy 
+position 21602,21894
+
+Detected block.timestamp used 
+position 6788,6802
+
+Detected block.timestamp used 
+position 9707,9721
+
+Detected block.timestamp used 
+position 11295,11309
+
+Detected block.timestamp used 
+position 11368,11382
+
+Detected block.timestamp used 
+position 12724,12738
+
+Detected block.timestamp used 
+position 12797,12811
+
+Detected block.timestamp used 
+position 13708,13722
+
+Detected block.timestamp used 
+position 14026,14040
+
+Detected block.timestamp used 
+position 14326,14340
+
+Detected block.timestamp used 
+position 16327,16341
+
+Detected block.timestamp used 
+position 16589,16603
+
+Detected block.timestamp used 
+position 18386,18400
+
+Detected block.timestamp used 
+position 18489,18503
+
+Detected block.timestamp used 
+position 18798,18812

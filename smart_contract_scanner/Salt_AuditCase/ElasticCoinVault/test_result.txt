@@ -1,0 +1,28 @@
+
+ ============================================ 
+
+./Salt_AuditCase/ElasticCoinVault//ElasticCoinVault.sol
+Detected inline assembly 
+position 13425,13465
+
+Detected inline assembly 
+position 18100,18256
+
+Detected floating pragma 
+position 104,135
+Char =  <  > 
+
+Detected block.timestamp used 
+position 26685,26699
+
+Detected block.timestamp used 
+position 30246,30260
+
+Detected block.timestamp used 
+position 30404,30418
+
+Detected block.timestamp used 
+position 31217,31231
+
+Detected block.timestamp used 
+position 31258,31272

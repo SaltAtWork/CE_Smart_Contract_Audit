@@ -1,0 +1,40 @@
+
+ ============================================ 
+
+./Salt_AuditCase/TronNow//TronNow.sol
+
+Detected block.timestamp used 
+position 3759,3773
+
+Detected block.timestamp used 
+position 5216,5230
+
+Detected block.timestamp used 
+position 5790,5804
+
+Detected block.timestamp used 
+position 5883,5897
+
+Detected block.timestamp used 
+position 7775,7789
+
+Detected block.timestamp used 
+position 7876,7890
+
+Detected block.timestamp used 
+position 9628,9642
+
+Detected block.timestamp used 
+position 9992,10006
+
+Detected block.timestamp used 
+position 10528,10542
+
+Detected block.timestamp used 
+position 10576,10590
+
+Detected block.timestamp used 
+position 11256,11270
+
+Detected block.timestamp used 
+position 11304,11318

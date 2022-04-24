@@ -1,0 +1,64 @@
+
+ ============================================ 
+
+./Salt_AuditCase/JustRoi//JustRoi.sol
+Detected inline assembly 
+position 19004,19044
+
+Detected default variable visibility 
+position 19405,19435
+
+Detected default variable visibility 
+position 20060,20082
+
+Detected default variable visibility 
+position 20089,20112
+
+Detected default variable visibility 
+position 20119,20142
+
+Detected default variable visibility 
+position 20149,20177
+
+Detected default variable visibility 
+position 20454,20475
+
+Detected default variable visibility 
+position 20482,20507
+
+Detected default variable visibility 
+position 20514,20539
+
+
+Detected possible reentrancy 
+position 21379,22931
+
+Detected now used 
+position 21517,21519
+
+Detected block.timestamp used 
+position 21868,21882
+
+Detected block.timestamp used 
+position 21969,21983
+
+Detected now used 
+position 22458,22460
+
+Detected block.timestamp used 
+position 25527,25541
+
+Detected block.timestamp used 
+position 25987,26001
+
+Detected block.timestamp used 
+position 26760,26774
+
+Detected block.timestamp used 
+position 31599,31613
+
+Detected block.timestamp used 
+position 31648,31662
+
+Detected now used 
+position 33291,33293

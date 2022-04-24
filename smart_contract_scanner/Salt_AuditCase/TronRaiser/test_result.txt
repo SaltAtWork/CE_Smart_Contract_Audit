@@ -1,0 +1,64 @@
+
+ ============================================ 
+
+./Salt_AuditCase/TronRaiser//TronRaiser.sol
+Detected inline assembly 
+position 2660,2697
+
+
+Detected possible reentrancy 
+position 2789,4814
+
+Detected possible reentrancy 
+position 4850,6630
+
+Detected possible reentrancy 
+position 6670,7645
+
+Detected tx.origin authorization 
+position 2800,2858
+
+Detected tx.origin authorization 
+position 2800,2858
+
+Detected block.timestamp used 
+position 2534,2548
+
+Detected block.timestamp used 
+position 3740,3754
+
+Detected block.timestamp used 
+position 3799,3813
+
+Detected block.timestamp used 
+position 4570,4584
+
+Detected block.timestamp used 
+position 4684,4698
+
+Detected block.timestamp used 
+position 5406,5420
+
+Detected block.timestamp used 
+position 5669,5683
+
+Detected block.timestamp used 
+position 6507,6521
+
+Detected block.timestamp used 
+position 6739,6753
+
+Detected block.timestamp used 
+position 7512,7526
+
+Detected block.timestamp used 
+position 8285,8299
+
+Detected block.timestamp used 
+position 8546,8560
+
+Detected block.timestamp used 
+position 10518,10532
+
+Detected block.timestamp used 
+position 11344,11358

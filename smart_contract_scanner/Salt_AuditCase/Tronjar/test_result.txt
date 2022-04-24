@@ -1,0 +1,52 @@
+
+ ============================================ 
+
+./Salt_AuditCase/Tronjar//Tronjar.sol
+
+Detected block.timestamp used 
+position 5381,5395
+
+Detected block.timestamp used 
+position 5773,5787
+
+Detected block.timestamp used 
+position 7478,7492
+
+Detected block.timestamp used 
+position 9730,9744
+
+Detected block.timestamp used 
+position 9803,9817
+
+Detected block.timestamp used 
+position 10882,10896
+
+Detected block.timestamp used 
+position 10955,10969
+
+Detected block.timestamp used 
+position 11784,11798
+
+Detected block.timestamp used 
+position 11902,11916
+
+Detected block.timestamp used 
+position 12205,12219
+
+Detected block.timestamp used 
+position 14228,14242
+
+Detected block.timestamp used 
+position 14346,14360
+
+Detected block.timestamp used 
+position 14649,14663
+
+Detected block.timestamp used 
+position 17802,17816
+
+Detected block.timestamp used 
+position 17902,17916
+
+Detected block.timestamp used 
+position 18046,18060

@@ -1,0 +1,40 @@
+
+ ============================================ 
+
+./Salt_AuditCase/TronBankPro//TronBankPro.sol
+Detected inline assembly 
+position 10167,10204
+
+
+Detected possible reentrancy 
+position 1727,3750
+
+Detected possible reentrancy 
+position 3783,5581
+
+Detected block.timestamp used 
+position 3210,3224
+
+Detected block.timestamp used 
+position 3341,3355
+
+Detected block.timestamp used 
+position 4225,4239
+
+Detected block.timestamp used 
+position 4411,4425
+
+Detected block.timestamp used 
+position 5265,5279
+
+Detected block.timestamp used 
+position 5725,5739
+
+Detected now used 
+position 6405,6407
+
+Detected block.timestamp used 
+position 7275,7289
+
+Detected block.timestamp used 
+position 7461,7475

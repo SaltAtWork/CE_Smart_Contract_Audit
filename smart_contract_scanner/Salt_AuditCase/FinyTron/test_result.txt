@@ -1,0 +1,37 @@
+
+ ============================================ 
+
+./Salt_AuditCase/FinyTron//FinyTron.sol
+Detected inline assembly 
+position 8507,8544
+
+
+Detected possible reentrancy 
+position 1708,3062
+
+Detected possible reentrancy 
+position 3095,4682
+
+Detected block.timestamp used 
+position 2769,2783
+
+Detected block.timestamp used 
+position 2902,2916
+
+Detected block.timestamp used 
+position 3537,3551
+
+Detected block.timestamp used 
+position 3723,3737
+
+Detected block.timestamp used 
+position 4521,4535
+
+Detected now used 
+position 5296,5298
+
+Detected block.timestamp used 
+position 5971,5985
+
+Detected block.timestamp used 
+position 6157,6171

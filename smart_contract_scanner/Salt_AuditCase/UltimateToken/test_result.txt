@@ -1,0 +1,28 @@
+
+ ============================================ 
+
+./Salt_AuditCase/UltimateToken//UltimateToken.sol
+Detected inline assembly 
+position 9587,9631
+
+Detected inline assembly 
+position 14302,14458
+
+Detected default variable visibility 
+position 26812,26833
+
+Detected floating pragma 
+position 70,93
+Char =  ^ 
+
+Detected now used 
+position 17141,17143
+
+Detected now used 
+position 17430,17432
+
+Detected block.timestamp used 
+position 41337,41351
+
+Detected block.timestamp used 
+position 41854,41868
