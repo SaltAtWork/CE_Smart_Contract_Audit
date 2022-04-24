@@ -1,0 +1,1159 @@
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/interfaces/callback/IUniswapV3FlashCallback.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/interfaces/callback/IUniswapV3MintCallback.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/interfaces/callback/IUniswapV3SwapCallback.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/interfaces/IERC20Minimal.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/interfaces/IUniswapV3Factory.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/interfaces/IUniswapV3PoolDeployer.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolActions.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolDerivedState.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolEvents.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolImmutables.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolOwnerActions.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolState.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/libraries/BitMath.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/libraries/FixedPoint128.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/libraries/FixedPoint96.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/libraries/FullMath.sol
+Detected inline assembly 
+position 1323,1472
+
+Detected inline assembly 
+position 1609,1682
+
+Detected inline assembly 
+position 2157,2227
+
+Detected inline assembly 
+position 2292,2408
+
+Detected inline assembly 
+position 2655,2724
+
+Detected inline assembly 
+position 2789,2846
+
+Detected inline assembly 
+position 3026,3097
+
+Detected floating pragma 
+position 32,62
+Char =  <  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/libraries/LiquidityMath.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/libraries/LowGasSafeMath.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/libraries/Oracle.sol
+Detected floating pragma 
+position 37,67
+Char =  <  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/libraries/Position.sol
+Detected floating pragma 
+position 37,67
+Char =  <  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/libraries/SafeCast.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/libraries/SqrtPriceMath.sol
+Detected floating pragma 
+position 37,60
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/libraries/SwapMath.sol
+Detected floating pragma 
+position 37,60
+Char =  > 
+
+Detected Operator typo 
+position 3570,3584
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected Operator typo 
+position 3931,3945
+This might be false positive. Please Recheck. LeftOp = &&
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/libraries/Tick.sol
+Detected floating pragma 
+position 37,67
+Char =  <  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/libraries/TickBitmap.sol
+Detected floating pragma 
+position 37,60
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/libraries/TickMath.sol
+Detected inline assembly 
+position 4749,4896
+
+Detected inline assembly 
+position 4906,5037
+
+Detected inline assembly 
+position 5047,5170
+
+Detected inline assembly 
+position 5180,5299
+
+Detected inline assembly 
+position 5309,5426
+
+Detected inline assembly 
+position 5436,5552
+
+Detected inline assembly 
+position 5562,5678
+
+Detected inline assembly 
+position 5688,5769
+
+Detected inline assembly 
+position 5921,6080
+
+Detected inline assembly 
+position 6090,6249
+
+Detected inline assembly 
+position 6259,6418
+
+Detected inline assembly 
+position 6428,6587
+
+Detected inline assembly 
+position 6597,6756
+
+Detected inline assembly 
+position 6766,6925
+
+Detected inline assembly 
+position 6935,7094
+
+Detected inline assembly 
+position 7104,7263
+
+Detected inline assembly 
+position 7273,7432
+
+Detected inline assembly 
+position 7442,7601
+
+Detected inline assembly 
+position 7611,7770
+
+Detected inline assembly 
+position 7780,7939
+
+Detected inline assembly 
+position 7949,8108
+
+Detected inline assembly 
+position 8118,8250
+
+Detected floating pragma 
+position 45,75
+Char =  <  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/libraries/TransferHelper.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/libraries/UnsafeMath.sol
+Detected inline assembly 
+position 581,650
+
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/NoDelegateCall.sol
+Detected default function visibility 
+position 350,602
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/BitMathEchidnaTest.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/BitMathTest.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/FullMathEchidnaTest.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/FullMathTest.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/LiquidityMathTest.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/LowGasSafeMathEchidnaTest.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/MockTimeUniswapV3Pool.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/MockTimeUniswapV3PoolDeployer.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/NoDelegateCallTest.sol
+
+Detected block.timestamp used 
+position 227,241
+
+Detected block.timestamp used 
+position 355,369
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/OracleEchidnaTest.sol
+Detected default function visibility 
+position 239,294
+
+
+
+Detected Operator typo 
+position 2452,2504
+This might be false positive. Please Recheck. LeftOp = ||
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/OracleTest.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/SqrtPriceMathEchidnaTest.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/SqrtPriceMathTest.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/SwapMathEchidnaTest.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/SwapMathTest.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/TestERC20.sol
+Detected default function visibility 
+position 288,368
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/TestUniswapV3Callee.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/TestUniswapV3ReentrantCallee.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/TestUniswapV3Router.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/TestUniswapV3SwapPay.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/TickBitmapEchidnaTest.sol
+
+Detected Operator typo 
+position 650,679
+This might be false positive. Please Recheck. LeftOp = ==
+
+Detected Operator typo 
+position 961,976
+This might be false positive. Please Recheck. LeftOp = >=
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/TickBitmapTest.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/TickEchidnaTest.sol
+
+Detected Operator typo 
+position 584,602
+This might be false positive. Please Recheck. LeftOp = ==
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/TickMathEchidnaTest.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/TickMathTest.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/TickOverflowSafetyEchidnaTest.sol
+Detected default variable visibility 
+position 509,534
+
+
+Detected block.timestamp used 
+position 1870,1884
+
+Detected block.timestamp used 
+position 2228,2242
+
+Detected block.timestamp used 
+position 3381,3395
+
+Detected block.timestamp used 
+position 3592,3606
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/TickTest.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/UniswapV3PoolSwapTest.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/test/UnsafeMathEchidnaTest.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/UniswapV3Factory.sol
+Detected default function visibility 
+position 750,1098
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/UniswapV3Pool.sol
+Detected default function visibility 
+position 4335,4607
+
+
+Detected Operator typo 
+position 28729,28756
+This might be false positive. Please Recheck. LeftOp = =
+
+Detected block.timestamp used 
+position 5108,5122
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-core/contracts/UniswapV3PoolDeployer.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/base/BlockTimestamp.sol
+
+Detected block.timestamp used 
+position 403,417
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/base/ERC721Permit.sol
+Detected default function visibility 
+position 1020,1253
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/base/LiquidityManagement.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/base/Multicall.sol
+Detected inline assembly 
+position 767,842
+
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/base/PeripheryImmutableState.sol
+Detected default function visibility 
+position 466,570
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/base/PeripheryPayments.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+Detected possible reentrancy 
+position 1881,2455
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/base/PeripheryPaymentsWithFee.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/base/PeripheryValidation.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/base/PoolInitializer.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/base/SelfPermit.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/examples/PairFlash.sol
+Detected default function visibility 
+position 798,981
+
+
+
+Detected block.timestamp used 
+position 2857,2871
+
+Detected block.timestamp used 
+position 3529,3543
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/interfaces/external/IERC1271.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/interfaces/external/IERC20PermitAllowed.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/interfaces/external/IWETH9.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/interfaces/IERC20Metadata.sol
+Detected floating pragma 
+position 45,67
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/interfaces/IERC721Permit.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/interfaces/IMulticall.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/interfaces/INonfungiblePositionManager.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/interfaces/INonfungibleTokenPositionDescriptor.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/interfaces/IPeripheryImmutableState.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/interfaces/IPeripheryPayments.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/interfaces/IPeripheryPaymentsWithFee.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/interfaces/IPoolInitializer.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/interfaces/IQuoter.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/interfaces/IQuoterV2.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/interfaces/ISelfPermit.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/interfaces/ISwapRouter.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/interfaces/ITickLens.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/interfaces/IV3Migrator.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/lens/Quoter.sol
+Detected inline assembly 
+position 2285,2423
+
+Detected inline assembly 
+position 2637,2772
+
+Detected inline assembly 
+position 3061,3128
+
+Detected default function visibility 
+position 1150,1239
+
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/lens/QuoterV2.sol
+Detected inline assembly 
+position 2588,2834
+
+Detected inline assembly 
+position 3048,3291
+
+Detected inline assembly 
+position 3705,3772
+
+Detected default function visibility 
+position 1309,1398
+
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/lens/TickLens.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/lens/UniswapInterfaceMulticall.sol
+
+
+Detected block.timestamp used 
+position 496,510
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/libraries/BytesLib.sol
+Detected inline assembly 
+position 773,3370
+
+Detected inline assembly 
+position 3672,3790
+
+Detected inline assembly 
+position 4084,4164
+
+Detected floating pragma 
+position 341,371
+Char =  <  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/libraries/CallbackValidation.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/libraries/ChainId.sol
+Detected inline assembly 
+position 295,347
+
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/libraries/HexStrings.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/libraries/LiquidityAmounts.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/libraries/NFTDescriptor.sol
+Detected default variable visibility 
+position 837,907
+
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/libraries/NFTSVG.sol
+Detected default variable visibility 
+position 370,423
+
+Detected default variable visibility 
+position 429,481
+
+Detected default variable visibility 
+position 487,539
+
+Detected default variable visibility 
+position 545,597
+
+Detected default variable visibility 
+position 603,655
+
+Detected default variable visibility 
+position 661,712
+
+Detected default variable visibility 
+position 718,771
+
+Detected default variable visibility 
+position 777,828
+
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+Detected Operator typo 
+position 11202,11216
+This might be false positive. Please Recheck. LeftOp = ==
+
+Detected Operator typo 
+position 13223,13237
+This might be false positive. Please Recheck. LeftOp = ==
+
+Detected Operator typo 
+position 13358,13372
+This might be false positive. Please Recheck. LeftOp = ==
+
+Detected Operator typo 
+position 13447,13461
+This might be false positive. Please Recheck. LeftOp = ==
+
+Detected Operator typo 
+position 13567,13581
+This might be false positive. Please Recheck. LeftOp = ==
+
+Detected Operator typo 
+position 13656,13670
+This might be false positive. Please Recheck. LeftOp = ==
+
+Detected Operator typo 
+position 16979,16987
+This might be false positive. Please Recheck. LeftOp = *
+
+Detected Operator typo 
+position 17286,17304
+This might be false positive. Please Recheck. LeftOp = <
+
+Detected Operator typo 
+position 17359,17376
+This might be false positive. Please Recheck. LeftOp = <
+
+Detected Operator typo 
+position 17434,17451
+This might be false positive. Please Recheck. LeftOp = <
+
+Detected Operator typo 
+position 17510,17526
+This might be false positive. Please Recheck. LeftOp = <
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/libraries/OracleLibrary.sol
+Detected floating pragma 
+position 45,75
+Char =  <  > 
+
+Detected block.timestamp used 
+position 4581,4595
+
+Detected block.timestamp used 
+position 5725,5739
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/libraries/Path.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/libraries/PoolAddress.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/libraries/PoolTicksCounter.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/libraries/PositionKey.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/libraries/PositionValue.sol
+Detected floating pragma 
+position 45,75
+Char =  <  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/libraries/SqrtPriceMathPartial.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/libraries/TokenRatioSortOrder.sol
+Detected default variable visibility 
+position 91,127
+
+Detected default variable visibility 
+position 133,169
+
+Detected default variable visibility 
+position 175,206
+
+Detected default variable visibility 
+position 213,252
+
+Detected default variable visibility 
+position 258,297
+
+Detected default variable visibility 
+position 303,337
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/libraries/TransferHelper.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/NonfungiblePositionManager.sol
+Detected default function visibility 
+position 2588,2848
+
+
+
+Detected Operator typo 
+position 4260,4281
+This might be false positive. Please Recheck. LeftOp = =
+
+Detected Operator typo 
+position 5312,5330
+This might be false positive. Please Recheck. LeftOp = =
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/NonfungibleTokenPositionDescriptor.sol
+Detected default function visibility 
+position 1280,1435
+
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/SwapRouter.sol
+Detected default function visibility 
+position 1402,1491
+
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/Base64Test.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/LiquidityAmountsTest.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/MockObservable.sol
+Detected default function visibility 
+position 313,881
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/MockObservations.sol
+Detected default function visibility 
+position 407,1427
+
+Detected default variable visibility 
+position 211,226
+
+
+Detected block.timestamp used 
+position 2122,2136
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/MockTimeNonfungiblePositionManager.sol
+Detected default function visibility 
+position 228,394
+
+Detected default variable visibility 
+position 209,221
+
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/MockTimeSwapRouter.sol
+Detected default function visibility 
+position 180,256
+
+Detected default variable visibility 
+position 161,173
+
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/NFTDescriptorTest.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/NonfungiblePositionManagerPositionsGasTest.sol
+Detected default function visibility 
+position 250,391
+
+Detected default variable visibility 
+position 179,243
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/OracleTest.sol
+
+
+Detected block.timestamp used 
+position 1510,1524
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/PathTest.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/PeripheryImmutableStateTest.sol
+Detected default function visibility 
+position 187,276
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/PoolAddressTest.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/PoolTicksCounterTest.sol
+Detected floating pragma 
+position 113,136
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/PositionValueTest.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/SelfPermitTest.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/TestCallbackValidation.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/TestERC20.sol
+Detected default function visibility 
+position 162,297
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/TestERC20Metadata.sol
+Detected default function visibility 
+position 170,361
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/TestERC20PermitAllowed.sol
+Detected default function visibility 
+position 303,362
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/TestMulticall.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/TestPositionNFTOwner.sol
+Detected inline assembly 
+position 446,609
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/TestUniswapV3Callee.sol
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/test/TickLensTest.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+
+ ============================================ 
+
+Salt_AuditCase/Uniswap/v3-periphery/contracts/V3Migrator.sol
+Detected default function visibility 
+position 784,1011
+
+

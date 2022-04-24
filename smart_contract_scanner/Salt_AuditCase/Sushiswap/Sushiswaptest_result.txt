@@ -1,0 +1,452 @@
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/bentobox/BentoBoxV1.sol
+Detected inline assembly 
+position 16898,17285
+
+Detected inline assembly 
+position 17316,17696
+
+Detected inline assembly 
+position 19427,19479
+
+Detected inline assembly 
+position 19947,19999
+
+Detected inline assembly 
+position 24821,24924
+
+
+
+Detected Operator typo 
+position 26238,26261
+This might be false positive. Please Recheck. LeftOp = ||
+
+Detected Operator typo 
+position 48235,48264
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected block.timestamp used 
+position 46019,46033
+
+Detected block.timestamp used 
+position 46185,46199
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/bentobox/KashiPairMediumRiskV1.sol
+Detected inline assembly 
+position 5803,5855
+
+Detected inline assembly 
+position 6348,6400
+
+
+
+Detected Operator typo 
+position 51285,51307
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected possible reentrancy 
+position 52895,57148
+
+Detected possible reentrancy 
+position 52984,56995
+
+Detected possible reentrancy 
+position 57924,61881
+
+Detected possible reentrancy 
+position 60203,61263
+
+Detected possible reentrancy 
+position 61270,61875
+
+Detected block.timestamp used 
+position 11348,11362
+
+Detected block.timestamp used 
+position 35686,35700
+
+Detected block.timestamp used 
+position 35832,35846
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/bentobox/PeggedOracleV1.sol
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/governance/Timelock.sol
+
+Detected block.timestamp used 
+position 6827,6841
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/interfaces/IERC20.sol
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/interfaces/IMasterChef.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/interfaces/IMiniChefV2.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/interfaces/IRewarder.sol
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/libraries/SafeERC20.sol
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/libraries/SafeMath.sol
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/libraries/SignedSafeMath.sol
+
+Detected Operator typo 
+position 735,741
+This might be false positive. Please Recheck. LeftOp = ==
+
+Detected Operator typo 
+position 1537,1543
+This might be false positive. Please Recheck. LeftOp = ==
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/MasterChef.sol
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/MasterChefV2.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/Migrator.sol
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/MiniChefV2.sol
+
+
+Detected block.timestamp used 
+position 4534,4548
+
+Detected block.timestamp used 
+position 7482,7496
+
+Detected block.timestamp used 
+position 7567,7581
+
+Detected block.timestamp used 
+position 8601,8615
+
+Detected block.timestamp used 
+position 8775,8789
+
+Detected block.timestamp used 
+position 9094,9108
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/mocks/CloneRewarderTime.sol
+
+
+Detected block.timestamp used 
+position 6374,6388
+
+Detected block.timestamp used 
+position 6459,6473
+
+Detected block.timestamp used 
+position 7098,7112
+
+Detected block.timestamp used 
+position 7302,7316
+
+Detected block.timestamp used 
+position 7585,7599
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/mocks/CloneRewarderTimeDual.sol
+
+
+Detected block.timestamp used 
+position 8050,8064
+
+Detected block.timestamp used 
+position 8135,8149
+
+Detected block.timestamp used 
+position 9056,9070
+
+Detected block.timestamp used 
+position 9260,9274
+
+Detected block.timestamp used 
+position 9726,9740
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/mocks/ComplexRewarder.sol
+Detected default variable visibility 
+position 1521,1544
+
+
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/mocks/ComplexRewarderTime.sol
+Detected default variable visibility 
+position 1525,1548
+
+
+
+Detected block.timestamp used 
+position 5054,5068
+
+Detected block.timestamp used 
+position 7218,7232
+
+Detected block.timestamp used 
+position 7303,7317
+
+Detected block.timestamp used 
+position 8344,8358
+
+Detected block.timestamp used 
+position 8547,8561
+
+Detected block.timestamp used 
+position 8867,8881
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/mocks/ERC20Mock.sol
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/mocks/RewarderBrokenMock.sol
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/mocks/RewarderMock.sol
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/mocks/SushiMakerExploitMock.sol
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/mocks/SushiMakerKashiExploitMock.sol
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/mocks/SushiSwapFactoryMock.sol
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/mocks/SushiSwapPairMock.sol
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/mocks/WETH9Mock.sol
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/Multicall2.sol
+Detected floating pragma 
+position 33,56
+Char =  > 
+
+
+Detected blockhash used
+position 1270,1278
+
+Detected block.timestamp used 
+position 1889,1903
+
+Detected blockhash used
+position 2125,2133
+
+Detected blockhash used
+position 2868,2876
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/Ownable.sol
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/SushiBar.sol
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/SushiMaker.sol
+
+Detected tx.origin authorization 
+position 2591,2650
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/SushiMakerKashi.sol
+
+Detected tx.origin authorization 
+position 2812,2866
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/SushiRoll.sol
+
+Detected block.timestamp used 
+position 1578,1592
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/SushiToken.sol
+Detected inline assembly 
+position 8977,9009
+
+
+Detected Operator typo 
+position 4378,4405
+This might be false positive. Please Recheck. LeftOp = ==
+
+Detected now used 
+position 4464,4466
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/uniswapv2/interfaces/IERC20.sol
+Detected floating pragma 
+position 37,60
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/uniswapv2/interfaces/IUniswapV2Callee.sol
+Detected floating pragma 
+position 37,60
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/uniswapv2/interfaces/IUniswapV2ERC20.sol
+Detected floating pragma 
+position 37,60
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/uniswapv2/interfaces/IUniswapV2Factory.sol
+Detected floating pragma 
+position 37,60
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/uniswapv2/interfaces/IUniswapV2Pair.sol
+Detected floating pragma 
+position 37,60
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/uniswapv2/interfaces/IUniswapV2Router01.sol
+Detected floating pragma 
+position 37,60
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/uniswapv2/interfaces/IUniswapV2Router02.sol
+Detected floating pragma 
+position 37,60
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/uniswapv2/interfaces/IWETH.sol
+Detected floating pragma 
+position 37,60
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/uniswapv2/libraries/Math.sol
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/uniswapv2/libraries/SafeMath.sol
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/uniswapv2/libraries/TransferHelper.sol
+Detected floating pragma 
+position 37,60
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/uniswapv2/libraries/UniswapV2Library.sol
+Detected floating pragma 
+position 37,60
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/uniswapv2/libraries/UQ112x112.sol
+Detected default variable visibility 
+position 244,274
+
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/uniswapv2/UniswapV2ERC20.sol
+Detected inline assembly 
+position 959,1011
+
+
+Detected block.timestamp used 
+position 2904,2918
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/uniswapv2/UniswapV2Factory.sol
+Detected inline assembly 
+position 1427,1519
+
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/uniswapv2/UniswapV2Pair.sol
+
+Detected block.timestamp used 
+position 2983,2997
+
+ ============================================ 
+
+Salt_AuditCase/Sushiswap/contracts/uniswapv2/UniswapV2Router02.sol
+
+Detected possible reentrancy 
+position 3323,3977
+
+Detected possible reentrancy 
+position 12957,13516
+
+Detected possible reentrancy 
+position 15850,16427
+
+Detected block.timestamp used 
+position 586,600

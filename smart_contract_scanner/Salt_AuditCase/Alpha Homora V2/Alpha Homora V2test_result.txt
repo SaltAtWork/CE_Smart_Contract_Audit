@@ -1,0 +1,308 @@
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/Governable.sol
+Detected default variable visibility 
+position 469,485
+
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/HomoraBank.sol
+Detected inline assembly 
+position 1371,1496
+
+
+Detected Operator typo 
+position 4391,4442
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected Operator typo 
+position 18172,18200
+This might be false positive. Please Recheck. LeftOp = =
+
+Detected Operator typo 
+position 21520,21558
+This might be false positive. Please Recheck. LeftOp = &=
+
+Detected tx.origin authorization 
+position 4453,4495
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/IbETHRouterV2.sol
+
+Detected possible reentrancy 
+position 7084,7617
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/mock/MockCErc20.sol
+
+Detected possible reentrancy 
+position 1609,1776
+
+Detected now used 
+position 1137,1139
+
+Detected now used 
+position 1372,1374
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/mock/MockCErc20_2.sol
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/mock/MockERC20.sol
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/mock/MockUniswapV2Factory.sol
+Detected inline assembly 
+position 6094,6136
+
+Detected inline assembly 
+position 18903,18985
+
+Detected default variable visibility 
+position 20803,20833
+
+
+Detected block.timestamp used 
+position 7951,7965
+
+Detected block.timestamp used 
+position 10936,10950
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/mock/MockUniswapV2Router02.sol
+
+Detected possible reentrancy 
+position 11815,12527
+
+Detected possible reentrancy 
+position 22097,22769
+
+Detected possible reentrancy 
+position 25170,25786
+
+Detected block.timestamp used 
+position 8981,8995
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/mock/MockWETH.sol
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/oracle/AggregatorOracle.sol
+
+
+Detected block.timestamp used 
+position 5968,5982
+
+Detected block.timestamp used 
+position 6053,6067
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/oracle/BalancerPairOracle.sol
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/oracle/BandAdapterOracle.sol
+
+
+Detected block.timestamp used 
+position 3624,3638
+
+Detected block.timestamp used 
+position 3718,3732
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/oracle/BaseKP3ROracle.sol
+
+Detected block.timestamp used 
+position 1028,1042
+
+Detected block.timestamp used 
+position 1217,1231
+
+Detected block.timestamp used 
+position 1424,1438
+
+Detected block.timestamp used 
+position 1888,1902
+
+Detected block.timestamp used 
+position 2077,2091
+
+Detected block.timestamp used 
+position 2284,2298
+
+Detected block.timestamp used 
+position 2586,2600
+
+Detected block.timestamp used 
+position 2773,2787
+
+Detected block.timestamp used 
+position 3209,3223
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/oracle/ChainlinkAdapterOracle.sol
+
+Detected block.timestamp used 
+position 4258,4272
+
+Detected block.timestamp used 
+position 4606,4620
+
+Detected block.timestamp used 
+position 4805,4819
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/oracle/CoreOracle.sol
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/oracle/CurveOracle.sol
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/oracle/ERC20KP3ROracle.sol
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/oracle/ProxyOracle.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/oracle/SimpleOracle.sol
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/oracle/UniswapV2Oracle.sol
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/oracle/UsingBaseOracle.sol
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/SafeBox.sol
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/SafeBoxETH.sol
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/spell/BalancerSpellV1.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/spell/BasicSpell.sol
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/spell/CurveSpellV1.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/spell/HouseHoldSpell.sol
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/spell/SushiswapSpellV1.sol
+
+
+Detected block.timestamp used 
+position 5398,5412
+
+Detected block.timestamp used 
+position 5753,5767
+
+Detected block.timestamp used 
+position 9611,9625
+
+Detected block.timestamp used 
+position 10063,10077
+
+Detected block.timestamp used 
+position 10386,10400
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/spell/UniswapV2SpellV1.sol
+
+
+Detected block.timestamp used 
+position 5069,5083
+
+Detected block.timestamp used 
+position 5424,5438
+
+Detected block.timestamp used 
+position 9397,9411
+
+Detected block.timestamp used 
+position 9849,9863
+
+Detected block.timestamp used 
+position 10172,10186
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/spell/WhitelistSpell.sol
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/utils/BConst.sol
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/utils/BNum.sol
+
+Detected Operator typo 
+position 3626,3645
+This might be false positive. Please Recheck. LeftOp = =
+
+Detected Operator typo 
+position 3664,3683
+This might be false positive. Please Recheck. LeftOp = =
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/utils/ERC1155NaiveReceiver.sol
+Detected default variable visibility 
+position 208,225
+
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/utils/HomoraMath.sol
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/wrapper/WERC20.sol
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/wrapper/WLiquidityGauge.sol
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/wrapper/WMasterChef.sol
+
+ ============================================ 
+
+Salt_AuditCase/Alpha Homora V2/contracts/wrapper/WStakingRewards.sol

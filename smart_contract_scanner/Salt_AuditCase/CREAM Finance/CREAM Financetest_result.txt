@@ -1,0 +1,607 @@
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/CarefulMath.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/CCollateralCapErc20.sol
+Detected inline assembly 
+position 14222,14761
+
+Detected inline assembly 
+position 16111,16650
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected possible reentrancy 
+position 15932,16762
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/CCollateralCapErc20CheckRepay.sol
+Detected inline assembly 
+position 14072,14611
+
+Detected inline assembly 
+position 15961,16500
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected possible reentrancy 
+position 15782,16612
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/CCollateralCapErc20CheckRepayDelegate.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/CCollateralCapErc20Delegate.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/CErc20.sol
+Detected inline assembly 
+position 6795,7334
+
+Detected inline assembly 
+position 8579,9118
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/CErc20Delegate.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/CErc20Delegator.sol
+Detected inline assembly 
+position 17016,17143
+
+Detected inline assembly 
+position 18289,18416
+
+Detected inline assembly 
+position 18704,19043
+
+Detected inline assembly 
+position 19193,19521
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/Comptroller.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/ComptrollerInterface.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/ComptrollerStorage.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/CToken.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/CTokenAdmin.sol
+Detected inline assembly 
+position 6640,7520
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/CTokenCheckRepay.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/CTokenInterfaces.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/CWrappedNative.sol
+Detected inline assembly 
+position 16960,17559
+
+Detected inline assembly 
+position 19082,19681
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/CWrappedNativeDelegate.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/CWrappedNativeDelegator.sol
+Detected inline assembly 
+position 21520,21647
+
+Detected inline assembly 
+position 22793,22920
+
+Detected inline assembly 
+position 23208,23547
+
+Detected inline assembly 
+position 23697,24025
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/EIP20Interface.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/EIP20NonStandardInterface.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/ERC3156FlashBorrowerInterface.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/ERC3156FlashLenderInterface.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/ErrorReporter.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/Exponential.sol
+Detected default variable visibility 
+position 422,454
+
+Detected default variable visibility 
+position 460,495
+
+Detected default variable visibility 
+position 501,545
+
+Detected default variable visibility 
+position 551,590
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/FlashloanLender.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/Governance/Comp.sol
+Detected inline assembly 
+position 12890,12942
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected Operator typo 
+position 7172,7199
+This might be false positive. Please Recheck. LeftOp = ==
+
+Detected now used 
+position 7257,7259
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/InterestRateModel.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/JumpRateModelV2.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/Legacy/CCapableErc20.sol
+Detected inline assembly 
+position 9086,9625
+
+Detected inline assembly 
+position 10975,11514
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected possible reentrancy 
+position 10796,11626
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/Legacy/CCapableErc20Delegate.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/Legacy/CCollateralCapErc20Delegator.sol
+Detected inline assembly 
+position 18954,19081
+
+Detected inline assembly 
+position 20227,20354
+
+Detected inline assembly 
+position 20642,20981
+
+Detected inline assembly 
+position 21131,21459
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/Legacy/CCTokenDelegate.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected possible reentrancy 
+position 1932,2476
+
+Detected possible reentrancy 
+position 2111,2452
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/Legacy/CErc20Immutable.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/Legacy/CEther.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/Legacy/ComptrollerG1.sol
+Detected default variable visibility 
+position 2683,2729
+
+Detected default variable visibility 
+position 2798,2844
+
+Detected default variable visibility 
+position 2915,2966
+
+Detected default variable visibility 
+position 3048,3110
+
+Detected default variable visibility 
+position 3188,3244
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected Operator typo 
+position 17163,17234
+This might be false positive. Please Recheck. LeftOp = ||
+
+Detected Operator typo 
+position 20036,20107
+This might be false positive. Please Recheck. LeftOp = ||
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/Legacy/ComptrollerG2.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected Operator typo 
+position 17484,17555
+This might be false positive. Please Recheck. LeftOp = ||
+
+Detected Operator typo 
+position 20453,20524
+This might be false positive. Please Recheck. LeftOp = ||
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/Legacy/ComptrollerG3.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected Operator typo 
+position 19117,19188
+This might be false positive. Please Recheck. LeftOp = ||
+
+Detected Operator typo 
+position 21999,22070
+This might be false positive. Please Recheck. LeftOp = ||
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/Legacy/ComptrollerG4.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected Operator typo 
+position 19116,19187
+This might be false positive. Please Recheck. LeftOp = ||
+
+Detected Operator typo 
+position 21998,22069
+This might be false positive. Please Recheck. LeftOp = ||
+
+Detected tx.origin authorization 
+position 46965,47049
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/Legacy/ComptrollerG5.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected Operator typo 
+position 19895,19966
+This might be false positive. Please Recheck. LeftOp = ||
+
+Detected Operator typo 
+position 22777,22848
+This might be false positive. Please Recheck. LeftOp = ||
+
+Detected tx.origin authorization 
+position 49604,49688
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/Legacy/ComptrollerG6.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected Operator typo 
+position 19745,19816
+This might be false positive. Please Recheck. LeftOp = ||
+
+Detected Operator typo 
+position 22506,22577
+This might be false positive. Please Recheck. LeftOp = ||
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/Legacy/CSLPDelegate.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+
+Detected possible reentrancy 
+position 3200,3916
+
+Detected possible reentrancy 
+position 3433,3892
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/Legacy/CTokenDeprecated.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/Lens/CompoundLens.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/LiquidityMiningInterface.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/PriceOracle/Denominations.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/PriceOracle/interfaces/CurveTokenInterface.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/PriceOracle/interfaces/FeedRegistryInterface.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/PriceOracle/interfaces/UniswapV2Interface.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/PriceOracle/interfaces/V1PriceOracleInterface.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/PriceOracle/interfaces/XSushiExchangeRateInterface.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/PriceOracle/interfaces/YVaultTokenInterface.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/PriceOracle/PriceOracle.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/PriceOracle/PriceOracleProxy.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/PriceOracle/SimplePriceOracle.sol
+Detected default variable visibility 
+position 127,161
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/PriceOracle/v1PriceOracle.sol
+Detected default variable visibility 
+position 8429,8463
+
+Detected default variable visibility 
+position 8498,8542
+
+Detected default variable visibility 
+position 8599,8636
+
+Detected default variable visibility 
+position 8642,8684
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/SafeMath.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/TripleSlopeRateModel.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/CREAM Finance/contracts/Unitroller.sol
+Detected inline assembly 
+position 5366,5694
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 

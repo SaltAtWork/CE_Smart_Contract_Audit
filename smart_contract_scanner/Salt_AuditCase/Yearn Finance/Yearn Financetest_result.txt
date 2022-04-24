@@ -1,0 +1,132 @@
+
+ ============================================ 
+
+Salt_AuditCase/Yearn Finance/contracts/BaseRouter.sol
+Detected default variable visibility 
+position 1440,1495
+
+Detected default variable visibility 
+position 1646,1701
+
+Detected default variable visibility 
+position 1707,1763
+
+Detected floating pragma 
+position 36,59
+Char =  ^ 
+
+
+ ============================================ 
+
+Salt_AuditCase/Yearn Finance/contracts/BaseStrategy.sol
+Detected inline assembly 
+position 34414,34828
+
+Detected floating pragma 
+position 36,66
+Char =  <  > 
+
+
+ ============================================ 
+
+Salt_AuditCase/Yearn Finance/contracts/BaseWrapper.sol
+Detected default variable visibility 
+position 979,1034
+
+Detected default variable visibility 
+position 1083,1137
+
+Detected floating pragma 
+position 36,59
+Char =  ^ 
+
+
+ ============================================ 
+
+Salt_AuditCase/Yearn Finance/contracts/CommonHealthCheck.sol
+Detected default variable visibility 
+position 360,393
+
+Detected floating pragma 
+position 36,66
+Char =  <  > 
+
+ ============================================ 
+
+Salt_AuditCase/Yearn Finance/contracts/interfaces/ICustomHealthCheck.sol
+Detected floating pragma 
+position 36,66
+Char =  <  > 
+
+ ============================================ 
+
+Salt_AuditCase/Yearn Finance/contracts/StrategyLib.sol
+
+
+Detected block.timestamp used 
+position 873,887
+
+Detected block.timestamp used 
+position 1016,1030
+
+ ============================================ 
+
+Salt_AuditCase/Yearn Finance/contracts/test/AffiliateToken.sol
+Detected inline assembly 
+position 1512,1564
+
+Detected floating pragma 
+position 32,55
+Char =  ^ 
+
+Detected block.timestamp used 
+position 4683,4697
+
+ ============================================ 
+
+Salt_AuditCase/Yearn Finance/contracts/test/SimpleStrategy.sol
+Detected floating pragma 
+position 41,64
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Yearn Finance/contracts/test/TestHealthCheck.sol
+Detected default variable visibility 
+position 242,251
+
+Detected floating pragma 
+position 32,55
+Char =  ^ 
+
+Detected Operator typo 
+position 354,365
+This might be false positive. Please Recheck. LeftOp = =
+
+ ============================================ 
+
+Salt_AuditCase/Yearn Finance/contracts/test/TestStrategy.sol
+
+
+Detected Operator typo 
+position 1153,1192
+This might be false positive. Please Recheck. LeftOp = =
+
+Detected Operator typo 
+position 1735,1762
+This might be false positive. Please Recheck. LeftOp = =
+
+ ============================================ 
+
+Salt_AuditCase/Yearn Finance/contracts/test/Token.sol
+Detected floating pragma 
+position 32,55
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Yearn Finance/contracts/yToken.sol
+Detected floating pragma 
+position 36,59
+Char =  ^ 
+

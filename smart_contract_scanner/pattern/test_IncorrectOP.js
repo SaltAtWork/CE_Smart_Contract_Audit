@@ -5,14 +5,16 @@ function testIncorrectOP(ast) {
     try {
         parser.visit(ast, {
             BinaryOperation: (node) => {
-                if (node.right.type == "UnaryOperation" && node.right.operator != "!") {
+                if (node.right.type == "UnaryOperation") {
                     callIndex = node.range
                     console.log('\nDetected Operator typo\n')
                     console.log('position ' + callIndex + '\n')
                     detect = detect + '\nDetected Operator typo \n' + 'position ' + callIndex + '\n'
                     
                     //For Debugging
-                    detect = detect + node.operator + '\n'
+                    // if(node.right.operator == "!"){
+                    detect = detect + 'This might be false positive. Please Recheck. LeftOp = ' + node.operator + '\n'
+                    // }
                 }
             }
         })

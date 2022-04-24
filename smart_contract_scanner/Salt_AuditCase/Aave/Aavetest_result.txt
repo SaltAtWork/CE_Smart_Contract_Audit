@@ -1,0 +1,927 @@
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/chainlink/AggregatorInterface.sol
+Detected floating pragma 
+position 60,82
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/gnosis/contracts/GPv2SafeERC20.sol
+Detected inline assembly 
+position 636,1040
+
+Detected inline assembly 
+position 1465,1966
+
+Detected inline assembly 
+position 2768,4753
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/openzeppelin/contracts/AccessControl.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/openzeppelin/contracts/Address.sol
+Detected inline assembly 
+position 1156,1210
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/openzeppelin/contracts/Context.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/openzeppelin/contracts/ERC165.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/openzeppelin/contracts/ERC20.sol
+Detected default function visibility 
+position 1947,2065
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/openzeppelin/contracts/IAccessControl.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/openzeppelin/contracts/IERC165.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/openzeppelin/contracts/IERC20.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/openzeppelin/contracts/IERC20Detailed.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/openzeppelin/contracts/Ownable.sol
+Detected default function visibility 
+position 815,949
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/openzeppelin/contracts/SafeCast.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/openzeppelin/contracts/SafeMath.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/openzeppelin/contracts/Strings.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/openzeppelin/upgradeability/AdminUpgradeabilityProxy.sol
+Detected default function visibility 
+position 945,1177
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/openzeppelin/upgradeability/BaseAdminUpgradeabilityProxy.sol
+Detected inline assembly 
+position 3273,3313
+
+Detected inline assembly 
+position 3548,3592
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/openzeppelin/upgradeability/BaseUpgradeabilityProxy.sol
+Detected inline assembly 
+position 1158,1199
+
+Detected inline assembly 
+position 1894,1947
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/openzeppelin/upgradeability/Initializable.sol
+Detected inline assembly 
+position 1888,1938
+
+
+Detected Operator typo 
+position 1057,1103
+This might be false positive. Please Recheck. LeftOp = ||
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/openzeppelin/upgradeability/InitializableAdminUpgradeabilityProxy.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/openzeppelin/upgradeability/InitializableUpgradeabilityProxy.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/openzeppelin/upgradeability/Proxy.sol
+Detected inline assembly 
+position 1094,1802
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/openzeppelin/upgradeability/UpgradeabilityProxy.sol
+Detected default function visibility 
+position 832,1135
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/dependencies/weth/WETH9.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/deployments/ReservesSetupHelper.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/flashloan/base/FlashLoanReceiverBase.sol
+Detected default function visibility 
+position 571,693
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/flashloan/base/FlashLoanSimpleReceiverBase.sol
+Detected default function visibility 
+position 601,723
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/flashloan/interfaces/IFlashLoanReceiver.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/flashloan/interfaces/IFlashLoanSimpleReceiver.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/IAaveIncentivesController.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/IAaveOracle.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/IACLManager.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/IAToken.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/ICreditDelegationToken.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/IDelegationToken.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/IERC20WithPermit.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/IInitializableAToken.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/IInitializableDebtToken.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/IL2Pool.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/IPool.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/IPoolAddressesProvider.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/IPoolAddressesProviderRegistry.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/IPoolConfigurator.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/IPoolDataProvider.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/IPriceOracle.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/IPriceOracleGetter.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/IPriceOracleSentinel.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/IReserveInterestRateStrategy.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/IScaledBalanceToken.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/ISequencerOracle.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/IStableDebtToken.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/interfaces/IVariableDebtToken.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/misc/AaveOracle.sol
+Detected default function visibility 
+position 1897,2347
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/misc/AaveProtocolDataProvider.sol
+Detected default function visibility 
+position 1464,1566
+
+Detected default variable visibility 
+position 1191,1256
+
+Detected default variable visibility 
+position 1260,1325
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/misc/interfaces/IWETH.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/misc/L2Encoder.sol
+Detected inline assembly 
+position 1592,1688
+
+Detected inline assembly 
+position 3163,3371
+
+Detected inline assembly 
+position 4117,4184
+
+Detected inline assembly 
+position 5302,5494
+
+Detected inline assembly 
+position 6573,6682
+
+Detected inline assembly 
+position 8316,8573
+
+Detected inline assembly 
+position 10065,10142
+
+Detected inline assembly 
+position 10737,10793
+
+Detected inline assembly 
+position 11453,11520
+
+Detected inline assembly 
+position 12995,13154
+
+Detected default function visibility 
+position 653,698
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/mocks/flashloan/MockFlashLoanReceiver.sol
+Detected default function visibility 
+position 825,903
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/mocks/flashloan/MockSimpleFlashLoanReceiver.sol
+Detected default function visibility 
+position 1017,1101
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/mocks/helpers/MockIncentivesController.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/mocks/helpers/MockL2Pool.sol
+Detected default function visibility 
+position 325,388
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/mocks/helpers/MockPeripheryContract.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/mocks/helpers/MockPool.sol
+Detected default function visibility 
+position 1027,1088
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/mocks/helpers/MockReserveConfiguration.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/mocks/helpers/SelfDestructTransfer.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/mocks/oracle/CLAggregators/MockAggregator.sol
+Detected default function visibility 
+position 215,347
+
+
+Detected block.timestamp used 
+position 327,341
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/mocks/oracle/PriceOracle.sol
+
+Detected block.timestamp used 
+position 682,696
+
+Detected block.timestamp used 
+position 905,919
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/mocks/oracle/SequencerOracle.sol
+Detected default function visibility 
+position 422,483
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/mocks/tests/FlashloanAttacker.sol
+Detected default function visibility 
+position 947,1073
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/mocks/tests/MockReserveInterestRateStrategy.sol
+Detected default function visibility 
+position 940,1498
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/mocks/tests/WadRayMathWrapper.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/mocks/tokens/MintableDelegationERC20.sol
+Detected default function visibility 
+position 389,529
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/mocks/tokens/MintableERC20.sol
+Detected default function visibility 
+position 800,1175
+
+
+Detected block.timestamp used 
+position 1473,1487
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/mocks/tokens/WETH9Mocked.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/mocks/upgradeability/MockAToken.sol
+Detected default function visibility 
+position 300,338
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/mocks/upgradeability/MockInitializableImplementation.sol
+Detected default function visibility 
+position 2002,2052
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/mocks/upgradeability/MockStableDebtToken.sol
+Detected default function visibility 
+position 246,293
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/mocks/upgradeability/MockVariableDebtToken.sol
+Detected default function visibility 
+position 254,303
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/configuration/ACLManager.sol
+Detected default function visibility 
+position 1280,1527
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/configuration/PoolAddressesProvider.sol
+Detected default function visibility 
+position 1499,1612
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/configuration/PoolAddressesProviderRegistry.sol
+Detected default function visibility 
+position 1299,1360
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/configuration/PriceOracleSentinel.sol
+Detected default function visibility 
+position 1844,2053
+
+
+Detected block.timestamp used 
+position 2740,2754
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/aave-upgradeability/BaseImmutableAdminUpgradeabilityProxy.sol
+Detected default function visibility 
+position 914,965
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/aave-upgradeability/InitializableImmutableAdminUpgradeabilityProxy.sol
+Detected default function visibility 
+position 745,853
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/aave-upgradeability/VersionedInitializable.sol
+Detected inline assembly 
+position 2403,2453
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/configuration/ReserveConfiguration.sol
+
+Detected Operator typo 
+position 5683,5703
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 6524,6562
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 7372,7406
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 8197,8222
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 8876,8899
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 9519,9542
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 10162,10185
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 11693,11733
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 12684,12717
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 13451,13477
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 14295,14328
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 15105,15136
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 15877,15904
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 16641,16668
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 17519,17548
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 18497,18538
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 19392,19426
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 20231,20262
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 20921,20944
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 20960,20983
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 20999,21025
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 21041,21074
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 21090,21113
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 21865,21885
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 21895,21933
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 21988,22022
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 22073,22098
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 22148,22179
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 22227,22258
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 22718,22745
+This might be false positive. Please Recheck. LeftOp = &
+
+Detected Operator typo 
+position 22789,22816
+This might be false positive. Please Recheck. LeftOp = &
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/configuration/UserConfiguration.sol
+
+Detected Operator typo 
+position 1340,1356
+This might be false positive. Please Recheck. LeftOp = &=
+
+Detected Operator typo 
+position 2087,2103
+This might be false positive. Please Recheck. LeftOp = &=
+
+Detected Operator typo 
+position 8720,8749
+This might be false positive. Please Recheck. LeftOp = &
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/helpers/Errors.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/helpers/Helpers.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/logic/BorrowLogic.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/logic/BridgeLogic.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/logic/CalldataLogic.sol
+Detected inline assembly 
+position 806,977
+
+Detected inline assembly 
+position 1747,1855
+
+Detected inline assembly 
+position 2496,2617
+
+Detected inline assembly 
+position 3416,3639
+
+Detected inline assembly 
+position 4319,4492
+
+Detected inline assembly 
+position 5507,5615
+
+Detected inline assembly 
+position 6240,6341
+
+Detected inline assembly 
+position 6943,7070
+
+Detected inline assembly 
+position 7695,7794
+
+Detected inline assembly 
+position 8785,9091
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/logic/ConfiguratorLogic.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/logic/EModeLogic.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/logic/FlashLoanLogic.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/logic/GenericLogic.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/logic/IsolationModeLogic.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/logic/LiquidationLogic.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/logic/PoolLogic.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/logic/ReserveLogic.sol
+
+Detected block.timestamp used 
+position 2116,2130
+
+Detected block.timestamp used 
+position 3035,3049
+
+Detected block.timestamp used 
+position 11967,11981
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/logic/SupplyLogic.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/logic/ValidationLogic.sol
+
+Detected Operator typo 
+position 20032,20092
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected block.timestamp used 
+position 12725,12739
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/math/MathUtils.sol
+
+Detected block.timestamp used 
+position 884,898
+
+Detected block.timestamp used 
+position 3340,3354
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/math/PercentageMath.sol
+Detected inline assembly 
+position 1200,1498
+
+Detected inline assembly 
+position 2069,2344
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/math/WadRayMath.sol
+Detected inline assembly 
+position 1221,1391
+
+Detected inline assembly 
+position 1806,1980
+
+Detected inline assembly 
+position 2401,2571
+
+Detected inline assembly 
+position 2988,3162
+
+Detected inline assembly 
+position 3497,3677
+
+Detected inline assembly 
+position 4024,4150
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/types/ConfiguratorInputTypes.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/libraries/types/DataTypes.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/pool/DefaultReserveInterestRateStrategy.sol
+Detected default function visibility 
+position 4066,5287
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/pool/L2Pool.sol
+Detected default function visibility 
+position 609,705
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/pool/Pool.sol
+Detected inline assembly 
+position 15255,15343
+
+Detected default function visibility 
+position 3273,3357
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/pool/PoolConfigurator.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/pool/PoolStorage.sol
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/tokenization/AToken.sol
+Detected default function visibility 
+position 1802,1947
+
+
+Detected block.timestamp used 
+position 5538,5552
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/tokenization/base/DebtTokenBase.sol
+Detected default function visibility 
+position 1127,1190
+
+
+Detected block.timestamp used 
+position 1707,1721
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/tokenization/base/EIP712Base.sol
+Detected default function visibility 
+position 598,646
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/tokenization/base/IncentivizedERC20.sol
+Detected default function visibility 
+position 2673,2914
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/tokenization/base/MintableIncentivizedERC20.sol
+Detected default function visibility 
+position 697,883
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/tokenization/base/ScaledBalanceTokenBase.sol
+Detected default function visibility 
+position 988,1182
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/tokenization/DelegationAwareAToken.sol
+Detected default function visibility 
+position 774,847
+
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/tokenization/StableDebtToken.sol
+Detected default function visibility 
+position 1787,1952
+
+
+Detected block.timestamp used 
+position 5198,5212
+
+Detected block.timestamp used 
+position 7650,7664
+
+Detected block.timestamp used 
+position 7740,7754
+
+ ============================================ 
+
+Salt_AuditCase/Aave/contracts/protocol/tokenization/VariableDebtToken.sol
+Detected default function visibility 
+position 1471,1645
+

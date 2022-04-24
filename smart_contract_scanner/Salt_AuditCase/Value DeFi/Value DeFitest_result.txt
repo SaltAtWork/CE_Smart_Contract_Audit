@@ -1,0 +1,900 @@
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/CompositeVaultBank.sol
+
+Detected Operator typo 
+position 3009,3068
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected tx.origin authorization 
+position 3085,3177
+
+Detected tx.origin authorization 
+position 3085,3177
+
+Detected block.timestamp used 
+position 14473,14487
+
+Detected block.timestamp used 
+position 15568,15582
+
+Detected block.timestamp used 
+position 16421,16435
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/CompositeVaultMaster.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/controllers/CompositeVaultController.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/converters/BalancerBptPoolConverter.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/converters/BaseConverter.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/converters/ConverterHelper.sol
+
+Detected block.timestamp used 
+position 4215,4229
+
+Detected block.timestamp used 
+position 5010,5024
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/converters/IDecimals.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/converters/SushiswapLpPairConverter.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/ICompositeVault.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/IController.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/ILpPairConverter.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/ILpPairStrategy.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/IVaultMaster.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/mock/AttackingContract.sol
+Detected floating pragma 
+position 33,55
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/mock/MockConverter.sol
+Detected default variable visibility 
+position 377,388
+
+Detected floating pragma 
+position 33,55
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/mock/MockERC20.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/mock/MockLpPairConverter.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/mock/MockOneSplitAudit.sol
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/mock/MockSushiMasterChef.sol
+
+Detected possible reentrancy 
+position 1203,1477
+
+Detected possible reentrancy 
+position 1536,1791
+
+Detected possible reentrancy 
+position 1981,2152
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/mock/MockUniswapRouter.sol
+Detected default variable visibility 
+position 1147,1166
+
+Detected default variable visibility 
+position 1172,1225
+
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/mock/MockUniswapV2Pair.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/mock/TToken.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/strategies/StrategyBalancerEthUsdc.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/strategies/StrategyBase.sol
+
+Detected now used 
+position 7514,7516
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/strategies/StrategySushiEthUsdc.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/vaults/CompositeVaultBase.sol
+Detected default variable visibility 
+position 1236,1260
+
+
+Detected Operator typo 
+position 2461,2518
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected tx.origin authorization 
+position 2584,2672
+
+Detected tx.origin authorization 
+position 2584,2672
+
+Detected tx.origin authorization 
+position 15399,15495
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/vaults/CompositeVaultBptEthUsdc.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/compositevaults/vaults/CompositeVaultSlpEthUsdc.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/governance-vault/IController.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/governance-vault/mock/UniswapRouterMock.sol
+Detected inline assembly 
+position 2607,2649
+
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/governance-vault/NoMintRewardPool.sol
+Detected inline assembly 
+position 18974,19016
+
+Detected default variable visibility 
+position 24612,24638
+
+Detected floating pragma 
+position 5192,5214
+Char =  ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+
+Detected block.timestamp used 
+position 28077,28091
+
+Detected block.timestamp used 
+position 30265,30279
+
+Detected block.timestamp used 
+position 30413,30427
+
+Detected block.timestamp used 
+position 30585,30599
+
+Detected block.timestamp used 
+position 30625,30639
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/governance-vault/ValueGovernanceVault.sol
+Detected default variable visibility 
+position 2549,2573
+
+Detected default variable visibility 
+position 2580,2600
+
+Detected default variable visibility 
+position 2661,2682
+
+Detected default variable visibility 
+position 2744,2764
+
+
+Detected possible reentrancy 
+position 19072,20774
+
+Detected block.timestamp used 
+position 11586,11600
+
+Detected block.timestamp used 
+position 11966,11980
+
+Detected block.timestamp used 
+position 13050,13064
+
+Detected block.timestamp used 
+position 13293,13307
+
+Detected block.timestamp used 
+position 14354,14368
+
+Detected block.timestamp used 
+position 16592,16606
+
+Detected block.timestamp used 
+position 18385,18399
+
+Detected block.timestamp used 
+position 19385,19399
+
+Detected block.timestamp used 
+position 19679,19693
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/governance-vault/YFVController.sol
+Detected inline assembly 
+position 2449,2491
+
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/governance-vault/YFVGovernanceVault.sol
+Detected inline assembly 
+position 9002,9044
+
+
+Detected Operator typo 
+position 27798,27857
+This might be false positive. Please Recheck. LeftOp = ||
+
+Detected block.timestamp used 
+position 20350,20364
+
+Detected block.timestamp used 
+position 20389,20403
+
+Detected block.timestamp used 
+position 22668,22682
+
+Detected block.timestamp used 
+position 24112,24126
+
+Detected block.timestamp used 
+position 27457,27471
+
+Detected block.timestamp used 
+position 28340,28354
+
+Detected block.timestamp used 
+position 28384,28398
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/governance-vault/YFVStrategy.sol
+Detected inline assembly 
+position 2607,2649
+
+
+Detected now used 
+position 12137,12139
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/interfaces/Aave.sol
+Detected floating pragma 
+position 32,54
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/interfaces/Balancer.sol
+Detected floating pragma 
+position 32,54
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/interfaces/Converter.sol
+Detected floating pragma 
+position 32,54
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/interfaces/Curve.sol
+Detected floating pragma 
+position 32,54
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/interfaces/DForce.sol
+Detected floating pragma 
+position 32,54
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/interfaces/Gauge.sol
+Detected floating pragma 
+position 32,54
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/interfaces/IUniswapV2Factory.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/interfaces/IUniswapV2Pair.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/interfaces/IUniswapV2Router.sol
+Detected floating pragma 
+position 32,54
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/interfaces/MStable.sol
+Detected floating pragma 
+position 32,54
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/interfaces/OneSplitAudit.sol
+Detected floating pragma 
+position 32,54
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/interfaces/PickleJar.sol
+Detected floating pragma 
+position 33,55
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/interfaces/PickleMasterChef.sol
+Detected floating pragma 
+position 33,55
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/interfaces/SushiMasterChef.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/interfaces/ValueMinorPool.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/interfaces/Yfii.sol
+Detected floating pragma 
+position 32,54
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/libraries/Math.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/controllers/MultiStablesVaultController.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/converters/ShareConverter.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/converters/StableSwap3PoolConverter.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/converters/StableSwapBusdConverter.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/converters/StableSwapCompoundConverter.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/IMultiVaultController.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/IMultiVaultConverter.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/IMultiVaultStrategy.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/IShareConverter.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/IValueMultiVault.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/IValueVaultMaster.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/mock/MockCERC20.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/mock/MockConverter.sol
+Detected default variable visibility 
+position 377,388
+
+Detected floating pragma 
+position 33,55
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/mock/MockCurveGauge.sol
+Detected default variable visibility 
+position 370,381
+
+Detected floating pragma 
+position 33,55
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/mock/MockCurveMinter.sol
+Detected default variable visibility 
+position 371,381
+
+Detected floating pragma 
+position 33,55
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/mock/MockERC20.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/mock/MockPickleJar.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/mock/MockPickleMasterChef.sol
+
+Detected possible reentrancy 
+position 1208,1483
+
+Detected possible reentrancy 
+position 1542,1798
+
+Detected possible reentrancy 
+position 1990,2161
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/mock/MockStableSwap3Pool.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/mock/MockUniswapRouter.sol
+Detected default variable visibility 
+position 1147,1166
+
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/mock/MockWrapYERC20.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/mock/TToken.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/pool-interfaces/IDepositBUSD.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/pool-interfaces/IDepositCompound.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/pool-interfaces/IDepositHUSD.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/pool-interfaces/IDepositSUSD.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/pool-interfaces/IStableSwap3Pool.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/pool-interfaces/IStableSwapBUSD.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/pool-interfaces/IStableSwapCompound.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/pool-interfaces/IStableSwapHUSD.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/pool-interfaces/IStableSwapSUSD.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/proxy/AdminUpgradeabilityProxy.sol
+Detected inline assembly 
+position 4009,4049
+
+Detected inline assembly 
+position 4254,4298
+
+Detected floating pragma 
+position 33,56
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/proxy/Proxy.sol
+Detected inline assembly 
+position 1123,1803
+
+Detected floating pragma 
+position 33,56
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/proxy/ProxyAdmin.sol
+Detected floating pragma 
+position 33,56
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/proxy/UpgradeabilityProxy.sol
+Detected inline assembly 
+position 1966,2007
+
+Detected inline assembly 
+position 2653,2706
+
+Detected floating pragma 
+position 33,56
+Char =  ^ 
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/strategies/StrategyCurveBCrv.sol
+
+Detected now used 
+position 9518,9520
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/strategies/StrategyPickle3Crv.sol
+
+Detected now used 
+position 10432,10434
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/ValueMultiVaultBank.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/ValueMultiVaultMaster.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/multivaults/vaults/MultiStablesVault.sol
+Detected default variable visibility 
+position 2018,2055
+
+Detected default variable visibility 
+position 2191,2220
+
+
+Detected Operator typo 
+position 3274,3333
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected tx.origin authorization 
+position 3350,3442
+
+Detected tx.origin authorization 
+position 3350,3442
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/misc/ValueLiquidityToken.sol
+Detected inline assembly 
+position 12404,12434
+
+
+Detected Operator typo 
+position 7803,7830
+This might be false positive. Please Recheck. LeftOp = ==
+
+Detected now used 
+position 7889,7891
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/misc/ValueMinorPool.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/misc/ValueVaultProfitSharer.sol
+
+Detected possible reentrancy 
+position 3218,4357
+
+Detected possible reentrancy 
+position 3256,4351
+
+Detected possible reentrancy 
+position 3342,4341
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/misc/ValueVaultProfitSharerV2.sol
+
+Detected possible reentrancy 
+position 4135,5287
+
+Detected possible reentrancy 
+position 4265,5281
+
+Detected possible reentrancy 
+position 4497,5271
+
+Detected block.timestamp used 
+position 4248,4262
+
+Detected block.timestamp used 
+position 5242,5256
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/misc/YFV_Referral.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/mock/MockERC20.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/mock/MockFarmingPool.sol
+Detected default variable visibility 
+position 800,818
+
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/mock/MockGovVault.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/mock/MockSodaPool.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/mock/MockSodaVault.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/mock/MockSushiPool.sol
+
+Detected possible reentrancy 
+position 1173,1391
+
+Detected possible reentrancy 
+position 1267,1385
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/mock/MockUniswapRouter.sol
+Detected default variable visibility 
+position 1147,1166
+
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/v1/strategies/IStrategy.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/v1/strategies/WETHSodaPoolStrategy.sol
+
+Detected possible reentrancy 
+position 7356,9451
+
+Detected possible reentrancy 
+position 7651,9445
+
+Detected possible reentrancy 
+position 7772,9435
+
+Detected possible reentrancy 
+position 7951,9421
+
+Detected now used 
+position 7220,7222
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/v1/ValueVault.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/v1/vaults/WETHVault.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/v2/strategies/IStrategyV2.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/v2/strategies/Univ2ETHUSDCMultiPoolStrategy.sol
+
+Detected possible reentrancy 
+position 15804,18960
+
+Detected possible reentrancy 
+position 16425,18954
+
+Detected possible reentrancy 
+position 17556,17866
+
+Detected possible reentrancy 
+position 18385,18944
+
+Detected now used 
+position 15290,15292
+
+Detected now used 
+position 15649,15651
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/v2/strategies/Univ2ETHWBTCMultiPoolStrategy.sol
+
+Detected possible reentrancy 
+position 15759,18915
+
+Detected possible reentrancy 
+position 16380,18909
+
+Detected possible reentrancy 
+position 17511,17821
+
+Detected possible reentrancy 
+position 18340,18899
+
+Detected now used 
+position 15245,15247
+
+Detected now used 
+position 15604,15606
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/v2/strategies/WETHMultiPoolStrategy.sol
+
+Detected possible reentrancy 
+position 14508,15293
+
+Detected possible reentrancy 
+position 14705,15287
+
+Detected possible reentrancy 
+position 14806,15277
+
+Detected possible reentrancy 
+position 14892,15263
+
+Detected possible reentrancy 
+position 21294,23055
+
+Detected possible reentrancy 
+position 21722,23049
+
+Detected now used 
+position 20337,20339
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/v2/ValueVaultV2.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/v2/vaults/UNIv2ETHUSDCVault.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/v2/vaults/UNIv2ETHWBTCVault.sol
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/ValueVaultBank.sol
+
+Detected now used 
+position 5008,5010
+
+Detected block.timestamp used 
+position 6880,6894
+
+Detected now used 
+position 7222,7224
+
+Detected now used 
+position 11187,11189
+
+ ============================================ 
+
+Salt_AuditCase/Value DeFi/contracts/vaults/ValueVaultMaster.sol
