@@ -326,6 +326,8 @@ Char =  ^
 Detected possible reentrancy 
 position 1932,2476
 
+/////////////////////same one
+
 Detected possible reentrancy 
 position 2111,2452
 
@@ -464,6 +466,8 @@ Char =  ^
 
 Detected possible reentrancy 
 position 3200,3916
+
+/////////////////////////same one 
 
 Detected possible reentrancy 
 position 3433,3892

@@ -1,0 +1,508 @@
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/helpers/OnlySolo.sol
+Detected default variable visibility 
+position 981,1015
+
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/interestsetters/DoubleExponentInterestSetter.sol
+Detected inline assembly 
+position 6170,6233
+
+Detected default variable visibility 
+position 1341,1371
+
+Detected default variable visibility 
+position 1378,1410
+
+Detected default variable visibility 
+position 1417,1472
+
+Detected default variable visibility 
+position 1479,1504
+
+Detected default variable visibility 
+position 1681,1702
+
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/interestsetters/PolynomialInterestSetter.sol
+Detected inline assembly 
+position 5806,5869
+
+Detected default variable visibility 
+position 1263,1293
+
+Detected default variable visibility 
+position 1300,1332
+
+Detected default variable visibility 
+position 1339,1394
+
+Detected default variable visibility 
+position 1401,1426
+
+Detected default variable visibility 
+position 1603,1624
+
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/interfaces/ICurve.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/interfaces/IMakerOracle.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/interfaces/IUniswapV2Pair.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/lib/TypedSignature.sol
+Detected inline assembly 
+position 2760,3028
+
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/multisig/DelayedMultiSig.sol
+
+
+Detected block.timestamp used 
+position 2041,2055
+
+Detected block.timestamp used 
+position 4053,4067
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/multisig/MultiSig.sol
+Detected inline assembly 
+position 14458,15391
+
+Detected default variable visibility 
+position 1932,1976
+
+
+
+Detected Operator typo 
+position 11472,11507
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected Operator typo 
+position 13528,13563
+This might be false positive. Please Recheck. LeftOp = &&
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/multisig/PartiallyDelayedMultiSig.sol
+Detected inline assembly 
+position 5071,5134
+
+
+
+Detected block.timestamp used 
+position 1623,1637
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/oracles/DaiPriceOracle.sol
+Detected default variable visibility 
+position 1544,1584
+
+Detected default variable visibility 
+position 1631,1661
+
+Detected default variable visibility 
+position 1667,1730
+
+Detected default variable visibility 
+position 1804,1836
+
+Detected default variable visibility 
+position 1842,1875
+
+Detected default variable visibility 
+position 1881,1930
+
+Detected default variable visibility 
+position 1936,1983
+
+Detected default variable visibility 
+position 2059,2108
+
+
+
+Detected block.timestamp used 
+position 3405,3419
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/oracles/UsdcPriceOracle.sol
+Detected default variable visibility 
+position 999,1028
+
+Detected default variable visibility 
+position 1035,1098
+
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/oracles/WethPriceOracle.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/proxies/LiquidatorProxyV1ForSoloMargin.sol
+Detected default variable visibility 
+position 1816,1872
+
+
+
+Detected Operator typo 
+position 11935,12187
+This might be false positive. Please Recheck. LeftOp = ||
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/proxies/PayableProxyForSoloMargin.sol
+Detected default variable visibility 
+position 1362,1413
+
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/proxies/SignedOperationProxy.sol
+
+
+Detected block.timestamp used 
+position 8317,8331
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/traders/CanonicalOrders.sol
+Detected inline assembly 
+position 24128,24406
+
+
+
+Detected block.timestamp used 
+position 17251,17265
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/traders/DaiMigrator.sol
+Detected default variable visibility 
+position 1255,1292
+
+Detected default variable visibility 
+position 1299,1330
+
+Detected default variable visibility 
+position 1337,1368
+
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/traders/Expiry.sol
+Detected inline assembly 
+position 11678,11788
+
+Detected inline assembly 
+position 12326,12440
+
+Detected default variable visibility 
+position 1973,2005
+
+Detected default variable visibility 
+position 2329,2409
+
+
+
+Detected Operator typo 
+position 3439,3515
+This might be false positive. Please Recheck. LeftOp = &&
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/traders/ExpiryV2.sol
+Detected default variable visibility 
+position 1827,1861
+
+Detected default variable visibility 
+position 2685,2765
+
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/traders/FinalSettlement.sol
+Detected default variable visibility 
+position 1647,1688
+
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/traders/LimitOrders.sol
+Detected inline assembly 
+position 19179,19457
+
+
+
+Detected block.timestamp used 
+position 12429,12443
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/traders/Refunder.sol
+Detected default variable visibility 
+position 1301,1335
+
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/external/traders/StopLimitOrders.sol
+Detected inline assembly 
+position 21990,22268
+
+Detected default variable visibility 
+position 3463,3492
+
+
+
+Detected block.timestamp used 
+position 13636,13650
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/Migrations.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/Admin.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/Getters.sol
+Detected default variable visibility 
+position 1537,1561
+
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/impl/AdminImpl.sol
+Detected default variable visibility 
+position 1383,1418
+
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/impl/OperationImpl.sol
+Detected default variable visibility 
+position 1675,1714
+
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/interfaces/IAutoTrader.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/interfaces/ICallee.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/interfaces/IErc20.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/interfaces/IExchangeWrapper.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/interfaces/IInterestSetter.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/interfaces/IPriceOracle.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/lib/Account.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/lib/Actions.sol
+Detected default variable visibility 
+position 902,935
+
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/lib/Cache.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/lib/Decimal.sol
+Detected default variable visibility 
+position 989,1019
+
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/lib/Events.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/lib/Exchange.sol
+Detected default variable visibility 
+position 1091,1125
+
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/lib/Interest.sol
+Detected default variable visibility 
+position 1134,1168
+
+Detected default variable visibility 
+position 1174,1203
+
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/lib/Math.sol
+Detected default variable visibility 
+position 963,993
+
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/lib/Monetary.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/lib/Require.sol
+Detected inline assembly 
+position 7109,7201
+
+Detected default variable visibility 
+position 871,903
+
+Detected default variable visibility 
+position 916,957
+
+Detected default variable visibility 
+position 975,1012
+
+Detected default variable visibility 
+position 1025,1055
+
+Detected default variable visibility 
+position 1069,1099
+
+Detected default variable visibility 
+position 1113,1144
+
+Detected default variable visibility 
+position 1158,1185
+
+Detected default variable visibility 
+position 1198,1234
+
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/lib/Storage.sol
+Detected default variable visibility 
+position 1636,1669
+
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/lib/Time.sol
+
+
+Detected block.timestamp used 
+position 1018,1032
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/lib/Token.sol
+Detected inline assembly 
+position 3264,3883
+
+Detected default variable visibility 
+position 1090,1121
+
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/lib/Types.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/Operation.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/Permission.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/SoloMargin.sol
+
+
+ ============================================ 
+
+Salt_AuditCase/dYdX/contracts/protocol/State.sol
+Detected default variable visibility 
+position 824,845
+
+
+
+ ============================================ 

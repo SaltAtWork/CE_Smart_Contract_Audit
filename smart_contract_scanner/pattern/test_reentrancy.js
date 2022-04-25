@@ -19,7 +19,7 @@ function testReentrancy(ast) {
                                 node2.expression.expression.type == 'MemberAccess' &&
                                 node2.expression.expression.memberName == 'value' &&
                                 node2.expression.expression.expression.type == 'MemberAccess' &&
-                                node2.expression.expression.expression.memberName == 'call' &&
+                                node2.expression.expression.expression.memberName == 'call' && // should have cut msg.sender out MBMB
                                 node2.expression.expression.expression.expression.type == 'MemberAccess' &&
                                 node2.expression.expression.expression.expression.memberName == 'sender' &&
                                 node2.expression.expression.expression.expression.expression.type == 'Identifier' &&
