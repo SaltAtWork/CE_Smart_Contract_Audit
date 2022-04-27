@@ -1,0 +1,70 @@
+
+ ============================================ 
+
+Salt_AuditCase/BUSDGO/BUSDGO.sol
+Detected inline assembly 
+position 11752,11789
+
+
+Detected possible reentrancy 
+position 3884,6005
+
+Detected possible reentrancy 
+position 4985,5544
+
+Detected possible reentrancy 
+position 5102,5479
+
+Detected possible reentrancy 
+position 5135,5461
+
+Detected block.timestamp used 
+position 3109,3123
+
+Detected block.timestamp used 
+position 3551,3565
+
+Detected block.timestamp used 
+position 4044,4058
+
+Detected block.timestamp used 
+position 5606,5620
+
+Detected block.timestamp used 
+position 5805,5819
+
+Detected block.timestamp used 
+position 5977,5991
+
+Detected block.timestamp used 
+position 6113,6127
+
+Detected block.timestamp used 
+position 6440,6454
+
+Detected block.timestamp used 
+position 6845,6859
+
+Detected block.timestamp used 
+position 7331,7345
+
+Detected block.timestamp used 
+position 7542,7556
+
+Detected blockhash used
+position 7725,7733
+
+Detected block.timestamp used 
+position 7839,7853
+
+Detected block.timestamp used 
+position 8312,8326
+
+Detected block.timestamp used 
+position 8502,8516
+
+Detected block.timestamp used 
+position 9187,9201
+
+Detected block.timestamp used 
+position 9231,9245

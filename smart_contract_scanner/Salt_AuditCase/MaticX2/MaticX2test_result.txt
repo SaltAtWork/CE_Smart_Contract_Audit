@@ -1,0 +1,50 @@
+
+ ============================================ 
+
+Salt_AuditCase/MaticX2/MaticX2.sol
+Detected inline assembly 
+position 11433,11470
+
+Detected floating pragma 
+position 109,132
+Char =  ^ 
+ ^ 
+ ^ 
+
+Detected Operator typo 
+position 3721,3799
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected Operator typo 
+position 3721,3774
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected possible reentrancy 
+position 4390,6168
+
+Detected possible reentrancy 
+position 6201,7719
+
+Detected block.timestamp used 
+position 4406,4420
+
+Detected block.timestamp used 
+position 5875,5889
+
+Detected block.timestamp used 
+position 6008,6022
+
+Detected block.timestamp used 
+position 6577,6591
+
+Detected block.timestamp used 
+position 6760,6774
+
+Detected block.timestamp used 
+position 7558,7572
+
+Detected block.timestamp used 
+position 8772,8786
+
+Detected block.timestamp used 
+position 8955,8969

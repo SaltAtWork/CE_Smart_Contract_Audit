@@ -1,0 +1,46 @@
+
+ ============================================ 
+
+Salt_AuditCase/ShibYieldInu/ShibYieldInu.sol
+Detected inline assembly 
+position 3341,3385
+
+Detected inline assembly 
+position 5258,5414
+
+Detected default function visibility 
+position 5743,5896
+
+Detected default function visibility 
+position 16483,17184
+
+Detected default variable visibility 
+position 15818,15839
+
+Detected floating pragma 
+position 240,262
+Char =  ^ 
+
+Detected Operator typo 
+position 30132,30184
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected Operator typo 
+position 34610,34655
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected Operator typo 
+position 34874,34920
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected block.timestamp used 
+position 6764,6778
+
+Detected block.timestamp used 
+position 7001,7015
+
+Detected block.timestamp used 
+position 33802,33816
+
+Detected block.timestamp used 
+position 34323,34337

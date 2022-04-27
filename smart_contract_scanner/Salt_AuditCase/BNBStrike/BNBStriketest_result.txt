@@ -1,0 +1,82 @@
+
+ ============================================ 
+
+Salt_AuditCase/BNBStrike/BNBStrike.sol
+Detected inline assembly 
+position 16825,16862
+
+
+Detected possible reentrancy 
+position 3430,5541
+
+Detected possible reentrancy 
+position 5574,6070
+
+Detected possible reentrancy 
+position 6984,7332
+
+Detected block.timestamp used 
+position 2671,2685
+
+Detected block.timestamp used 
+position 2723,2737
+
+Detected block.timestamp used 
+position 3545,3559
+
+Detected block.timestamp used 
+position 5067,5081
+
+Detected block.timestamp used 
+position 5115,5129
+
+Detected block.timestamp used 
+position 5350,5364
+
+Detected block.timestamp used 
+position 5513,5527
+
+Detected block.timestamp used 
+position 5888,5902
+
+Detected block.timestamp used 
+position 5935,5949
+
+Detected block.timestamp used 
+position 6781,6795
+
+Detected block.timestamp used 
+position 7425,7439
+
+Detected block.timestamp used 
+position 8835,8849
+
+Detected block.timestamp used 
+position 9011,9025
+
+Detected blockhash used
+position 9464,9472
+
+Detected block.timestamp used 
+position 9578,9592
+
+Detected block.timestamp used 
+position 9993,10007
+
+Detected block.timestamp used 
+position 10220,10234
+
+Detected block.timestamp used 
+position 11020,11034
+
+Detected block.timestamp used 
+position 11951,11965
+
+Detected block.timestamp used 
+position 14469,14483
+
+Detected block.timestamp used 
+position 14513,14527
+
+Detected block.timestamp used 
+position 14655,14669

@@ -1,0 +1,62 @@
+
+ ============================================ 
+
+Salt_AuditCase/BNBSpace/BNBSpace.sol
+Detected inline assembly 
+position 2975,3012
+
+
+Detected Operator typo 
+position 3299,3378
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected possible reentrancy 
+position 3511,5633
+
+Detected block.timestamp used 
+position 2641,2655
+
+Detected block.timestamp used 
+position 3530,3544
+
+Detected block.timestamp used 
+position 4881,4895
+
+Detected block.timestamp used 
+position 5303,5317
+
+Detected block.timestamp used 
+position 5605,5619
+
+Detected block.timestamp used 
+position 5909,5923
+
+Detected block.timestamp used 
+position 6169,6183
+
+Detected block.timestamp used 
+position 6544,6558
+
+Detected block.timestamp used 
+position 6607,6621
+
+Detected block.timestamp used 
+position 7158,7172
+
+Detected block.timestamp used 
+position 7496,7510
+
+Detected block.timestamp used 
+position 8172,8186
+
+Detected block.timestamp used 
+position 8736,8750
+
+Detected block.timestamp used 
+position 8780,8794
+
+Detected block.timestamp used 
+position 11286,11300
+
+Detected block.timestamp used 
+position 11449,11463

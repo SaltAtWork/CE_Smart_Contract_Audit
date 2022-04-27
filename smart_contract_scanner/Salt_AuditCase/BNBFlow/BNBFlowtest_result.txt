@@ -1,0 +1,72 @@
+
+ ============================================ 
+
+Salt_AuditCase/BNBFlow/BNBFlow.sol
+Detected inline assembly 
+position 11936,11973
+
+Detected default function visibility 
+position 1902,2309
+
+
+Detected Operator typo 
+position 2021,2090
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected Operator typo 
+position 2021,2065
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected possible reentrancy 
+position 2892,5118
+
+Detected possible reentrancy 
+position 5151,5922
+
+Detected block.timestamp used 
+position 2908,2922
+
+Detected block.timestamp used 
+position 4711,4725
+
+Detected block.timestamp used 
+position 4751,4765
+
+Detected block.timestamp used 
+position 4951,4965
+
+Detected block.timestamp used 
+position 5090,5104
+
+Detected block.timestamp used 
+position 5632,5646
+
+Detected block.timestamp used 
+position 5671,5685
+
+Detected block.timestamp used 
+position 6299,6313
+
+Detected block.timestamp used 
+position 6795,6809
+
+Detected block.timestamp used 
+position 6936,6950
+
+Detected block.timestamp used 
+position 7604,7618
+
+Detected block.timestamp used 
+position 8134,8148
+
+Detected block.timestamp used 
+position 8217,8231
+
+Detected block.timestamp used 
+position 8585,8599
+
+Detected block.timestamp used 
+position 9163,9177
+
+Detected block.timestamp used 
+position 9207,9221

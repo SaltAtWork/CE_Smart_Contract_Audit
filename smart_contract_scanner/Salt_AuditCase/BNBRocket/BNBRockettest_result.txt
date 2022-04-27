@@ -1,0 +1,49 @@
+
+ ============================================ 
+
+Salt_AuditCase/BNBRocket/BNBRocket.sol
+Detected inline assembly 
+position 10245,10282
+
+
+Detected possible reentrancy 
+position 2071,3769
+
+Detected block.timestamp used 
+position 3376,3390
+
+Detected block.timestamp used 
+position 3593,3607
+
+Detected block.timestamp used 
+position 3741,3755
+
+Detected block.timestamp used 
+position 3884,3898
+
+Detected block.timestamp used 
+position 4366,4380
+
+Detected block.timestamp used 
+position 4410,4424
+
+Detected block.timestamp used 
+position 5317,5331
+
+Detected block.timestamp used 
+position 6070,6084
+
+Detected block.timestamp used 
+position 6153,6167
+
+Detected block.timestamp used 
+position 6367,6381
+
+Detected block.timestamp used 
+position 7320,7334
+
+Detected block.timestamp used 
+position 7900,7914
+
+Detected block.timestamp used 
+position 7944,7958

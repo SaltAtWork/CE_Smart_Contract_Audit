@@ -1,0 +1,85 @@
+
+ ============================================ 
+
+Salt_AuditCase/CryptoTiwi/CryptoTiwi.sol
+Detected inline assembly 
+position 12313,12375
+
+Detected inline assembly 
+position 18878,19034
+
+Detected default function visibility 
+position 4085,4139
+
+Detected default function visibility 
+position 9979,10132
+
+Detected default function visibility 
+position 21762,21837
+
+Detected floating pragma 
+position 110,132
+Char =  ^ 
+
+Detected Operator typo 
+position 24080,24217
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected Operator typo 
+position 31435,31542
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected Operator typo 
+position 31807,31914
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected possible reentrancy 
+position 23967,26668
+
+Detected possible reentrancy 
+position 24565,24884
+
+Detected possible reentrancy 
+position 24683,24873
+
+Detected possible reentrancy 
+position 25172,25776
+
+Detected possible reentrancy 
+position 25783,26106
+
+Detected block.timestamp used 
+position 22849,22863
+
+Detected block.timestamp used 
+position 23859,23873
+
+Detected block.timestamp used 
+position 28384,28398
+
+Detected block.timestamp used 
+position 29025,29039
+
+Detected block.timestamp used 
+position 29357,29371
+
+Detected block.timestamp used 
+position 29610,29624
+
+Detected block.timestamp used 
+position 29735,29749
+
+Detected block.timestamp used 
+position 30001,30015
+
+Detected block.timestamp used 
+position 30125,30139
+
+Detected block.timestamp used 
+position 30394,30408
+
+Detected block.timestamp used 
+position 30555,30569
+
+Detected block.timestamp used 
+position 30770,30784
