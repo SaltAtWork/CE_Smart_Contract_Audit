@@ -77,7 +77,7 @@ function AnalysisComponent(props){
     return(
         <div class="infoitem">
             <h3>Analysis</h3>
-            {checkData(data[0].riskAnalysis) ? <p>{data[0].riskAnalysis}</p> : <p>No risk analysis available</p>}
+            {checkData(data[0].riskAnalysis) ? <p>{JSON.parse(data[0].riskAnalysis)}</p> : <p>No risk analysis available</p>}
         </div>
     );
 }
@@ -87,7 +87,7 @@ function ExploitCaseComponent(props){
     return(
         <div class="infoitem">
             <h3>Attack History</h3>
-            {checkData(data[0].attackHistory) ? <p>{data[0].attackHistory}</p> : <p>No attack history available</p>}
+            {checkData(data[0].attackHistory) ? <p>{JSON.parse(data[0].attackHistory)}</p> : <p>No attack history available</p>}
         </div>
     );
 }
@@ -98,7 +98,7 @@ function OurAnalysisComponent(props){
     return(
         <div class="infoitem">
             <h3>Result From Our Scanner</h3>
-            {checkData(data[0].result) ? <p>{data[0].result}</p> : <p>No result available</p>}
+            {checkData(data[0].result) ? <p>{JSON.parse(data[0].result)}</p> : <p>No result available</p>}
         </div>
     );
 }
