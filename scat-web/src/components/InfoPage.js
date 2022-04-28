@@ -5,6 +5,7 @@ import ChartComponent from './ChartComponent';
 import LinkComponent from './LinkComponent';
 import AuditHistoryComponent from './AuditHistoryComponent';
 import { Rating } from 'react-simple-star-rating';
+import {GiDeathSkull} from 'react-icons/gi';
 
 function TVLTable(props){
     const {data} = props;
@@ -144,7 +145,7 @@ function InfoPage(props){
                     <h3>Key Statistic</h3>
                 </div>
                 <div class="infolist-d">
-                    <Rating ratingValue={checkData(data[0].rating) ? data[0].rating : 0} size={30} readonly={true} />
+                    <Rating ratingValue={checkData(data[0].rating) ? data[0].rating : 0} fillColorArray={['#008c1c','#00FF00','#FFFF00','#FF7F00','#FF0000',]} readonly={true} fullIcon={<GiDeathSkull size={30} />} emptyIcon={<GiDeathSkull size={30} />} />
                     {checkData(data[0].rating) ? <h3 class="righth3">Rating : {data[0].rating/20}/5</h3> : <h3 class="righth3">No Rating</h3>}
                 </div>
             </div>
@@ -158,9 +159,9 @@ function InfoPage(props){
                 <div class="infolist-b">
                     <ChartComponent name={name} />
                     <DescriptionComponent name={name} data={data} />
-                    <AnalysisComponent data={data} />
                     <ExploitCaseComponent name={name} data={data} />
                     <OurAnalysisComponent name={name} data={data} />
+                    <AnalysisComponent data={data} />
                 </div>
             </div>
         </div>
