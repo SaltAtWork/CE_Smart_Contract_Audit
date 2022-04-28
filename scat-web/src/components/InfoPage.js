@@ -74,10 +74,28 @@ function DescriptionComponent(props){
 
 function AnalysisComponent(props){
     const {data} = props;
+    let count = 0;
+    let id = "";
+    //{checkData(data[0].riskAnalysis) ? <p>{JSON.parse(data[0].riskAnalysis)}</p> : <p>No risk analysis available</p>}
     return(
         <div class="infoitem">
             <h3>Analysis</h3>
-            {checkData(data[0].riskAnalysis) ? <p>{JSON.parse(data[0].riskAnalysis)}</p> : <p>No risk analysis available</p>}
+            {checkData(data[0].riskAnalysis) ? 
+            data[0].riskAnalysis.split('\n').map(function(item, key) {
+                if(count%2 == 0){
+                    id = "b";
+                }
+                else{
+                    id = "a";
+                }
+                count++;
+                return (
+                  <p class={id} key={key}>
+                    {item}
+                  </p>
+                )
+              })
+            : <p>No risk analysis available</p>}
         </div>
     );
 }
@@ -87,7 +105,15 @@ function ExploitCaseComponent(props){
     return(
         <div class="infoitem">
             <h3>Attack History</h3>
-            {checkData(data[0].attackHistory) ? <p>{JSON.parse(data[0].attackHistory)}</p> : <p>No attack history available</p>}
+            {checkData(data[0].attackHistory) ? 
+            data[0].attackHistory.split('\n').map(function(item, key) {
+                return (
+                  <p key={key}>
+                    {item}
+                  </p>
+                )
+              })
+            : <p>No attack history available</p>}
         </div>
     );
 }
@@ -98,7 +124,16 @@ function OurAnalysisComponent(props){
     return(
         <div class="infoitem">
             <h3>Result From Our Scanner</h3>
-            {checkData(data[0].result) ? <p>{JSON.parse(data[0].result)}</p> : <p>No result available</p>}
+            {checkData(data[0].result) ? 
+            data[0].result.split('\n').map(function(item, key) {
+                return (
+                  <span class="infobox" key={key}>
+                    {item}
+                    <br/>
+                  </span>
+                )
+              })
+            : <p>No result available</p>}
         </div>
     );
 }
