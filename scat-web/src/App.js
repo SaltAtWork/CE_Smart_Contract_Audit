@@ -25,7 +25,8 @@ const FilterList = [
   {id:"All",tag:"All Projects"},
   {id:"Lending",tag:"Lending Projects"},
   {id:"Trading",tag:"Trading Projects"},
-  {id:"Asset",tag:"Asset Projects"}
+  {id:"Assets",tag:"Assets Projects"},
+  {id:"Others",tag:"Other Projects"}
 ]
 
 const TableItemList = [

@@ -8,7 +8,7 @@ import "@fontsource/mulish";
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter baseName={process.env.PUBLIC_URL}>
+    <HashRouter baseName={process.env.PUBLIC_URL} forceRefresh={true}>
       <App />
     </HashRouter>
   </React.StrictMode>

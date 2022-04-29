@@ -33,6 +33,16 @@ function TableHeadRow(){
   );
 }
 
+function checkCategory(props){
+  const normalCategory = ["Lending","Trading","Assets"];
+  for(let i = 0; i < normalCategory.length; i++){
+    if(props === normalCategory[i]){
+      return false;
+    }
+  }
+  return true;
+}
+
 function ListTable(props){
     const {input,filter,placeholder} = props;
     return(
@@ -43,6 +53,9 @@ function ListTable(props){
               return <TableRow input={element} placeholder={placeholder} />
             }
             else if(filter === element.category){
+              return <TableRow input={element} placeholder={placeholder} />
+            }
+            else if(filter === "Others" && checkCategory(element.category)){
               return <TableRow input={element} placeholder={placeholder} />
             }
             return null;
