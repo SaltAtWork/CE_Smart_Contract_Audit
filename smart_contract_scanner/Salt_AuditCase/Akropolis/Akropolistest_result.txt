@@ -1,0 +1,1307 @@
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/common/Base.sol
+Detected default variable visibility 
+position 345,388
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/common/Module.sol
+Detected inline assembly 
+position 889,952
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/core/ModuleNames.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/core/Pool.sol
+Detected default variable visibility 
+position 317,340
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/AaveProtocol_BUSD.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/AaveProtocol_DAI.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/AaveProtocol_sUSD.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/AaveProtocol_TUSD.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/AaveProtocol_USDC.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/AaveProtocol_USDT.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/BalancerProtocol_WETH_WBTC.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/CompoundProtocol_DAI.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/CompoundProtocol_USDC.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/InvestingModule.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/PoolToken_Aave_BUSD.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/PoolToken_Aave_DAI.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/PoolToken_Aave_sUSD.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/PoolToken_Aave_TUSD.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/PoolToken_Aave_USDC.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/PoolToken_Aave_USDT.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/PoolToken_Balancer_WETH_WBTC.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/PoolToken_Compound_DAI.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/PoolToken_Compound_USDC.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/PoolToken_CurveFi_BUSD.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/PoolToken_CurveFi_renBTC.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/PoolToken_CurveFi_SBTC.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/PoolToken_CurveFi_SUSD.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/PoolToken_CurveFi_Y.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/PoolToken_Vault_CurveFi.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/StakingPoolADEL.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/deploy/VaultProtocolCurveFi.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/access/IAccessModule.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/core/CoreInterface.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/aave/IAaveLendingPool.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/aave/IAaveLendingPoolAddressesProvider.sol
+Detected floating pragma 
+position 0,22
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/aave/IAaveLendingPoolCore.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/aave/IAToken.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/IBPool.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/ICErc20.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/IComptroller.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/ICurveFiDeposit.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/ICurveFiDeposit_BUSD.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/ICurveFiDeposit_SUSD.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/ICurveFiDeposit_Y.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/ICurveFiLiquidityGauge.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/ICurveFiLiquidityGaugeReward.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/ICurveFiMinter.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/ICurveFiSwap.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/ICurveFiSwap_renBTC.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/ICurveFiSwap_SBTC.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/ICurveFiSwap_SUSD.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/ICurveFiSwap_Y.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/IDefiProtocol.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/IDefiStrategy.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/IDexag.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/IRAYNAVCalculator.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/IRAYPortfolioManager.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/IRAYStorage.sol
+Detected floating pragma 
+position 1086,1109
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/IStrategyCurveFiSwapCrv.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/IVaultProtocol.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/defi/IYErc20.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/savings/ISavingsModule.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/savings/IVaultSavings.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/token/IOperableToken.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/interfaces/token/IPoolTokenBalanceChangeRecipient.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/access/AccessChecker.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/access/AccessModule.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/defi/AaveProtocol.sol
+Detected default variable visibility 
+position 802,844
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/defi/BalancerProtocol.sol
+Detected default variable visibility 
+position 681,723
+
+Detected default variable visibility 
+position 729,771
+
+Detected default variable visibility 
+position 1193,1243
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/defi/CompoundProtocol.sol
+Detected default variable visibility 
+position 731,773
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/defi/CurveFiProtocol.sol
+Detected default variable visibility 
+position 1005,1047
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/defi/CurveFiProtocolWithRewards.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/defi/CurveFiProtocol_BUSD.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/defi/CurveFiProtocol_renBTC.sol
+Detected default variable visibility 
+position 370,392
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/defi/CurveFiProtocol_SBTC.sol
+Detected default variable visibility 
+position 364,386
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/defi/CurveFiProtocol_SUSD.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/defi/CurveFiProtocol_Y.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/defi/CurveFiProtocol_Y_Base.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/defi/CurveFiStablecoinStrategy.sol
+Detected inline assembly 
+position 8675,8772
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/defi/DefiOperatorRole.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/defi/ProtocolBase.sol
+Detected default variable visibility 
+position 693,735
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/defi/RAYProtocol.sol
+Detected default variable visibility 
+position 1208,1250
+
+Detected default variable visibility 
+position 1322,1338
+
+Detected default variable visibility 
+position 1344,1358
+
+Detected default variable visibility 
+position 1364,1383
+
+Detected default variable visibility 
+position 1389,1407
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/defi/VaultProtocol.sol
+Detected default variable visibility 
+position 990,1021
+
+Detected default variable visibility 
+position 1222,1253
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/defi/VaultProtocolOneCoin.sol
+Detected default variable visibility 
+position 992,1020
+
+Detected default variable visibility 
+position 1219,1247
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/reward/RewardDistributionModule.sol
+Detected default variable visibility 
+position 1995,2040
+
+Detected default variable visibility 
+position 2046,2092
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected now used 
+position 5059,5061
+
+Detected now used 
+position 5305,5307
+
+Detected now used 
+position 5539,5541
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/reward/RewardManagerRole.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/reward/RewardVestingModule.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected block.timestamp used 
+position 1931,1945
+
+Detected block.timestamp used 
+position 4701,4715
+
+Detected block.timestamp used 
+position 4804,4818
+
+Detected block.timestamp used 
+position 5076,5090
+
+Detected block.timestamp used 
+position 5431,5445
+
+Detected block.timestamp used 
+position 5654,5668
+
+Detected block.timestamp used 
+position 8742,8756
+
+Detected block.timestamp used 
+position 8770,8784
+
+Detected block.timestamp used 
+position 9189,9203
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/savings/RewardDistributions.sol
+Detected default variable visibility 
+position 1382,1427
+
+Detected default variable visibility 
+position 1433,1479
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/savings/SavingsCap.sol
+Detected default variable visibility 
+position 1419,1471
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/savings/SavingsModule.sol
+Detected default variable visibility 
+position 735,777
+
+Detected default variable visibility 
+position 2323,2349
+
+Detected default variable visibility 
+position 2355,2390
+
+Detected default variable visibility 
+position 2396,2428
+
+Detected default variable visibility 
+position 2434,2470
+
+Detected default variable visibility 
+position 2476,2518
+
+Detected default variable visibility 
+position 2600,2647
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/savings/VaultOperatorRole.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/savings/VaultSavingsModule.sol
+Detected inline assembly 
+position 9401,9498
+
+Detected default variable visibility 
+position 776,818
+
+Detected default variable visibility 
+position 1028,1064
+
+Detected default variable visibility 
+position 1070,1114
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/staking/IERC900.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/staking/StakingPool.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/staking/StakingPoolBase.sol
+Detected default variable visibility 
+position 699,717
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected Operator typo 
+position 3631,3695
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected possible reentrancy 
+position 16246,17409
+
+Detected block.timestamp used 
+position 15612,15626
+
+Detected block.timestamp used 
+position 16505,16519
+
+Detected block.timestamp used 
+position 17915,17929
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/token/ADEL.sol
+Detected default variable visibility 
+position 261,305
+
+Detected default variable visibility 
+position 311,343
+
+Detected default variable visibility 
+position 349,377
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/token/DistributionToken.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected now used 
+position 8328,8330
+
+Detected now used 
+position 8336,8338
+
+Detected now used 
+position 9984,9986
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/token/PoolToken.sol
+Detected default variable visibility 
+position 628,647
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/token/VaultPoolToken.sol
+Detected default variable visibility 
+position 254,273
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/token/VestedAkro.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected Operator typo 
+position 8569,8607
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected now used 
+position 7726,7728
+
+Detected now used 
+position 7748,7750
+
+Detected now used 
+position 9957,9959
+
+Detected now used 
+position 10081,10083
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/modules/token/VestedAkroSenderRole.sol
+Detected floating pragma 
+position 0,22
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/CErc20Stub.sol
+Detected default variable visibility 
+position 848,868
+
+Detected default variable visibility 
+position 874,889
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected now used 
+position 1109,1111
+
+Detected now used 
+position 3028,3030
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/ComptrollerStub.sol
+Detected default variable visibility 
+position 590,617
+
+Detected default variable visibility 
+position 793,804
+
+Detected default variable visibility 
+position 810,848
+
+Detected default variable visibility 
+position 854,871
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected now used 
+position 1299,1301
+
+Detected now used 
+position 1744,1746
+
+Detected now used 
+position 2195,2197
+
+Detected now used 
+position 2331,2333
+
+Detected now used 
+position 2905,2907
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/CurveFiDepositStub_BUSD.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/CurveFiDepositStub_SUSD.sol
+Detected default variable visibility 
+position 553,586
+
+Detected default variable visibility 
+position 681,723
+
+Detected default variable visibility 
+position 800,823
+
+Detected default variable visibility 
+position 829,856
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/CurveFiDepositStub_Y.sol
+Detected default variable visibility 
+position 579,612
+
+Detected default variable visibility 
+position 707,749
+
+Detected default variable visibility 
+position 823,846
+
+Detected default variable visibility 
+position 852,879
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/CurveFiLiquidityGaugeStub.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/CurveFiMinterStub.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected Operator typo 
+position 1966,2059
+This might be false positive. Please Recheck. LeftOp = =
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/CurveFiStablecoinNoDexagStub.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/CurveFiSwapStub_BUSD.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/CurveFiSwapStub_SBTC.sol
+Detected default variable visibility 
+position 818,863
+
+Detected default variable visibility 
+position 910,933
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected possible reentrancy 
+position 2570,2943
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/CurveFiSwapStub_SUSD.sol
+Detected default variable visibility 
+position 818,863
+
+Detected default variable visibility 
+position 910,933
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected possible reentrancy 
+position 2570,2943
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/CurveFiSwapStub_Y.sol
+Detected default variable visibility 
+position 806,851
+
+Detected default variable visibility 
+position 895,918
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected possible reentrancy 
+position 2556,2929
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/CurveFiTokenStub_BUSD.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/CurveFiTokenStub_SBTC.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/CurveFiTokenStub_SUSD.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/CurveFiTokenStub_Y.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/DexagStub.sol
+Detected inline assembly 
+position 4896,5846
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected tx.origin authorization 
+position 6069,6100
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/FreeERC20.sol
+Detected floating pragma 
+position 0,22
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/TestERC20.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/TestYERC20.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/upgrade-savings/DistributionTokenOld2.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected now used 
+position 8332,8334
+
+Detected now used 
+position 8340,8342
+
+Detected now used 
+position 9988,9990
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/upgrade-savings/PoolTokenOld.sol
+Detected default variable visibility 
+position 649,668
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/upgrade-savings/PoolTokenOld2.sol
+Detected default variable visibility 
+position 640,659
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/upgrade-savings/RewardDistributionsOld.sol
+Detected default variable visibility 
+position 1760,1805
+
+Detected default variable visibility 
+position 1811,1857
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/upgrade-savings/SavingsModuleOld.sol
+Detected default variable visibility 
+position 766,808
+
+Detected default variable visibility 
+position 2426,2452
+
+Detected default variable visibility 
+position 2458,2493
+
+Detected default variable visibility 
+position 2499,2531
+
+Detected default variable visibility 
+position 2537,2573
+
+Detected default variable visibility 
+position 2579,2621
+
+Detected default variable visibility 
+position 2703,2750
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected now used 
+position 17699,17701
+
+Detected now used 
+position 21480,21482
+
+Detected now used 
+position 22679,22681
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/VaultStrategyStub.sol
+Detected default variable visibility 
+position 467,487
+
+Detected default variable visibility 
+position 493,506
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/test/YTokenStub.sol
+Detected default variable visibility 
+position 533,566
+
+Detected default variable visibility 
+position 710,755
+
+Detected default variable visibility 
+position 761,820
+
+Detected default variable visibility 
+position 921,936
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected now used 
+position 1476,1478
+
+Detected now used 
+position 2592,2594
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/utils/AddressList.sol
+Detected default variable visibility 
+position 106,149
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/utils/AddressMap.sol
+Detected default variable visibility 
+position 206,249
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Akropolis/contracts/utils/CalcUtils.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 

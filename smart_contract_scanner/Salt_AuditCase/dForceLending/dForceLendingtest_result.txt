@@ -1,0 +1,311 @@
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/aggregatorModel/AggregatorModel.sol
+Detected floating pragma 
+position 32,55
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/aggregatorModel/BUSDAggregatorModel.sol
+Detected floating pragma 
+position 32,55
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/aggregatorModel/GOLDxAggregatorETHToUsdModel.sol
+Detected floating pragma 
+position 32,55
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/aggregatorModel/GOLDxAggregatorModel.sol
+Detected floating pragma 
+position 32,55
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/Controller.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/ControllerFF.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/ControllerV2.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/exchangeRateModel/ExchangeRateModel.sol
+Detected floating pragma 
+position 32,55
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/exchangeRateModel/GOLDxExchangeRateModel.sol
+Detected floating pragma 
+position 32,55
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/governance/TimeLock.sol
+
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/helper/LendingData.sol
+Detected inline assembly 
+position 3824,5617
+
+Detected default variable visibility 
+position 11839,11867
+
+Detected default variable visibility 
+position 11874,11924
+
+Detected default variable visibility 
+position 11930,11964
+
+
+Detected Operator typo 
+position 16339,16365
+This might be false positive. Please Recheck. LeftOp = &&
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/helper/LendingDataV2.sol
+Detected inline assembly 
+position 3824,5617
+
+Detected default variable visibility 
+position 12441,12469
+
+Detected default variable visibility 
+position 12510,12544
+
+
+Detected Operator typo 
+position 16254,16280
+This might be false positive. Please Recheck. LeftOp = &&
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/iETH.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/InterestRateModel/FixedInterestRateModel.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/InterestRateModel/InterestRateModel.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/InterestRateModel/StablecoinInterestRateModel.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/InterestRateModel/StandardInterestRateModel.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/interface/IControllerInterface.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/interface/IFlashloanExecutor.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/interface/IInterestRateModelInterface.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/interface/IiToken.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/interface/IPriceOracle.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/interface/IRewardDistributor.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/interface/IRewardDistributorV3.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/iToken.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/iTokenFF.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/library/ERC20.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/library/Initializable.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/library/Ownable.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/library/ProxyAdmin.sol
+Detected floating pragma 
+position 33,63
+Char =  <  > 
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/library/ReentrancyGuard.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/library/SafeRatioMath.sol
+Detected inline assembly 
+position 1075,2868
+
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/msd/iMSD.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/msd/MSD.sol
+Detected inline assembly 
+position 3392,3444
+
+
+Detected block.timestamp used 
+position 4141,4155
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/msd/MSDController.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/msd/MSDS.sol
+Detected inline assembly 
+position 10231,10283
+
+Detected default variable visibility 
+position 1233,1276
+
+
+Detected block.timestamp used 
+position 10980,10994
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/PriceOracle.sol
+Detected default variable visibility 
+position 10131,10165
+
+Detected default variable visibility 
+position 10200,10244
+
+Detected default variable visibility 
+position 10301,10338
+
+Detected default variable visibility 
+position 10344,10386
+
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/PriceOracleBand.sol
+Detected default variable visibility 
+position 10131,10165
+
+Detected default variable visibility 
+position 10200,10244
+
+Detected default variable visibility 
+position 10301,10338
+
+Detected default variable visibility 
+position 10344,10386
+
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/RewardDistributor.sol
+
+Detected tx.origin authorization 
+position 6652,6713
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/RewardDistributorV3.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/StatusOracle.sol
+
+Detected Operator typo 
+position 4276,4297
+This might be false positive. Please Recheck. LeftOp = >=
+
+Detected block.timestamp used 
+position 9112,9126
+
+Detected block.timestamp used 
+position 9609,9623
+
+Detected block.timestamp used 
+position 12111,12125
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/TokenBase/Base.sol
+Detected inline assembly 
+position 18647,18699
+
+
+Detected block.timestamp used 
+position 17575,17589
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/TokenBase/TokenAdmin.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/TokenBase/TokenERC20.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/TokenBase/TokenEvent.sol
+
+ ============================================ 
+
+./Salt_AuditCase/dForceLending/contracts/TokenBase/TokenStorage.sol
+Detected default variable visibility 
+position 665,693
+
+Detected default variable visibility 
+position 909,950
+
+Detected default variable visibility 
+position 1177,1216
+
+Detected default variable visibility 
+position 1976,2019
+

@@ -1,0 +1,28 @@
+
+ ============================================ 
+
+./Salt_AuditCase/GrimFinance/GrimVault.sol
+Detected inline assembly 
+position 10307,10347
+
+Detected inline assembly 
+position 14982,15138
+
+Detected floating pragma 
+position 87,109
+Char =  ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+
+Detected block.timestamp used 
+position 39541,39555
+
+Detected block.timestamp used 
+position 40078,40092

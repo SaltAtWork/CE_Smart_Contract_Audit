@@ -1,0 +1,512 @@
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/adapters/yearn/YearnTokenAdapter.sol
+Detected default function visibility 
+position 548,676
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/AlchemicTokenV1.sol
+Detected default function visibility 
+position 1618,1808
+
+Detected floating pragma 
+position 36,59
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/AlchemicTokenV2.sol
+Detected default function visibility 
+position 2197,2500
+
+Detected floating pragma 
+position 45,68
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/AlchemicTokenV2Base.sol
+Detected floating pragma 
+position 45,68
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/AlchemistV2.sol
+Detected default function visibility 
+position 4179,4206
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/base/Errors.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/base/Multicall.sol
+Detected floating pragma 
+position 45,68
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/base/Mutex.sol
+Detected floating pragma 
+position 45,68
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/base/SelfPermit.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/CrossChainCanonicalAlchemicTokenV2.sol
+Detected floating pragma 
+position 45,68
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/CrossChainCanonicalBase.sol
+Detected floating pragma 
+position 32,55
+Char =  ^ 
+
+Detected Operator typo 
+position 4986,5019
+This might be false positive. Please Recheck. LeftOp = =
+
+Detected Operator typo 
+position 6256,6307
+This might be false positive. Please Recheck. LeftOp = =
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/gALCX.sol
+Detected default function visibility 
+position 923,1060
+
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/alchemist/IAlchemistV2Actions.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/alchemist/IAlchemistV2AdminActions.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/alchemist/IAlchemistV2Errors.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/alchemist/IAlchemistV2Events.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/alchemist/IAlchemistV2Immutables.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/alchemist/IAlchemistV2State.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/external/aave/DataTypes.sol
+Detected floating pragma 
+position 37,60
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/external/aave/IAToken.sol
+Detected floating pragma 
+position 37,60
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/external/aave/ILendingPool.sol
+Detected floating pragma 
+position 37,60
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/external/aave/ILendingPoolAddressesProvider.sol
+Detected floating pragma 
+position 37,60
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/external/aave/ILendingPoolAddressesProviderRegistry.sol
+Detected floating pragma 
+position 37,60
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/external/aave/IScaledBalanceToken.sol
+Detected floating pragma 
+position 37,60
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/external/aave/IStaticAToken.sol
+Detected floating pragma 
+position 37,60
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/external/aave/IWethGateway.sol
+Detected floating pragma 
+position 37,60
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/external/IProxyAdmin.sol
+Detected floating pragma 
+position 33,55
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/external/IWETH9.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/external/maker/IDssProxyActions.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/external/tether/ITetherToken.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/external/uniswap/ISwapRouter.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/external/yearn/IYearnVaultV2.sol
+Detected floating pragma 
+position 32,55
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/IAlchemicToken.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/IAlchemistV2.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/IALCXSource.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/IERC20Burnable.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/IERC20Metadata.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/IERC20Minimal.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/IERC20Mintable.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/IERC20PermitAllowed.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/IERC20TokenReceiver.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/IERC3156FlashBorrower.sol
+Detected floating pragma 
+position 32,55
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/IERC3156FlashLender.sol
+Detected floating pragma 
+position 32,55
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/IMulticall.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/ISelfPermit.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/IStakingPools.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/ITokenAdapter.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/IWETHGateway.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/IWhitelist.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/test/ITestYieldToken.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/transmuter/ITransmuterBuffer.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/interfaces/transmuter/ITransmuterV2.sol
+Detected floating pragma 
+position 36,59
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/libraries/FixedPointMath.sol
+Detected floating pragma 
+position 45,68
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/libraries/Limiters.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/libraries/LiquidityMath.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/libraries/SafeCast.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/libraries/Sets.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/libraries/Tick.sol
+Detected floating pragma 
+position 45,68
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/libraries/TokenUtils.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected Operator typo 
+position 2798,2842
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected Operator typo 
+position 3523,3567
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected Operator typo 
+position 4354,4398
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected Operator typo 
+position 5060,5104
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected Operator typo 
+position 5656,5700
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected Operator typo 
+position 6356,6400
+This might be false positive. Please Recheck. LeftOp = &&
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/TransmuterBuffer.sol
+Detected default function visibility 
+position 2694,2721
+
+Detected floating pragma 
+position 45,68
+Char =  ^ 
+
+Detected block.timestamp used 
+position 15393,15407
+
+Detected block.timestamp used 
+position 15591,15605
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/TransmuterV2.sol
+Detected default function visibility 
+position 5374,5401
+
+Detected floating pragma 
+position 38,61
+Char =  ^ 
+
+Detected Operator typo 
+position 6426,6486
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected Operator typo 
+position 16920,16966
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected Operator typo 
+position 17423,17458
+This might be false positive. Please Recheck. LeftOp = &&
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/utils/Whitelist.sol
+Detected default function visibility 
+position 404,429
+
+Detected default variable visibility 
+position 311,336
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Alchemix/contracts/WETHGateway.sol
+Detected default function visibility 
+position 618,731
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 

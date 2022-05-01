@@ -43,6 +43,7 @@ router.get('/:name', async(req, res) => {
 
 router.get('/projects/up', async(req, res) => {
     const data = await pulse.getProject();
+    console.log("Test1");
     for (var i = 0; i < data.length; i++) {
         try {
             var projectsDB = await Project.find({ name: data[i].name });

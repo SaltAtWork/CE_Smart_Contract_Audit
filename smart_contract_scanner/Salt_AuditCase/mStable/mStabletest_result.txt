@@ -1,0 +1,1838 @@
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/buy-and-make/Collector.sol
+Detected default function visibility 
+position 361,414
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/buy-and-make/GaugeBriber.sol
+Detected default function visibility 
+position 999,1320
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/buy-and-make/IBPool.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/buy-and-make/RevenueBuyBack.sol
+Detected default function visibility 
+position 3131,3720
+
+
+Detected block.timestamp used 
+position 6449,6463
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/buy-and-make/RevenueForwarder.sol
+Detected default function visibility 
+position 855,1169
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/buy-and-make/RevenueRecipient.sol
+Detected default function visibility 
+position 1460,1931
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/buy-and-make/RevenueSplitBuyBack.sol
+Detected default function visibility 
+position 2919,3508
+
+
+Detected block.timestamp used 
+position 8964,8978
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/emissions/BasicRewardsForwarder.sol
+Detected default function visibility 
+position 1369,1606
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/emissions/BridgeForwarder.sol
+Detected default function visibility 
+position 2001,2747
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/emissions/DisperseForwarder.sol
+Detected default function visibility 
+position 1037,1377
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/emissions/EmissionsController.sol
+Detected default function visibility 
+position 5762,6174
+
+Detected default variable visibility 
+position 3109,3154
+
+Detected default variable visibility 
+position 3228,3256
+
+Detected default variable visibility 
+position 3328,3346
+
+Detected default variable visibility 
+position 3352,3370
+
+Detected default variable visibility 
+position 3376,3394
+
+Detected default variable visibility 
+position 3400,3418
+
+Detected default variable visibility 
+position 3424,3448
+
+
+Detected Operator typo 
+position 19560,19597
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected block.timestamp used 
+position 7398,7412
+
+Detected block.timestamp used 
+position 13721,13735
+
+Detected block.timestamp used 
+position 15506,15520
+
+Detected block.timestamp used 
+position 17537,17551
+
+Detected block.timestamp used 
+position 23394,23408
+
+Detected block.timestamp used 
+position 25786,25800
+
+Detected block.timestamp used 
+position 29532,29546
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/emissions/L2BridgeRecipient.sol
+Detected default function visibility 
+position 957,1468
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/emissions/L2EmissionsController.sol
+Detected default function visibility 
+position 1596,1813
+
+Detected default variable visibility 
+position 830,859
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/emissions/VotiumBribeForwarder.sol
+Detected default function visibility 
+position 1240,1619
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/feeders/FeederLogic.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/feeders/FeederManager.sol
+
+
+Detected block.timestamp used 
+position 7553,7567
+
+Detected block.timestamp used 
+position 7723,7737
+
+Detected block.timestamp used 
+position 8325,8339
+
+Detected block.timestamp used 
+position 8459,8473
+
+Detected block.timestamp used 
+position 8720,8734
+
+Detected block.timestamp used 
+position 8958,8972
+
+Detected block.timestamp used 
+position 9025,9039
+
+Detected block.timestamp used 
+position 9078,9092
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/feeders/FeederPool.sol
+Detected default function visibility 
+position 3432,3532
+
+
+Detected Operator typo 
+position 15145,15171
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected block.timestamp used 
+position 26615,26629
+
+Detected block.timestamp used 
+position 26795,26809
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/feeders/InterestValidator.sol
+Detected default function visibility 
+position 1317,1369
+
+
+Detected block.timestamp used 
+position 1823,1837
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/feeders/NonPeggedFeederPool.sol
+Detected default function visibility 
+position 3965,4201
+
+
+Detected Operator typo 
+position 16100,16126
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected block.timestamp used 
+position 27677,27691
+
+Detected block.timestamp used 
+position 27857,27871
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/feeders/peripheral/FeederRouter.sol
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/feeders/peripheral/FeederWrapper.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/governance/ClaimableGovernor.sol
+Detected default function visibility 
+position 959,1040
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/governance/DelayedClaimableGovernor.sol
+Detected default function visibility 
+position 724,902
+
+
+Detected block.timestamp used 
+position 1158,1172
+
+Detected block.timestamp used 
+position 1661,1675
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/governance/Governable.sol
+Detected default function visibility 
+position 715,820
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/governance/IncentivisedVotingLockup.sol
+Detected default function visibility 
+position 3814,4517
+
+
+Detected block.timestamp used 
+position 4201,4215
+
+Detected block.timestamp used 
+position 4486,4500
+
+Detected block.timestamp used 
+position 4975,4989
+
+Detected block.timestamp used 
+position 6805,6819
+
+Detected block.timestamp used 
+position 7081,7095
+
+Detected block.timestamp used 
+position 7147,7161
+
+Detected block.timestamp used 
+position 7423,7437
+
+Detected block.timestamp used 
+position 7870,7884
+
+Detected block.timestamp used 
+position 8449,8463
+
+Detected block.timestamp used 
+position 9248,9262
+
+Detected block.timestamp used 
+position 9867,9881
+
+Detected block.timestamp used 
+position 10015,10029
+
+Detected block.timestamp used 
+position 10654,10668
+
+Detected block.timestamp used 
+position 10705,10719
+
+Detected block.timestamp used 
+position 11695,11709
+
+Detected block.timestamp used 
+position 12932,12946
+
+Detected block.timestamp used 
+position 13402,13416
+
+Detected block.timestamp used 
+position 15190,15204
+
+Detected block.timestamp used 
+position 16173,16187
+
+Detected block.timestamp used 
+position 17051,17065
+
+Detected block.timestamp used 
+position 17836,17850
+
+Detected block.timestamp used 
+position 18676,18690
+
+Detected block.timestamp used 
+position 19318,19332
+
+Detected block.timestamp used 
+position 19959,19973
+
+Detected block.timestamp used 
+position 20280,20294
+
+Detected block.timestamp used 
+position 22761,22775
+
+Detected block.timestamp used 
+position 24345,24359
+
+Detected block.timestamp used 
+position 26770,26784
+
+Detected block.timestamp used 
+position 28009,28023
+
+Detected block.timestamp used 
+position 31232,31246
+
+Detected block.timestamp used 
+position 33405,33419
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/governance/staking/deps/GamifiedTokenStructs.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/governance/staking/deps/SignatureVerifier.sol
+Detected inline assembly 
+position 3069,3226
+
+Detected floating pragma 
+position 1137,1159
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/governance/staking/GamifiedToken.sol
+Detected default function visibility 
+position 2731,3009
+
+
+Detected block.timestamp used 
+position 7660,7674
+
+Detected block.timestamp used 
+position 10491,10505
+
+Detected block.timestamp used 
+position 13906,13920
+
+Detected block.timestamp used 
+position 14179,14193
+
+Detected block.timestamp used 
+position 14397,14411
+
+Detected block.timestamp used 
+position 16469,16483
+
+Detected block.timestamp used 
+position 16728,16742
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/governance/staking/GamifiedVotingToken.sol
+Detected default function visibility 
+position 2211,2413
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/governance/staking/interfaces/IBVault.sol
+Detected floating pragma 
+position 32,54
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/governance/staking/interfaces/IGovernanceHook.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/governance/staking/interfaces/ILockedERC20.sol
+Detected floating pragma 
+position 33,55
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/governance/staking/interfaces/IQuestManager.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/governance/staking/interfaces/IStakedToken.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/governance/staking/QuestManager.sol
+Detected default function visibility 
+position 1944,1997
+
+
+Detected block.timestamp used 
+position 2299,2313
+
+Detected block.timestamp used 
+position 5291,5305
+
+Detected block.timestamp used 
+position 6348,6362
+
+Detected block.timestamp used 
+position 6441,6455
+
+Detected block.timestamp used 
+position 7001,7015
+
+Detected block.timestamp used 
+position 7092,7106
+
+Detected block.timestamp used 
+position 7428,7442
+
+Detected block.timestamp used 
+position 7604,7618
+
+Detected block.timestamp used 
+position 11978,11992
+
+Detected block.timestamp used 
+position 12915,12929
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/governance/staking/StakedToken.sol
+Detected default function visibility 
+position 4018,4458
+
+
+
+Detected block.timestamp used 
+position 9387,9401
+
+Detected block.timestamp used 
+position 12114,12128
+
+Detected block.timestamp used 
+position 12273,12287
+
+Detected block.timestamp used 
+position 19586,19600
+
+Detected block.timestamp used 
+position 20418,20432
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/governance/staking/StakedTokenBPT.sol
+Detected default function visibility 
+position 2110,2682
+
+
+
+Detected block.timestamp used 
+position 7040,7054
+
+Detected block.timestamp used 
+position 7669,7683
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/governance/staking/StakedTokenMTA.sol
+Detected default function visibility 
+position 978,1390
+
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/interfaces/IBoostDirector.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/interfaces/IBoostedDualVaultWithLockup.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/interfaces/IBoostedVaultWithLockup.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/interfaces/IDisperse.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/interfaces/IEjector.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/interfaces/IEmissionsController.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/interfaces/IFAssetRedemptionPriceGetter.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/interfaces/IFeederPool.sol
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/interfaces/IIncentivisedVotingLockup.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/interfaces/IInvariantValidator.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/interfaces/IMasset.sol
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/interfaces/INexus.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/interfaces/IPlatformIntegration.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/interfaces/IRevenueRecipient.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/interfaces/IRewardsDistributionRecipient.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/interfaces/IRootChainManager.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/interfaces/ISavingsContract.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/interfaces/ISavingsManager.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/interfaces/IStakingRewardsWithPlatformToken.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/interfaces/IUnwrapper.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/interfaces/IVotes.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/interfaces/IVotiumBribe.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/masset/liquidator/ILiquidator.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/masset/liquidator/Liquidator.sol
+Detected default function visibility 
+position 3817,4759
+
+
+Detected possible reentrancy 
+position 19687,23598
+
+Detected tx.origin authorization 
+position 19755,19801
+
+Detected block.timestamp used 
+position 13235,13249
+
+Detected block.timestamp used 
+position 13367,13381
+
+Detected block.timestamp used 
+position 15107,15121
+
+Detected block.timestamp used 
+position 17208,17222
+
+Detected block.timestamp used 
+position 17414,17428
+
+Detected block.timestamp used 
+position 22314,22328
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/masset/liquidator/Unliquidator.sol
+Detected default function visibility 
+position 929,1122
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/masset/Masset.sol
+Detected default function visibility 
+position 3067,3232
+
+
+
+Detected Operator typo 
+position 5377,5419
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected block.timestamp used 
+position 23690,23704
+
+Detected block.timestamp used 
+position 23870,23884
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/masset/MassetLogic.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/masset/MassetManager.sol
+
+
+Detected block.timestamp used 
+position 13296,13310
+
+Detected block.timestamp used 
+position 13466,13480
+
+Detected block.timestamp used 
+position 14068,14082
+
+Detected block.timestamp used 
+position 14202,14216
+
+Detected block.timestamp used 
+position 14463,14477
+
+Detected block.timestamp used 
+position 14701,14715
+
+Detected block.timestamp used 
+position 14768,14782
+
+Detected block.timestamp used 
+position 14821,14835
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/masset/MassetStructs.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/masset/peripheral/AaveV2Integration.sol
+Detected default function visibility 
+position 1204,1529
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/masset/peripheral/AbstractIntegration.sol
+Detected default function visibility 
+position 1737,1909
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/masset/peripheral/AlchemixIntegration.sol
+Detected default function visibility 
+position 2595,3413
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/masset/peripheral/CompoundInegration.sol
+Detected default function visibility 
+position 1112,1280
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/masset/peripheral/DudIntegration.sol
+Detected default function visibility 
+position 1502,1846
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/masset/peripheral/DudPlatform.sol
+Detected default function visibility 
+position 1393,1552
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/masset/peripheral/IDudPlatform.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/masset/peripheral/RenWrapper.sol
+Detected default function visibility 
+position 1025,1450
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/masset/versions/MV1.sol
+Detected default function visibility 
+position 4138,4303
+
+
+
+Detected Operator typo 
+position 6375,6417
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected block.timestamp used 
+position 24688,24702
+
+Detected block.timestamp used 
+position 24868,24882
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/masset/versions/MV1Migrator.sol
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/masset/versions/MV2.sol
+Detected default function visibility 
+position 3879,4044
+
+
+
+Detected Operator typo 
+position 6116,6158
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected block.timestamp used 
+position 24429,24443
+
+Detected block.timestamp used 
+position 24609,24623
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/nexus/Nexus.sol
+Detected default function visibility 
+position 2394,2485
+
+
+Detected block.timestamp used 
+position 4722,4736
+
+Detected block.timestamp used 
+position 4780,4794
+
+Detected block.timestamp used 
+position 7644,7658
+
+Detected block.timestamp used 
+position 7700,7714
+
+Detected block.timestamp used 
+position 9486,9500
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/peripheral/Aave/IAave.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/peripheral/Aave/IAaveIncentivesController.sol
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/peripheral/Alchemix/IAlchemixStakingPools.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/peripheral/Compound/ICERC20.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/peripheral/Curve/ICurve.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/peripheral/dydx/DyDx.sol
+Detected floating pragma 
+position 45,67
+Char =  ^ 
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/peripheral/dydx/DyDxFlashLoan.sol
+Detected default function visibility 
+position 1036,1174
+
+Detected default variable visibility 
+position 324,401
+
+Detected default variable visibility 
+position 427,493
+
+Detected default variable visibility 
+position 499,564
+
+Detected default variable visibility 
+position 604,670
+
+Detected default variable visibility 
+position 676,741
+
+Detected default variable visibility 
+position 767,833
+
+Detected default variable visibility 
+position 839,905
+
+Detected default variable visibility 
+position 911,977
+
+Detected floating pragma 
+position 46,68
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/peripheral/RAI/IRedemptionPriceSnap.sol
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/peripheral/Uniswap/BytesLib.sol
+Detected inline assembly 
+position 764,3193
+
+Detected inline assembly 
+position 3495,3613
+
+Detected inline assembly 
+position 3907,3987
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/peripheral/Uniswap/IUniswapV2Router02.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/peripheral/Uniswap/IUniswapV3Quoter.sol
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/peripheral/Uniswap/IUniswapV3SwapRouter.sol
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/peripheral/Uniswap/Path.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/polygon/IClaimRewards.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/polygon/IPLiquidator.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/polygon/PAaveIntegration.sol
+Detected default function visibility 
+position 1020,1405
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/polygon/PLiquidator.sol
+Detected default function visibility 
+position 1499,1848
+
+
+Detected tx.origin authorization 
+position 6254,6300
+
+Detected block.timestamp used 
+position 6506,6520
+
+Detected block.timestamp used 
+position 6640,6654
+
+Detected block.timestamp used 
+position 8224,8238
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/rewards/BoostDirector.sol
+Detected default function visibility 
+position 1457,1612
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/rewards/BoostDirectorV2.sol
+Detected default function visibility 
+position 1773,1860
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/rewards/boosted-staking/BoostedDualVault.sol
+Detected default function visibility 
+position 4617,5090
+
+
+Detected block.timestamp used 
+position 6547,6561
+
+Detected block.timestamp used 
+position 19383,19397
+
+Detected block.timestamp used 
+position 25076,25090
+
+Detected block.timestamp used 
+position 27816,27830
+
+Detected block.timestamp used 
+position 28901,28915
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/rewards/boosted-staking/BoostedTokenWrapper.sol
+Detected default function visibility 
+position 2055,2370
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/rewards/boosted-staking/BoostedVault.sol
+Detected default function visibility 
+position 3526,3919
+
+
+Detected block.timestamp used 
+position 5199,5213
+
+Detected block.timestamp used 
+position 16155,16169
+
+Detected block.timestamp used 
+position 20770,20784
+
+Detected block.timestamp used 
+position 23510,23524
+
+Detected block.timestamp used 
+position 24312,24326
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/rewards/InitializableRewardsDistributionRecipient.sol
+Detected default function visibility 
+position 911,964
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/rewards/RewardsDistributionRecipient.sol
+Detected default function visibility 
+position 1142,1279
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/rewards/RewardsDistributor.sol
+Detected default function visibility 
+position 1237,1445
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/rewards/staking/HeadlessStakingRewards.sol
+Detected default function visibility 
+position 2650,2816
+
+
+Detected block.timestamp used 
+position 5820,5834
+
+Detected block.timestamp used 
+position 9527,9541
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/rewards/staking/PlatformTokenVendor.sol
+Detected default function visibility 
+position 629,834
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/rewards/staking/PlatformTokenVendorFactory.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/rewards/staking/StakingRewards.sol
+Detected default function visibility 
+position 3135,3433
+
+
+Detected block.timestamp used 
+position 10088,10102
+
+Detected block.timestamp used 
+position 13473,13487
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/rewards/staking/StakingRewardsWithPlatformToken.sol
+Detected default function visibility 
+position 3860,4238
+
+
+Detected block.timestamp used 
+position 12888,12902
+
+Detected block.timestamp used 
+position 16184,16198
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/rewards/staking/StakingTokenWrapper.sol
+Detected default function visibility 
+position 1387,1474
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/savings/peripheral/IConnector.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/savings/peripheral/SaveWrapper.sol
+Detected default function visibility 
+position 992,1045
+
+
+Detected block.timestamp used 
+position 15886,15900
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/savings/peripheral/Unwrapper.sol
+Detected default function visibility 
+position 1023,1076
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/savings/Poker.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/savings/SavingsContract.sol
+Detected default function visibility 
+position 3310,3655
+
+
+Detected possible reentrancy 
+position 17986,19607
+
+Detected block.timestamp used 
+position 24381,24395
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/savings/SavingsManager.sol
+Detected default function visibility 
+position 3061,3917
+
+
+Detected block.timestamp used 
+position 8409,8423
+
+Detected block.timestamp used 
+position 10701,10715
+
+Detected block.timestamp used 
+position 12225,12239
+
+Detected block.timestamp used 
+position 12604,12618
+
+Detected block.timestamp used 
+position 12702,12716
+
+Detected block.timestamp used 
+position 12969,12983
+
+Detected block.timestamp used 
+position 15900,15914
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/shared/@openzeppelin/InstantProxyAdmin.sol
+Detected floating pragma 
+position 33,55
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/shared/@openzeppelin-2.5/Context.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/shared/@openzeppelin-2.5/ERC205.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/shared/@openzeppelin-2.5/Initializable.sol
+Detected inline assembly 
+position 1401,1456
+
+
+Detected Operator typo 
+position 477,523
+This might be false positive. Please Recheck. LeftOp = ||
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/shared/GovernedMinterRole.sol
+Detected default function visibility 
+position 1016,1141
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/shared/IBasicToken.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/shared/IERC20WithCheckpointing.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/shared/ImmutableModule.sol
+Detected default function visibility 
+position 596,726
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/shared/InitializableERC20Detailed.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/shared/InitializableReentrancyGuard.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/shared/InitializableToken.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/shared/MassetHelpers.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/shared/MetaToken.sol
+Detected default function visibility 
+position 428,644
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/shared/ModuleKeys.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/shared/ModuleKeysStorage.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/shared/PausableModule.sol
+Detected default function visibility 
+position 1190,1273
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/shared/Root.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/shared/SafeCastExtended.sol
+Detected floating pragma 
+position 33,55
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/shared/StableMath.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/shared/YieldValidator.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/upgradability/DelayedProxyAdmin.sol
+Detected default function visibility 
+position 1631,1684
+
+
+Detected block.timestamp used 
+position 2586,2600
+
+Detected block.timestamp used 
+position 4603,4617
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/upgradability/Proxies.sol
+Detected default function visibility 
+position 769,923
+
+Detected default function visibility 
+position 1397,1551
+
+Detected default function visibility 
+position 1993,2147
+
+Detected default function visibility 
+position 2609,2763
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/buy-and-make/CRP.sol
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/buy-and-make/CRPFactory.sol
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/buy-and-make/MockBPool.sol
+Detected default function visibility 
+position 434,799
+
+Detected default variable visibility 
+position 349,375
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/buy-and-make/RecipientV1.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/emissions/MockDisperse.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/emissions/MockVotiumBribe.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/feeder/ExposedFeederLogic.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/feeder/ExposedFeederPool.sol
+Detected default function visibility 
+position 218,304
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/feeder/ExposedNonPeggedFeederPool.sol
+Detected default function visibility 
+position 254,423
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/feeder/RedemptionPriceSnapMock.sol
+Detected default function visibility 
+position 163,357
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/governance/MockBPT.sol
+Detected default function visibility 
+position 273,429
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/governance/MockBVault.sol
+Detected floating pragma 
+position 32,54
+Char =  ^ 
+
+Detected possible reentrancy 
+position 1328,2217
+
+Detected possible reentrancy 
+position 1825,1896
+
+Detected possible reentrancy 
+position 2043,2114
+
+Detected blockhash used
+position 738,746
+
+Detected blockhash used
+position 810,818
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/governance/MockEmissionController.sol
+Detected default function visibility 
+position 1103,1239
+
+Detected default variable visibility 
+position 848,857
+
+
+Detected Operator typo 
+position 1417,1468
+This might be false positive. Please Recheck. LeftOp = ||
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/governance/MockStakedTokenWithPrice.sol
+Detected default function visibility 
+position 521,932
+
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/governance/stakedTokenWrapper.sol
+Detected default function visibility 
+position 504,722
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/masset/ExposedMasset.sol
+Detected default function visibility 
+position 237,311
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/masset/ExposedMassetLogic.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/masset/MaliciousAaveIntegration.sol
+Detected default function visibility 
+position 1665,2125
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/masset/migrate2/IBasketManager.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/masset/migrate2/IMassetV1.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/masset/migrate2/InitializableModuleV1.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/masset/migrate2/MassetStructsV1.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/masset/migrate2/MusdV2Rebalance.sol
+Detected default variable visibility 
+position 1159,1240
+
+Detected default variable visibility 
+position 1246,1325
+
+Detected default variable visibility 
+position 1331,1410
+
+Detected default variable visibility 
+position 1416,1498
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/masset/migrate2/MusdV2RebalanceSusd.sol
+Detected default variable visibility 
+position 838,919
+
+Detected default variable visibility 
+position 925,998
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/masset/MockAave.sol
+Detected default function visibility 
+position 480,652
+
+Detected default variable visibility 
+position 957,1000
+
+Detected default variable visibility 
+position 1006,1034
+
+Detected default variable visibility 
+position 1040,1085
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/masset/MockCompound.sol
+Detected default function visibility 
+position 771,1149
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/masset/MockMasset.sol
+Detected default function visibility 
+position 296,535
+
+Detected default function visibility 
+position 2783,3022
+
+Detected default variable visibility 
+position 628,649
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/masset/MockPlatformIntegration.sol
+Detected default function visibility 
+position 1664,2124
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/masset/MockPlatformIntegrationWithToken.sol
+Detected default function visibility 
+position 404,621
+
+Detected default variable visibility 
+position 378,397
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/masset/MockRewardToken.sol
+Detected default function visibility 
+position 480,533
+
+Detected default variable visibility 
+position 421,440
+
+Detected default variable visibility 
+position 446,473
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/masset/ValidatorWithTVLCap.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/nexus/MockNexus.sol
+Detected default function visibility 
+position 278,583
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/rewards/MockRewardsDistributionRecipient.sol
+Detected default function visibility 
+position 525,663
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/rewards/MockRootChainManager.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/savings/connectors/MockConnector.sol
+Detected default function visibility 
+position 326,418
+
+Detected default variable visibility 
+position 266,278
+
+Detected default variable visibility 
+position 284,296
+
+Detected default variable visibility 
+position 302,319
+
+
+Detected possible reentrancy 
+position 764,846
+
+Detected possible reentrancy 
+position 903,980
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/savings/connectors/MockErroneousConnector1.sol
+Detected default function visibility 
+position 461,553
+
+Detected default variable visibility 
+position 329,341
+
+Detected default variable visibility 
+position 347,359
+
+Detected default variable visibility 
+position 366,383
+
+Detected default variable visibility 
+position 389,408
+
+Detected default variable visibility 
+position 414,454
+
+
+Detected possible reentrancy 
+position 1459,1545
+
+Detected block.timestamp used 
+position 724,738
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/savings/connectors/MockErroneousConnector2.sol
+Detected default function visibility 
+position 516,608
+
+Detected default variable visibility 
+position 384,396
+
+Detected default variable visibility 
+position 402,414
+
+Detected default variable visibility 
+position 421,438
+
+Detected default variable visibility 
+position 444,463
+
+Detected default variable visibility 
+position 469,509
+
+
+Detected possible reentrancy 
+position 1018,1124
+
+Detected possible reentrancy 
+position 1181,1267
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/savings/connectors/MockLendingConnector.sol
+Detected default function visibility 
+position 405,497
+
+Detected default variable visibility 
+position 273,285
+
+Detected default variable visibility 
+position 291,303
+
+Detected default variable visibility 
+position 310,327
+
+Detected default variable visibility 
+position 333,352
+
+Detected default variable visibility 
+position 358,398
+
+
+Detected possible reentrancy 
+position 1297,1379
+
+Detected possible reentrancy 
+position 1449,1535
+
+Detected block.timestamp used 
+position 668,682
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/savings/connectors/MockVaultConnector.sol
+Detected default function visibility 
+position 528,620
+
+Detected default variable visibility 
+position 378,390
+
+Detected default variable visibility 
+position 396,408
+
+Detected default variable visibility 
+position 415,431
+
+Detected default variable visibility 
+position 437,450
+
+Detected default variable visibility 
+position 456,475
+
+Detected default variable visibility 
+position 481,521
+
+
+Detected possible reentrancy 
+position 2137,2318
+
+Detected possible reentrancy 
+position 2388,2485
+
+Detected block.timestamp used 
+position 1288,1302
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/savings/MockBoostedSavingsVault.sol
+Detected default function visibility 
+position 308,406
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/savings/MockRevenueRecipient.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/savings/MockSavingsContract.sol
+Detected default function visibility 
+position 749,1153
+
+Detected default variable visibility 
+position 437,446
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/savings/MockSavingsManager.sol
+Detected default function visibility 
+position 471,526
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/savings/MockStakingContract.sol
+Detected default variable visibility 
+position 330,353
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/shared/DeadToken.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/shared/IMStableVoterProxy.sol
+Detected floating pragma 
+position 32,54
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/shared/MockAaveIncentivesController.sol
+Detected default function visibility 
+position 358,437
+
+Detected fixed gas vulnability 
+position 604,688
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/shared/MockERC20.sol
+Detected default function visibility 
+position 177,473
+
+Detected default variable visibility 
+position 161,170
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/shared/MockERC20WithFee.sol
+Detected default function visibility 
+position 10059,10393
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/shared/MockGovernable.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/shared/MockInitializableToken.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/shared/MockInitializableTokenWithFee.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/shared/MockRoot.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/shared/MockStakedAave.sol
+Detected default function visibility 
+position 716,945
+
+
+Detected block.timestamp used 
+position 1145,1159
+
+Detected block.timestamp used 
+position 1344,1358
+
+Detected block.timestamp used 
+position 1487,1501
+
+Detected block.timestamp used 
+position 1952,1966
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/shared/MockTrigger.sol
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/shared/MockUniswap.sol
+Detected default variable visibility 
+position 420,439
+
+
+Detected possible reentrancy 
+position 816,1216
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/shared/MockUniswapV3.sol
+Detected default variable visibility 
+position 628,655
+
+
+ ============================================ 
+
+./Salt_AuditCase/mStable/contracts/z_mocks/shared/PublicStableMath.sol

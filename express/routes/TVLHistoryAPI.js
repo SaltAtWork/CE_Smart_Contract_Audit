@@ -22,6 +22,7 @@ router.get('/up/:name/:period', async(req, res) => {
     console.log("Requesting the data");
     const data = await pulse.getHistory(req.params.name, req.params.period);
     console.log("Got the data");
+    console.log(data);
     for (var i = 0; i < data.length; i++) {
         try {
             var historyDB = await TVLHistory.find({ name: req.params.name, timestamp: data[i].timestamp });

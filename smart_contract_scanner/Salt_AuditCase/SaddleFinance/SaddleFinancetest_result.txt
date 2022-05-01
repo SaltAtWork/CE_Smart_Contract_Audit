@@ -1,0 +1,584 @@
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/AmplificationUtils.sol
+
+Detected block.timestamp used 
+position 2016,2030
+
+Detected block.timestamp used 
+position 2381,2395
+
+Detected block.timestamp used 
+position 2627,2641
+
+Detected block.timestamp used 
+position 3304,3318
+
+Detected block.timestamp used 
+position 3455,3469
+
+Detected block.timestamp used 
+position 4250,4264
+
+Detected block.timestamp used 
+position 4397,4411
+
+Detected block.timestamp used 
+position 4738,4752
+
+Detected block.timestamp used 
+position 4926,4940
+
+Detected block.timestamp used 
+position 4970,4984
+
+Detected block.timestamp used 
+position 5021,5035
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/AmplificationUtilsV1.sol
+
+Detected block.timestamp used 
+position 2054,2068
+
+Detected block.timestamp used 
+position 2419,2433
+
+Detected block.timestamp used 
+position 2665,2679
+
+Detected block.timestamp used 
+position 3344,3358
+
+Detected block.timestamp used 
+position 3495,3509
+
+Detected block.timestamp used 
+position 4290,4304
+
+Detected block.timestamp used 
+position 4437,4451
+
+Detected block.timestamp used 
+position 4780,4794
+
+Detected block.timestamp used 
+position 4968,4982
+
+Detected block.timestamp used 
+position 5012,5026
+
+Detected block.timestamp used 
+position 5063,5077
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/GeneralizedSwapMigrator.sol
+
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/guarded/Allowlist.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/guarded/LPTokenGuarded.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/guarded/OwnerPausable.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/guarded/SwapGuarded.sol
+
+Detected block.timestamp used 
+position 8199,8213
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/guarded/SwapUtilsGuarded.sol
+
+Detected block.timestamp used 
+position 6711,6725
+
+Detected block.timestamp used 
+position 7076,7090
+
+Detected block.timestamp used 
+position 7322,7336
+
+Detected block.timestamp used 
+position 24292,24306
+
+Detected block.timestamp used 
+position 24358,24372
+
+Detected block.timestamp used 
+position 35650,35664
+
+Detected block.timestamp used 
+position 44132,44146
+
+Detected block.timestamp used 
+position 44283,44297
+
+Detected block.timestamp used 
+position 45078,45092
+
+Detected block.timestamp used 
+position 45225,45239
+
+Detected block.timestamp used 
+position 45556,45570
+
+Detected block.timestamp used 
+position 45744,45758
+
+Detected block.timestamp used 
+position 45788,45802
+
+Detected block.timestamp used 
+position 45839,45853
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/helper/BaseBoringBatchable.sol
+Detected inline assembly 
+position 914,1017
+
+
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/helper/Cloner.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/helper/FlashLoanBorrowerExample.sol
+
+Detected block.timestamp used 
+position 1316,1330
+
+Detected now used 
+position 1471,1473
+
+Detected now used 
+position 1655,1657
+
+Detected now used 
+position 1846,1848
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/helper/GenericERC20.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/helper/GenericERC20WithGovernance.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/helper/Multicall.sol
+Detected floating pragma 
+position 33,56
+Char =  > 
+
+
+Detected blockhash used
+position 1156,1164
+
+Detected blockhash used
+position 1281,1289
+
+Detected block.timestamp used 
+position 1447,1461
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/helper/Multicall2.sol
+Detected floating pragma 
+position 33,56
+Char =  > 
+
+
+Detected blockhash used
+position 1451,1459
+
+Detected block.timestamp used 
+position 2131,2145
+
+Detected blockhash used
+position 2369,2377
+
+Detected blockhash used
+position 3231,3239
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/helper/Multicall3.sol
+Detected inline assembly 
+position 4870,6166
+
+Detected inline assembly 
+position 7319,8615
+
+
+Detected blockhash used
+position 3390,3398
+
+Detected blockhash used
+position 9085,9093
+
+Detected block.timestamp used 
+position 9982,9996
+
+Detected blockhash used
+position 10362,10370
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/helper/test/TestMathUtils.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/helper/test/TestSwapReturnValues.sol
+
+Detected block.timestamp used 
+position 1104,1118
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/interfaces/IAllowlist.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/interfaces/IFlashLoanReceiver.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/interfaces/IMasterChef.sol
+
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/interfaces/IMasterRegistry.sol
+Detected floating pragma 
+position 33,55
+Char =  ^ 
+
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/interfaces/IMetaSwap.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/interfaces/IMetaSwapDeposit.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/interfaces/IPoolRegistry.sol
+Detected floating pragma 
+position 33,55
+Char =  ^ 
+
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/interfaces/IRewarder.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/interfaces/ISwap.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/interfaces/ISwapFlashLoan.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/interfaces/ISwapGuarded.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/interfaces/ISwapV1.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/libraries/SignedSafeMath.sol
+
+Detected Operator typo 
+position 748,754
+This might be false positive. Please Recheck. LeftOp = ==
+
+Detected Operator typo 
+position 1584,1590
+This might be false positive. Please Recheck. LeftOp = ==
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/libraries/SwapCalculator.sol
+Detected inline assembly 
+position 8725,8828
+
+
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/LPToken.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/LPTokenV1.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/MathUtils.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/meta/MetaSwap.sol
+Detected default variable visibility 
+position 1746,1787
+
+
+Detected block.timestamp used 
+position 9220,9234
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/meta/MetaSwapDeposit.sol
+Detected default variable visibility 
+position 1438,1479
+
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/meta/MetaSwapUtils.sol
+
+Detected block.timestamp used 
+position 4725,4739
+
+Detected block.timestamp used 
+position 28511,28525
+
+Detected block.timestamp used 
+position 30887,30901
+
+Detected block.timestamp used 
+position 31504,31518
+
+Detected block.timestamp used 
+position 42478,42492
+
+Detected block.timestamp used 
+position 42857,42871
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/OwnerPausableUpgradeable.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/permissionless/FlashLoanEnabled.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/permissionless/PermissionlessDeployer.sol
+
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/permissionless/PermissionlessMetaSwap.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/permissionless/PermissionlessMetaSwapFlashLoan.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/permissionless/PermissionlessSwap.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/permissionless/PermissionlessSwapFlashLoan.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/permissionless/PermissionlessSwapUtils.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/permissionless/ShareProtocolFee.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/registries/MasterRegistry.sol
+
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/registries/PoolRegistry.sol
+Detected inline assembly 
+position 7325,7418
+
+Detected inline assembly 
+position 9290,9493
+
+Detected inline assembly 
+position 9817,9914
+
+
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/RetroactiveVesting.sol
+
+Detected block.timestamp used 
+position 5337,5351
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/rewards/MiniChefV2.sol
+
+
+Detected block.timestamp used 
+position 4321,4335
+
+Detected block.timestamp used 
+position 6433,6447
+
+Detected block.timestamp used 
+position 6518,6532
+
+Detected block.timestamp used 
+position 7642,7656
+
+Detected block.timestamp used 
+position 7816,7830
+
+Detected block.timestamp used 
+position 8217,8231
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/rewards/SimpleRewarder.sol
+
+
+Detected block.timestamp used 
+position 5930,5944
+
+Detected block.timestamp used 
+position 6015,6029
+
+Detected block.timestamp used 
+position 7608,7622
+
+Detected block.timestamp used 
+position 7828,7842
+
+Detected block.timestamp used 
+position 8139,8153
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/SDL.sol
+
+Detected block.timestamp used 
+position 2599,2613
+
+Detected block.timestamp used 
+position 2663,2677
+
+Detected block.timestamp used 
+position 4903,4917
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/SimpleGovernance.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/StakeableTokenWrapper.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/Swap.sol
+
+Detected block.timestamp used 
+position 7412,7426
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/SwapDeployer.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/SwapDeployerV1.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/SwapFlashLoan.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/SwapFlashLoanV1.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/SwapMigrator.sol
+
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/SwapUtils.sol
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/SwapUtilsV1.sol
+
+Detected block.timestamp used 
+position 22478,22492
+
+Detected block.timestamp used 
+position 22544,22558
+
+Detected block.timestamp used 
+position 33705,33719
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/SwapV1.sol
+
+Detected block.timestamp used 
+position 7719,7733
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/Vesting.sol
+
+Detected block.timestamp used 
+position 2989,3003
+
+Detected block.timestamp used 
+position 4155,4169
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/VirtualSwap/Bridge.sol
+
+Detected block.timestamp used 
+position 19606,19620
+
+Detected block.timestamp used 
+position 28293,28307
+
+ ============================================ 
+
+./Salt_AuditCase/SaddleFinance/contracts/VirtualSwap/SynthSwapper.sol
+Detected default variable visibility 
+position 638,659
+

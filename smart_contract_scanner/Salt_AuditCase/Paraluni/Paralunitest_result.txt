@@ -1,0 +1,77 @@
+
+ ============================================ 
+
+./Salt_AuditCase/Paraluni/MasterChef.sol
+Detected inline assembly 
+position 1138,1917
+
+Detected inline assembly 
+position 29427,29467
+
+Detected inline assembly 
+position 36080,36236
+
+Detected inline assembly 
+position 79887,79919
+
+Detected default variable visibility 
+position 63027,63050
+
+Detected default variable visibility 
+position 63490,63530
+
+Detected default variable visibility 
+position 63589,63621
+
+Detected floating pragma 
+position 134,164
+Char =  <  > 
+
+
+ ^ 
+ > 
+ > 
+ > 
+ > 
+ > 
+ <  > 
+ <  > 
+ > 
+ <  > 
+ <  > 
+ <  > 
+ <  > 
+
+
+
+
+Detected Operator typo 
+position 75171,75198
+This might be false positive. Please Recheck. LeftOp = ==
+
+Detected possible reentrancy 
+position 93014,93483
+
+Detected now used 
+position 75257,75259
+
+Detected block.timestamp used 
+position 94491,94505
+
+Detected block.timestamp used 
+position 96873,96887
+
+Detected block.timestamp used 
+position 104538,104552
+
+Detected block.timestamp used 
+position 104687,104701
+
+Detected block.timestamp used 
+position 105568,105582
+
+Detected block.timestamp used 
+position 106662,106676
+
+Detected block.timestamp used 
+position 106782,106796

@@ -1,0 +1,336 @@
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/CErc20Harness.sol
+Detected default variable visibility 
+position 291,316
+
+Detected default variable visibility 
+position 322,346
+
+Detected default variable visibility 
+position 352,382
+
+Detected default variable visibility 
+position 8123,8148
+
+Detected default variable visibility 
+position 8154,8178
+
+Detected default variable visibility 
+position 8184,8214
+
+Detected default variable visibility 
+position 13680,13705
+
+Detected default variable visibility 
+position 13711,13735
+
+Detected default variable visibility 
+position 13741,13771
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/CEtherHarness.sol
+Detected default variable visibility 
+position 139,163
+
+Detected default variable visibility 
+position 5440,5458
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/CompHarness.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/ComptrollerHarness.sol
+Detected default variable visibility 
+position 492,511
+
+Detected default variable visibility 
+position 6568,6589
+
+Detected default variable visibility 
+position 6595,6618
+
+Detected default variable visibility 
+position 6624,6647
+
+Detected default variable visibility 
+position 6653,6681
+
+Detected default variable visibility 
+position 6687,6719
+
+Detected default variable visibility 
+position 6725,6747
+
+Detected default variable visibility 
+position 6753,6778
+
+Detected default variable visibility 
+position 6785,6807
+
+Detected default variable visibility 
+position 6813,6837
+
+Detected default variable visibility 
+position 6843,6867
+
+Detected default variable visibility 
+position 6873,6902
+
+Detected default variable visibility 
+position 6908,6941
+
+Detected default variable visibility 
+position 6947,6970
+
+Detected default variable visibility 
+position 6976,7002
+
+Detected default variable visibility 
+position 7009,7038
+
+Detected default variable visibility 
+position 7044,7070
+
+Detected default variable visibility 
+position 7077,7093
+
+Detected default variable visibility 
+position 7099,7130
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/ComptrollerScenario.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/ComptrollerScenarioG1.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/ComptrollerScenarioG2.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/ComptrollerScenarioG3.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/ComptrollerScenarioG4.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/ComptrollerScenarioG5.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/ComptrollerScenarioG6.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/Const.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected now used 
+position 299,301
+
+Detected now used 
+position 491,493
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/Counter.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/ERC20.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/EvilToken.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/FalseMarker.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/Fauceteer.sol
+Detected inline assembly 
+position 771,1382
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+Detected possible reentrancy 
+position 569,1443
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/FaucetToken.sol
+Detected inline assembly 
+position 2640,2785
+
+Detected default variable visibility 
+position 1697,1717
+
+Detected default variable visibility 
+position 1723,1783
+
+Detected default variable visibility 
+position 1789,1828
+
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/FeeToken.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/FixedPriceOracle.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/GovernorAlphaHarness.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/GovernorBravoHarness.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/GovernorBravoImmutable.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/InterestRateModelHarness.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/MathHelpers.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/MockMCD.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/PriceOracleProxy.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/Structs.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/TetherInterface.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/TimelockHarness.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Compound/Contracts/WBTC.sol
+Detected floating pragma 
+position 67,90
+Char =  ^ 

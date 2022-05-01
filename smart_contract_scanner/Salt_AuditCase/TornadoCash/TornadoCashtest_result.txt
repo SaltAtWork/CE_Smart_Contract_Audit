@@ -1,0 +1,78 @@
+
+ ============================================ 
+
+./Salt_AuditCase/TornadoCash/contracts/cTornado.sol
+Detected default function visibility 
+position 1062,1388
+
+Detected floating pragma 
+position 795,817
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/TornadoCash/contracts/ERC20Tornado.sol
+Detected default function visibility 
+position 1053,1277
+
+Detected floating pragma 
+position 795,817
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/TornadoCash/contracts/ETHTornado.sol
+Detected default function visibility 
+position 880,1062
+
+Detected floating pragma 
+position 795,817
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/TornadoCash/contracts/MerkleTreeWithHistory.sol
+Detected default function visibility 
+position 1819,2160
+
+Detected floating pragma 
+position 795,817
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/TornadoCash/contracts/Tornado.sol
+Detected default function visibility 
+position 1829,2135
+
+Detected floating pragma 
+position 795,817
+Char =  ^ 
+
+Detected block.timestamp used 
+position 2687,2701
+
+ ============================================ 
+
+./Salt_AuditCase/TornadoCash/contracts/Verifier.sol
+Detected inline assembly 
+position 3049,3226
+
+Detected inline assembly 
+position 3713,3890
+
+Detected inline assembly 
+position 4951,5157
+
+Detected default variable visibility 
+position 2071,2175
+
+Detected default variable visibility 
+position 5261,5376
+
+Detected default variable visibility 
+position 5380,5484
+
+Detected floating pragma 
+position 2026,2048
+Char =  ^ 
