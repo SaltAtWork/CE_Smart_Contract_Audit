@@ -39,6 +39,12 @@ function allPattern(projectPath) {
         console.log(files[i])
         content = fs.readFileSync(files[i]);
         sourceCode = content.toString();
+        try {
+            ast = parser.parse(sourceCode, { range: true });
+        } catch (err) {
+            console.log('ast failed ' + files[i] + '\n');
+            continue;
+        }
         ast = parser.parse(sourceCode, { range: true });
         console.log('ast success ' + files[i] + '\n');
 

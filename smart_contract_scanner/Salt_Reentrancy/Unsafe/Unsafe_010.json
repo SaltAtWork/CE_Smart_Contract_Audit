@@ -4,11 +4,7 @@
         {
             "type": "PragmaDirective",
             "name": "solidity",
-            "value": ">=0.4.26",
-            "range": [
-                293,
-                317
-            ]
+            "value": ">=0.4.26"
         },
         {
             "type": "ContractDefinition",
@@ -23,20 +19,12 @@
                             "typeName": {
                                 "type": "ElementaryTypeName",
                                 "name": "address",
-                                "stateMutability": null,
-                                "range": [
-                                    357,
-                                    363
-                                ]
+                                "stateMutability": null
                             },
                             "name": "owner",
                             "identifier": {
                                 "type": "Identifier",
-                                "name": "owner",
-                                "range": [
-                                    373,
-                                    377
-                                ]
+                                "name": "owner"
                             },
                             "expression": null,
                             "visibility": "private",
@@ -45,18 +33,10 @@
                             "isIndexed": false,
                             "isImmutable": false,
                             "override": null,
-                            "storageLocation": null,
-                            "range": [
-                                357,
-                                378
-                            ]
+                            "storageLocation": null
                         }
                     ],
-                    "initialValue": null,
-                    "range": [
-                        357,
-                        378
-                    ]
+                    "initialValue": null
                 },
                 {
                     "type": "StateVariableDeclaration",
@@ -68,34 +48,18 @@
                                 "keyType": {
                                     "type": "ElementaryTypeName",
                                     "name": "address",
-                                    "stateMutability": null,
-                                    "range": [
-                                        393,
-                                        399
-                                    ]
+                                    "stateMutability": null
                                 },
                                 "valueType": {
                                     "type": "ElementaryTypeName",
                                     "name": "uint",
-                                    "stateMutability": null,
-                                    "range": [
-                                        404,
-                                        407
-                                    ]
-                                },
-                                "range": [
-                                    385,
-                                    408
-                                ]
+                                    "stateMutability": null
+                                }
                             },
                             "name": "customerBalance",
                             "identifier": {
                                 "type": "Identifier",
-                                "name": "customerBalance",
-                                "range": [
-                                    418,
-                                    432
-                                ]
+                                "name": "customerBalance"
                             },
                             "expression": null,
                             "visibility": "private",
@@ -104,18 +68,10 @@
                             "isIndexed": false,
                             "isImmutable": false,
                             "override": null,
-                            "storageLocation": null,
-                            "range": [
-                                385,
-                                433
-                            ]
+                            "storageLocation": null
                         }
                     ],
-                    "initialValue": null,
-                    "range": [
-                        385,
-                        433
-                    ]
+                    "initialValue": null
                 },
                 {
                     "type": "FunctionDefinition",
@@ -132,37 +88,17 @@
                                     "operator": "=",
                                     "left": {
                                         "type": "Identifier",
-                                        "name": "owner",
-                                        "range": [
-                                            482,
-                                            486
-                                        ]
+                                        "name": "owner"
                                     },
                                     "right": {
                                         "type": "MemberAccess",
                                         "expression": {
                                             "type": "Identifier",
-                                            "name": "msg",
-                                            "range": [
-                                                490,
-                                                492
-                                            ]
+                                            "name": "msg"
                                         },
-                                        "memberName": "sender",
-                                        "range": [
-                                            490,
-                                            499
-                                        ]
-                                    },
-                                    "range": [
-                                        482,
-                                        499
-                                    ]
-                                },
-                                "range": [
-                                    482,
-                                    500
-                                ]
+                                        "memberName": "sender"
+                                    }
+                                }
                             },
                             {
                                 "type": "ExpressionStatement",
@@ -173,63 +109,27 @@
                                         "type": "IndexAccess",
                                         "base": {
                                             "type": "Identifier",
-                                            "name": "customerBalance",
-                                            "range": [
-                                                511,
-                                                525
-                                            ]
+                                            "name": "customerBalance"
                                         },
                                         "index": {
                                             "type": "MemberAccess",
                                             "expression": {
                                                 "type": "Identifier",
-                                                "name": "msg",
-                                                "range": [
-                                                    527,
-                                                    529
-                                                ]
+                                                "name": "msg"
                                             },
-                                            "memberName": "sender",
-                                            "range": [
-                                                527,
-                                                536
-                                            ]
-                                        },
-                                        "range": [
-                                            511,
-                                            537
-                                        ]
+                                            "memberName": "sender"
+                                        }
                                     },
                                     "right": {
                                         "type": "MemberAccess",
                                         "expression": {
                                             "type": "Identifier",
-                                            "name": "msg",
-                                            "range": [
-                                                542,
-                                                544
-                                            ]
+                                            "name": "msg"
                                         },
-                                        "memberName": "value",
-                                        "range": [
-                                            542,
-                                            550
-                                        ]
-                                    },
-                                    "range": [
-                                        511,
-                                        550
-                                    ]
-                                },
-                                "range": [
-                                    511,
-                                    551
-                                ]
+                                        "memberName": "value"
+                                    }
+                                }
                             }
-                        ],
-                        "range": [
-                            471,
-                            558
                         ]
                     },
                     "visibility": "public",
@@ -239,11 +139,7 @@
                     "isReceiveEther": false,
                     "isFallback": false,
                     "isVirtual": false,
-                    "stateMutability": "payable",
-                    "range": [
-                        442,
-                        558
-                    ]
+                    "stateMutability": "payable"
                 },
                 {
                     "type": "FunctionDefinition",
@@ -255,22 +151,14 @@
                             "typeName": {
                                 "type": "ElementaryTypeName",
                                 "name": "bool",
-                                "stateMutability": null,
-                                "range": [
-                                    616,
-                                    619
-                                ]
+                                "stateMutability": null
                             },
                             "name": null,
                             "identifier": null,
                             "storageLocation": null,
                             "isStateVar": false,
                             "isIndexed": false,
-                            "expression": null,
-                            "range": [
-                                616,
-                                619
-                            ]
+                            "expression": null
                         }
                     ],
                     "body": {
@@ -282,11 +170,7 @@
                                     "type": "FunctionCall",
                                     "expression": {
                                         "type": "Identifier",
-                                        "name": "require",
-                                        "range": [
-                                            632,
-                                            638
-                                        ]
+                                        "name": "require"
                                     },
                                     "arguments": [
                                         {
@@ -296,31 +180,15 @@
                                                 "type": "MemberAccess",
                                                 "expression": {
                                                     "type": "Identifier",
-                                                    "name": "msg",
-                                                    "range": [
-                                                        640,
-                                                        642
-                                                    ]
+                                                    "name": "msg"
                                                 },
-                                                "memberName": "value",
-                                                "range": [
-                                                    640,
-                                                    648
-                                                ]
+                                                "memberName": "value"
                                             },
                                             "right": {
                                                 "type": "NumberLiteral",
                                                 "number": "0",
-                                                "subdenomination": null,
-                                                "range": [
-                                                    652,
-                                                    652
-                                                ]
-                                            },
-                                            "range": [
-                                                640,
-                                                652
-                                            ]
+                                                "subdenomination": null
+                                            }
                                         },
                                         {
                                             "type": "StringLiteral",
@@ -330,24 +198,12 @@
                                             ],
                                             "isUnicode": [
                                                 false
-                                            ],
-                                            "range": [
-                                                655,
-                                                684
                                             ]
                                         }
                                     ],
                                     "names": [],
-                                    "identifiers": [],
-                                    "range": [
-                                        632,
-                                        685
-                                    ]
-                                },
-                                "range": [
-                                    632,
-                                    686
-                                ]
+                                    "identifiers": []
+                                }
                             },
                             {
                                 "type": "ExpressionStatement",
@@ -358,78 +214,34 @@
                                         "type": "IndexAccess",
                                         "base": {
                                             "type": "Identifier",
-                                            "name": "customerBalance",
-                                            "range": [
-                                                697,
-                                                711
-                                            ]
+                                            "name": "customerBalance"
                                         },
                                         "index": {
                                             "type": "MemberAccess",
                                             "expression": {
                                                 "type": "Identifier",
-                                                "name": "msg",
-                                                "range": [
-                                                    713,
-                                                    715
-                                                ]
+                                                "name": "msg"
                                             },
-                                            "memberName": "sender",
-                                            "range": [
-                                                713,
-                                                722
-                                            ]
-                                        },
-                                        "range": [
-                                            697,
-                                            723
-                                        ]
+                                            "memberName": "sender"
+                                        }
                                     },
                                     "right": {
                                         "type": "MemberAccess",
                                         "expression": {
                                             "type": "Identifier",
-                                            "name": "msg",
-                                            "range": [
-                                                728,
-                                                730
-                                            ]
+                                            "name": "msg"
                                         },
-                                        "memberName": "value",
-                                        "range": [
-                                            728,
-                                            736
-                                        ]
-                                    },
-                                    "range": [
-                                        697,
-                                        736
-                                    ]
-                                },
-                                "range": [
-                                    697,
-                                    737
-                                ]
+                                        "memberName": "value"
+                                    }
+                                }
                             },
                             {
                                 "type": "ReturnStatement",
                                 "expression": {
                                     "type": "BooleanLiteral",
-                                    "value": true,
-                                    "range": [
-                                        755,
-                                        758
-                                    ]
-                                },
-                                "range": [
-                                    748,
-                                    759
-                                ]
+                                    "value": true
+                                }
                             }
-                        ],
-                        "range": [
-                            621,
-                            766
                         ]
                     },
                     "visibility": "external",
@@ -439,11 +251,7 @@
                     "isReceiveEther": false,
                     "isFallback": false,
                     "isVirtual": false,
-                    "stateMutability": "payable",
-                    "range": [
-                        567,
-                        766
-                    ]
+                    "stateMutability": "payable"
                 },
                 {
                     "type": "FunctionDefinition",
@@ -454,29 +262,17 @@
                             "typeName": {
                                 "type": "ElementaryTypeName",
                                 "name": "uint",
-                                "stateMutability": null,
-                                "range": [
-                                    798,
-                                    801
-                                ]
+                                "stateMutability": null
                             },
                             "name": "_value",
                             "identifier": {
                                 "type": "Identifier",
-                                "name": "_value",
-                                "range": [
-                                    803,
-                                    808
-                                ]
+                                "name": "_value"
                             },
                             "storageLocation": null,
                             "isStateVar": false,
                             "isIndexed": false,
-                            "expression": null,
-                            "range": [
-                                798,
-                                808
-                            ]
+                            "expression": null
                         }
                     ],
                     "returnParameters": null,
@@ -489,11 +285,7 @@
                                     "type": "FunctionCall",
                                     "expression": {
                                         "type": "Identifier",
-                                        "name": "require",
-                                        "range": [
-                                            836,
-                                            842
-                                        ]
+                                        "name": "require"
                                     },
                                     "arguments": [
                                         {
@@ -501,47 +293,23 @@
                                             "operator": "<=",
                                             "left": {
                                                 "type": "Identifier",
-                                                "name": "_value",
-                                                "range": [
-                                                    844,
-                                                    849
-                                                ]
+                                                "name": "_value"
                                             },
                                             "right": {
                                                 "type": "IndexAccess",
                                                 "base": {
                                                     "type": "Identifier",
-                                                    "name": "customerBalance",
-                                                    "range": [
-                                                        854,
-                                                        868
-                                                    ]
+                                                    "name": "customerBalance"
                                                 },
                                                 "index": {
                                                     "type": "MemberAccess",
                                                     "expression": {
                                                         "type": "Identifier",
-                                                        "name": "msg",
-                                                        "range": [
-                                                            870,
-                                                            872
-                                                        ]
+                                                        "name": "msg"
                                                     },
-                                                    "memberName": "sender",
-                                                    "range": [
-                                                        870,
-                                                        879
-                                                    ]
-                                                },
-                                                "range": [
-                                                    854,
-                                                    880
-                                                ]
-                                            },
-                                            "range": [
-                                                844,
-                                                880
-                                            ]
+                                                    "memberName": "sender"
+                                                }
+                                            }
                                         },
                                         {
                                             "type": "StringLiteral",
@@ -551,24 +319,12 @@
                                             ],
                                             "isUnicode": [
                                                 false
-                                            ],
-                                            "range": [
-                                                883,
-                                                906
                                             ]
                                         }
                                     ],
                                     "names": [],
-                                    "identifiers": [],
-                                    "range": [
-                                        836,
-                                        907
-                                    ]
-                                },
-                                "range": [
-                                    836,
-                                    908
-                                ]
+                                    "identifiers": []
+                                }
                             },
                             {
                                 "type": "ExpressionStatement",
@@ -584,59 +340,27 @@
                                                     "type": "MemberAccess",
                                                     "expression": {
                                                         "type": "Identifier",
-                                                        "name": "msg",
-                                                        "range": [
-                                                            919,
-                                                            921
-                                                        ]
+                                                        "name": "msg"
                                                     },
-                                                    "memberName": "sender",
-                                                    "range": [
-                                                        919,
-                                                        928
-                                                    ]
+                                                    "memberName": "sender"
                                                 },
-                                                "memberName": "call",
-                                                "range": [
-                                                    919,
-                                                    933
-                                                ]
+                                                "memberName": "call"
                                             },
-                                            "memberName": "value",
-                                            "range": [
-                                                919,
-                                                939
-                                            ]
+                                            "memberName": "value"
                                         },
                                         "arguments": [
                                             {
                                                 "type": "Identifier",
-                                                "name": "_value",
-                                                "range": [
-                                                    941,
-                                                    946
-                                                ]
+                                                "name": "_value"
                                             }
                                         ],
                                         "names": [],
-                                        "identifiers": [],
-                                        "range": [
-                                            919,
-                                            947
-                                        ]
+                                        "identifiers": []
                                     },
                                     "arguments": [],
                                     "names": [],
-                                    "identifiers": [],
-                                    "range": [
-                                        919,
-                                        949
-                                    ]
-                                },
-                                "range": [
-                                    919,
-                                    950
-                                ]
+                                    "identifiers": []
+                                }
                             },
                             {
                                 "type": "ExpressionStatement",
@@ -647,55 +371,23 @@
                                         "type": "IndexAccess",
                                         "base": {
                                             "type": "Identifier",
-                                            "name": "customerBalance",
-                                            "range": [
-                                                961,
-                                                975
-                                            ]
+                                            "name": "customerBalance"
                                         },
                                         "index": {
                                             "type": "MemberAccess",
                                             "expression": {
                                                 "type": "Identifier",
-                                                "name": "msg",
-                                                "range": [
-                                                    977,
-                                                    979
-                                                ]
+                                                "name": "msg"
                                             },
-                                            "memberName": "sender",
-                                            "range": [
-                                                977,
-                                                986
-                                            ]
-                                        },
-                                        "range": [
-                                            961,
-                                            987
-                                        ]
+                                            "memberName": "sender"
+                                        }
                                     },
                                     "right": {
                                         "type": "Identifier",
-                                        "name": "_value",
-                                        "range": [
-                                            992,
-                                            997
-                                        ]
-                                    },
-                                    "range": [
-                                        961,
-                                        997
-                                    ]
-                                },
-                                "range": [
-                                    961,
-                                    998
-                                ]
+                                        "name": "_value"
+                                    }
+                                }
                             }
-                        ],
-                        "range": [
-                            825,
-                            1005
                         ]
                     },
                     "visibility": "public",
@@ -705,11 +397,7 @@
                     "isReceiveEther": false,
                     "isFallback": false,
                     "isVirtual": false,
-                    "stateMutability": "payable",
-                    "range": [
-                        775,
-                        1005
-                    ]
+                    "stateMutability": "payable"
                 },
                 {
                     "type": "FunctionDefinition",
@@ -720,58 +408,34 @@
                             "typeName": {
                                 "type": "ElementaryTypeName",
                                 "name": "address",
-                                "stateMutability": null,
-                                "range": [
-                                    1032,
-                                    1038
-                                ]
+                                "stateMutability": null
                             },
                             "name": "to",
                             "identifier": {
                                 "type": "Identifier",
-                                "name": "to",
-                                "range": [
-                                    1040,
-                                    1041
-                                ]
+                                "name": "to"
                             },
                             "storageLocation": null,
                             "isStateVar": false,
                             "isIndexed": false,
-                            "expression": null,
-                            "range": [
-                                1032,
-                                1041
-                            ]
+                            "expression": null
                         },
                         {
                             "type": "VariableDeclaration",
                             "typeName": {
                                 "type": "ElementaryTypeName",
                                 "name": "uint",
-                                "stateMutability": null,
-                                "range": [
-                                    1044,
-                                    1047
-                                ]
+                                "stateMutability": null
                             },
                             "name": "amount",
                             "identifier": {
                                 "type": "Identifier",
-                                "name": "amount",
-                                "range": [
-                                    1049,
-                                    1054
-                                ]
+                                "name": "amount"
                             },
                             "storageLocation": null,
                             "isStateVar": false,
                             "isIndexed": false,
-                            "expression": null,
-                            "range": [
-                                1044,
-                                1054
-                            ]
+                            "expression": null
                         }
                     ],
                     "returnParameters": null,
@@ -784,11 +448,7 @@
                                     "type": "FunctionCall",
                                     "expression": {
                                         "type": "Identifier",
-                                        "name": "require",
-                                        "range": [
-                                            1074,
-                                            1080
-                                        ]
+                                        "name": "require"
                                     },
                                     "arguments": [
                                         {
@@ -796,47 +456,23 @@
                                             "operator": "<=",
                                             "left": {
                                                 "type": "Identifier",
-                                                "name": "amount",
-                                                "range": [
-                                                    1082,
-                                                    1087
-                                                ]
+                                                "name": "amount"
                                             },
                                             "right": {
                                                 "type": "IndexAccess",
                                                 "base": {
                                                     "type": "Identifier",
-                                                    "name": "customerBalance",
-                                                    "range": [
-                                                        1092,
-                                                        1106
-                                                    ]
+                                                    "name": "customerBalance"
                                                 },
                                                 "index": {
                                                     "type": "MemberAccess",
                                                     "expression": {
                                                         "type": "Identifier",
-                                                        "name": "msg",
-                                                        "range": [
-                                                            1108,
-                                                            1110
-                                                        ]
+                                                        "name": "msg"
                                                     },
-                                                    "memberName": "sender",
-                                                    "range": [
-                                                        1108,
-                                                        1117
-                                                    ]
-                                                },
-                                                "range": [
-                                                    1092,
-                                                    1118
-                                                ]
-                                            },
-                                            "range": [
-                                                1082,
-                                                1118
-                                            ]
+                                                    "memberName": "sender"
+                                                }
+                                            }
                                         },
                                         {
                                             "type": "StringLiteral",
@@ -846,24 +482,12 @@
                                             ],
                                             "isUnicode": [
                                                 false
-                                            ],
-                                            "range": [
-                                                1121,
-                                                1144
                                             ]
                                         }
                                     ],
                                     "names": [],
-                                    "identifiers": [],
-                                    "range": [
-                                        1074,
-                                        1145
-                                    ]
-                                },
-                                "range": [
-                                    1074,
-                                    1146
-                                ]
+                                    "identifiers": []
+                                }
                             },
                             {
                                 "type": "ExpressionStatement",
@@ -874,42 +498,18 @@
                                         "type": "IndexAccess",
                                         "base": {
                                             "type": "Identifier",
-                                            "name": "customerBalance",
-                                            "range": [
-                                                1157,
-                                                1171
-                                            ]
+                                            "name": "customerBalance"
                                         },
                                         "index": {
                                             "type": "Identifier",
-                                            "name": "to",
-                                            "range": [
-                                                1173,
-                                                1174
-                                            ]
-                                        },
-                                        "range": [
-                                            1157,
-                                            1175
-                                        ]
+                                            "name": "to"
+                                        }
                                     },
                                     "right": {
                                         "type": "Identifier",
-                                        "name": "amount",
-                                        "range": [
-                                            1180,
-                                            1185
-                                        ]
-                                    },
-                                    "range": [
-                                        1157,
-                                        1185
-                                    ]
-                                },
-                                "range": [
-                                    1157,
-                                    1186
-                                ]
+                                        "name": "amount"
+                                    }
+                                }
                             },
                             {
                                 "type": "ExpressionStatement",
@@ -920,55 +520,23 @@
                                         "type": "IndexAccess",
                                         "base": {
                                             "type": "Identifier",
-                                            "name": "customerBalance",
-                                            "range": [
-                                                1197,
-                                                1211
-                                            ]
+                                            "name": "customerBalance"
                                         },
                                         "index": {
                                             "type": "MemberAccess",
                                             "expression": {
                                                 "type": "Identifier",
-                                                "name": "msg",
-                                                "range": [
-                                                    1213,
-                                                    1215
-                                                ]
+                                                "name": "msg"
                                             },
-                                            "memberName": "sender",
-                                            "range": [
-                                                1213,
-                                                1222
-                                            ]
-                                        },
-                                        "range": [
-                                            1197,
-                                            1223
-                                        ]
+                                            "memberName": "sender"
+                                        }
                                     },
                                     "right": {
                                         "type": "Identifier",
-                                        "name": "amount",
-                                        "range": [
-                                            1228,
-                                            1233
-                                        ]
-                                    },
-                                    "range": [
-                                        1197,
-                                        1233
-                                    ]
-                                },
-                                "range": [
-                                    1197,
-                                    1234
-                                ]
+                                        "name": "amount"
+                                    }
+                                }
                             }
-                        ],
-                        "range": [
-                            1063,
-                            1241
                         ]
                     },
                     "visibility": "public",
@@ -978,11 +546,7 @@
                     "isReceiveEther": false,
                     "isFallback": false,
                     "isVirtual": false,
-                    "stateMutability": null,
-                    "range": [
-                        1014,
-                        1241
-                    ]
+                    "stateMutability": null
                 },
                 {
                     "type": "FunctionDefinition",
@@ -994,22 +558,14 @@
                             "typeName": {
                                 "type": "ElementaryTypeName",
                                 "name": "uint",
-                                "stateMutability": null,
-                                "range": [
-                                    1300,
-                                    1303
-                                ]
+                                "stateMutability": null
                             },
                             "name": null,
                             "identifier": null,
                             "storageLocation": null,
                             "isStateVar": false,
                             "isIndexed": false,
-                            "expression": null,
-                            "range": [
-                                1300,
-                                1303
-                            ]
+                            "expression": null
                         }
                     ],
                     "body": {
@@ -1026,49 +582,21 @@
                                             "typeName": {
                                                 "type": "ElementaryTypeName",
                                                 "name": "address",
-                                                "stateMutability": null,
-                                                "range": [
-                                                    1323,
-                                                    1329
-                                                ]
-                                            },
-                                            "range": [
-                                                1323,
-                                                1329
-                                            ]
+                                                "stateMutability": null
+                                            }
                                         },
                                         "arguments": [
                                             {
                                                 "type": "Identifier",
-                                                "name": "this",
-                                                "range": [
-                                                    1331,
-                                                    1334
-                                                ]
+                                                "name": "this"
                                             }
                                         ],
                                         "names": [],
-                                        "identifiers": [],
-                                        "range": [
-                                            1323,
-                                            1335
-                                        ]
+                                        "identifiers": []
                                     },
-                                    "memberName": "balance",
-                                    "range": [
-                                        1323,
-                                        1343
-                                    ]
-                                },
-                                "range": [
-                                    1316,
-                                    1344
-                                ]
+                                    "memberName": "balance"
+                                }
                             }
-                        ],
-                        "range": [
-                            1305,
-                            1351
                         ]
                     },
                     "visibility": "external",
@@ -1078,11 +606,7 @@
                     "isReceiveEther": false,
                     "isFallback": false,
                     "isVirtual": false,
-                    "stateMutability": "view",
-                    "range": [
-                        1250,
-                        1351
-                    ]
+                    "stateMutability": "view"
                 },
                 {
                     "type": "FunctionDefinition",
@@ -1094,22 +618,14 @@
                             "typeName": {
                                 "type": "ElementaryTypeName",
                                 "name": "uint",
-                                "stateMutability": null,
-                                "range": [
-                                    1410,
-                                    1413
-                                ]
+                                "stateMutability": null
                             },
                             "name": null,
                             "identifier": null,
                             "storageLocation": null,
                             "isStateVar": false,
                             "isIndexed": false,
-                            "expression": null,
-                            "range": [
-                                1410,
-                                1413
-                            ]
+                            "expression": null
                         }
                     ],
                     "body": {
@@ -1121,42 +637,18 @@
                                     "type": "IndexAccess",
                                     "base": {
                                         "type": "Identifier",
-                                        "name": "customerBalance",
-                                        "range": [
-                                            1433,
-                                            1447
-                                        ]
+                                        "name": "customerBalance"
                                     },
                                     "index": {
                                         "type": "MemberAccess",
                                         "expression": {
                                             "type": "Identifier",
-                                            "name": "msg",
-                                            "range": [
-                                                1449,
-                                                1451
-                                            ]
+                                            "name": "msg"
                                         },
-                                        "memberName": "sender",
-                                        "range": [
-                                            1449,
-                                            1458
-                                        ]
-                                    },
-                                    "range": [
-                                        1433,
-                                        1459
-                                    ]
-                                },
-                                "range": [
-                                    1426,
-                                    1460
-                                ]
+                                        "memberName": "sender"
+                                    }
+                                }
                             }
-                        ],
-                        "range": [
-                            1415,
-                            1467
                         ]
                     },
                     "visibility": "public",
@@ -1166,22 +658,10 @@
                     "isReceiveEther": false,
                     "isFallback": false,
                     "isVirtual": false,
-                    "stateMutability": "view",
-                    "range": [
-                        1360,
-                        1467
-                    ]
+                    "stateMutability": "view"
                 }
             ],
-            "kind": "contract",
-            "range": [
-                322,
-                1470
-            ]
+            "kind": "contract"
         }
-    ],
-    "range": [
-        293,
-        1470
     ]
 }

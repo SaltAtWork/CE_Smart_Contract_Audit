@@ -27,6 +27,11 @@ unsafe_list = [
     'Unsafe_023'
 ];
 
+/*
+,
+   
+*/
+
 var name
 var content
 var input
@@ -41,9 +46,17 @@ var detect = ''
 console.log('\n')
 for (let i = 0; i < unsafe_list.length; i++) {
     name = unsafe_list[i];
-    content = fs.readFileSync('./Salt_Reentrancy/Unsafe/' + name + '.sol');
+    content = fs.readFileSync('../Salt_Reentrancy/Unsafe/' + name + '.sol');
     input = content.toString();
     result = parser.parse(input, { range: true });
+    //test write json with no range 
+    result_no_range = parser.parse(input);
+    result_json = JSON.stringify(result_no_range, null, 4);
+    fs.writeFile('../Salt_Reentrancy/Unsafe/' + name + '.json', result_json, function(err) {
+        if (err) throw err;
+        console.log('json created ' + name + '\n');
+    });
+    //
     console.log('ast success ' + name + '\n');
     parser.visit(result, {
         Block: (node) => {
@@ -101,7 +114,7 @@ for (let i = 0; i < unsafe_list.length; i++) {
         }
     })
 }
-fs.writeFile('./Salt_Reentrancy/Unsafe/Scan_Result.txt', detect, function(err) {
+fs.writeFile('../Salt_Reentrancy/Unsafe/Scan_Result.txt', detect, function(err) {
     if (err) throw err;
     console.log('Updated');
 });

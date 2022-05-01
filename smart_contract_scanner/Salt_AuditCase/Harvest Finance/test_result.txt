@@ -1,0 +1,1369 @@
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/AutoStake.sol
+Detected default variable visibility 
+position 479,525
+
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/AutoStakeMultiAsset.sol
+Detected default variable visibility 
+position 784,829
+
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/compound/ComptrollerInterface.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/compound/CTokenInterfaces.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/compound/InterestRateModel.sol
+Detected floating pragma 
+position 0,23
+Char =  ^ 
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/Controllable.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/ControllableInit.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/Controller.sol
+
+Detected block.timestamp used 
+position 5519,5533
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/DelayMinter.sol
+Detected default variable visibility 
+position 1747,1801
+
+
+Detected block.timestamp used 
+position 3031,3045
+
+Detected block.timestamp used 
+position 3809,3823
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/DepositHelper.sol
+
+Detected Operator typo 
+position 697,935
+This might be false positive. Please Recheck. LeftOp = ||
+
+Detected tx.origin authorization 
+position 681,1086
+
+Detected tx.origin authorization 
+position 681,1086
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/ExclusiveRewardPool.sol
+Detected inline assembly 
+position 15874,15918
+
+Detected default variable visibility 
+position 21642,21668
+
+Detected floating pragma 
+position 1616,1638
+Char =  ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+
+Detected block.timestamp used 
+position 25331,25345
+
+Detected block.timestamp used 
+position 28476,28490
+
+Detected block.timestamp used 
+position 28627,28641
+
+Detected block.timestamp used 
+position 28803,28817
+
+Detected block.timestamp used 
+position 28844,28858
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/FeeRewardForwarder.sol
+
+Detected Operator typo 
+position 6699,6748
+This might be false positive. Please Recheck. LeftOp = &&
+
+Detected block.timestamp used 
+position 9605,9619
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/Governable.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/GovernableInit.sol
+Detected inline assembly 
+position 847,895
+
+Detected inline assembly 
+position 1224,1266
+
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/Grain.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/HardRewards.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/hardworkInterface/IController.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/hardworkInterface/IMigrator.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/hardworkInterface/IRewardPool.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/hardworkInterface/IStrategy.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/hardworkInterface/IStrategyV2.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/hardworkInterface/IUpgradeSource.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/hardworkInterface/IVault.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/idle/IdleFinanceStrategy.sol
+
+Detected block.timestamp used 
+position 5814,5828
+
+Detected block.timestamp used 
+position 6647,6661
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/idle/IdleStrategyDaiMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/idle/IdleToken.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/makerdao/mainnetContracts/dai.sol
+Detected inline assembly 
+position 1226,2144
+
+Detected floating pragma 
+position 170,193
+Char =  ^ 
+
+Detected Operator typo 
+position 7845,7869
+This might be false positive. Please Recheck. LeftOp = ==
+
+Detected now used 
+position 7790,7792
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/Migrations.sol
+Detected floating pragma 
+position 0,31
+Char =  <  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/NotifyHelper.sol
+
+Detected block.timestamp used 
+position 2566,2580
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/RewardPool.sol
+Detected inline assembly 
+position 15874,15918
+
+Detected default variable visibility 
+position 21642,21668
+
+Detected default variable visibility 
+position 24315,24361
+
+Detected floating pragma 
+position 1616,1638
+Char =  ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+
+Detected Operator typo 
+position 28321,28393
+This might be false positive. Please Recheck. LeftOp = ||
+
+Detected Operator typo 
+position 29029,29102
+This might be false positive. Please Recheck. LeftOp = ||
+
+Detected block.timestamp used 
+position 26293,26307
+
+Detected block.timestamp used 
+position 29673,29687
+
+Detected block.timestamp used 
+position 29824,29838
+
+Detected block.timestamp used 
+position 30000,30014
+
+Detected block.timestamp used 
+position 30041,30055
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/RewardToken.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/Storage.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/compound/CompleteCToken.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/compound/CompoundApyOracle.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/compound/CompoundInteractor.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/compound/CompoundNoFoldStrategy.sol
+
+Detected block.timestamp used 
+position 6763,6777
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/compound/CompoundNoFoldStrategyDAIMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/compound/CompoundNoFoldStrategyUSDCMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/compound/CompoundNoFoldStrategyUSDTMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/compound/CompoundStrategy.sol
+Detected default variable visibility 
+position 859,900
+
+Detected default variable visibility 
+position 905,949
+
+
+Detected block.timestamp used 
+position 11635,11649
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/compound/CompoundWETHFoldStrategy.sol
+
+Detected tx.origin authorization 
+position 10766,10819
+
+Detected block.timestamp used 
+position 8200,8214
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/compound/CompoundWETHFoldStrategyMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/compound/CreamNoFoldStrategyWETHMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/compound/NoopRevert.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/compound/WETHCreamNoFoldStrategy.sol
+
+Detected tx.origin authorization 
+position 10688,10741
+
+Detected block.timestamp used 
+position 8202,8216
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategy3Pool.sol
+Detected default variable visibility 
+position 1203,1232
+
+
+Detected block.timestamp used 
+position 5412,5426
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategy3PoolMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategyBUSD.sol
+Detected default variable visibility 
+position 1586,1615
+
+
+Detected block.timestamp used 
+position 5904,5918
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategyBUSDMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategyCompound.sol
+Detected default variable visibility 
+position 1351,1380
+
+
+Detected block.timestamp used 
+position 5651,5665
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategyCompoundMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategyHBTC.sol
+Detected default variable visibility 
+position 1251,1280
+
+
+Detected block.timestamp used 
+position 5499,5513
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategyHBTCMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategyHUSD.sol
+Detected default variable visibility 
+position 1561,1590
+
+
+Detected block.timestamp used 
+position 5833,5847
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategyHUSDMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategyRENBTCMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategyStable.sol
+Detected default variable visibility 
+position 1552,1573
+
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategyStableMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategySwerve.sol
+Detected default variable visibility 
+position 1218,1239
+
+
+Detected block.timestamp used 
+position 10678,10692
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategySwerveDAIMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategySwerveUSDCMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategySwerveUSDTMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategyTBTCMixed.sol
+Detected default variable visibility 
+position 1367,1396
+
+
+Detected block.timestamp used 
+position 5889,5903
+
+Detected block.timestamp used 
+position 6594,6608
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategyTBTCMixedMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategyUSDN.sol
+Detected default variable visibility 
+position 1535,1564
+
+
+Detected block.timestamp used 
+position 5855,5869
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategyUSDNMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategyWBTCMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategyWRenBTC.sol
+Detected default variable visibility 
+position 1126,1147
+
+
+Detected block.timestamp used 
+position 10918,10932
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategyWRenBTCMix.sol
+Detected default variable visibility 
+position 919,940
+
+
+Detected block.timestamp used 
+position 7803,7817
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategyWRenBTCMixMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategyYCRV.sol
+Detected default variable visibility 
+position 1553,1582
+
+
+Detected block.timestamp used 
+position 5315,5329
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/CRVStrategyYCRVMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/debugging/CRVStrategyWBTCOPureMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/debugging/CRVStrategyWBTCPure.sol
+Detected default variable visibility 
+position 781,802
+
+
+Detected block.timestamp used 
+position 10985,10999
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/interfaces/Gauge.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/interfaces/ICurve3Pool.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/interfaces/ICurveBUSDDeposit.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/interfaces/ICurveCompoundDeposit.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/interfaces/ICurveCompoundPool.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/interfaces/ICurveFi.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/interfaces/ICurveFiWbtc.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/interfaces/ICurveHBTC.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/interfaces/ICurveHUSDDeposit.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/interfaces/ICurveTBTC.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/interfaces/ICurveUSDNDeposit.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/interfaces/IPriceConvertor.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/interfaces/ISwerveFi.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/interfaces/yVault.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/PickleStrategy3Pool.sol
+
+Detected block.timestamp used 
+position 6932,6946
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/PickleStrategy3PoolMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/PickleStrategyDai.sol
+
+Detected block.timestamp used 
+position 6699,6713
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/PickleStrategyDaiMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/curve/PriceConvertor.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/idle/IdleFinanceStrategy.sol
+
+Detected block.timestamp used 
+position 6049,6063
+
+Detected block.timestamp used 
+position 6882,6896
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/idle/IdleStrategyDaiMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/idle/IdleStrategyTUSDMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/idle/IdleStrategyUSDCMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/idle/IdleStrategyUSDTMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/idle/IdleStrategyWBTCMainnet.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/idle/IdleToken.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/LiquidityRecipient.sol
+
+Detected block.timestamp used 
+position 2712,2726
+
+Detected block.timestamp used 
+position 3277,3291
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/NoopStrategyStable.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/ProfitNotifier.sol
+
+Detected block.timestamp used 
+position 1408,1422
+
+Detected block.timestamp used 
+position 1705,1719
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/RewardTokenProfitNotifier.sol
+
+Detected block.timestamp used 
+position 1336,1350
+
+Detected block.timestamp used 
+position 1629,1643
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/SNXRewards/DEGORewardInterface.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/SNXRewards/DEGOSimpleStrategy.sol
+Detected default variable visibility 
+position 2876,2904
+
+
+Detected tx.origin authorization 
+position 12802,12855
+
+Detected block.timestamp used 
+position 7037,7051
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/SNXRewards/SNXRewardInterface.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/SNXRewards/SNXRewardKittenStrategy.sol
+Detected default variable visibility 
+position 2865,2893
+
+
+Detected block.timestamp used 
+position 6818,6832
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/SNXRewards/SNXRewardStrategy.sol
+Detected default variable visibility 
+position 2720,2748
+
+
+Detected block.timestamp used 
+position 8624,8638
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/SNXRewards/SNXRewardUniLPStrategy.sol
+Detected default variable visibility 
+position 2944,2972
+
+
+Detected block.timestamp used 
+position 7086,7100
+
+Detected block.timestamp used 
+position 7599,7613
+
+Detected block.timestamp used 
+position 8387,8401
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/SNXRewards/SushiMasterChefLPStrategy.sol
+
+Detected block.timestamp used 
+position 9147,9161
+
+Detected block.timestamp used 
+position 9532,9546
+
+Detected block.timestamp used 
+position 10414,10428
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/SplitterStrategy.sol
+
+Detected block.timestamp used 
+position 9060,9074
+
+Detected block.timestamp used 
+position 9690,9704
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/StableVaultMigrator.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/upgradability/BaseUpgradeableStrategy.sol
+
+Detected block.timestamp used 
+position 2286,2300
+
+Detected block.timestamp used 
+position 2646,2660
+
+Detected block.timestamp used 
+position 3079,3093
+
+Detected block.timestamp used 
+position 3372,3386
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/upgradability/BaseUpgradeableStrategyStorage.sol
+Detected inline assembly 
+position 6237,6283
+
+Detected inline assembly 
+position 6414,6458
+
+Detected inline assembly 
+position 6600,6642
+
+Detected inline assembly 
+position 6784,6826
+
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/upgradability/StrategyProxy.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/VaultMigratorStrategy.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategies/VaultWithdrawDisabledStrategy.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategiesV2/curve/CRVStrategyRenBTCMainnetV2.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategiesV2/curve/CRVStrategyWBTCMainnetV2.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategiesV2/curve/CRVStrategyWRenBTCV2.sol
+Detected default variable visibility 
+position 1217,1238
+
+
+Detected block.timestamp used 
+position 11213,11227
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategiesV2/idle/IdleFinanceStrategyV2.sol
+
+Detected block.timestamp used 
+position 6045,6059
+
+Detected block.timestamp used 
+position 6878,6892
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategiesV2/idle/IdleStrategyDAIMainnetV2_HY.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategiesV2/idle/IdleStrategyDAIMainnetV2_RA.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategiesV2/idle/IdleTokenV3_1.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategiesV2/splitter/SplitterConfig.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategiesV2/splitter/SplitterProxy.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategiesV2/splitter/SplitterStorage.sol
+Detected inline assembly 
+position 5344,5390
+
+Detected inline assembly 
+position 5521,5565
+
+Detected inline assembly 
+position 5707,5749
+
+Detected inline assembly 
+position 5891,5933
+
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategiesV2/splitter/SplitterStrategy.sol
+
+Detected block.timestamp used 
+position 4479,4493
+
+Detected block.timestamp used 
+position 4671,4685
+
+Detected block.timestamp used 
+position 13038,13052
+
+Detected block.timestamp used 
+position 13746,13760
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/strategiesV2/splitter/SplitterStrategyWhitelist.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/sushiswap/interfaces/IMasterChef.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/MockBPT.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/MockComptroller.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/MockCurveFi.sol
+Detected default variable visibility 
+position 209,226
+
+Detected default variable visibility 
+position 257,270
+
+
+Detected possible reentrancy 
+position 1028,1566
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/MockCUSDC.sol
+Detected default variable visibility 
+position 726,758
+
+
+Detected possible reentrancy 
+position 1301,1606
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/MockDAI.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/MockGauge.sol
+Detected default variable visibility 
+position 113,130
+
+Detected default variable visibility 
+position 135,171
+
+
+Detected possible reentrancy 
+position 575,665
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/MockGreyListed.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/MockLINK.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/MockMigrator.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/MockMint.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/MockRewardPool.sol
+
+Detected possible reentrancy 
+position 711,1003
+
+Detected possible reentrancy 
+position 748,853
+
+Detected possible reentrancy 
+position 889,998
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/MockToken.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/MockToken6Decimals.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/MockUNI.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/MockUniswap.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/MockUSDC.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/MockUSDT.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/MockWETH.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/MockYCRV.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/MockYFI.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/NoopVault.sol
+Detected default variable visibility 
+position 1045,1067
+
+Detected default variable visibility 
+position 1074,1115
+
+Detected default variable visibility 
+position 1120,1159
+
+Detected default variable visibility 
+position 1340,1385
+
+Detected default variable visibility 
+position 1420,1468
+
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/NoopYVault.sol
+Detected default variable visibility 
+position 305,322
+
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/strategies/InterestEarningStrategy.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/strategies/LossStrategy.sol
+
+Detected possible reentrancy 
+position 1851,2077
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/strategies/LossStrategyV2.sol
+
+Detected possible reentrancy 
+position 1857,2083
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/strategies/NoopStrategy.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/strategies/NoopStrategyV2.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/strategies/ProfitStrategy.sol
+Detected default variable visibility 
+position 733,757
+
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/strategies/ProfitStrategyV2.sol
+Detected default variable visibility 
+position 739,763
+
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/strategies/ProfitStrategyVariable.sol
+Detected default variable visibility 
+position 790,817
+
+Detected default variable visibility 
+position 822,851
+
+Detected default variable visibility 
+position 856,877
+
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/strategies/SplitterStrategyUpgradedTestOnly.sol
+Detected default variable visibility 
+position 261,279
+
+Detected default variable visibility 
+position 331,349
+
+Detected default variable visibility 
+position 392,410
+
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/ThirdPartyContractThatCallsAutoStake.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/ThirdPartyContractThatCallsDepositHelper.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/uniswap/StakingRewardsFactory.sol
+Detected inline assembly 
+position 12081,12121
+
+Detected floating pragma 
+position 71,94
+Char =  ^ 
+
+Detected block.timestamp used 
+position 19685,19699
+
+Detected block.timestamp used 
+position 22359,22373
+
+Detected block.timestamp used 
+position 22517,22531
+
+Detected block.timestamp used 
+position 23205,23219
+
+Detected block.timestamp used 
+position 23246,23260
+
+Detected block.timestamp used 
+position 24828,24842
+
+Detected block.timestamp used 
+position 26369,26383
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/upgradability/VaultStrategySwitchLock.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/upgradability/VaultUpgradableSooner.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/upgradability/VaultV2.sol
+
+Detected Operator typo 
+position 3541,3773
+This might be false positive. Please Recheck. LeftOp = ||
+
+Detected tx.origin authorization 
+position 3525,3912
+
+Detected tx.origin authorization 
+position 3525,3912
+
+Detected block.timestamp used 
+position 6050,6064
+
+Detected block.timestamp used 
+position 6388,6402
+
+Detected block.timestamp used 
+position 12106,12120
+
+Detected block.timestamp used 
+position 12298,12312
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/test/YAMCOMPPool.sol
+Detected inline assembly 
+position 15781,15825
+
+Detected floating pragma 
+position 1602,1624
+Char =  ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+ ^ 
+
+Detected block.timestamp used 
+position 23905,23919
+
+Detected block.timestamp used 
+position 24965,24979
+
+Detected block.timestamp used 
+position 26940,26954
+
+Detected block.timestamp used 
+position 26986,27000
+
+Detected block.timestamp used 
+position 27143,27157
+
+Detected block.timestamp used 
+position 27327,27341
+
+Detected block.timestamp used 
+position 27370,27384
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/uniswap/interfaces/IUniswapV2Factory.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/uniswap/interfaces/IUniswapV2Migrator.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/uniswap/interfaces/IUniswapV2Pair.sol
+Detected floating pragma 
+position 123,146
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/uniswap/interfaces/IUniswapV2Router01.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/uniswap/interfaces/IUniswapV2Router02.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/uniswap/interfaces/IWETH.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/uniswap/interfaces/V1/IUniswapV1Exchange.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/uniswap/interfaces/V1/IUniswapV1Factory.sol
+Detected floating pragma 
+position 0,23
+Char =  > 
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/Vault.sol
+
+Detected Operator typo 
+position 1547,1735
+This might be false positive. Please Recheck. LeftOp = ||
+
+Detected tx.origin authorization 
+position 1531,1874
+
+Detected tx.origin authorization 
+position 1531,1874
+
+Detected block.timestamp used 
+position 6543,6557
+
+Detected block.timestamp used 
+position 6881,6895
+
+Detected block.timestamp used 
+position 13684,13698
+
+Detected block.timestamp used 
+position 13876,13890
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/VaultFactory.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/VaultProxy.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/vaults/VaultDAI.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/vaults/VaultLINK.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/vaults/VaultUSDC.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/vaults/VaultUSDT.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/vaults/VaultWETH.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/vaults/VaultYCRV.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/vaults/VaultYFI.sol
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/VaultStorage.sol
+Detected inline assembly 
+position 7815,7861
+
+Detected inline assembly 
+position 7991,8035
+
+Detected inline assembly 
+position 8176,8218
+
+Detected inline assembly 
+position 8359,8401
+
+
+ ============================================ 
+
+./Salt_AuditCase/Harvest Finance//contracts/weth/WETH9.sol

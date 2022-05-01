@@ -46,7 +46,9 @@ router.get('/projects/up', async(req, res) => {
     for (var i = 0; i < data.length; i++) {
         try {
             var projectsDB = await Project.find({ name: data[i].name });
+            console.log('test3')
             if (isEmpty(projectsDB)) continue;
+            console.log('test4')
             var updatedProject = await Project.updateOne({ name: data[i].name }, {
                 $set: {
                     usdTVL: data[i].value.tvl.USD.value,

@@ -32,7 +32,9 @@ async function getHistory(name, period) {
         const data = await response.json();
         return data;
     } catch (err) {
+        console.log('////////////////////////////////////////')
         console.log(err);
+        console.log('////////////////////////////////////////')
     }
 }
 

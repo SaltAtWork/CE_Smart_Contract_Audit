@@ -16,9 +16,9 @@ async function getData() {
     }
 }
 
-getData().then(data => {
-    console.log(data[0].value.tvl.USD.value);
-})
+// getData().then(data => {
+//     console.log(data[0].value.tvl.USD.value);
+// })
 async function getHistory(name, period) {
     try {
         const url = process.env.HistoryAPI_KEY;
@@ -31,6 +31,9 @@ async function getHistory(name, period) {
                 'period': period
             }
         });
+        if (response.status !== 200) {
+            throw new Error(`There was an error with status code ${response.status}`)
+        }
         const data = await response.json();
         return data;
     } catch (err) {

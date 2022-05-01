@@ -4,11 +4,7 @@
         {
             "type": "PragmaDirective",
             "name": "solidity",
-            "value": "^0.4.15",
-            "range": [
-                114,
-                137
-            ]
+            "value": "^0.4.15"
         },
         {
             "type": "ContractDefinition",
@@ -23,29 +19,17 @@
                             "typeName": {
                                 "type": "ElementaryTypeName",
                                 "name": "uint",
-                                "stateMutability": null,
-                                "range": [
-                                    163,
-                                    166
-                                ]
+                                "stateMutability": null
                             },
                             "name": "withdrawableBalance",
                             "identifier": {
                                 "type": "Identifier",
-                                "name": "withdrawableBalance",
-                                "range": [
-                                    168,
-                                    186
-                                ]
+                                "name": "withdrawableBalance"
                             },
                             "expression": {
                                 "type": "NumberLiteral",
                                 "number": "2",
-                                "subdenomination": "ether",
-                                "range": [
-                                    190,
-                                    196
-                                ]
+                                "subdenomination": "ether"
                             },
                             "visibility": "default",
                             "isStateVar": true,
@@ -53,26 +37,14 @@
                             "isIndexed": false,
                             "isImmutable": false,
                             "override": null,
-                            "storageLocation": null,
-                            "range": [
-                                163,
-                                197
-                            ]
+                            "storageLocation": null
                         }
                     ],
                     "initialValue": {
                         "type": "NumberLiteral",
                         "number": "2",
-                        "subdenomination": "ether",
-                        "range": [
-                            190,
-                            196
-                        ]
-                    },
-                    "range": [
-                        163,
-                        197
-                    ]
+                        "subdenomination": "ether"
+                    }
                 },
                 {
                     "type": "StateVariableDeclaration",
@@ -82,29 +54,17 @@
                             "typeName": {
                                 "type": "ElementaryTypeName",
                                 "name": "uint",
-                                "stateMutability": null,
-                                "range": [
-                                    202,
-                                    205
-                                ]
+                                "stateMutability": null
                             },
                             "name": "a",
                             "identifier": {
                                 "type": "Identifier",
-                                "name": "a",
-                                "range": [
-                                    207,
-                                    207
-                                ]
+                                "name": "a"
                             },
                             "expression": {
                                 "type": "NumberLiteral",
                                 "number": "3",
-                                "subdenomination": "ether",
-                                "range": [
-                                    211,
-                                    217
-                                ]
+                                "subdenomination": "ether"
                             },
                             "visibility": "default",
                             "isStateVar": true,
@@ -112,26 +72,14 @@
                             "isIndexed": false,
                             "isImmutable": false,
                             "override": null,
-                            "storageLocation": null,
-                            "range": [
-                                202,
-                                218
-                            ]
+                            "storageLocation": null
                         }
                     ],
                     "initialValue": {
                         "type": "NumberLiteral",
                         "number": "3",
-                        "subdenomination": "ether",
-                        "range": [
-                            211,
-                            217
-                        ]
-                    },
-                    "range": [
-                        202,
-                        218
-                    ]
+                        "subdenomination": "ether"
+                    }
                 },
                 {
                     "type": "FunctionDefinition",
@@ -158,82 +106,38 @@
                                                         "type": "MemberAccess",
                                                         "expression": {
                                                             "type": "Identifier",
-                                                            "name": "msg",
-                                                            "range": [
-                                                                255,
-                                                                257
-                                                            ]
+                                                            "name": "msg"
                                                         },
-                                                        "memberName": "sender",
-                                                        "range": [
-                                                            255,
-                                                            264
-                                                        ]
+                                                        "memberName": "sender"
                                                     },
-                                                    "memberName": "call",
-                                                    "range": [
-                                                        255,
-                                                        269
-                                                    ]
+                                                    "memberName": "call"
                                                 },
-                                                "memberName": "value",
-                                                "range": [
-                                                    255,
-                                                    275
-                                                ]
+                                                "memberName": "value"
                                             },
                                             "arguments": [
                                                 {
                                                     "type": "Identifier",
-                                                    "name": "a",
-                                                    "range": [
-                                                        277,
-                                                        277
-                                                    ]
+                                                    "name": "a"
                                                 }
                                             ],
                                             "names": [],
-                                            "identifiers": [],
-                                            "range": [
-                                                255,
-                                                278
-                                            ]
+                                            "identifiers": []
                                         },
                                         "arguments": [],
                                         "names": [],
-                                        "identifiers": [],
-                                        "range": [
-                                            255,
-                                            280
-                                        ]
+                                        "identifiers": []
                                     },
-                                    "isPrefix": true,
-                                    "range": [
-                                        254,
-                                        280
-                                    ]
+                                    "isPrefix": true
                                 },
                                 "trueBody": {
                                     "type": "Block",
                                     "statements": [
                                         {
-                                            "type": "ThrowStatement",
-                                            "range": [
-                                                292,
-                                                297
-                                            ]
+                                            "type": "ThrowStatement"
                                         }
-                                    ],
-                                    "range": [
-                                        283,
-                                        304
                                     ]
                                 },
-                                "falseBody": null,
-                                "range": [
-                                    250,
-                                    304
-                                ]
+                                "falseBody": null
                             },
                             {
                                 "type": "ExpressionStatement",
@@ -242,50 +146,22 @@
                                     "operator": "=",
                                     "left": {
                                         "type": "Identifier",
-                                        "name": "withdrawableBalance",
-                                        "range": [
-                                            315,
-                                            333
-                                        ]
+                                        "name": "withdrawableBalance"
                                     },
                                     "right": {
                                         "type": "BinaryOperation",
                                         "operator": "-",
                                         "left": {
                                             "type": "Identifier",
-                                            "name": "withdrawableBalance",
-                                            "range": [
-                                                337,
-                                                355
-                                            ]
+                                            "name": "withdrawableBalance"
                                         },
                                         "right": {
                                             "type": "Identifier",
-                                            "name": "a",
-                                            "range": [
-                                                359,
-                                                359
-                                            ]
-                                        },
-                                        "range": [
-                                            337,
-                                            359
-                                        ]
-                                    },
-                                    "range": [
-                                        315,
-                                        359
-                                    ]
-                                },
-                                "range": [
-                                    315,
-                                    360
-                                ]
+                                            "name": "a"
+                                        }
+                                    }
+                                }
                             }
-                        ],
-                        "range": [
-                            243,
-                            365
                         ]
                     },
                     "visibility": "default",
@@ -295,11 +171,7 @@
                     "isReceiveEther": false,
                     "isFallback": false,
                     "isVirtual": false,
-                    "stateMutability": null,
-                    "range": [
-                        223,
-                        365
-                    ]
+                    "stateMutability": null
                 },
                 {
                     "type": "FunctionDefinition",
@@ -316,42 +188,18 @@
                                     "operator": "=",
                                     "left": {
                                         "type": "Identifier",
-                                        "name": "withdrawableBalance",
-                                        "range": [
-                                            406,
-                                            424
-                                        ]
+                                        "name": "withdrawableBalance"
                                     },
                                     "right": {
                                         "type": "MemberAccess",
                                         "expression": {
                                             "type": "Identifier",
-                                            "name": "msg",
-                                            "range": [
-                                                428,
-                                                430
-                                            ]
+                                            "name": "msg"
                                         },
-                                        "memberName": "value",
-                                        "range": [
-                                            428,
-                                            436
-                                        ]
-                                    },
-                                    "range": [
-                                        406,
-                                        436
-                                    ]
-                                },
-                                "range": [
-                                    406,
-                                    437
-                                ]
+                                        "memberName": "value"
+                                    }
+                                }
                             }
-                        ],
-                        "range": [
-                            399,
-                            442
                         ]
                     },
                     "visibility": "default",
@@ -361,22 +209,10 @@
                     "isReceiveEther": false,
                     "isFallback": false,
                     "isVirtual": false,
-                    "stateMutability": "payable",
-                    "range": [
-                        372,
-                        442
-                    ]
+                    "stateMutability": "payable"
                 }
             ],
-            "kind": "contract",
-            "range": [
-                142,
-                445
-            ]
+            "kind": "contract"
         }
-    ],
-    "range": [
-        114,
-        445
     ]
 }
