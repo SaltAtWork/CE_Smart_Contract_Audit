@@ -6,7 +6,7 @@ function LinkComponent(props){
     const [data,setData] = useState("Blank");
     useEffect(() => {
         if(true){
-            fetch("http://127.0.0.1:4000/ecosystems/" + name)
+            fetch("https://scat-api.herokuapp.com/ecosystems/" + name)
             .then(res => {
               if(res.ok){
                 return res.json();

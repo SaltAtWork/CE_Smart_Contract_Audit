@@ -111,7 +111,7 @@ function App() {
   const [received,setReceived] = useState(false);
   useEffect(() => {
       if(!received){
-          fetch("http://127.0.0.1:4000/projects")
+          fetch("https://scat-api.herokuapp.com/projects")
           .then(res => {
             if(res.ok){
               return res.json();

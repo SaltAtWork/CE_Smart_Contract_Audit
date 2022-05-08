@@ -7,7 +7,7 @@ function AuditHistoryComponent(props){
     const [received,setReceived] = useState(false);
     useEffect(() => {
         if(!received){
-            fetch("http://127.0.0.1:4000/audits/" + name)
+            fetch("https://scat-api.herokuapp.com/audits/" + name)
             .then(res => {
               if(res.ok){
                 return res.json();

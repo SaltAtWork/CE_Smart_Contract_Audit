@@ -25,7 +25,7 @@ function ChartComponent(props){
     const [chartData,setChartData] = useState("Blank");
     useEffect(() => {
         if(true){
-            fetch("http://127.0.0.1:4000/TVLHistory/history/" + projectName)
+            fetch("https://scat-api.herokuapp.com/TVLHistory/history/" + projectName)
             .then(res => {
               if(res.ok){
                 return res.json();

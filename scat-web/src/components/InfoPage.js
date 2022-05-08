@@ -142,7 +142,7 @@ function OurAnalysisComponent(props){
 function InfoPage(props){
     const name=props.match.params.name;
     const history = useHistory();
-    const fetchLink = "http://127.0.0.1:4000/projects/" + name;
+    const fetchLink = "https://scat-api.herokuapp.com/projects/" + name;
     const [data,setData] = useState("Blank");
     const [received,setReceived] = useState(false);
     useEffect(() => {
